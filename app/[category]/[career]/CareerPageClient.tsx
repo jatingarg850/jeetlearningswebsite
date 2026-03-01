@@ -1,18 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
 import { CareerDetail } from "@/app/data/careerDetails";
 import Footer from "@/app/components/Footer";
 import { FloatingNavbar } from "@/app/components/FloatingNavbar";
 import { ActuarialFuturisticHero } from "@/app/components/ActuarialFuturisticHero";
 import { ActuarialCompleteGuide } from "@/app/components/ActuarialCompleteGuide";
-import { ActuarialTimeline } from "@/app/components/ActuarialTimeline";
-import { ActuarialComparison } from "@/app/components/ActuarialComparison";
-import { ActuarialSkillsShowcase } from "@/app/components/ActuarialSkillsShowcase";
-import { TestimonialCarousel } from "@/app/components/TestimonialCarousel";
-import { useState } from "react";
 
 interface CareerPageClientProps {
   category: string;
@@ -23,7 +16,8 @@ interface CareerPageClientProps {
   categoryData: any;
 }
 
-const CANAM_RED = "#C20000";
+const PRIMARY_BLUE = "#1E40AF";
+const ACCENT_GOLD = "#F59E0B";
 
 export function CareerPageClient({
   category,
@@ -193,119 +187,6 @@ export function CareerPageClient({
     },
   ];
 
-  const timelineSteps = [
-    {
-      phase: "Phase 1",
-      duration: "Class 9-12",
-      title: "Foundation Building",
-      color: "#C20000",
-      items: [
-        "Master mathematics, statistics, and probability",
-        "Learn Excel and basic programming",
-        "Participate in math competitions",
-        "Explore actuarial career resources",
-      ],
-    },
-    {
-      phase: "Phase 2",
-      duration: "Year 1-2",
-      title: "ACET & Core Exams",
-      color: "#DA1313",
-      items: [
-        "Pass ACET (Actuarial Common Entrance Test)",
-        "Enroll in actuarial science degree",
-        "Clear Core Technical (CT) papers",
-        "Build programming skills (Python, R, SQL)",
-      ],
-    },
-    {
-      phase: "Phase 3",
-      duration: "Year 3-5",
-      title: "Professional Exams",
-      color: "#E70000",
-      items: [
-        "Complete Core Practice (CP) modules",
-        "Pass specialist technical (ST) papers",
-        "Gain practical work experience",
-        "Develop industry connections",
-      ],
-    },
-    {
-      phase: "Phase 4",
-      duration: "Year 6-10",
-      title: "Fellowship & Specialization",
-      color: "#B30000",
-      items: [
-        "Complete Advanced Technical (AT) papers",
-        "Achieve Fellowship status (FSA/FIA)",
-        "Specialize in insurance, pensions, or investments",
-        "Lead actuarial projects and teams",
-      ],
-    },
-  ];
-
-  const comparisonData = [
-    {
-      category: "Salary Growth",
-      icon: <span className="text-xl">📈</span>,
-      items: [
-        { label: "Entry Level", value: "₹6-15 LPA", highlight: false },
-        { label: "Mid-Career", value: "₹20-35 LPA", highlight: true },
-        { label: "Senior Level", value: "₹50+ LPA", highlight: false },
-      ],
-    },
-    {
-      category: "Job Opportunities",
-      icon: <span className="text-xl">👥</span>,
-      items: [
-        { label: "Insurance", value: "High", highlight: true },
-        { label: "Pensions", value: "Growing", highlight: false },
-        { label: "Investments", value: "Expanding", highlight: false },
-      ],
-    },
-    {
-      category: "Work-Life Balance",
-      icon: <span className="text-xl">⏰</span>,
-      items: [
-        { label: "Flexibility", value: "Good", highlight: false },
-        { label: "Remote Work", value: "Available", highlight: true },
-        { label: "Career Growth", value: "Excellent", highlight: false },
-      ],
-    },
-    {
-      category: "Global Demand",
-      icon: <span className="text-xl">🌍</span>,
-      items: [
-        { label: "India", value: "Growing", highlight: true },
-        { label: "Abroad", value: "High", highlight: false },
-        { label: "Remote Roles", value: "Increasing", highlight: false },
-      ],
-    },
-  ];
-
-  const skillsCategories = [
-    {
-      name: "Technical Skills",
-      color: "#C20000",
-      skills: [
-        { name: "Mathematics & Statistics", level: 95, icon: "📐" },
-        { name: "Data Analysis", level: 90, icon: "📊" },
-        { name: "Programming (Python, R, SQL)", level: 85, icon: "💻" },
-        { name: "Financial Modeling", level: 88, icon: "📈" },
-      ],
-    },
-    {
-      name: "Professional Skills",
-      color: "#DA1313",
-      skills: [
-        { name: "Risk Assessment", level: 92, icon: "⚠️" },
-        { name: "Problem Solving", level: 94, icon: "🧩" },
-        { name: "Communication", level: 87, icon: "💬" },
-        { name: "Leadership", level: 85, icon: "👥" },
-      ],
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-white">
       <FloatingNavbar />
@@ -316,333 +197,95 @@ export function CareerPageClient({
       {/* Complete Guide to Actuarial Science - MAIN CONTENT */}
       {career === "actuarial_science" && <ActuarialCompleteGuide sections={actuarialGuideItems} />}
 
-      {/* Actuarial Timeline */}
-      {career === "actuarial_science" && <ActuarialTimeline steps={timelineSteps} />}
-
-      {/* Actuarial Comparison */}
-      {career === "actuarial_science" && <ActuarialComparison data={comparisonData} />}
-
-      {/* Actuarial Skills Showcase */}
-      {career === "actuarial_science" && <ActuarialSkillsShowcase categories={skillsCategories} />}
-
-      {/* Testimonial Carousel */}
-      {career === "actuarial_science" && (
-        <TestimonialCarousel
-          testimonials={[
-            {
-              id: "1",
-              name: "Anshul Sharma",
-              title: "Senior Actuary",
-              location: "Mumbai, India",
-              image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop",
-              quote: "The guidance I received was instrumental in my journey to becoming a Fellow Actuary. The structured approach and mentorship made all the difference.",
-            },
-            {
-              id: "2",
-              name: "Neha Patel",
-              title: "Risk Analyst",
-              location: "Bangalore, India",
-              image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop",
-              quote: "I went from being unsure about my career path to landing my dream job at a top insurance company. The comprehensive curriculum was exactly what I needed.",
-            },
-            {
-              id: "3",
-              name: "Shravan Kumar",
-              title: "Pension Specialist",
-              location: "Delhi, India",
-              image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop",
-              quote: "The practical insights and real-world examples helped me understand actuarial science beyond textbooks. Highly recommended for anyone serious about this career.",
-            },
-          ]}
-        />
-      )}
-
       {/* Video Carousel Section */}
-      <section className="py-16 border-t border-[#EEEEEE] relative overflow-hidden" style={{ background: "rgba(238,238,238,0.50)" }}>
-        {/* Floating decorative elements */}
-        <div 
-          className="absolute w-32 h-32 rounded-full backdrop-blur-md animate-float"
-          style={{
-            background: "linear-gradient(143.94deg, rgba(255, 255, 255, 0.7) 14.74%, rgba(196, 196, 196, 0) 134.34%)",
-            border: "1px solid rgba(255, 255, 255, 0.3)",
-            top: "10%",
-            left: "5%",
-            animationDelay: "0s"
-          }}
-        />
-        <div 
-          className="absolute w-24 h-24 rounded-full backdrop-blur-md animate-float"
-          style={{
-            background: "linear-gradient(143.94deg, rgba(255, 255, 255, 0.7) 14.74%, rgba(196, 196, 196, 0) 134.34%)",
-            border: "1px solid rgba(255, 255, 255, 0.3)",
-            bottom: "10%",
-            right: "8%",
-            animationDelay: "2s"
-          }}
-        />
-
-        <div className="max-w-[1090px] mx-auto px-4 sm:px-6 relative z-10">
+      <section className="py-12 md:py-16 px-4 md:px-6 bg-gray-50 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto">
           {/* Header */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12 p-6 rounded-2xl backdrop-blur-sm mx-auto max-w-2xl"
-            style={{
-              background: "linear-gradient(131.68deg, rgba(255, 255, 255, 0.4) -3%, rgba(255, 255, 255, 0.2) 113.86%)",
-              border: "1px solid rgba(255, 255, 255, 0.3)"
-            }}
-          >
-            <h2 className="font-poppins font-bold text-[#505050] mb-3" style={{ fontSize: "clamp(24px,2.5vw,32px)" }}>
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2 md:mb-4">
               Learn More Through Videos
             </h2>
-            <p className="font-poppins text-[#757575]" style={{ fontSize: "16px" }}>
+            <p className="text-base md:text-lg text-slate-600">
               Watch expert insights and student experiences
             </p>
-          </motion.div>
+          </div>
 
-          {/* Video Carousel */}
-          <div className="relative">
-            {/* Video Container */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="relative rounded-3xl overflow-hidden backdrop-blur-md mb-8"
-              style={{
-                background: "linear-gradient(110.97deg, rgba(255, 255, 255, 0.5) -4.87%, rgba(255, 255, 255, 0) 103.95%)",
-                border: "1px solid rgba(255, 255, 255, 0.3)",
-                boxShadow: "0 20px 60px rgba(0, 0, 0, 0.1)"
-              }}
-            >
-              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full rounded-3xl"
-                  src={videos[currentVideoIndex].url}
-                  title={videos[currentVideoIndex].title}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-            </motion.div>
-
-            {/* Video Title */}
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-center mb-8"
-            >
-              <h3 className="font-poppins font-bold text-[#505050] text-xl">
-                {videos[currentVideoIndex].title}
-              </h3>
-              <p className="font-poppins text-[#757575] text-sm mt-2">
-                Video {currentVideoIndex + 1} of {videos.length}
-              </p>
-            </motion.div>
-
-            {/* Navigation Buttons */}
-            <div className="flex items-center justify-center gap-6">
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={prevVideo}
-                className="p-3 rounded-full backdrop-blur-md transition-all duration-300 hover:scale-110"
-                style={{
-                  background: "linear-gradient(131.68deg, rgba(255, 255, 255, 0.6) -3%, rgba(255, 255, 255, 0.6) 113.86%)",
-                  border: "1px solid rgba(255, 255, 255, 0.4)",
-                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.05)"
-                }}
-              >
-                <ChevronLeft className="w-6 h-6" style={{ color: CANAM_RED }} />
-              </motion.button>
-
-              {/* Dots Indicator */}
-              <div className="flex gap-2">
-                {videos.map((_, idx) => (
-                  <motion.button
-                    key={idx}
-                    onClick={() => setCurrentVideoIndex(idx)}
-                    className="rounded-full transition-all duration-300"
-                    style={{
-                      width: currentVideoIndex === idx ? "32px" : "12px",
-                      height: "12px",
-                      background: currentVideoIndex === idx ? CANAM_RED : "rgba(194, 0, 0, 0.2)",
-                    }}
-                    whileHover={{ scale: 1.1 }}
-                  />
-                ))}
-              </div>
-
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={nextVideo}
-                className="p-3 rounded-full backdrop-blur-md transition-all duration-300 hover:scale-110"
-                style={{
-                  background: "linear-gradient(131.68deg, rgba(255, 255, 255, 0.6) -3%, rgba(255, 255, 255, 0.6) 113.86%)",
-                  border: "1px solid rgba(255, 255, 255, 0.4)",
-                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.05)"
-                }}
-              >
-                <ChevronRight className="w-6 h-6" style={{ color: CANAM_RED }} />
-              </motion.button>
+          {/* Video Container */}
+          <div className="relative rounded-xl overflow-hidden shadow-md mb-6 md:mb-8 bg-white">
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src={videos[currentVideoIndex].url}
+                title={videos[currentVideoIndex].title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
+          </div>
 
-            {/* Thumbnail Preview */}
-            <div className="mt-8 flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
-              {videos.map((video, idx) => (
-                <motion.button
+          {/* Video Title */}
+          <div className="text-center mb-6 md:mb-8">
+            <h3 className="text-lg md:text-xl font-bold text-slate-900">
+              {videos[currentVideoIndex].title}
+            </h3>
+            <p className="text-slate-600 text-xs md:text-sm mt-2">
+              Video {currentVideoIndex + 1} of {videos.length}
+            </p>
+          </div>
+
+          {/* Navigation */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
+            <button
+              onClick={prevVideo}
+              className="px-4 md:px-6 py-2 md:py-3 rounded-full border-2 transition-all hover:bg-blue-50 text-sm md:text-base"
+              style={{ borderColor: PRIMARY_BLUE, color: PRIMARY_BLUE }}
+            >
+              ← Previous
+            </button>
+
+            {/* Dots */}
+            <div className="flex gap-2">
+              {videos.map((_, idx) => (
+                <button
                   key={idx}
                   onClick={() => setCurrentVideoIndex(idx)}
-                  className="flex-shrink-0 rounded-xl overflow-hidden backdrop-blur-md transition-all duration-300 hover:scale-105"
+                  className="rounded-full transition-all"
                   style={{
-                    width: "120px",
-                    height: "80px",
-                    background: "linear-gradient(131.68deg, rgba(255, 255, 255, 0.6) -3%, rgba(255, 255, 255, 0.6) 113.86%)",
-                    border: currentVideoIndex === idx ? `2px solid ${CANAM_RED}` : "1px solid rgba(255, 255, 255, 0.3)",
-                    boxShadow: currentVideoIndex === idx ? `0 0 12px ${CANAM_RED}40` : "0 2px 8px rgba(0, 0, 0, 0.04)"
+                    width: currentVideoIndex === idx ? "32px" : "12px",
+                    height: "12px",
+                    background: currentVideoIndex === idx ? PRIMARY_BLUE : `${PRIMARY_BLUE}40`,
                   }}
-                  whileHover={{ scale: 1.05 }}
-                >
-                  <div className="w-full h-full flex items-center justify-center">
-                    <svg className="w-6 h-6" style={{ color: CANAM_RED }} fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </motion.button>
+                />
               ))}
             </div>
+
+            <button
+              onClick={nextVideo}
+              className="px-4 md:px-6 py-2 md:py-3 rounded-full border-2 transition-all hover:bg-blue-50 text-sm md:text-base"
+              style={{ borderColor: PRIMARY_BLUE, color: PRIMARY_BLUE }}
+            >
+              Next →
+            </button>
           </div>
         </div>
       </section>
 
       {/* CTA - Start Now Section */}
-      <section className="relative overflow-hidden py-24" style={{ background: `linear-gradient(135deg, ${CANAM_RED} 0%, #DA1313 100%)` }}>
-        {/* Animated background elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div
-            className="absolute w-96 h-96 rounded-full opacity-10"
-            style={{
-              background: "rgba(255, 255, 255, 0.3)",
-              top: "-100px",
-              right: "-100px",
-              filter: "blur(40px)"
-            }}
-          />
-          <div
-            className="absolute w-80 h-80 rounded-full opacity-10"
-            style={{
-              background: "rgba(255, 255, 255, 0.3)",
-              bottom: "-80px",
-              left: "-80px",
-              filter: "blur(40px)"
-            }}
-          />
-        </div>
-
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
+      <section className="relative py-12 md:py-20 px-4 md:px-6" style={{ background: PRIMARY_BLUE }}>
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 md:mb-6">
+            Ready to Start Your Actuarial Journey?
+          </h2>
+          <p className="text-base md:text-lg lg:text-xl text-white opacity-90 mb-6 md:mb-10 max-w-2xl mx-auto">
+            Get personalized guidance from our expert counselors to help you make the right decisions for your future.
+          </p>
+          <button
+            className="px-6 md:px-10 py-3 md:py-4 rounded-lg font-bold text-sm md:text-lg transition-all hover:opacity-90"
+            style={{ background: ACCENT_GOLD, color: PRIMARY_BLUE }}
           >
-            {/* Badge */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="inline-block mb-6 px-4 py-2 rounded-full backdrop-blur-md"
-              style={{
-                background: "rgba(255, 255, 255, 0.15)",
-                border: "1px solid rgba(255, 255, 255, 0.3)"
-              }}
-            >
-              <p className="font-fredoka text-white text-sm font-semibold">✨ Begin Your Journey</p>
-            </motion.div>
-
-            {/* Main Heading */}
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="font-luckiest-guy text-white mb-6"
-              style={{ fontSize: "clamp(32px, 4vw, 56px)", letterSpacing: "-0.02em" }}
-            >
-              Ready to Master Actuarial Science?
-            </motion.h2>
-
-            {/* Description */}
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="font-fredoka text-white opacity-95 mb-10 max-w-2xl mx-auto"
-              style={{ fontSize: "18px", lineHeight: "28px" }}
-            >
-              Get personalized guidance from industry experts and join thousands of students who've successfully launched their actuarial careers.
-            </motion.p>
-
-            {/* CTA Buttons */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-            >
-              <motion.button
-                whileHover={{ scale: 1.05, y: -4 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 rounded-xl font-fredoka font-bold text-lg transition-all backdrop-blur-sm"
-                style={{
-                  background: "rgba(255, 255, 255, 0.95)",
-                  color: CANAM_RED,
-                  boxShadow: "0 12px 32px rgba(0, 0, 0, 0.2)"
-                }}
-              >
-                Book Free Consultation
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05, y: -4 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 rounded-xl font-fredoka font-bold text-lg border-2 border-white text-white hover:bg-white hover:text-red-600 transition-all"
-              >
-                Explore Programs
-              </motion.button>
-            </motion.div>
-
-            {/* Stats Row */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="mt-16 grid grid-cols-3 gap-6 max-w-2xl mx-auto"
-            >
-              <div className="text-center">
-                <p className="font-luckiest-guy text-white text-3xl mb-2">500+</p>
-                <p className="font-fredoka text-white opacity-80 text-sm">Students Guided</p>
-              </div>
-              <div className="text-center">
-                <p className="font-luckiest-guy text-white text-3xl mb-2">95%</p>
-                <p className="font-fredoka text-white opacity-80 text-sm">Success Rate</p>
-              </div>
-              <div className="text-center">
-                <p className="font-luckiest-guy text-white text-3xl mb-2">10+</p>
-                <p className="font-fredoka text-white opacity-80 text-sm">Years Experience</p>
-              </div>
-            </motion.div>
-          </motion.div>
+            Book Free Career Consultation
+          </button>
         </div>
       </section>
 
