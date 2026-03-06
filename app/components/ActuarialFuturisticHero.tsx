@@ -40,7 +40,7 @@ export function ActuarialFuturisticHero() {
             {/* Why Actuarial Science */}
             <div className="space-y-3 md:space-y-4">
               <h3 className="text-base md:text-lg font-bold text-slate-900">Why Choose Actuarial Science?</h3>
-              
+
               <div className="flex items-start gap-3 p-3 md:p-4 rounded-lg bg-white border-l-4 border-amber-500 shadow-sm hover:shadow-md transition">
                 <div className="text-xl md:text-2xl flex-shrink-0">💼</div>
                 <div className="min-w-0">
@@ -96,7 +96,7 @@ export function ActuarialFuturisticHero() {
             {/* Quick Facts Card */}
             <div className="p-6 md:p-8 rounded-2xl bg-white shadow-lg border-t-4" style={{ borderTopColor: PRIMARY_BLUE }}>
               <h3 className="text-lg md:text-2xl font-bold text-slate-900 mb-4 md:mb-6">Quick Facts</h3>
-              
+
               <div className="space-y-4 md:space-y-6">
                 <div className="flex items-center gap-3 md:gap-4">
                   <div className="w-10 md:w-12 h-10 md:h-12 rounded-full bg-amber-100 flex items-center justify-center text-lg md:text-xl font-bold text-amber-700 flex-shrink-0">

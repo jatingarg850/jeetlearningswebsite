@@ -21,65 +21,62 @@ export default function WhyChooseSection() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section ref={ref} className="py-12 bg-white">
-      <div className="max-w-[1090px] mx-auto px-4 sm:px-6">
+    <section ref={ref} className="py-24 bg-white relative overflow-hidden">
+      {/* Decorative background elements */}
+      <div className="absolute top-0 right-0 w-1/3 h-1/2 bg-gradient-to-b from-red-50/50 to-transparent blur-3xl rounded-full opacity-60 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-1/4 h-1/3 bg-gradient-to-t from-slate-50 to-transparent blur-2xl rounded-full opacity-60 pointer-events-none" />
+
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-8 relative z-10">
         {/* Header */}
-        <div className={`text-center mb-10 transition-all duration-700 ${
-          isVisible ? "animate-fadeInUp" : "opacity-0 translate-y-[30px]"
-        }`}>
-          <h2
-            className="font-poppins text-[#505050] font-bold mb-2"
-            style={{ fontSize: "32px", lineHeight: "36px" }}
-          >
-            Why Choose Our Premium Counselling?
+        <div className={`text-center mb-16 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+          }`}>
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-100 mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-[var(--color-canam-red)]"></span>
+            <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">The Canam Advantage</span>
+          </div>
+          <h2 className="font-poppins text-slate-900 font-bold text-4xl lg:text-5xl mb-6 tracking-tight">
+            Why Choose Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-red-500">Premium Counselling?</span>
           </h2>
-          <p className="font-poppins text-[#505050] text-[19px] font-normal">
-            Personalized guidance, proven results
+          <p className="font-inter text-slate-500 text-lg max-w-2xl mx-auto">
+            Personalized guidance and proven results tailored to your unique academic journey and career aspirations.
           </p>
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {features.map((feature, idx) => (
             <div
               key={idx}
-              className={`flex flex-col items-center justify-center text-center px-4 py-6 transition-all duration-700 ${
-                isVisible
-                  ? "animate-stackingScroll"
-                  : "opacity-0 translate-y-[60px] scale-95"
-              }`}
+              className={`group relative flex flex-col items-center justify-center text-center p-8 rounded-3xl transition-all duration-700 bg-white border ${feature.active
+                  ? "border-red-100 shadow-[0_8px_30px_rgb(200,0,0,0.08)]"
+                  : "border-slate-100 shadow-sm hover:shadow-xl hover:border-red-50"
+                } hover:scale-[1.02] overflow-hidden ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+                }`}
               style={{
-                borderRadius: "15px",
-                border: feature.active
-                  ? "1px solid rgba(215, 0, 0, 0.93)"
-                  : "1px solid rgba(238, 238, 238, 0.93)",
-                background: "linear-gradient(180deg, #fff 0%, #f5f5f5 100%)",
-                minHeight: "175px",
-                animationDelay: isVisible ? `${idx * 0.06}s` : "0s",
+                transitionDelay: `${idx * 50}ms`,
               }}
             >
+              {/* Hover gradient effect inside card */}
+              <div className="absolute inset-0 bg-gradient-to-br from-red-50/0 to-red-50/0 group-hover:from-red-50/50 group-hover:to-transparent transition-colors duration-500 pointer-events-none" />
+
               {/* Icon */}
-              <div className="mb-3 flex items-center justify-center" style={{ height: "60px" }}>
+              <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-6 transition-transform duration-500 group-hover:scale-110 shadow-inner ${feature.active ? "bg-red-50" : "bg-slate-50 group-hover:bg-red-50/50"
+                }`}>
                 {feature.iconText ? (
-                  <span
-                    className="font-poppins font-bold"
-                    style={{ fontSize: "36px", color: "#b10000" }}
-                  >
+                  <span className="font-poppins font-bold text-3xl text-[var(--color-canam-red)]">
                     {feature.iconText}
                   </span>
                 ) : (
                   <img
                     src={feature.icon}
                     alt={feature.label.replace(/\n/g, " ")}
-                    className="w-14 h-14 object-contain"
+                    className="w-8 h-8 object-contain filter group-hover:brightness-90 transition-all duration-500"
                   />
                 )}
               </div>
+
               {/* Label */}
-              <p
-                className="font-poppins text-[#505050] font-medium text-center whitespace-pre-line"
-                style={{ fontSize: "15px", lineHeight: "20px" }}
-              >
+              <p className="font-inter font-semibold text-slate-800 text-[15px] leading-snug whitespace-pre-line group-hover:text-slate-900 transition-colors z-10">
                 {feature.label}
               </p>
             </div>

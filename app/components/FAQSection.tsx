@@ -31,75 +31,70 @@ export default function FAQSection() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section ref={ref} className="py-14 bg-white">
-      <div className="max-w-[1090px] mx-auto px-4 sm:px-6">
-        {/* Title */}
-        <h2
-          className={`font-inter text-[#505050] font-bold text-center mb-8 transition-all duration-700 ${
-            isVisible ? "animate-fadeInUp" : "opacity-0 translate-y-[30px]"
-          }`}
-          style={{ fontSize: "30px" }}
-        >
-          FAQ
-        </h2>
+    <section ref={ref} className="py-24 bg-slate-50 relative overflow-hidden">
+      {/* Decorative */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-red-100/40 to-transparent blur-3xl rounded-full opacity-50 pointer-events-none" />
 
-        {/* Divider */}
-        <div className="border-t border-[#EEEEEE] mb-0" />
+      <div className="max-w-[800px] mx-auto px-6 relative z-10">
+        {/* Title */}
+        <div className={`text-center mb-16 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+          }`}>
+          <h2 className="font-poppins text-slate-900 font-bold text-4xl lg:text-5xl mb-4 tracking-tight">
+            Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-[var(--color-canam-red-dark)]">Questions</span>
+          </h2>
+          <p className="font-inter text-slate-500 text-lg">
+            Find answers to the most common questions about our services.
+          </p>
+        </div>
 
         {/* Items */}
-        <div>
-          {faqs.map((faq, idx) => (
-            <div
-              key={idx}
-              className={`transition-all duration-700 ${
-                isVisible
-                  ? "animate-fadeInUp"
-                  : "opacity-0 translate-y-[30px]"
-              }`}
-              style={{
-                animationDelay: isVisible ? `${idx * 0.1}s` : "0s",
-              }}
-            >
-              <button
-                className="w-full text-left py-5 px-0 flex items-start justify-between gap-4 focus:outline-none hover:text-[#C20000] transition-colors"
-                onClick={() => setOpenIndex(openIndex === idx ? -1 : idx)}
+        <div className="space-y-4">
+          {faqs.map((faq, idx) => {
+            const isOpen = openIndex === idx;
+            return (
+              <div
+                key={idx}
+                className={`bg-white rounded-2xl border transition-all duration-500 overflow-hidden ${isOpen ? "border-red-100 shadow-[0_8px_30px_rgb(200,0,0,0.06)] scale-[1.02]" : "border-slate-100 shadow-sm hover:border-red-50 hover:shadow-md"
+                  } ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+                  }`}
+                style={{ transitionDelay: `${idx * 100}ms` }}
               >
-                <span
-                  className="font-inter font-medium"
-                  style={{
-                    fontSize: "15px",
-                    color: openIndex === idx ? "#E70000" : "#505050",
-                  }}
+                <button
+                  className="w-full text-left p-6 sm:px-8 flex items-center justify-between gap-4 focus:outline-none group bg-transparent"
+                  onClick={() => setOpenIndex(isOpen ? -1 : idx)}
                 >
-                  {faq.question}
-                </span>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke={openIndex === idx ? "#E70000" : "#505050"}
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className={`shrink-0 mt-0.5 transition-transform duration-200 ${openIndex === idx ? "rotate-180" : ""}`}
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
+                  <span className={`font-poppins font-semibold text-base sm:text-lg transition-colors ${isOpen ? "text-[var(--color-canam-red)]" : "text-slate-800 group-hover:text-[var(--color-canam-red)]"
+                    }`}>
+                    {faq.question}
+                  </span>
+                  <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${isOpen ? "bg-red-50" : "bg-slate-50 group-hover:bg-red-50"
+                    }`}>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className={`transition-all duration-300 ${isOpen ? "rotate-180 text-[var(--color-canam-red)]" : "text-slate-400 group-hover:text-[var(--color-canam-red)]"
+                        }`}
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </div>
+                </button>
 
-              {openIndex === idx && (
-                <p
-                  className="font-inter pb-5 animate-fadeInUp"
-                  style={{ fontSize: "15px", lineHeight: "22px", color: "#757575" }}
+                <div
+                  className={`px-6 sm:px-8 transition-all duration-500 ease-in-out font-inter text-slate-600 text-[15px] leading-relaxed ${isOpen ? "opacity-100 max-h-48 pb-6" : "opacity-0 max-h-0 pb-0"
+                    }`}
                 >
                   {faq.answer}
-                </p>
-              )}
-
-              <div className="border-t border-[#EEEEEE]" />
-            </div>
-          ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

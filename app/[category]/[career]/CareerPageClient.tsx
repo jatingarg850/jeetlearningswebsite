@@ -6,6 +6,7 @@ import Footer from "@/app/components/Footer";
 import { FloatingNavbar } from "@/app/components/FloatingNavbar";
 import { ActuarialFuturisticHero } from "@/app/components/ActuarialFuturisticHero";
 import { ActuarialCompleteGuide } from "@/app/components/ActuarialCompleteGuide";
+import { ActuarialCareerInfographic } from "@/app/components/ActuarialCareerInfographic";
 
 interface CareerPageClientProps {
   category: string;
@@ -187,6 +188,8 @@ export function CareerPageClient({
     },
   ];
 
+  const isActuarial = career === "actuarial_science";
+
   return (
     <div className="min-h-screen bg-white">
       <FloatingNavbar />
@@ -197,21 +200,24 @@ export function CareerPageClient({
       {/* Complete Guide to Actuarial Science - MAIN CONTENT */}
       {career === "actuarial_science" && <ActuarialCompleteGuide sections={actuarialGuideItems} />}
 
+      {/* Actuarial Science Dynamic Infographic */}
+      {career === "actuarial_science" && <ActuarialCareerInfographic />}
+
       {/* Video Carousel Section */}
-      <section className="py-12 md:py-16 px-4 md:px-6 bg-gray-50 border-t border-gray-200">
+      <section className="py-12 md:py-16 px-4 md:px-6 bg-slate-50 border-t border-slate-200">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2 md:mb-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-2 md:mb-4 text-slate-800">
               Learn More Through Videos
             </h2>
-            <p className="text-base md:text-lg text-slate-600">
+            <p className="text-base md:text-lg text-slate-600 font-medium">
               Watch expert insights and student experiences
             </p>
           </div>
 
           {/* Video Container */}
-          <div className="relative rounded-xl overflow-hidden shadow-md mb-6 md:mb-8 bg-white">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-6 md:mb-8 bg-white border border-slate-100">
             <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
@@ -226,10 +232,10 @@ export function CareerPageClient({
 
           {/* Video Title */}
           <div className="text-center mb-6 md:mb-8">
-            <h3 className="text-lg md:text-xl font-bold text-slate-900">
+            <h3 className="text-lg md:text-xl font-bold text-slate-800">
               {videos[currentVideoIndex].title}
             </h3>
-            <p className="text-slate-600 text-xs md:text-sm mt-2">
+            <p className="text-xs md:text-sm mt-2 text-slate-500 font-medium">
               Video {currentVideoIndex + 1} of {videos.length}
             </p>
           </div>
@@ -238,8 +244,8 @@ export function CareerPageClient({
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6">
             <button
               onClick={prevVideo}
-              className="px-4 md:px-6 py-2 md:py-3 rounded-full border-2 transition-all hover:bg-blue-50 text-sm md:text-base"
-              style={{ borderColor: PRIMARY_BLUE, color: PRIMARY_BLUE }}
+              className="px-6 md:px-8 py-3 rounded-full transition-all text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md"
+              style={{ background: "white", color: PRIMARY_BLUE, border: `2px solid ${PRIMARY_BLUE}` }}
             >
               ← Previous
             </button>
@@ -262,8 +268,8 @@ export function CareerPageClient({
 
             <button
               onClick={nextVideo}
-              className="px-4 md:px-6 py-2 md:py-3 rounded-full border-2 transition-all hover:bg-blue-50 text-sm md:text-base"
-              style={{ borderColor: PRIMARY_BLUE, color: PRIMARY_BLUE }}
+              className="px-6 md:px-8 py-3 rounded-full transition-all text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md"
+              style={{ background: PRIMARY_BLUE, color: "white", border: `2px solid ${PRIMARY_BLUE}` }}
             >
               Next →
             </button>
@@ -271,18 +277,21 @@ export function CareerPageClient({
         </div>
       </section>
 
-      {/* CTA - Start Now Section */}
-      <section className="relative py-12 md:py-20 px-4 md:px-6" style={{ background: PRIMARY_BLUE }}>
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 md:mb-6">
-            Ready to Start Your Actuarial Journey?
+      <section className="relative py-16 md:py-24 px-4 md:px-6 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-600" />
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay" />
+        <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-blue-400/30 blur-[100px] rounded-full" />
+
+        <div className="max-w-4xl mx-auto text-center relative z-10">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-4 md:mb-6 tracking-tight drop-shadow-sm">
+            Ready to Start Your Journey?
           </h2>
-          <p className="text-base md:text-lg lg:text-xl text-white opacity-90 mb-6 md:mb-10 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl lg:text-2xl text-blue-100 mb-8 md:mb-12 max-w-2xl mx-auto font-medium leading-relaxed">
             Get personalized guidance from our expert counselors to help you make the right decisions for your future.
           </p>
           <button
-            className="px-6 md:px-10 py-3 md:py-4 rounded-lg font-bold text-sm md:text-lg transition-all hover:opacity-90"
-            style={{ background: ACCENT_GOLD, color: PRIMARY_BLUE }}
+            className="px-8 md:px-12 py-4 md:py-5 rounded-2xl font-black text-sm md:text-lg transition-all hover:scale-105 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:shadow-[0_15px_40px_-10px_rgba(0,0,0,0.4)]"
+            style={{ background: ACCENT_GOLD, color: "#1e293b" }}
           >
             Book Free Career Consultation
           </button>

@@ -6,7 +6,7 @@ const programs = [
   {
     icon: "/assets/prog-icon-ug.svg",
     title: "Undergraduate Programs",
-    desc: 'Content: "Navigate the admissions process with confidence. We\'ll help you choose the right program and guide you through applications, scholarships, and visa processes.',
+    desc: "Navigate the admissions process with confidence. We'll help you choose the right program and guide you through applications, scholarships, and visa processes.",
     link: "Learn More",
   },
   {
@@ -41,78 +41,59 @@ export default function ProgramsSection() {
   return (
     <section
       ref={ref}
-      className="py-14"
-      style={{ background: "rgba(238, 238, 238, 0.50)", border: "1px solid #e4e4e4" }}
+      className="py-24 bg-white relative overflow-hidden"
     >
+      {/* Decorative patterns */}
+      <div className="absolute top-0 right-0 w-full h-[600px] bg-[url('/assets/hero-bg-pattern.png')] bg-cover opacity-[0.03] pointer-events-none mix-blend-multiply" />
+
       {/* Header */}
-      <div className={`text-center mb-10 px-4 transition-all duration-700 ${
-        isVisible ? "animate-fadeInUp" : "opacity-0 translate-y-[30px]"
-      }`}>
-        <h2
-          className="font-poppins text-[#505050] font-bold mb-3"
-          style={{ fontSize: "32px", lineHeight: "36px" }}
-        >
-          Our Programs
+      <div className={`text-center mb-16 px-6 max-w-3xl mx-auto relative z-10 transition-all duration-1000 ease-out ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+        }`}>
+        <h2 className="font-poppins text-slate-900 font-bold text-4xl lg:text-5xl mb-6 tracking-tight">
+          Explore Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-[var(--color-canam-red-dark)]">Programs</span>
         </h2>
-        <p
-          className="font-poppins text-[#505050] font-normal"
-          style={{ fontSize: "17px", lineHeight: "25px" }}
-        >
+        <p className="font-inter text-slate-500 text-lg leading-relaxed">
           We provide extensive academic guidance for UG and PG programs, including MBA
-          <br className="hidden sm:block" />
-          and PhD, through our unparalleled &apos;ground and cloud&apos; system.
+          and PhD, through our unparalleled 'ground and cloud' system.
         </p>
       </div>
 
-      {/* Programs Grid */}
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 divide-y sm:divide-y-0 lg:divide-x divide-[#e4e4e4]">
+      {/* Programs Cards */}
+      <div className="max-w-[1440px] mx-auto px-6 lg:px-16 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-8">
           {programs.map((program, idx) => (
             <div
               key={idx}
-              className={`flex flex-col px-6 pt-4 pb-6 transition-all duration-700 ${
-                isVisible
-                  ? "animate-stackingScroll"
-                  : "opacity-0 translate-y-[60px] scale-95"
-              }`}
-              style={{
-                animationDelay: isVisible ? `${idx * 0.1}s` : "0s",
-              }}
+              className={`group flex flex-col p-8 rounded-3xl bg-white border border-slate-100 shadow-sm hover:shadow-[0_8px_30px_rgb(200,0,0,0.08)] hover:border-red-100 transition-all duration-500 transform hover:scale-[1.02] ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+                }`}
+              style={{ transitionDelay: `${idx * 100}ms` }}
             >
               {/* Icon */}
-              <div className="mb-4" style={{ height: "56px" }}>
+              <div className="w-16 h-16 rounded-2xl bg-slate-50 group-hover:bg-red-50 flex items-center justify-center mb-6 transition-colors duration-500 shadow-inner">
                 <img
                   src={program.icon}
                   alt={program.title}
-                  className="w-14 h-14 object-contain"
+                  className="w-10 h-10 object-contain text-[var(--color-canam-red)] filter group-hover:brightness-90 transition-all duration-500"
                 />
               </div>
+
               {/* Title */}
-              <h3
-                className="font-poppins text-[#505050] font-semibold mb-2"
-                style={{ fontSize: "17px", lineHeight: "21px" }}
-              >
+              <h3 className="font-poppins text-slate-900 font-bold text-xl mb-3 group-hover:text-[var(--color-canam-red)] transition-colors">
                 {program.title}
               </h3>
-              {/* Red line */}
-              <div
-                className="mb-4"
-                style={{ width: "75px", height: "2px", background: "#DA1313" }}
-              />
+
               {/* Description */}
-              <p
-                className="font-poppins mb-6 flex-1"
-                style={{ fontSize: "14px", lineHeight: "20px", color: "#757575" }}
-              >
+              <p className="font-inter text-slate-500 text-sm leading-relaxed mb-8 flex-1 group-hover:text-slate-700 transition-colors">
                 {program.desc}
               </p>
+
               {/* Link */}
               <a
                 href="#"
-                className="font-poppins font-normal underline underline-offset-1 hover:opacity-80 transition-opacity"
-                style={{ fontSize: "14px", lineHeight: "20px", color: "#C50000" }}
+                className="mt-auto inline-flex items-center gap-2 font-inter font-semibold text-sm text-[var(--color-canam-red)] px-5 py-2.5 rounded-xl bg-red-50/50 hover:bg-[var(--color-canam-red)] hover:text-white transition-all duration-300 w-fit"
               >
                 {program.link}
+                <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
               </a>
             </div>
           ))}

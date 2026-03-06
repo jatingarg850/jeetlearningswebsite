@@ -24,52 +24,64 @@ body {
 }
 
 @keyframes blob {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0) scale(1);
   }
+
   33% {
     transform: translate(30px, -50px) scale(1.1);
   }
+
   66% {
     transform: translate(-20px, 20px) scale(0.9);
   }
 }
 
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(10px) scale(0.98);
   }
+
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
 @keyframes slideInLeft {
   from {
     opacity: 0;
-    transform: translateX(-40px);
+    transform: translateX(-20px) scale(0.98);
   }
+
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0) scale(1);
   }
 }
 
 @keyframes slideInRight {
   from {
     opacity: 0;
-    transform: translateX(40px);
+    transform: translateX(20px) scale(0.98);
   }
+
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0) scale(1);
   }
 }
 
@@ -78,6 +90,7 @@ body {
     opacity: 0;
     transform: scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -87,146 +100,46 @@ body {
 @keyframes stackingScroll {
   0% {
     opacity: 0;
-    transform: translateY(60px) scale(0.9);
+    transform: scale(0.95);
   }
-  50% {
-    opacity: 0.5;
-  }
+
   100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes stackCardEnter {
-  from {
-    opacity: 0;
-    transform: translateY(40px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-@layer utilities {
-  .animate-blob {
-    animation: blob 7s infinite;
-  }
-  .animation-delay-2000 {
-    animation-delay: 2s;
-  }
-  .animation-delay-4000 {
-    animation-delay: 4s;
-  }
-  .animate-marquee {
-    animation: marquee 30s linear infinite;
-  }
-  .animate-fadeInUp {
-    animation: fadeInUp 0.6s ease-out;
-  }
-  .animate-slideInLeft {
-    animation: slideInLeft 0.6s ease-out;
-  }
-  .animate-slideInRight {
-    animation: slideInRight 0.6s ease-out;
-  }
-  .animate-scaleIn {
-    animation: scaleIn 0.5s ease-out;
-  }
-  .animate-stackingScroll {
-    animation: stackingScroll 0.8s ease-out forwards;
-  }
-  .animate-float {
-    animation: float 3s ease-in-out infinite;
-  }
-  .animate-stackCardEnter {
-    animation: stackCardEnter 0.6s ease-out;
-  }
-  .scroll-animation-delay-1 {
-    animation-delay: 0.1s;
-  }
-  .scroll-animation-delay-2 {
-    animation-delay: 0.2s;
-  }
-  .scroll-animation-delay-3 {
-    animation-delay: 0.3s;
-  }
-  .scroll-animation-delay-4 {
-    animation-delay: 0.4s;
-  }
-  .scroll-animation-delay-5 {
-    animation-delay: 0.5s;
-  }
-  
-  [data-stack-card] {
-    @apply transition-all duration-300 ease-out;
-  }
-  
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  to {
     opacity: 1;
     transform: scale(1);
   }
 }
 
 @keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
+
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
   }
+
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-5px) scale(1.02);
+  }
+}
+
+@keyframes stackCardEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
 @keyframes glow {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 0 20px rgba(194, 0, 0, 0.3);
   }
+
   50% {
     box-shadow: 0 0 40px rgba(194, 0, 0, 0.6);
   }
@@ -236,23 +149,99 @@ body {
   0% {
     background-position: -1000px 0;
   }
+
   100% {
     background-position: 1000px 0;
   }
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
-}
+@layer utilities {
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
 
-.animate-glow {
-  animation: glow 2s ease-in-out infinite;
-}
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
 
-.animate-shimmer {
-  animation: shimmer 2s infinite;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  background-size: 1000px 100%;
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  .animate-slideInLeft {
+    animation: slideInLeft 0.8s ease-out;
+  }
+
+  .animate-slideInRight {
+    animation: slideInRight 0.8s ease-out;
+  }
+
+  .animate-scaleIn {
+    animation: scaleIn 0.8s ease-out;
+  }
+
+  .animate-stackingScroll {
+    animation: stackingScroll 0.8s ease-out forwards;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-stackCardEnter {
+    animation: stackCardEnter 0.8s ease-out;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    background-size: 1000px 100%;
+  }
+
+  .scroll-animation-delay-1 {
+    animation-delay: 0.1s;
+  }
+
+  .scroll-animation-delay-2 {
+    animation-delay: 0.2s;
+  }
+
+  .scroll-animation-delay-3 {
+    animation-delay: 0.3s;
+  }
+
+  .scroll-animation-delay-4 {
+    animation-delay: 0.4s;
+  }
+
+  .scroll-animation-delay-5 {
+    animation-delay: 0.5s;
+  }
+
+  [data-stack-card] {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* Smooth scroll behavior */
