@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 
 interface StackingItem {
   id: string;
@@ -10,6 +11,7 @@ interface StackingItem {
   icon: string;
   color: string;
   content?: string[];
+  href?: string;
 }
 
 interface StackingSectionProps {
@@ -80,6 +82,26 @@ function StackingCard({
             <p className="text-base md:text-lg text-[#757575] leading-relaxed max-w-lg mb-8 font-poppins">
               {item.description}
             </p>
+
+            {/* Navigation Button */}
+            {item.href && (
+              <div className="mb-8">
+                <Link href={item.href}>
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex items-center gap-2 px-8 py-4 rounded-xl font-poppins font-bold text-white shadow-lg transition-all"
+                    style={{ background: item.color }}
+                  >
+                    Explore Career Path
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                  </motion.button>
+                </Link>
+              </div>
+            )}
+
 
             {/* Full Content List with glassmorphic cards */}
             {item.content && item.content.length > 0 && (

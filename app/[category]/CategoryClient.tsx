@@ -6,7 +6,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { formatCareerName } from "@/app/data/careers";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
-import StackingSection from "@/app/components/StackingSection";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 
@@ -25,14 +24,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
     formatCareerName(career).toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Prepare stacking items for careers
-  const stackingItems = filteredCareers.slice(0, 5).map((career, idx) => ({
-    id: career,
-    title: formatCareerName(career),
-    description: `Explore career opportunities and pathways in ${formatCareerName(career).toLowerCase()}. Get expert guidance for your future.`,
-    icon: ["🎓", "📚", "💼", "🚀", "🌟"][idx % 5],
-    color: ["#C20000", "#DA1313", "#E70000", "#B30000", "#9B0000"][idx % 5],
-  }));
+
 
   return (
     <div className="min-h-screen bg-white">
@@ -131,16 +123,8 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
                 Clear search
               </button>
             </motion.div>
-          ) : filteredCareers.length <= 5 ? (
-            // Show stacking animation for 5 or fewer careers
-            <StackingSection
-              title={`Explore ${categoryName} Careers`}
-              subtitle="Featured Careers"
-              items={stackingItems}
-              backgroundColor="bg-white"
-            />
           ) : (
-            // Show grid for more than 5 careers
+            // Show grid for all careers
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {filteredCareers.map((career, idx) => (
                 <motion.div
