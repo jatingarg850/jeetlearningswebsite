@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { DynamicIcon } from "./DynamicIcon";
 
 const PRIMARY_BLUE = "#1E40AF";
 const ACCENT_GOLD = "#F59E0B";
@@ -52,7 +53,12 @@ export function ActuarialCompleteGuide({ sections }: ActuarialCompleteGuideProps
                   {/* Header */}
                   <div className="mb-6 md:mb-8 lg:mb-12">
                     <div className="flex items-center gap-2 md:gap-3 lg:gap-4 mb-2 md:mb-3 lg:mb-4">
-                      <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl flex-shrink-0">{section.icon}</span>
+                      <div
+                        className="w-12 h-12 md:w-14 md:h-14 flex-shrink-0 rounded-2xl flex items-center justify-center shadow-md"
+                        style={{ background: section.color ?? "#1E40AF" }}
+                      >
+                        <DynamicIcon name={section.icon} className="w-6 h-6 md:w-7 md:h-7 text-white" />
+                      </div>
                       <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 break-words">
                         {section.title}
                       </h3>

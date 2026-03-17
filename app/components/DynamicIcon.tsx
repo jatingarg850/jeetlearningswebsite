@@ -1,29 +1,93 @@
 "use client";
 
 import React from "react";
-import * as Icons from "lucide-react";
-import { LucideProps } from "lucide-react";
+import {
+  BarChart3, Briefcase, Calculator, Globe, TrendingUp,
+  CircleDollarSign, GraduationCap, AlertTriangle, BookOpen,
+  Building2, Building, Brain, Hourglass, Microscope,
+  MessageSquare, Monitor, ClipboardList, Target, Star,
+  Search, DollarSign, FileText, Megaphone, Link,
+  Medal, Handshake, PartyPopper, Check,
+  Scale, Factory, Lightbulb, Smartphone, Map,
+  Train, Hospital, Dna, Stethoscope, Banknote,
+  ShieldAlert, Sigma, TrendingDown, Users, Award,
+  BookMarked,
+  Rocket,
+  HelpCircle,
+  School,
+  type LucideProps,
+} from "lucide-react";
 
-export type IconName = keyof typeof Icons;
+type LucideIcon = React.FC<LucideProps>;
 
-interface DynamicIconProps extends LucideProps {
-  name: string;
-}
+// The icon map — no duplicate keys
+const iconMap: Record<string, LucideIcon> = {
+  BarChart3,
+  Briefcase,
+  Calculator,
+  Globe,
+  TrendingUp,
+  TrendingDown,
+  CircleDollarSign,
+  GraduationCap,
+  AlertTriangle,
+  BookOpen,
+  Building2,
+  Building,
+  Brain,
+  Hourglass,
+  Microscope,
+  MessageSquare,
+  Monitor,
+  ClipboardList,
+  Target,
+  Star,
+  Search,
+  DollarSign,
+  FileText,
+  Megaphone,
+  Link,
+  Medal,
+  Handshake,
+  PartyPopper,
+  Check,
+  Scale,
+  Factory,
+  Lightbulb,
+  Smartphone,
+  Map,
+  Train,
+  Hospital,
+  Dna,
+  Stethoscope,
+  Banknote,
+  ShieldAlert,
+  Sigma,
+  Users,
+  Award,
+  BookMarked,
+  Rocket,
+  School,
+};
 
+// Emoji → Lucide icon name
 const emojiMap: Record<string, string> = {
   "📊": "BarChart3",
   "💼": "Briefcase",
   "🧮": "Calculator",
   "🌐": "Globe",
   "📈": "TrendingUp",
-  "∑": "Calculator",
+  "📉": "TrendingDown",
+  "∑": "Sigma",
+  "Σ": "Sigma",
   "💰": "CircleDollarSign",
   "🎓": "GraduationCap",
-  "⚠️": "AlertTriangle",
+  "⚠️": "ShieldAlert",
   "📚": "BookOpen",
   "🏦": "Building2",
   "🏫": "School",
   "🏛️": "Building",
+  "🏛": "Building",
   "🧠": "Brain",
   "⏳": "Hourglass",
   "🔬": "Microscope",
@@ -33,6 +97,7 @@ const emojiMap: Record<string, string> = {
   "🎯": "Target",
   "🌟": "Star",
   "🔎": "Search",
+  "🔍": "Search",
   "💲": "DollarSign",
   "📜": "FileText",
   "📣": "Megaphone",
@@ -44,32 +109,31 @@ const emojiMap: Record<string, string> = {
   "⚖️": "Scale",
   "🏭": "Factory",
   "💡": "Lightbulb",
-  "🔍": "Search",
-  "🏛": "Building",
-  "📒": "Book",
-  "📋": "ClipboardList",
-  "🏛️": "Building2",
   "📱": "Smartphone",
-  "🏗️": "Construction",
   "🗺️": "Map",
   "🚉": "Train",
   "🏥": "Hospital",
   "🧬": "Dna",
   "🩺": "Stethoscope",
-  "⚖️": "Scale",
   "💵": "Banknote",
+  "📒": "BookMarked",
+  "📗": "BookMarked",
+  "👥": "Users",
+  "🏆": "Award",
+  "🚀": "Rocket",
 };
 
-export const DynamicIcon = ({ name, ...props }: DynamicIconProps) => {
-  // Check if it's an emoji and map it, otherwise use name directly
-  const iconName = (emojiMap[name] || name) as IconName;
-  
-  const IconComponent = Icons[iconName] as React.FC<LucideProps>;
+interface DynamicIconProps extends LucideProps {
+  name: string;
+}
+
+export function DynamicIcon({ name, ...props }: DynamicIconProps) {
+  const resolvedName = emojiMap[name] ?? name;
+  const IconComponent = iconMap[resolvedName];
 
   if (!IconComponent) {
-    // Fallback if icon not found
-    return <Icons.HelpCircle {...props} />;
+    return <HelpCircle {...props} />;
   }
 
   return <IconComponent {...props} />;
-};
+}

@@ -2,6 +2,13 @@
 
 import { useState, useRef } from "react";
 import { CareerGuideSection } from "@/app/data/careerPageData";
+import { DynamicIcon } from "./DynamicIcon";
+import {
+  Brain, Hourglass, Microscope, MessageSquare, Monitor,
+  ClipboardList, Target, Star,
+  ChevronLeft, ChevronRight,
+  AlertTriangle, CheckCircle2, PartyPopper,
+} from "lucide-react";
 
 // ─── colour tokens ────────────────────────────────────────────────
 const BLUE   = "#1E40AF";
@@ -75,16 +82,15 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
                     minHeight: "320px",
                     background: `linear-gradient(135deg, ${color}15, ${color}05)`,
                     border: active === i ? `3px solid ${color}` : `2px solid ${color}40`,
-                    ringColor: color,
                   }}
                 >
                   {/* card header */}
                   <div className="flex items-start justify-between mb-4">
                     <div
-                      className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl shadow-md"
+                      className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md"
                       style={{ background: `linear-gradient(135deg, ${color}, ${color}dd)` }}
                     >
-                      {section.icon}
+                      <DynamicIcon name={section.icon} className="w-7 h-7 text-white" />
                     </div>
                     <div
                       className="w-8 h-8 rounded-full flex items-center justify-center text-white text-xs font-black"
@@ -120,28 +126,20 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
           <div className="absolute -left-4 md:-left-6 top-1/2 -translate-y-1/2 z-10">
             <button
               onClick={handlePrev}
-              disabled={false}
               className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 shadow-lg hover:shadow-xl"
-              style={{
-                background: BLUE,
-                color: "white",
-              }}
+              style={{ background: BLUE, color: "white" }}
             >
-              <span className="text-xl md:text-2xl font-black">←</span>
+              <ChevronLeft className="w-6 h-6 md:w-7 md:h-7" />
             </button>
           </div>
 
           <div className="absolute -right-4 md:-right-6 top-1/2 -translate-y-1/2 z-10">
             <button
               onClick={handleNext}
-              disabled={false}
               className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 shadow-lg hover:shadow-xl"
-              style={{
-                background: BLUE,
-                color: "white",
-              }}
+              style={{ background: BLUE, color: "white" }}
             >
-              <span className="text-xl md:text-2xl font-black">→</span>
+              <ChevronRight className="w-6 h-6 md:w-7 md:h-7" />
             </button>
           </div>
         </div>
@@ -177,7 +175,7 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
 // ─── 2. TRAIT BADGE GRID with MODAL ──────────────────────────────
 function SectionWho({ section }: { section: CareerGuideSection }) {
   const [hovered, setHovered] = useState<number | null>(null);
-  const icons = ["🧠", "⏳", "🔬", "💬", "💻", "📋", "🎯", "🌟"];
+  const icons = [Brain, Hourglass, Microscope, MessageSquare, Monitor, ClipboardList, Target, Star];
   const bg = [
     "from-violet-400 to-purple-500",
     "from-blue-400 to-cyan-500",
@@ -204,7 +202,7 @@ function SectionWho({ section }: { section: CareerGuideSection }) {
                 className={`relative rounded-2xl p-5 cursor-pointer transition-all duration-400 shadow-md hover:shadow-xl`}
               >
                 <div className={`bg-gradient-to-br ${bg[i % bg.length]} rounded-2xl p-5 h-full flex flex-col gap-3 transform transition-transform ${hovered === i ? "scale-105" : ""}`}>
-                  <span className="text-3xl">{icons[i % icons.length]}</span>
+                  {(() => { const IC = icons[i % icons.length]; return <IC className="w-8 h-8 text-white" />; })()}
                   <p className="text-white font-bold text-sm leading-tight">{label}</p>
                   {hovered === i && (
                     <p className="text-white/90 text-xs leading-relaxed transition-all">{detail}</p>
@@ -222,7 +220,7 @@ function SectionWho({ section }: { section: CareerGuideSection }) {
 // ─── 3. HORIZONTAL STEP PROCESS CAROUSEL ─────────────────────────
 function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
   const [step, setStep] = useState(0);
-  const stepIcons = ["🔎", "📊", "💲", "⚠️", "📜", "📣", "🔗"];
+  const stepIcons = ["Search", "BarChart3", "DollarSign", "ShieldAlert", "FileText", "Megaphone", "Link"];
   return (
     <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-blue-50 to-indigo-50 overflow-hidden border-b border-blue-200">
       <div className="max-w-6xl mx-auto">
@@ -243,7 +241,7 @@ function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
                   border:     `2px solid ${step === i ? BLUE : "#DBEAFE"}`,
                 }}
               >
-                <span>{stepIcons[i % stepIcons.length]}</span>
+                <DynamicIcon name={stepIcons[i % stepIcons.length]} className="w-4 h-4" />
                 <span>Step {i + 1}</span>
               </button>
             );
@@ -259,10 +257,10 @@ function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
           }}
         >
           <div
-            className="w-24 h-24 md:w-32 md:h-32 rounded-2xl flex items-center justify-center text-5xl md:text-6xl flex-shrink-0 shadow-xl"
+            className="w-24 h-24 md:w-32 md:h-32 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-xl"
             style={{ background: `linear-gradient(135deg, ${BLUE}, ${INDIGO})` }}
           >
-            {stepIcons[step % stepIcons.length]}
+            <DynamicIcon name={stepIcons[step % stepIcons.length]} className="w-12 h-12 md:w-16 md:h-16 text-white" />
           </div>
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: BLUE }}>
@@ -290,18 +288,18 @@ function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
           <button
             onClick={() => setStep(s => Math.max(0, s - 1))}
             disabled={step === 0}
-            className="px-5 py-2 rounded-full text-sm font-bold transition-all disabled:opacity-30 shadow-sm"
+            className="px-5 py-2 rounded-full text-sm font-bold transition-all disabled:opacity-30 shadow-sm flex items-center gap-1"
             style={{ background: step === 0 ? "#E2E8F0" : BLUE, color: step === 0 ? "#94A3B8" : "white" }}
           >
-            ← Prev
+            <ChevronLeft className="w-4 h-4" /> Prev
           </button>
           <button
             onClick={() => setStep(s => Math.min(section.content.length - 1, s + 1))}
             disabled={step === section.content.length - 1}
-            className="px-5 py-2 rounded-full text-sm font-bold transition-all disabled:opacity-30 shadow-sm"
+            className="px-5 py-2 rounded-full text-sm font-bold transition-all disabled:opacity-30 shadow-sm flex items-center gap-1"
             style={{ background: step === section.content.length - 1 ? "#E2E8F0" : BLUE, color: step === section.content.length - 1 ? "#94A3B8" : "white" }}
           >
-            Next →
+            Next <ChevronRight className="w-4 h-4" />
           </button>
         </div>
       </div>
@@ -398,7 +396,7 @@ function SectionCost({ section }: { section: CareerGuideSection }) {
 function SectionScholarship({ section }: { section: CareerGuideSection }) {
   const [open, setOpen] = useState<number | null>(0);
   const colors = [GREEN, TEAL, BLUE, INDIGO, "#7C3AED"];
-  const badges = ["🏅", "🤝", "🌟", "🎯", "🏛️"];
+  const badges = ["Medal", "Handshake", "Star", "Target", "Building"];
   return (
     <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-green-50 to-emerald-50 border-b border-green-200">
       <div className="max-w-5xl mx-auto">
@@ -423,10 +421,10 @@ function SectionScholarship({ section }: { section: CareerGuideSection }) {
                   className="w-full flex items-center gap-4 p-5 text-left"
                 >
                   <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
-                    style={{ background: `${color}20` }}
+                    className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                    style={{ background: `${color}20`, color }}
                   >
-                    {badges[i % badges.length]}
+                    <DynamicIcon name={badges[i % badges.length]} className="w-6 h-6" />
                   </div>
                   <div className="flex-1">
                     <p className="font-bold text-slate-800">{label}</p>
@@ -462,7 +460,7 @@ function SectionScholarship({ section }: { section: CareerGuideSection }) {
 // ─── 6. CHALLENGE ALERT CARDS (horizontal swipe) ─────────────────
 function SectionChallenges({ section }: { section: CareerGuideSection }) {
   const [current, setCurrent] = useState(0);
-  const severity = ["🔴 Critical", "🟠 High", "🟡 Medium", "🔴 Critical", "🟠 High", "🟡 Medium"];
+  const severity = ["Critical", "High", "Medium", "Critical", "High", "Medium"];
   const alertColors = ["#EF4444", "#F97316", "#EAB308", "#EF4444", "#F97316", "#EAB308"];
   return (
     <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-red-50 to-orange-50 overflow-hidden border-b border-red-200">
@@ -494,10 +492,8 @@ function SectionChallenges({ section }: { section: CareerGuideSection }) {
                   <span className="text-white text-xs">{severity[i % severity.length]}</span>
                 </div>
                 {/* body */}
-                <div
-                  className="p-6 bg-white"
-                >
-                  <p className="text-3xl mb-4">⚠️</p>
+                <div className="p-6 bg-white">
+                  <AlertTriangle className="w-8 h-8 mb-4" style={{ color: alertColors[i % alertColors.length] }} />
                   <p className="text-slate-700 leading-relaxed text-sm">{point}</p>
                 </div>
               </div>
@@ -508,20 +504,20 @@ function SectionChallenges({ section }: { section: CareerGuideSection }) {
           <div className="mt-6 flex items-center justify-center gap-4">
             <button
               onClick={() => setCurrent(c => Math.max(0, c - 1))}
-              className="w-10 h-10 rounded-full flex items-center justify-center font-bold transition-all shadow-sm"
+              className="w-10 h-10 rounded-full flex items-center justify-center transition-all shadow-sm"
               style={{ background: "#FED7AA", color: "#92400E" }}
             >
-              ‹
+              <ChevronLeft className="w-5 h-5" />
             </button>
             <span className="text-slate-600 text-sm font-medium">
               {current + 1} / {section.content.length}
             </span>
             <button
               onClick={() => setCurrent(c => Math.min(section.content.length - 1, c + 1))}
-              className="w-10 h-10 rounded-full flex items-center justify-center font-bold transition-all shadow-sm"
+              className="w-10 h-10 rounded-full flex items-center justify-center transition-all shadow-sm"
               style={{ background: "#FED7AA", color: "#92400E" }}
             >
-              ›
+              <ChevronRight className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -600,7 +596,7 @@ function SectionStartNow({ section }: { section: CareerGuideSection }) {
                       color:      done ? "white" : color,
                     }}
                   >
-                    {done ? "✓" : i + 1}
+                    {done ? <CheckCircle2 className="w-5 h-5" /> : i + 1}
                   </div>
 
                   <div className="flex-1 min-w-0">
@@ -616,10 +612,10 @@ function SectionStartNow({ section }: { section: CareerGuideSection }) {
                     </p>
                     {done && (
                       <span
-                        className="inline-block mt-1 text-xs font-bold px-2 py-0.5 rounded-full"
+                        className="inline-flex items-center gap-1 mt-1 text-xs font-bold px-2 py-0.5 rounded-full"
                         style={{ background: `${color}20`, color }}
                       >
-                        ✓ Done!
+                        <CheckCircle2 className="w-3 h-3" /> Done!
                       </span>
                     )}
                   </div>
@@ -634,7 +630,7 @@ function SectionStartNow({ section }: { section: CareerGuideSection }) {
             className="mt-8 p-6 rounded-2xl text-center shadow-lg"
             style={{ background: `linear-gradient(135deg, ${GOLD}, ${GREEN})` }}
           >
-            <p className="text-2xl mb-2">🎉</p>
+            <PartyPopper className="w-8 h-8 text-white mx-auto mb-2" />
             <p className="text-white font-black text-xl">All steps complete!</p>
             <p className="text-white/80 text-sm mt-1">You're already ahead of the competition.</p>
           </div>
@@ -648,8 +644,13 @@ function SectionStartNow({ section }: { section: CareerGuideSection }) {
 function SectionHeader({ section, light = false }: { section: CareerGuideSection; light?: boolean }) {
   return (
     <div className="mb-10">
-      <div className="flex items-center gap-3 mb-3">
-        <span className="text-4xl">{section.icon}</span>
+      <div className="flex items-center gap-4 mb-3">
+        <div
+          className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-md"
+          style={{ background: section.color ?? "#1E40AF" }}
+        >
+          <DynamicIcon name={section.icon} className="w-7 h-7 text-white" />
+        </div>
         <h3 className={`text-2xl sm:text-3xl md:text-4xl font-black leading-tight ${light ? "text-white" : "text-slate-900"}`}>
           {section.title}
         </h3>
