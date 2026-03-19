@@ -54,14 +54,14 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
   const colors = [BLUE, GOLD, GREEN, INDIGO, ROSE, TEAL];
 
   return (
-    <section className="py-16 md:py-20 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 overflow-hidden border-b border-blue-200">
+    <section className="py-16 md:py-20 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 overflow-x-hidden border-b border-blue-200">
       <div className="max-w-7xl mx-auto">
         <SectionHeader section={section} light={false} />
 
         {/* carousel container */}
         <div className="relative">
-          {/* cards carousel */}
-          <div ref={scrollRef} className="flex gap-4 overflow-x-auto pb-6 scrollbar-hide snap-x snap-mandatory scroll-smooth">
+          {/* cards carousel — py-4 prevents ring/shadow clipping */}
+          <div ref={scrollRef} className="flex gap-4 overflow-x-auto py-4 px-1 scrollbar-hide snap-x snap-mandatory scroll-smooth">
             {section.content.map((pt, i) => {
               const title = pt.split(":")[0];
               const content = pt.includes(":") ? pt.slice(pt.indexOf(":") + 1).trim() : pt;
@@ -332,12 +332,12 @@ function SectionCost({ section }: { section: CareerGuideSection }) {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 overflow-hidden border-b border-blue-200">
+    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 overflow-x-hidden border-b border-blue-200">
       <div className="max-w-5xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* card row */}
-        <div ref={scrollRef} className="flex gap-3 overflow-x-auto pb-4 scrollbar-hide snap-x snap-mandatory scroll-smooth">
+        {/* card row — py-4 gives space for the scale-105 shadow */}
+        <div ref={scrollRef} className="flex gap-3 overflow-x-auto py-4 px-1 scrollbar-hide snap-x snap-mandatory scroll-smooth">
           {section.content.map((point, i) => {
             const label = point.includes(":") ? point.split(":")[0] : `Item ${i + 1}`;
             const detail = point.includes(":") ? point.slice(point.indexOf(":") + 1).trim() : point;
