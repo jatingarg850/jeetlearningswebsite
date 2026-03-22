@@ -10,6 +10,9 @@ import { CareerCompleteGuide } from "@/app/components/CareerCompleteGuide";
 import { CostBreakdown } from "@/app/components/CostBreakdown";
 import { getCareerPageData } from "@/app/data/careerPageData";
 import { allCareerCosts } from "@/app/data/costBreakdownData";
+import ImpactStrip from "@/app/components/ImpactStrip";
+import AwardsStrip from "@/app/components/AwardsStrip";
+import { careerImagesMap } from "../../data/careerImagesMap.js";
 
 interface CareerPageClientProps {
   category: string;
@@ -64,7 +67,15 @@ export function CareerPageClient({
 
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <div id="hero">
-        {pageData && <CareerHero data={pageData} />}
+        {pageData && (
+          <CareerHero 
+            data={pageData} 
+            // @ts-ignore
+            imageUrl={careerImagesMap[career] || `https://loremflickr.com/600/400/flat,illustration,cartoon,vector,${career}?lock=${career.length}`} 
+          />
+        )}
+        <ImpactStrip />
+        <AwardsStrip />
       </div>
 
       {/* ── Complete Guide (7 unique carousel styles) ────────────── */}

@@ -318,6 +318,61 @@ export const geneticsCosts: CostItem[] = [
   },
 ];
 
+// ─── AGRICULTURE (GENERIC) ──────────────────────────────────────────
+export const agricultureCosts: CostItem[] = [
+  {
+    category: "Government Colleges",
+    amount: "₹15,000-50,000",
+    description: "Annual tuition fees",
+    icon: "🏫",
+    color: "#1E40AF",
+    details: [
+      "IARI/State Agri Universities: ₹15,000-40,000 per year",
+      "Central Universities with Agri Depts: ₹8,000-20,000 per year",
+      "Includes lab and field research fees",
+      "Significantly cheaper due to government subsidies",
+    ],
+  },
+  {
+    category: "Private Colleges",
+    amount: "₹1.5-3.5 Lakh",
+    description: "Annual tuition fees",
+    icon: "🏢",
+    color: "#F59E0B",
+    details: [
+      "Doon Business School (Agri-Business): ₹2-3 lakh per year",
+      "Lovely Professional University: ₹1.5-2 lakh per year",
+      "Amity University: ₹1.8-3.5 lakh per year",
+      "Includes all farm infrastructure and private lab access",
+    ],
+  },
+  {
+    category: "Living Expenses",
+    amount: "₹10,000-20,000",
+    description: "Monthly in major cities",
+    icon: "🏠",
+    color: "#10B981",
+    details: [
+      "Hostel/Rent: ₹5,000-12,000 per month",
+      "Food & Meals: ₹3,000-6,000 per month",
+      "Transport & Field Visits: ₹1,500-2,500 per month",
+      "Books & Study Materials: ₹1,000-2,000 per month",
+    ],
+  },
+  {
+    category: "Equipment & Technical Tools",
+    amount: "₹50,000-70,000",
+    description: "One-time investment",
+    icon: "💻",
+    color: "#3B82F6",
+    details: [
+      "Laptop (for Agri-analytics/Design): ₹40,000-60,000",
+      "Personal Field Equipment & Lab Wear: ₹5,000-8,000",
+      "Software Subscriptions (Agri-GIS/Models): ₹2,000-5,000",
+    ],
+  },
+];
+
 // Export all career costs
 export const allCareerCosts: Record<string, CostItem[]> = {
   actuarial_science: actuarialScienceCosts,
@@ -325,4 +380,17 @@ export const allCareerCosts: Record<string, CostItem[]> = {
   bioinformatics: bioinformaticsCosts,
   microbiology: microbiologyCosts,
   genetics: geneticsCosts,
+  agri_business_management: agricultureCosts,
+  agricultural_engineer: agricultureCosts,
+  agriculture_research: agricultureCosts,
+  animal_science: agricultureCosts,
+  apiculture: agricultureCosts,
+  aquaculture: agricultureCosts,
+  dairy_technology: agricultureCosts,
+  florist: agricultureCosts,
+  food_science: agricultureCosts,
+  horticulture: agricultureCosts,
+  poultry: agricultureCosts,
+  sericulture: agricultureCosts,
+  vertical_farming: agricultureCosts,
 };

@@ -11,7 +11,7 @@ export default function HeroSection() {
   return (
     <section
       ref={ref}
-      className="relative overflow-hidden bg-[#FAFAFA] min-h-[90vh] flex items-center pt-24 pb-16 lg:pt-32"
+      className="relative overflow-hidden bg-[#FAFAFA] min-h-[50vh] flex items-center pt-16 pb-12 lg:pt-20 lg:pb-16"
     >
       {/* Abstract Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
@@ -91,7 +91,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right: Modern Illustration Structure */}
-        <div className={`hidden lg:flex relative z-10 w-[50%] h-[600px] xl:h-[700px] items-center justify-center transition-all duration-1000 delay-300 ease-out ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
+        <div className={`hidden lg:flex relative z-10 w-[50%] h-[350px] xl:h-[400px] items-center justify-center transition-all duration-1000 delay-300 ease-out ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
           }`}>
           <div className="relative w-full h-full max-w-[600px] xl:max-w-[650px]">
             {/* Decorative base cards */}

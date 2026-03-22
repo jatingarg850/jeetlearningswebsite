@@ -1,3 +1,4 @@
+import { agricultureUpdateData } from './agricultureUpdateData';
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -3102,5 +3103,5 @@ export const careerPageData: Record<string, CareerPageData> = {
 };
 
 export function getCareerPageData(slug: string): CareerPageData | null {
-  return careerPageData[slug] || null;
+  return agricultureUpdateData[slug] || careerPageData[slug] || null;
 }

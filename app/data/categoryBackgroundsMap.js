@@ -1,0 +1,23 @@
+export const categoryBackgroundsMap = {
+  "account_and_finance": "https://img.freepik.com/free-vector/budget-country-government-flat-composition-with-isolated-view-bank-building-with-coins-graphs-people-vector-illustration_98292-8823.jpg?semt=ais_hybrid&w=740&q=80",
+  "agriculture": "https://img.freepik.com/premium-vector/agriculture-tractor-harvester-working-field-harvesting-sunny-day-vector-flat-illustration_939711-550.jpg?semt=ais_hybrid&w=740&q=80",
+  "architecture_and_construction": "https://img.freepik.com/free-photo/view-building-with-cartoon-style-architecture_23-2151154944.jpg",
+  "arts_and_design": "https://img.freepik.com/free-photo/sphere-representing-iris-eye_23-2151642881.jpg?semt=ais_hybrid&w=740&q=80",
+  "bio_science_and_research": "https://img.freepik.com/free-vector/observatory-building-background-with-planetarium-symbols-flat-vector-ilustration_1284-78920.jpg?semt=ais_rp_progressive&w=740&q=80",
+  "business_management": "https://img.freepik.com/premium-vector/person-works-laptop-desk-vibrant-home-office-with-plants-mountain-views-work-from-home-as-content-creator-creating-flat-illustrations_585735-46544.jpg",
+  "education_and_training": "https://img.freepik.com/free-vector/student-campus-flat-composition-with-university-building-background-vector-illustration_1284-81556.jpg",
+  "environment": "https://img.freepik.com/free-vector/birds-eye-view-nature-farm-landscape-cartoon-style_1308-57915.jpg?semt=ais_hybrid&w=740&q=80",
+  "government_services": "https://img.freepik.com/premium-vector/professional-financial-institution-cartoon-vector-illustration_1323048-80501.jpg?semt=ais_hybrid&w=740&q=80",
+  "health_science": "https://img.freepik.com/free-vector/flat-twitch-background-world-mental-health-day_23-2150740754.jpg?w=360",
+  "hospitality_and_tourism": "https://img.freepik.com/premium-vector/vector-illustration-chicago-skyline-with-ambient-green-orange-colors_876236-11250.jpg?semt=ais_rp_progressive&w=740&q=80",
+  "human_and_social_sciences": "https://img.freepik.com/premium-vector/group-cartoon-diverse-people-smiling-with-flowers-leaves_150234-133455.jpg",
+  "information_technology": "https://img.freepik.com/free-vector/factory-workers-robotic-arm-removing-packages-from-conveyor-line-engineer-using-computer-operating-process-vector-illustration-business-production-machine-technology-concepts_74855-9859.jpg?semt=ais_hybrid&w=740&q=80",
+  "legal_services": "https://img.freepik.com/premium-photo/illustration-two-men-sitting-table-with-scale-justice_1034036-108345.jpg",
+  "logistics_and_transportation": "https://img.freepik.com/free-vector/warehouse-workers-loading-boxes-into-airplane-cargo-aircraft-international-freight-flat-vector-illustration-global-logistic-transportation-delivery-concept-banner-landing-web-page_74855-26132.jpg",
+  "manufacturing": "https://img.freepik.com/premium-photo/high-quality-art-wallpaper-background_783884-311874.jpg?semt=ais_hybrid&w=740&q=80",
+  "marketing_and_advertising": "https://img.freepik.com/free-vector/old-europe-street-morning_107791-30845.jpg?semt=ais_rp_progressive&w=740&q=80",
+  "media_and_communication": "https://img.freepik.com/free-vector/modern-international-trade-concept-with-flat-design_23-2147861201.jpg?semt=ais_hybrid&w=740&q=80",
+  "public_safety_and_security": "https://img.freepik.com/free-photo/futuristic-scene-with-high-tech-robot-used-construction-industry_23-2151329506.jpg?semt=ais_hybrid&w=740&q=80",
+  "science_mathematics_engineering": "https://img.freepik.com/free-vector/linear-flat-construction-site-suburb-house-illustration-set-building-process-business-concept-crane-constructing-concrete-panels-tipper-truck-with-sand-home-green-lawn-meadow_126523-2668.jpg?semt=ais_hybrid&w=740&q=80",
+  "sports_and_physical_activities": "https://img.freepik.com/free-vector/abandoned-closed-gym-with-broken-exercise-machines-sports-equipment-cartoon-vector-dirty-smashed-fitness-club-room-with-destroyed-physical-training-gear-scattered-garbage-cobwebs_107791-23414.jpg?semt=ais_hybrid&w=740&q=80"
+};

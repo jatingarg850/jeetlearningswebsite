@@ -25,7 +25,7 @@ interface Props {
 }
 
 // ─── 1. CREATIVE CAROUSEL INFO CARDS ──────────────────────────────
-function SectionWhat({ section }: { section: CareerGuideSection }) {
+function SectionWhat({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [active, setActive] = useState(0);
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -59,13 +59,16 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
         <SectionHeader section={section} light={false} />
 
         {/* carousel container */}
-        <div className="relative">
-          {/* cards carousel — py-4 prevents ring/shadow clipping */}
-          <div ref={scrollRef} className="flex gap-4 overflow-x-auto py-4 px-1 scrollbar-hide snap-x snap-mandatory scroll-smooth">
+        <div className="relative mt-8">
+          {/* cards carousel — py-8 prevents shadow/scale clipping */}
+          <div ref={scrollRef} className="flex gap-4 md:gap-6 overflow-x-auto py-8 px-4 sm:px-8 scrollbar-hide snap-x snap-mandatory scroll-smooth items-center">
             {section.content.map((pt, i) => {
-              const title = pt.split(":")[0];
-              const content = pt.includes(":") ? pt.slice(pt.indexOf(":") + 1).trim() : pt;
+              const colonIndex = pt.indexOf(":");
+              // Fix duplication bug: If no colon, provide a default title and use the whole string as content.
+              const title = colonIndex > -1 ? pt.slice(0, colonIndex).trim() : `Key Insight 0${i + 1}`;
+              const content = colonIndex > -1 ? pt.slice(colonIndex + 1).trim() : pt;
               const color = colors[i % colors.length];
+              const isActive = active === i;
 
               return (
                 <div
@@ -74,72 +77,88 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
                     setActive(i);
                     scrollToCard(i);
                   }}
-                  className={`snap-center flex-shrink-0 rounded-3xl p-4 sm:p-6 md:p-8 cursor-pointer transition-all duration-500 shadow-lg hover:shadow-2xl transform ${
-                    active === i ? "scale-100 ring-2" : "scale-95 opacity-60 hover:opacity-80"
-                  }`}
+                  className={`snap-center flex-shrink-0 relative overflow-hidden rounded-[40px] cursor-pointer transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] shadow-xl group`}
                   style={{
-                    width: "260px",
-                    minHeight: "300px",
-                    background: `linear-gradient(135deg, ${color}15, ${color}05)`,
-                    border: active === i ? `3px solid ${color}` : `2px solid ${color}40`,
+                    width: isActive ? "min(420px, 85vw)" : "min(260px, 70vw)",
+                    minHeight: isActive ? "450px" : "380px",
+                    background: "white",
                   }}
                 >
-                  {/* card header */}
-                  <div className="flex items-start justify-between mb-3 sm:mb-4">
-                    <div
-                      className="w-12 sm:w-14 h-12 sm:h-14 rounded-2xl flex items-center justify-center shadow-md"
-                      style={{ background: `linear-gradient(135deg, ${color}, ${color}dd)` }}
-                    >
-                      <DynamicIcon name={section.icon} className="w-6 sm:w-7 h-6 sm:h-7 text-white" />
+                  {/* Background gradient block at the top */}
+                  <div 
+                    className="absolute top-0 left-0 right-0 transition-all duration-700 ease-out"
+                    style={{ 
+                      height: isActive ? "160px" : "120px",
+                      background: `linear-gradient(135deg, ${color}, ${color}dd)` 
+                    }}
+                  >
+                    {/* Watermarked giant icon */}
+                    <div className="absolute -right-8 -top-8 opacity-[0.15] transform group-hover:rotate-12 transition-transform duration-700">
+                       <DynamicIcon name={section.icon} className="w-48 h-48 text-white" />
                     </div>
-                    <div
-                      className="w-7 sm:w-8 h-7 sm:h-8 rounded-full flex items-center justify-center text-white text-xs font-black"
-                      style={{ background: color }}
-                    >
+                  </div>
+
+                  {/* Top Badge */}
+                  <div className="relative z-10 px-6 pt-6 flex justify-between items-start">
+                    <div className="bg-white/20 backdrop-blur-md p-3 rounded-2xl shadow-sm border border-white/30">
+                      <DynamicIcon name={section.icon} className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-white/90 font-black text-4xl opacity-50 font-poppins">
                       {i + 1}
                     </div>
                   </div>
 
-                  {/* card content */}
-                  <h3 className="text-base sm:text-lg md:text-xl font-black mb-3" style={{ color }}>
-                    {title}
-                  </h3>
-                  <p className="text-xs sm:text-sm md:text-base leading-relaxed font-medium line-clamp-4">
-                    {content}
-                  </p>
+                  {/* Content Area */}
+                  <div 
+                    className="relative z-10 px-6 sm:px-8 transition-all duration-700 ease-out"
+                    style={{ marginTop: isActive ? "50px" : "30px" }}
+                  >
+                    <h3 className={`font-poppins font-black transition-all duration-500 line-clamp-2 ${isActive ? 'text-2xl mb-4' : 'text-xl mb-3'}`} style={{ color: "var(--color-slate-900)" }}>
+                      {title}
+                    </h3>
+                    
+                    <p className={`font-inter font-medium text-slate-600 leading-relaxed transition-all duration-500 ${isActive ? 'text-base line-clamp-none opacity-100' : 'text-sm line-clamp-4 opacity-80'}`}>
+                       {content}
+                    </p>
+                  </div>
 
-                  {/* card footer */}
-                  <div className="mt-6 pt-4 border-t" style={{ borderColor: `${color}30` }}>
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 rounded-full" style={{ background: color }} />
-                      <p className="text-xs sm:text-xs md:text-sm font-semibold text-slate-600">
-                        {active === i ? "Currently viewing" : "Click to view"}
-                      </p>
-                    </div>
+                  {/* Animated Border indicator for Active State */}
+                  <div 
+                    className="absolute bottom-0 left-0 h-2 bg-gradient-to-r transition-all duration-700"
+                    style={{
+                      width: isActive ? "100%" : "0%",
+                      backgroundImage: `linear-gradient(90deg, ${color}, transparent)`
+                    }}
+                  />
+                  
+                  {/* Subtle click prompt when inactive */}
+                  <div className={`absolute bottom-6 left-6 right-6 transition-all duration-500 flex items-center gap-2 ${isActive ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
+                     <div className="w-8 h-px bg-slate-300" />
+                     <span className="text-xs font-bold text-slate-400 uppercase tracking-widest bg-white pr-2">Click to open</span>
                   </div>
                 </div>
               );
             })}
           </div>
 
-          {/* navigation buttons */}
-          <div className="absolute -left-4 md:-left-6 top-1/2 -translate-y-1/2 z-10">
+          {/* navigation buttons floating outside the cards */}
+          <div className="absolute -left-2 sm:-left-6 top-1/2 -translate-y-1/2 z-20">
             <button
               onClick={handlePrev}
-              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 shadow-lg hover:shadow-xl"
-              style={{ background: BLUE, color: "white" }}
+              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 shadow-lg hover:shadow-xl bg-white border border-slate-100 backdrop-blur-sm group"
+              style={{ color: BLUE }}
             >
-              <ChevronLeft className="w-6 h-6 md:w-7 md:h-7" />
+              <ChevronLeft className="w-6 h-6 md:w-7 md:h-7 group-hover:-translate-x-1 transition-transform" />
             </button>
           </div>
 
-          <div className="absolute -right-4 md:-right-6 top-1/2 -translate-y-1/2 z-10">
+          <div className="absolute -right-2 sm:-right-6 top-1/2 -translate-y-1/2 z-20">
             <button
               onClick={handleNext}
-              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 shadow-lg hover:shadow-xl"
-              style={{ background: BLUE, color: "white" }}
+              className="w-12 h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 shadow-lg hover:shadow-xl bg-white border border-slate-100 backdrop-blur-sm group"
+              style={{ color: BLUE }}
             >
-              <ChevronRight className="w-6 h-6 md:w-7 md:h-7" />
+              <ChevronRight className="w-6 h-6 md:w-7 md:h-7 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
         </div>
@@ -173,7 +192,7 @@ function SectionWhat({ section }: { section: CareerGuideSection }) {
 }
 
 // ─── 2. TRAIT BADGE GRID with MODAL ──────────────────────────────
-function SectionWho({ section }: { section: CareerGuideSection }) {
+function SectionWho({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [hovered, setHovered] = useState<number | null>(null);
   const icons = [Brain, Hourglass, Microscope, MessageSquare, Monitor, ClipboardList, Target, Star];
   const bg = [
@@ -218,7 +237,7 @@ function SectionWho({ section }: { section: CareerGuideSection }) {
 }
 
 // ─── 3. HORIZONTAL STEP PROCESS CAROUSEL ─────────────────────────
-function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
+function SectionResponsibilities({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [step, setStep] = useState(0);
   const stepIcons = ["Search", "BarChart3", "DollarSign", "ShieldAlert", "FileText", "Megaphone", "Link"];
   return (
@@ -248,14 +267,22 @@ function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
           })}
         </div>
 
-        {/* big step card */}
+        {/* big step card with topic image integration */}
         <div
-          className="rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 shadow-lg"
+          className="rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 shadow-lg relative overflow-hidden"
           style={{
             background: `linear-gradient(135deg, ${BLUE}15, ${INDIGO}15)`,
             border: `2px solid ${BLUE}40`,
           }}
         >
+          {/* Dynamic illustration for this specific career and step */}
+          <div className="absolute right-0 top-0 bottom-0 w-1/3 opacity-[0.08] pointer-events-none hidden md:block">
+            <img 
+               src={`https://loremflickr.com/800/800/flat,illustration,cartoon,${careerName.replace(/ /g, '-')},step${step + 1}?lock=${careerName.length + step}`} 
+               alt="" 
+               className="w-full h-full object-cover mix-blend-multiply" 
+            />
+          </div>
           <div
             className="w-24 h-24 md:w-32 md:h-32 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-xl"
             style={{ background: `linear-gradient(135deg, ${BLUE}, ${INDIGO})` }}
@@ -308,7 +335,7 @@ function SectionResponsibilities({ section }: { section: CareerGuideSection }) {
 }
 
 // ─── 4. PRICING TILE CAROUSEL (swipe) ────────────────────────────
-function SectionCost({ section }: { section: CareerGuideSection }) {
+function SectionCost({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [active, setActive] = useState(0);
   const scrollRef = useRef<HTMLDivElement>(null);
   const gradients = [
@@ -393,13 +420,17 @@ function SectionCost({ section }: { section: CareerGuideSection }) {
 }
 
 // ─── 5. SCHOLARSHIP BADGE ACCORDION ──────────────────────────────
-function SectionScholarship({ section }: { section: CareerGuideSection }) {
+function SectionScholarship({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [open, setOpen] = useState<number | null>(0);
   const colors = [GREEN, TEAL, BLUE, INDIGO, "#7C3AED"];
   const badges = ["Medal", "Handshake", "Star", "Target", "Building"];
   return (
-    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-green-50 to-emerald-50 border-b border-green-200">
-      <div className="max-w-5xl mx-auto">
+    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-green-50 to-emerald-50 border-b border-green-200 relative overflow-hidden">
+      {/* Decorative topic illustration */}
+      <div className="absolute top-0 right-0 w-1/4 h-full opacity-[0.06] pointer-events-none hidden lg:block transform translate-x-1/2">
+        <img src={`https://loremflickr.com/600/800/flat,illustration,cartoon,${careerName.replace(/ /g, '-')},education?lock=${careerName.length + 50}`} alt="" className="w-full h-full object-cover" />
+      </div>
+      <div className="max-w-5xl mx-auto relative z-10">
         <SectionHeader section={section} light={false} />
         <div className="flex flex-col gap-4">
           {section.content.map((point, i) => {
@@ -458,13 +489,16 @@ function SectionScholarship({ section }: { section: CareerGuideSection }) {
 }
 
 // ─── 6. CHALLENGE ALERT CARDS (horizontal swipe) ─────────────────
-function SectionChallenges({ section }: { section: CareerGuideSection }) {
+function SectionChallenges({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [current, setCurrent] = useState(0);
   const severity = ["Critical", "High", "Medium", "Critical", "High", "Medium"];
   const alertColors = ["#EF4444", "#F97316", "#EAB308", "#EF4444", "#F97316", "#EAB308"];
   return (
-    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-red-50 to-orange-50 overflow-hidden border-b border-red-200">
-      <div className="max-w-5xl mx-auto">
+    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-red-50 to-orange-50 overflow-hidden border-b border-red-200 relative">
+      <div className="absolute top-1/2 left-0 w-1/4 h-2/3 opacity-[0.06] pointer-events-none hidden lg:block transform -translate-y-1/2 -translate-x-1/3 rotate-[-10deg]">
+        <img src={`https://loremflickr.com/400/400/flat,illustration,cartoon,${careerName.replace(/ /g, '-')},challenge?lock=8`} alt="" className="w-full h-full object-contain" />
+      </div>
+      <div className="max-w-5xl mx-auto relative z-10">
         <SectionHeader section={section} light={false} />
 
         {/* numbered challenge cards */}
@@ -527,7 +561,7 @@ function SectionChallenges({ section }: { section: CareerGuideSection }) {
 }
 
 // ─── 7. ANIMATED ROADMAP CHECKLIST ───────────────────────────────
-function SectionStartNow({ section }: { section: CareerGuideSection }) {
+function SectionStartNow({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [checked, setChecked] = useState<Set<number>>(new Set());
   const toggle = (i: number) => {
     setChecked(prev => {
@@ -540,8 +574,11 @@ function SectionStartNow({ section }: { section: CareerGuideSection }) {
   const lineColors = [GOLD, GREEN, BLUE, INDIGO, TEAL, ROSE, "#7C3AED"];
 
   return (
-    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-purple-50 to-blue-50">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-purple-50 to-blue-50 relative overflow-hidden">
+      <div className="absolute bottom-0 right-0 w-1/3 h-2/3 opacity-10 pointer-events-none hidden md:block mix-blend-multiply">
+        <img src={`https://loremflickr.com/600/600/flat,illustration,cartoon,${careerName.replace(/ /g, '-')},success?lock=99`} alt="" className="w-full h-full object-contain" />
+      </div>
+      <div className="max-w-4xl mx-auto relative z-10">
         <SectionHeader section={section} light={false} />
 
         {/* progress bar */}
@@ -692,7 +729,7 @@ export function CareerCompleteGuide({ careerName, sections }: Props) {
       {/* Individual sections with unique carousel styles */}
       {sections.map((section, idx) => {
         const Component = SECTION_COMPONENTS[idx % SECTION_COMPONENTS.length];
-        return <Component key={section.id} section={section} />;
+        return <Component key={section.id} section={section} careerName={careerName} />;
       })}
     </div>
   );

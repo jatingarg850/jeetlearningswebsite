@@ -6,6 +6,8 @@ import ProgramsSection from "@/app/components/ProgramsSection";
 import StackingSection from "@/app/components/StackingSection";
 import FAQSection from "@/app/components/FAQSection";
 import TestimonialsSection from "@/app/components/TestimonialsSection";
+import ImpactStrip from "@/app/components/ImpactStrip";
+import AwardsStrip from "@/app/components/AwardsStrip";
 import Footer from "@/app/components/Footer";
 
 export default function Home() {
@@ -51,6 +53,8 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <HeroSection />
+      <ImpactStrip />
+      <AwardsStrip />
       <WhyChooseSection />
       <ServicesSection />
       <ProgramsSection />

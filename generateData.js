@@ -1,0 +1,874 @@
+const fs = require('fs');
+
+const rawText = `Agri-Business Management
+ 
+What is This Career All About?
+•	High-Tech Evolution: Agriculture is shifting from traditional tilling to advanced business boardrooms and global supply chains.
+•	Modern Integration: ABM applies business principles like finance, marketing, and logistics to the agricultural sector.
+•	Diverse Roles: Professionals manage food brands, optimize organic exports, or lead Agritech startups using AI.
+•	Critical Impact: By reducing India’s 40% produce waste, ABM experts ensure global food security and transform farming into a profitable venture.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Resilience to nature’s unpredictability, empathy for diverse stakeholders, and a deep passion for sustainability.
+•	Soft Skills: Expertise in negotiation, crisis management during crop failures, and effective cross-cultural communication.
+•	Hard Skills: Mastery of financial literacy, satellite-driven data analytics, and a solid foundation in agricultural economics.	Key Responsibilities & Work Process 
+•	Input & Production: Sourcing quality seeds and technology while guiding farmers based on market demand.
+•	Value Addition: Processing raw goods into branded products, like turning milk into cheese.
+•	Logistics & Sales: Managing refrigerated "cold chains" and branding products for local and global supermarket shelves.
+
+
+
+
+
+ 
+What Will It Cost?
+•	Tuition Fees: Government colleges cost ₹15,000–₹8 lakh; private colleges ₹7–18 lakh.
+•	Laptop: Around ₹60,000 needed for a good laptop.
+•	Living: Monthly expenses in cities like Hyderabad cost ₹15,000–₹25,000.
+•	Internship: Extra money needed for travel during rural field training.	Scholarship Opportunities
+•	National Scholarship Portal (NSP):  Gives money help to minority, SC, and ST students for fees and living costs.
+•	Pragati: ₹50,000 yearly for girls studying technical courses.
+•	L&T: Pays full M.Tech fees at IITs/NITs with stipend and job offer.
+•	Mahindra: ₹10,000 yearly for diploma students from low-income families.
+
+ 
+Key Challenges
+•	Phygital Balance: Managing the shift between high-tech office analysis and intensive, dusty field visits.
+•	Climate Pressure: High-stress seasons occur when bad monsoons disrupt entire supply chains.
+•	Evolving Perception: Overcoming the "rural stigma" as high-paying corporate and agritech roles redefine the industry's glamour.	Start Now (Class 9–12)
+•	Data Play: Master Microsoft Excel, as it is the fundamental tool for agribusiness operations.
+•	Environmental Awareness: Join organic gardening clubs or start composting to understand natural cycles.
+•	Stay Informed: Follow agricultural business news in the Financial Express or Economic Times.
+•	Field Observation: Visit local Mandis to observe real-world trader negotiations and market dynamics.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Agricultural Engineering
+  
+What is This Career All About?
+•	Defining the Role: It applies engineering principles to optimize agricultural production and processing systems.
+•	Technological Integration: Focuses on using drones for soil mapping, automated irrigation, and precision robotic harvesters.
+•	National Priority: In India, these professionals solve the "Food-Energy-Water" puzzle to feed 1.4 billion people.
+•	Sustainable Future: They transform traditional farming into a high-tech, profitable, and resource-efficient 21st-century industry.	Scan Me
+
+Who Should Consider This Career?
+•	Technical Passion: Natural interest in mechanics, engines, and building or fixing complex systems.
+•	Analytical Thinking: Strong foundation in Math and Physics for data-driven problem-solving.
+•	Resilience: Comfortable working in both high-tech labs and rugged, dusty farm environments.
+•	Environmental Focus: Deep commitment to climate change, water conservation, and sustainable innovation.	Key Responsibilities & Work Process 
+•	Analysis & Design: Analyzing farm issues like water loss and designing technical solutions using AutoCAD or SolidWorks.
+•	Prototyping & Testing: Building lab models and conducting rigorous field tests under real-world weather conditions.
+•	Execution: Overseeing quality control, ensuring durability, and providing technical training and maintenance support.
+
+ 
+What Will It Cost?
+•	Duration: B.Tech in Agricultural Engineering takes 4 years.
+•	Fees: Government colleges cost ₹50,000–₹2.5 lakh; private ₹4–12 lakh for 4 years.
+•	Living: Hostel and monthly expenses are ₹8,000–₹15,000.
+•	Extras: Around ₹60,000 for laptop and ₹5,000–₹15,000 for exams.	Scholarship Opportunities
+•	National Scholarship Portal (NSP): Gives financial help to minority, SC, and ST students.
+•	Pragati: ₹50,000 yearly for girls in technical courses.
+•	ICAR: Supports agriculture students studying in another state.
+•	State: Odisha and private groups give ₹25,000–₹50,000 scholarships.
+
+ 
+
+Key Challenges
+•	Harsh Environments: Be prepared to work frequently in hot, dusty, and muddy outdoor conditions.
+•	Seasonal Peaks: Expect workloads to triple during intense harvest periods.
+•	The Scaling Challenge: The true difficulty lies in adapting high-tech lab designs for practical use on small, 1-acre Indian farm plots.	Start Now (Class 9–12)
+•	Science & Math: Master Physics (Mechanics) and Geometry as foundational engineering pillars.
+•	Coding: Learn Python, the essential language for agricultural AI and drone data analysis.
+•	Practical Observation: Visit "Kisan Melas" to study farm machinery and understand common equipment failures.
+•	DIY Projects: Build simple solar lamps or automated balcony irrigation systems to practice design.
+
+ 
+
+
+
+
+
+
+
+
+
+
+Agriculture Research
+  
+What is This Career All About?
+•	Scientific Core: This is a high-tech pursuit involving Plant Scientists and Biotechnologists decoding plant "blueprints" to solve global challenges.
+•	Climate Resilience: Research focuses on developing crops that thrive with 50% less water, resist extreme heatwaves, and have extended shelf lives via gene editing.
+•	National Security: In a nation of 1.4 billion, these "Doctors of the Green World" ensure food security by maximizing yields on shrinking arable land.	Scan Me
+
+Who Should Consider This Career?
+•	Curiosity: Observe plants carefully and study their growth.
+•	Persistence: Stay patient even if experiments fail.
+•	Accuracy: Follow rules and record data correctly.
+•	Analysis: Use statistics and software to check results.
+•	Ethics: Be honest and care about environment and people’s health.	Key Responsibilities & Work Process 
+•	Hypothesis & Lab Work: Identifying agricultural threats and decoding plant DNA or pathogens under controlled laboratory settings.
+•	Tiered Testing: Scaling from high-tech greenhouse trials to diverse, multi-climatic field trials across India.
+•	Approval & Extension: Securing government certification (e.g., GEAC) and educating farmers on optimizing new crop varieties.
+
+
+ 
+What Will It Cost?
+•	Tuition Fees: Government universities cost ₹20,000–₹1.5 lakh; private ₹5–12 lakh.
+•	Duration: 4 years B.Sc, 2 years M.Sc, 3–5 years Ph.D.
+•	Stipend: Living costs ₹10,000–₹20,000 monthly; research students earn ₹31,000–₹35,000 per month.	Scholarship Opportunities
+•	The ICAR National Talent Scholarship (NTS): NTS helps agriculture students studying in other states.
+•	JRF: CSIR-UGC NET gives monthly money for Ph.D. study.
+•	Corteva: ₹50,000 yearly for girls in agriculture postgraduation.
+•	Global: Fulbright and Commonwealth fund study in USA and UK.
+
+ 
+
+Key Challenges
+•	Extended Timelines: Developing and stabilizing a single new seed variety is a marathon, often requiring 7 to 12 years of research.
+•	Regulatory Complexity: Navigating strict government approvals and ethical clearances for Genetically Modified (GM) crops remains a significant hurdle.
+•	Physical Demands: Requires high stamina for extended hours conducting field trials and greenhouse monitoring under intense heat.	Start Now (Class 9–12)
+•	Science Fairs: Participate in school biology projects. Try growing a plant under different lights.
+•	Read Up: Follow journals like Nature Plants or Indian sites like PIB (Science & Tech section).
+•	Basic Coding: Learn R or Python. Modern plant research relies heavily on data analysis.
+•	Gardening: Start your own vegetable patch. Understanding a plant’s life cycle first-hand is the best lesson.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Animal / Veterinary Science
+ 
+What is This Career All About?
+•	Beyond Clinical Care: It is the scientific study of animal biology, management, and welfare, covering everything from domestic pets to large-scale livestock systems.
+•	A National Pillar: Professionals safeguard India’s food supply, prevent zoonotic diseases (like Rabies), and lead wildlife conservation efforts.
+•	Economic Backbone: As a global leader in dairy, India relies on these experts to ensure healthy, productive animals for sustainable and ethical exports in the 21st century.	Scan Me
+
+Who Should Consider This Career?
+•	Empathy & Observation: Deep compassion for non-verbal creatures and a keen eye for subtle behavioural or physical changes.
+•	Resilience: High stamina for long hours and the physical strength to handle large, stressed livestock.
+•	Critical Thinking: Calm, decisive action during emergencies and the ability to simplify complex medical data for pet owners.	Key Responsibilities & Work Process 
+•	Clinical Care: Diagnosing ailments via exams and imaging, then executing surgical or medicinal treatment plans.
+•	Preventive Health: Managing vaccinations, deworming, and tailored nutrition programs for livestock and pets.
+•	Public Safety: Monitoring "Zoonotic" diseases to prevent health crises from jumping from animal populations to humans.
+
+ 
+What Will It Cost?
+•	Tuition Fees: Government colleges cost ₹30,000–₹1.5 lakh; private ₹10–25 lakh.
+•	Living: Monthly hostel expenses are ₹10,000–₹18,000.
+•	Coaching: NEET coaching may cost ₹50,000–₹1 lakh.
+•	Equipment: Extra money needed for medical tools like stethoscope.	Scholarship Opportunities
+•	ICAR National Talent Scholarship (NTS): ₹3,000 per month for students studying in another state.
+•	Fellowship: ICAR-JRF/SRF gives up to ₹35,000 monthly for higher research.
+•	Merit: VCI scholarship for top All-India Quota students.
+•	Category: NSP gives Post-Matric help to SC, ST, and OBC students.
+
+
+ 
+Key Challenges
+•	Physical Risks: Professionals face regular occupational hazards, including the potential for being bitten, kicked, or scratched by stressed or frightened animals.
+•	Emotional Toll: Managing terminal illnesses and facilitating "end-of-life" decisions or euthanasia requires significant mental resilience and compassion.
+•	Unpredictable Schedule: Veterinary emergencies and livestock crises often demand irregular, long hours that extend far beyond a standard 9-to-5 workday.	Start Now (Class 9–12)
+•	Practical Exposure: Volunteer at local animal shelters or gaushalas to gain hands-on experience with animal behaviour and care.
+•	Academic Foundation: Focus intensely on Biology, specifically mastering chapters on the Animal Kingdom and Physiology.
+•	Soft Skills: Join debate or public speaking clubs to refine your ability to communicate complex medical information clearly to pet owners.
+•	Digital Literacy: Familiarize yourself with health-tracking apps and data tools used in modern veterinary diagnostics.
+
+ 
+
+
+
+
+
+
+
+
+
+Apiculture
+ 
+What is This Career All About?
+•	Meaning: Apiculture means keeping bees to produce honey and other bee products.
+•	Role: Beekeepers manage bee colonies and collect honey safely.
+•	Pollination: Bees help grow one-third of the food we eat.
+•	India: India is the 7th largest honey producer with many beekeepers.
+•	Future: A modern career mixing biology, farming, business, and sustainability.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Interest: Love nature, biology, and outdoor work.
+•	Personality: Patient, calm, and ready to start own business.
+•	Soft Skills: Good observation, problem-solving, and communication.
+•	Hard Skills: Learn bee care, disease control, honey processing, and marketing.
+•	Check: Okay with hands-on work and occasional bee stings.	Key Responsibilities & Work Process 
+•	Inspection: Check hive health weekly.
+•	Feeding: Feed bees during lean seasons.
+•	Harvest: Collect honey 2–4 times yearly.
+•	Health: Control pests and diseases regularly.
+•	Pollination: Provide farm pollination seasonally.
+•	Sales: Bottle and sell honey often.
+•	Maintenance: Clean and repair equipment monthly.
+•	Records: Keep daily colony notes.
+
+ 
+What Will It Cost?
+•	Course: Certificate ₹2,000–₹25,000; B.Sc ₹15,000–₹1.5 lakh yearly; M.Sc ₹10,000–₹80,000 yearly.
+•	KVIC: Short training free or ₹500.
+•	Starter: Bee boxes and tools cost ₹25,000–₹60,000.
+•	License: FSSAI registration ₹2,000–₹5,000.
+•	Living: ₹5,000–₹8,000 monthly hostel.	Scholarship Opportunities
+•	NSP: Income-based help for students from Class 9 onward.
+•	ICAR: JRF/SRF support for M.Sc. and Ph.D. students.
+•	NABARD: Fellowship for graduates working in rural farming.
+•	KVIC: Subsidy and stipend for SC/ST, women, rural youth.
+•	Mudra: Loan for starting bee business.
+•	Tribal: Aid for ST students.
+
+ 
+
+Key Challenges 
+•	Seasonal: Income depends on flowers and weather.
+•	Health: Bee stings and allergies are risks.
+•	Losses: Pesticides and diseases can kill colonies.
+•	Prices: Honey rates change due to imports.
+•	Awareness: Many see it as small work.
+•	Infrastructure: Poor storage affects quality.
+•	Quality: Adulteration issues harm trust.	Start Now (Class 9–12) 
+•	Academic: Study Biology, Chemistry, and pollination topics.
+•	Visit: Go to KVK or local bee farms.
+•	Project: Do school projects on bees and plants.
+•	Online: Watch ICAR videos and take free courses.
+•	Read: Use bee books from libraries.
+•	Activities: Join NCC/NSS camps.
+•	Business: Learn basic profit and loss.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Aquaculture
+ 
+What is This Career All About?
+•	Aquaculture involves farming aquatic organisms (fish, shrimp, crabs, oysters) under controlled conditions, managing their full lifecycle.
+•	India is the world's 3rd-largest fish producer and 4th-largest seafood exporter, with vast natural water resources. 
+•	The Indian aquaculture market stood at 14.4 million tons (2024) and is projected to nearly double by 2033. 
+•	Government's PMMSY scheme targets 55 lakh new fisheries jobs by 2025. 
+•	Demand for trained aquaculture professionals in India is urgent and growing.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Observant, patient, independent, physically fit, and comfortable outdoors. 
+•	Soft Skills: Attention to detail, problem-solving, communication, and basic business sense. 
+•	Hard Skills: Water quality, fish nutrition, disease identification, hatchery operations, and aquaculture technology. 
+•	Caution: Unsuitable for those preferring exclusive office environments or avoiding physical, outdoor fieldwork.	Key Responsibilities & Work Process 
+•	Pre-Stocking: Prepare ponds, test water, and source certified fingerlings/spawn. 
+•	Growing: Monitor water quality, manage feeding, observe health, maintain equipment, and log data. 
+•	Harvest: Plan timing, supervise sorting, handle post-harvest packaging, and coordinate with buyers. 
+•	Cross-Cutting: Manage waste, supervise staff, track finances, and liaise with government departments.
+
+ 
+What Will It Cost?
+•	Diploma: Govt ₹5,000–₹25,000/year; private ₹20,000–₹80,000/year.
+•	Bachelor: Govt ₹20,000–₹50,000; private ₹50,000–₹1.5 lakh yearly.
+•	Master: Govt ₹30,000–₹60,000; private ₹60,000–₹2 lakh yearly.
+•	PhD: ₹10,000–₹30,000 yearly; JRF stipend available.
+•	Living: ₹4,000–₹12,000 per month.
+•	Extras: Coaching, certificates, field tools cost extra.	Scholarship Opportunities
+•	Central: ST, ICAR-JRF, and ex-servicemen students apply through NSP or ICAR.
+•	Institutional: CIFE and ICAR universities give merit scholarships.
+•	State: Andhra, Kerala, Tamil Nadu offer fisheries scholarships.
+•	Corporate: Companies like Avanti and Waterbase give fellowships.
+•	Verify: Always check official websites for latest details.
+
+ 
+
+Key Challenges 
+•	Weather: Floods, cyclones, and diseases can destroy fish farms.
+•	Physical: Work needs fitness and comfort outdoors.
+•	Location: Jobs are mostly in coastal or rural areas.
+•	Prices: Fish rates change due to global markets.
+•	Awareness: Many students don’t know about scholarships.
+•	Rules: Export work needs many safety documents.	Start Now (Class 9–12)
+•	Academic: Learn Biology, Chemistry, and ecology carefully.
+•	Practice: Visit fish farms and join science fairs.
+•	Online: Take free courses on NPTEL and ICAR websites.
+•	Competitions: Join INSPIRE Awards and science olympiads.
+•	Reading: Read CMFRI and fish industry websites regularly.
+
+ 
+
+
+
+
+
+
+
+
+
+Dairy Technology
+  
+What is This Career All About?
+•	More Than Farming: A specialized branch of food science focused on the high-tech processing, packaging, and distribution of milk and products like cheese and yogurt.
+•	The Guardian Role: Technologists act as scientists and quality controllers, ensuring milk is safe, nutrient-dense, and spoilage-free.
+•	National Mission: In India, the world’s largest producer, these professionals serve as the backbone of the industry, transforming raw milk into global-standard dairy goods.	Scan Me
+
+Who Should Consider This Career?
+•	Precision & Ethics: Sharp attention to detail for chemical testing and unwavering integrity, as you are directly responsible for consumer health.
+•	Scientific Stamina: A strong foundation in Biology and Chemistry, with the physical endurance to work in cold storage or factory environments.
+•	Critical Thinking: Expert problem-solving skills to troubleshoot production issues, like fermentation failures.	Key Responsibilities & Work Process 
+•	Procurement & Processing: Collecting raw milk for immediate cooling, followed by pasteurization, homogenization, and vitamin fortification.
+•	Value Addition: Transforming raw milk into premium products like cheese, paneer, and ghee.
+•	Quality & Logistics: Conducting rigorous lab testing at every stage and managing the "cold chain" to ensure products remain chilled until delivery.
+
+ 
+What Will It Cost?
+•	Tuition (Government): ₹20,000–₹1.5 lakh for full 4-year degree.
+•	Private Fees: ₹5–12 lakh total in private colleges.
+•	Living: ₹10,000–₹20,000 monthly for food and hostel.
+•	Coaching: Exam preparation costs ₹50,000–₹1 lakh.	Scholarship Opportunities
+•	ICAR National Talent Scholarship (NTS): NTS: ₹3,000 monthly for UG and ₹5,000 for PG students studying in another state.
+•	NDRI: Around ₹7,560 monthly for Master’s students with research support.
+•	Means: ₹1,000 monthly for low-income students.
+•	State: NSP gives fee waivers and allowances by income and category.
+
+ 
+
+
+Key Challenges
+•	Continuous Operations: Due to high perishability, processing runs 24/7, requiring rotating shift work and night duties.
+•	Extreme Environments: Workspaces fluctuate between high-heat boiler zones and sub-zero cold storage units.
+•	Critical Stakes: High-pressure environments where minor errors can cause massive financial losses or brand-damaging safety crises.	Start Now (Class 9–12)
+•	Academic Focus: Master Organic Chemistry and Biomolecules, as these form the core of milk science.
+•	Soft Skills: Develop strong English communication for technical reporting and leadership.
+•	Practical Foundation: Take school lab sessions seriously and experiment at home with fermentation and temperature to observe milk's transformation.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Florist
+ 
+What is This Career All About?
+•	Florists select, arrange, and present flowers for weddings, events, hotels, gifting, and decoration. 
+•	It combines creativity with practical skills like colour theory, plant biology, and digital marketing. 
+•	India's floriculture market was worth ₹292 billion in 2024 and is expected to reach ₹744 billion by 2033. 
+•	Growth is driven by weddings, rising incomes, hotels, cafés, and online gifting platforms. 
+•	Globally, the floriculture industry is valued at over USD 57 billion. 
+•	Best suited for creative, nature-loving, and entrepreneurial individuals.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Creative, love nature, friendly, and interested in business.
+•	SoftSkills: Good at creativity, customer service, teamwork, and time management.
+•	HardSkills: Know flowers, arrangements, colours, marketing, and basic accounts.
+•	Caution: Not good for those who dislike early mornings or dealing with customers.	Key Responsibilities & Work Process 
+•	Buying: Purchase fresh flowers from farms or markets.
+•	Storage: Clean and store flowers properly.
+•	Design: Arrange flowers as per customer needs.
+•	Orders: Take bookings and give price details.
+•	Delivery: Pack and deliver on time.
+•	Business: Handle stock, money, social media, and staff.
+
+ 
+What Will It Cost? 
+•	Certificate: Govt ₹5,000–₹20,000; private ₹20,000–₹60,000.
+•	Diploma: Govt ₹10,000–₹30,000; private ₹30,000–₹1 lakh yearly.
+•	Degree: Govt ₹20,000–₹50,000; private ₹50,000–₹2 lakh yearly.
+•	Masters: Govt ₹20,000–₹60,000; private ₹60,000–₹2 lakh yearly.
+•	Living: ₹5,000–₹15,000 monthly.
+•	Tools: ₹3,000–₹10,000; some courses free.	Scholarship Opportunities 
+•	Central: NSP and PMKVY give scholarships and free training.
+•	State: Flower-growing states give subsidies through agriculture portals.
+•	Institution: IARI and universities give fee waivers; Pearl offers merit aid.
+•	Corporate: Companies sponsor students for future jobs.
+•	Verify: Check official websites every year for updates.
+
+ 
+Key Challenges
+•	Perishability: Unsold flowers cause direct money loss.
+•	Physical: Work needs early mornings and long standing hours.
+•	Seasonal: Earnings rise in wedding season, fall off-season.
+•	Salary: Starting pay is low; business gives better income.
+•	Competition: Street sellers create tough price competition.
+•	Recognition: No national certificate, so skills undervalued.	Start Now (Class 9–12)
+•	Study: Learn botany, colours, and art in school.
+•	Practice: Arrange flowers at home and help in events.
+•	Online: Learn from YouTube and design websites.
+•	Portfolio: Take photos and create an Instagram page.
+•	Competitions: Join art fairs and workshops.
+•	Reading: Follow flower news and design books.
+
+ 
+
+
+
+
+
+
+
+
+
+
+Food Science 
+ 
+
+What is This Career All About?
+•	Food Science ensures our food is safe, nutritious, and long-lasting. In India, this field is critical for reducing the 30% spoilage rate of our vast production.
+•	The Science: Studies food's biological and chemical makeup.
+•	The Technology: Applies research to preserve, process, and distribute food safely.
+•	The Impact: Creates healthier snacks, fortifies crops against malnutrition, and manages global food security.
+•	The Role: Acts as the vital bridge between farms and consumers.	Scan Me
+
+Who Should Consider This Career?
+•	Scientific Curiosity: Passion for Biology, Chemistry, and analyzing nutritional data.
+•	Keen Senses: Utilizing a sensitive palate and sharp observational skills.
+•	Problem-Solver: Diagnosing chemical reactions like spoilage or baking failures.
+•	Precision & Ethics: Ensuring public health through meticulous measurements and integrity.
+•	Creativity: Innovating new products, like plant-based alternatives.	Key Responsibilities & Work Process 
+•	Selection: Choosing high-quality raw materials like grains, fruits, and dairy.
+•	Product Development: Innovating and testing new recipes within a laboratory setting.
+•	Processing: Utilizing thermal or drying techniques to ensure long-term preservation.
+•	Quality Assurance: Hourly testing for bacterial and chemical safety compliance.
+•	Packaging: Designing secure, attractive containers to maintain food integrity.
+
+ 
+What Will It Cost?
+•	Fees: Government colleges cost ₹40,000–₹2 lakh; private ₹5–15 lakh for 4 years.
+•	Living: Hostel and food cost ₹12,000–₹22,000 monthly.
+•	Extras: ₹40,000–₹80,000 needed for lab tools and HACCP/ISO certificates.	Scholarship Opportunities
+•	NSP: ₹12,000–₹20,000 yearly for meritorious students.
+•	NIFTEM: 100% fee waiver plus ₹1,000 monthly stipend.
+•	Corteva: Up to ₹50,000 for girls’ education costs.
+•	Elite: Aditya Birla and Foundation for Excellence give funding and mentorship.
+
+ 
+
+Key Challenges
+•	Shift Work: Production facilities operate 24/7, frequently requiring night or weekend shifts.
+•	Zero Error Margin: Stringent food safety standards leave no room for error; mistakes can cause national recalls.
+•	Physical Demands: Expect long hours standing in extreme factory environments, ranging from industrial heat to cold storage.	Start Now (Class 9–12)
+•	Chemistry Focus: Master titration and pH testing, as they are essential for daily laboratory analysis.
+•	Home Experiments: Practice making preserves to observe how sugar and salt function as preservatives.
+•	Analyze Labels: Maintain a "Label Diary" to compare ingredients across different commercial brands.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Horticulture
+ 
+What is This Career All About?
+•	Definition: Horticulture is the science and business of growing fruits, vegetables, flowers, herbs, and ornamental plants. 
+•	Role: Horticulturists study plant biology, improve farming techniques, manage greenhouses, and develop better crop varieties. 
+•	India: Second-largest producer of fruits and vegetables globally, leading in mangoes, bananas, and pomegranates. 
+•	Production: India produced 369 million tonnes of horticultural crops in 2024–25. 
+•	Economy: Horticulture contributes 33% to agriculture's total economic value in India. 	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Personality: Love science, nature, and care about food and environment.
+•	SoftSkills: Good at observing, thinking clearly, teamwork, and writing reports.
+•	HardSkills: Know plant science, soil, grafting, pest control, and farming tools.
+•	Caution: Not good for those who only want indoor desk jobs.	Key Responsibilities & Work Process 
+•	Planning: Check soil, choose crops, and plan watering.
+•	Monitoring: Watch plant growth and control pests.
+•	Research: Do experiments and guide farmers.
+•	Extension: Visit farms and help with government schemes.
+•	Landscape: Design gardens and manage planting teams.
+
+ 
+What Will It Cost?
+•	Certificate: Govt ₹5,000–₹15,000; private ₹15,000–₹40,000.
+•	Diploma: Govt ₹15,000–₹50,000; private ₹30,000–₹80,000 yearly.
+•	Degree: Govt ₹40,000–₹1.5 lakh; private ₹60,000–₹2 lakh yearly.
+•	Masters: Govt ₹60,000–₹2.5 lakh; private ₹80,000–₹3 lakh yearly.
+•	PhD: ₹10,000–₹30,000 yearly plus stipend.
+•	Extras: Coaching and tools cost extra.	Scholarship Opportunities
+•	Central: NSP, ICAR-JRF, PMSS, and INSPIRE give scholarships across India.
+•	State: States like Maharashtra and Karnataka offer merit aid and free coaching.
+•	Institution: IARI and universities give fee waivers for SC/ST/OBC students.
+•	Corporate: Mahindra and Bayer offer fellowships and stipends.
+•	Verify: Check official websites every year.
+
+ 
+Key Challenges
+•	Nature: Storms, pests, and diseases can ruin months of hard work suddenly. 
+•	Salary: Starting pay is low (₹11,000–₹15,000/month); government jobs are stable but hard to get. 
+•	Physical: Field work needs good stamina in all weather conditions. 
+•	Location: Government jobs often mean living in rural or remote areas. 
+•	Losses: India wastes 15–20% of produce post-harvest, creating big innovation opportunities.	Start Now (Class 9–12)
+•	Academic: Learn Biology, Chemistry, and plant chapters well.
+•	Practice: Grow a kitchen garden and keep a plant diary.
+•	Online: Use NPTEL and ICAR websites to learn.
+•	Competitions: Join science fairs and farm visits.
+•	Reading: Read nature magazines and ICAR reports regularly.
+
+ 
+
+
+
+
+
+
+
+
+
+
+Poultry
+ 
+What is This Career All About?
+•	Definition: Poultry farming raises chickens, ducks, quails, and turkeys for eggs, meat, or both. 
+•	Scale: Ranges from small backyard farms to large commercial hatcheries and export businesses. 
+•	India: Ranks 3rd globally in egg production and 8th in broiler meat production. 
+•	Production: India produces 140 billion eggs and 4.5 million tonnes of broiler meat meat annually. 
+•	Market: Valued at ₹2.3 lakh crore in 2024, projected to reach ₹8,430 billion by 2033. 
+•	Opportunity: A fast-growing, technology-driven industry needing skilled professionals at every level.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Organised, analytical, animal-loving, communicative, and comfortable with farm environments. 
+•	Soft Skills: Attention to detail, problem-solving, record-keeping, and patience for seven-days-a-week work. 
+•	Hard Skills: Bird nutrition, disease prevention, vaccination, shed management, hatchery operations, and basic accounting. 
+•	Caution: Not suitable for those uncomfortable with animal-based work, farm smells, or managing bird mortality.	Key Responsibilities & Work Process
+•	Preparation: Clean sheds and disinfect before new chicks arrive.
+•	Flock: Care for chicks, manage heat, feed, and growth.
+•	Health: Give vaccines and keep the farm disease-free.
+•	Records: Note deaths, feed use, and growth daily.
+•	Harvest: Manage egg or bird sales and prices.
+•	Business: Buy supplies and handle money.
+
+ 
+What Will It Cost?
+•	Training: KVK/NABARD courses free or up to ₹10,000; PMKVY free.
+•	Diploma: Govt ₹5,000–₹20,000; private ₹15,000–₹50,000 yearly.
+•	Degree: B.Sc ₹10,000–₹1.5 lakh; B.V.Sc ₹15,000–₹4 lakh yearly.
+•	Masters: ₹15,000–₹2 lakh yearly.
+•	Startup: ₹10,000–₹8 lakh for farm.
+•	Subsidy: Govt gives up to 50% support.	Scholarship Opportunities
+•	Central: NSP, PMKVY, ICAR-JRF give money and free training.
+•	State: Andhra, Tamil Nadu, Punjab give subsidies and stipends.
+•	Institution: IVRI, TANUVAS, PAU offer merit fee waivers.
+•	Corporate: Suguna and Cargill give scholarships and training.
+•	Verify: Check official websites every year.
+
+ 
+Key Challenges
+•	Disease: Bird flu and Newcastle Disease can destroy entire flocks, causing total financial loss. 
+•	Prices: Egg and chicken prices fluctuate seasonally; contract farming reduces but limits earnings. 
+•	Feed: Feed costs are 65–70% of expenses; rising maize prices instantly cut profits. 
+•	Regulations: Large farms need pollution clearance and must manage waste legally. 
+•	Welfare: Growing pressure exists around cage-free eggs and antibiotic-free farming standards.	Start Now (Class 9–12)
+•	Academic: Study Biology, Chemistry, and Maths — essential for nutrition, disease, and farm records. 
+•	Practical: Start a backyard flock, visit farms, and attend free KVK training workshops. 
+•	Online: Use NPTEL, ICAR e-Krishi Shiksha, and ICAR Poultry Research YouTube channel freely. 
+•	Competitions: Enter science fairs on poultry nutrition and join NABARD Young Farmers programmes. 
+•	Reading: Follow The Poultry Site and Krishi Jagran for practical updates.
+
+ 
+
+
+
+
+
+
+
+
+
+Sericulture
+ 
+What is This Career All About?
+•	Meaning: Sericulture means rearing silkworms to produce silk.
+•	Process: Grow mulberry, feed worms, collect cocoons, make silk thread.
+•	India: India is the second-largest silk producer and biggest consumer.
+•	Uses: Silk is used in sarees, fashion, hospitals, and defence.
+•	Careers: Jobs include farmer, scientist, entrepreneur, or officer.
+•	Employment: Gives jobs to over 90 lakh people.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Patient, careful, and interested in biology.
+•	Workstyle: Ready for field and lab work.
+•	Soft Skills: Disciplined, adaptable, and good at problem-solving.
+•	Hard Skills: Learn silkworm care, mulberry farming, cocoon grading, and marketing.
+•	Check: Enjoy biology practicals and early physical work.	Key Responsibilities & Work Process 
+•	Garden: Care for mulberry plants daily.
+•	Feeding: Feed silkworms several times daily.
+•	Health: Check and remove sick worms.
+•	Climate: Monitor temperature and humidity.
+•	Harvest: Collect and grade cocoons every cycle.
+•	Market: Coordinate with cocoon buyers weekly.
+•	Reeling: Prepare silk thread regularly.
+•	Records: Maintain daily documents.
+
+ 
+What Will It Cost?
+•	Course: Certificate ₹1,000–₹20,000; B.Sc ₹10,000–₹1.2 lakh yearly; M.Sc ₹8,000–₹70,000 yearly.
+•	Training: Govt CSR&TI courses free or low cost.
+•	Starter: Rearing kit ₹15,000–₹40,000.
+•	Farm: Mulberry planting ₹8,000–₹15,000 per acre.
+•	Reeling: Unit costs ₹50,000–₹2 lakh.
+•	Living: ₹4,000–₹7,000 monthly hostel.	Scholarship Opportunities
+•	NSP: NSP: Income-based help for SC/ST/OBC/Minority students from Class 9.
+•	ICAR: JRF support for PG agriculture students.
+•	CSB: Merit scholarship for B.Sc./M.Sc. sericulture students.
+•	NABARD: Fellowship for rural silk graduates.
+•	Tribal: Support for ST silk students.
+•	KVIC: Skill grants for rural youth.
+
+ 
+Key Challenges 
+•	Weather: Heat or rain can destroy silkworm crops.
+•	Disease: Infections can wipe out worms quickly.
+•	Labour: Feeding worms many times daily is tiring.
+•	Prices: Cocoon rates change often.
+•	Competition: China’s silk creates price pressure.
+•	Awareness: Seen as low-status work.
+•	Infrastructure: Lack of machines and storage.	Start Now (Class 9–12) 
+•	Academic: Focus on Biology, insects, and plants.
+•	Visit: See silk farms in Karnataka or Assam.
+•	Project: Rear silkworms for science fair.
+•	Online: Watch CSB videos and free courses.
+•	Read: Use silk handbooks and updates.
+•	Skills: Learn Excel and data recording.
+•	Exposure: Join Krishi Melas and learn local language.
+
+ 
+
+
+
+
+
+
+
+
+
+
+Vertical Farming
+ 
+What is This Career All About?
+•	Definition: Vertical farming grows crops in stacked indoor layers using hydroponics, aeroponics, and aquaponics — no soil needed. 
+•	Hydroponics: Plants grow in nutrient-rich water without soil. 
+•	Aeroponics: Roots hang in air and receive nutrient mist — fastest and most water-efficient method. 
+•	Aquaponics: Fish waste fertilizes plants above, creating a self-sustaining food cycle. 
+•	India: Market valued at USD 82.7 million (2024), expected to reach USD 579.7 million by 2033. 
+•	Policy: Government officially included vertical farming under MIDH in December 2024.	Scan Me
+
+Who Should Consider This Career?
+•	Personality: Science-loving, detail-oriented, tech-comfortable, problem-solving, and entrepreneurially minded. 
+•	Soft Skills: Record-keeping, client communication, team coordination, and adaptability to fast-changing practices. 
+•	Hard Skills: Nutrient chemistry, plant physiology, aquaculture basics, IoT monitoring, and LED lighting management. 
+•	Caution: Not suitable for those uninterested in water chemistry, plant nutrition, or technical problem-solving.	Key Responsibilities & Work Process 
+•	Setup: Choose technology, design layout, install infrastructure, and commission the entire system. 
+•	Operations: Monitor daily sensor dashboards and adjust nutrient solutions accordingly. 
+•	Crops: Manage full crop cycles, harvest, pack, dispatch, and sterilize systems between cycles. 
+•	Maintenance: Service pumps, lights, and sensors; troubleshoot failures and optimize energy use. 
+•	Business: Manage costs, client relationships, sourcing, and social media presence.
+
+ 
+What Will It Cost?
+•	Certificate: PMKVY free–₹20,000; private ₹20,000–₹60,000.
+•	Diploma: Govt ₹15,000–₹50,000; private ₹30,000–₹1 lakh yearly.
+•	Degree: B.Sc/B.Tech ₹40,000–₹3 lakh yearly.
+•	Startup: Home unit ₹60,000; small vertical farm ₹15–50 lakh.
+•	Extras: Sensors, lights, certificates cost extra.	Scholarship Opportunities
+•	Central: Central: NSP, PMKVY, INSPIRE, ICAR-JRF give money for agri-tech students.
+•	State: Karnataka and others give subsidies; NHB pays up to 50% farm cost.
+•	Institution: IARI and TNAU offer merit scholarships.
+•	Corporate: UrbanKisaan and FAO give paid internships.
+
+ 
+Key Challenges 
+•	Capital: Setting up even a small vertical farm costs ₹15–₹50 lakh. 
+•	Electricity: Constant power needs make outages and high bills risky. 
+•	Complexity: Combining plant science, aquaculture, and water chemistry is technically tough. 
+•	Training: No dedicated programmes exist; most learning is self-directed. 
+•	Market: Convincing Indian buyers to pay premium prices takes time. 
+•	Crops: Only herbs and leafy greens are economically practical.	Start Now (Class 9–12) 
+•	Academic: Master Biology, Chemistry, and Physics — especially plant physiology and water chemistry. 
+•	Practical: Build a home hydroponic system for ₹500–₹1,000; visit urban farms in Bengaluru or Pune. 
+•	Online: Use NPTEL, YouTube (UrbanKisaan), Coursera, and ICAR e-Krishi Shiksha for free learning. 
+•	Competitions: Compare soil vs. hydroponics growth for science fairs; start a school aquaponics club. 
+•	Reading: Follow The Better India agriculture section and Krishi Jagran for India-specific updates.`;
+
+function slugify(text) {
+  if (text.toLowerCase() === "animal / veterinary science") return "animal_science";
+  if (text.toLowerCase() === "agricultural engineering") return "agricultural_engineer";
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+}
+
+const lines = rawText.split('\n');
+const careers = [];
+let currentCareer = null;
+
+for (let i = 0; i < lines.length; i++) {
+  const line = lines[i].trim();
+  if (line === "What is This Career All About?") {
+    let title = "";
+    for (let j = i - 1; j >= 0; j--) {
+      if (lines[j].trim() !== "") {
+        title = lines[j].trim();
+        break;
+      }
+    }
+    currentCareer = {
+      name: title,
+      slug: slugify(title),
+      what: [],
+      who: [],
+      responsibilities: [],
+      cost: [],
+      scholarships: [],
+      challenges: [],
+      startnow: []
+    };
+    careers.push(currentCareer);
+  }
+}
+
+for (let i = 0; i < careers.length; i++) {
+  const c = careers[i];
+  const startIdx = lines.findIndex((l, index) => l.includes("What is This Career All About?") && lines.slice(Math.max(0, index-3), index).some(x => x.includes(c.name)));
+  const nextIdx = i < careers.length - 1 
+    ? lines.findIndex((l, index) => index > startIdx && l.includes("What is This Career All About?")) 
+    : lines.length;
+    
+  const careerBlock = lines.slice(startIdx, nextIdx);
+  
+  let mode = null;
+  for (const line of careerBlock) {
+    if (line.includes("What is This Career All About?")) mode = "what";
+    else if (line.includes("Who Should Consider This Career?")) mode = "who";
+    else if (line.includes("Key Responsibilities & Work Process")) mode = "responsibilities";
+    else if (line.includes("What Will It Cost?")) mode = "cost";
+    else if (line.includes("Scholarship Opportunities")) mode = "scholarships";
+    else if (line.includes("Key Challenges")) mode = "challenges";
+    else if (line.includes("Start Now (Class 9–12)")) mode = "startnow";
+    else if (line.startsWith("•")) {
+      let cleaned = line.replace(/^[•\t\s]+/, "").trim();
+      cleaned = cleaned.replace(/\s+Scan Me$/, "");
+      if (mode && c[mode]) {
+        c[mode].push(cleaned);
+      }
+    }
+  }
+}
+
+let generatedCode = "import { CareerPageData } from './careerPageData';\n\nconst RED = \"#C20000\";\nconst RED2 = \"#DA1313\";\n\nexport const agricultureUpdateData: Record<string, CareerPageData> = {\n";
+
+careers.forEach(c => {
+  generatedCode += "  " + c.slug + ": {\n";
+  generatedCode += "    slug: \"" + c.slug + "\",\n";
+  generatedCode += "    badge: \"🌾 Career Exploration for Class 10+\",\n";
+  generatedCode += "    heading: \"" + c.name + "\",\n";
+  generatedCode += "    subheading: " + JSON.stringify(c.what[0] || "") + ",\n";
+  generatedCode += "    whyCards: [\n";
+  generatedCode += "      { icon: \"Sprout\", title: \"Modern Farming\", description: \"Impactful work to ensure global food security sustainably.\", borderColor: \"#10B981\" },\n";
+  generatedCode += "      { icon: \"Globe\", title: \"National Growth\", description: \"Contribute directly to India's fastest-growing agricultural revolutions.\", borderColor: \"#059669\" }\n";
+  generatedCode += "    ],\n";
+  generatedCode += "    quickFacts: [\n";
+  generatedCode += "      { label: \"Duration\", detail: \"Check specific courses\", color: \"bg-green-100 text-green-700\" },\n";
+  generatedCode += "      { label: \"Personality\", detail: \"Patient, observant, resilient\", color: \"bg-blue-100 text-blue-700\" }\n";
+  generatedCode += "    ],\n";
+  generatedCode += "    statCards: [\n";
+  generatedCode += "      { value: \"High\", label: \"Industry Demand\", gradient: \"from-green-500 to-green-600\" }\n";
+  generatedCode += "    ],\n";
+  generatedCode += "    guideSections: [\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"what\",\n";
+  generatedCode += "        title: \"What is This Career All About?\",\n";
+  generatedCode += "        icon: \"Target\",\n";
+  generatedCode += "        description: \"Understanding the core focus and national priority of this profession.\",\n";
+  generatedCode += "        color: RED,\n";
+  generatedCode += "        content: " + JSON.stringify(c.what) + "\n";
+  generatedCode += "      },\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"who\",\n";
+  generatedCode += "        title: \"Who Should Consider This Career?\",\n";
+  generatedCode += "        icon: \"User\",\n";
+  generatedCode += "        description: \"Essential traits and skills required for success.\",\n";
+  generatedCode += "        color: RED2,\n";
+  generatedCode += "        content: " + JSON.stringify(c.who) + "\n";
+  generatedCode += "      },\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"responsibilities\",\n";
+  generatedCode += "        title: \"Key Responsibilities & Work Process\",\n";
+  generatedCode += "        icon: \"Briefcase\",\n";
+  generatedCode += "        description: \"Day-to-day work from inputs to final execution.\",\n";
+  generatedCode += "        color: RED,\n";
+  generatedCode += "        content: " + JSON.stringify(c.responsibilities) + "\n";
+  generatedCode += "      },\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"cost\",\n";
+  generatedCode += "        title: \"What Will It Cost?\",\n";
+  generatedCode += "        icon: \"IndianRupee\",\n";
+  generatedCode += "        description: \"A complete look at educational and living expenses.\",\n";
+  generatedCode += "        color: RED2,\n";
+  generatedCode += "        content: " + JSON.stringify(c.cost) + "\n";
+  generatedCode += "      },\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"scholarships\",\n";
+  generatedCode += "        title: \"Scholarship Opportunities\",\n";
+  generatedCode += "        icon: \"Award\",\n";
+  generatedCode += "        description: \"Financial aid to help speed up your education journey.\",\n";
+  generatedCode += "        color: RED,\n";
+  generatedCode += "        content: " + JSON.stringify(c.scholarships) + "\n";
+  generatedCode += "      },\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"challenges\",\n";
+  generatedCode += "        title: \"Key Challenges\",\n";
+  generatedCode += "        icon: \"AlertTriangle\",\n";
+  generatedCode += "        description: \"The difficult realities you must be ready to face.\",\n";
+  generatedCode += "        color: RED2,\n";
+  generatedCode += "        content: " + JSON.stringify(c.challenges) + "\n";
+  generatedCode += "      },\n";
+  generatedCode += "      {\n";
+  generatedCode += "        id: \"startnow\",\n";
+  generatedCode += "        title: \"Start Now (Class 9–12)\",\n";
+  generatedCode += "        icon: \"Rocket\",\n";
+  generatedCode += "        description: \"Actionable steps you can take today.\",\n";
+  generatedCode += "        color: RED,\n";
+  generatedCode += "        content: " + JSON.stringify(c.startnow) + "\n";
+  generatedCode += "      }\n";
+  generatedCode += "    ]\n";
+  generatedCode += "  },\n";
+});
+
+generatedCode += "};\n";
+
+fs.writeFileSync('app/data/agricultureUpdateData.ts', generatedCode);
+console.log("Successfully generated app/data/agricultureUpdateData.ts!");
