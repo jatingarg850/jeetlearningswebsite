@@ -1,13 +1,13 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { CareerGuideSection } from "@/app/data/careerPageData";
 import { DynamicIcon } from "./DynamicIcon";
 import {
   Brain, Hourglass, Microscope, MessageSquare, Monitor,
   ClipboardList, Target, Star,
   ChevronLeft, ChevronRight,
-  AlertTriangle, CheckCircle2, PartyPopper,
+  AlertTriangle, CheckCircle2,
 } from "lucide-react";
 
 // ─── colour tokens ────────────────────────────────────────────────
@@ -229,69 +229,49 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
   );
 }
 
-// ─── 3. HORIZONTAL STEP PROCESS CAROUSEL ─────────────────────────
+// ─── 3. HORIZONTAL STEP PROCESS TILES ────────────────────────────
 function SectionResponsibilities({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
-  const [step, setStep] = useState(0);
   const stepIcons = ["Search", "BarChart3", "DollarSign", "ShieldAlert", "FileText", "Megaphone", "Link"];
   const stepColors = ["#3B82F6", "#8B5CF6", "#EC4899", "#F59E0B", "#10B981", "#06B6D4", "#6366F1"];
-  
-  // Auto-scroll effect
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setStep(prev => (prev + 1) % section.content.length);
-    }, 5000); // Change every 5 seconds
-    return () => clearInterval(interval);
-  }, [section.content.length]);
   
   return (
     <section className="py-16 md:py-20 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* main content card - clean and modern */}
-        <div className="relative mt-8">
-          <div
-            className="rounded-3xl p-8 md:p-12 shadow-xl border-2 transition-all duration-500 overflow-hidden"
-            style={{
-              background: "white",
-              borderColor: stepColors[step],
-              boxShadow: `0 20px 60px ${stepColors[step]}20`,
-            }}
-          >
-            {/* top accent bar */}
-            <div 
-              className="absolute top-0 left-0 right-0 h-1"
-              style={{ background: `linear-gradient(90deg, ${stepColors[step]}, ${stepColors[(step + 1) % stepColors.length]})` }}
-            />
-
-            <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
-              {/* icon box */}
+        {/* row of flat tiles */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mt-8">
+          {section.content.map((content, i) => {
+            const color = stepColors[i % stepColors.length];
+            return (
               <div
-                className="w-20 h-20 md:w-24 md:h-24 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg transition-all duration-500"
-                style={{ background: `linear-gradient(135deg, ${stepColors[step]}, ${stepColors[(step + 1) % stepColors.length]})` }}
+                key={i}
+                className="flex flex-col items-start gap-3 p-6 md:p-8 rounded-xl transition-all duration-300 hover:translate-y-[-4px]"
+                style={{
+                  background: "white",
+                  borderLeft: `4px solid ${color}`,
+                }}
               >
-                <DynamicIcon name={stepIcons[step % stepIcons.length]} className="w-10 h-10 md:w-12 md:h-12 text-white" />
-              </div>
-
-              {/* content */}
-              <div className="flex-1">
-                <p className="text-slate-800 text-lg md:text-2xl font-bold leading-relaxed transition-all duration-500">
-                  {section.content[step]}
-                </p>
-                
-                {/* progress bar */}
-                <div className="mt-6 h-1 bg-slate-200 rounded-full overflow-hidden">
-                  <div
-                    className="h-full transition-all duration-500"
-                    style={{
-                      width: `${((step + 1) / section.content.length) * 100}%`,
-                      background: stepColors[step],
-                    }}
-                  />
+                {/* icon */}
+                <div
+                  className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
+                  style={{ background: `${color}15`, color }}
+                >
+                  <DynamicIcon name={stepIcons[i % stepIcons.length]} className="w-6 h-6" />
                 </div>
+
+                {/* step number */}
+                <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">
+                  Step {i + 1}
+                </div>
+
+                {/* content */}
+                <p className="text-slate-700 text-base leading-relaxed font-medium">
+                  {content}
+                </p>
               </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </section>
@@ -553,16 +533,6 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
               </div>
             );
           })}
-        </div>
-
-        {/* completion message */}
-        <div
-          className="mt-8 p-6 rounded-2xl text-center shadow-lg"
-          style={{ background: `linear-gradient(135deg, ${GOLD}, ${GREEN})` }}
-        >
-          <PartyPopper className="w-8 h-8 text-white mx-auto mb-2" />
-          <p className="text-white font-black text-xl">All steps complete!</p>
-          <p className="text-white/80 text-sm mt-1">You're already ahead of the competition.</p>
         </div>
       </div>
     </section>

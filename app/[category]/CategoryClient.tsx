@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
 import { formatCareerName } from "@/app/data/careers";
 import Navbar from "@/app/components/Navbar";
-import ImpactStrip from "@/app/components/ImpactStrip";
 import Footer from "@/app/components/Footer";
 import { notFound } from "next/navigation";
 
@@ -132,7 +131,9 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
           </div>
         </div>
       </section>
-      <ImpactStrip />
+
+      {/* Thin Divider */}
+      <div className="border-t border-[#EEEEEE]" />
 
       {/* Results count */}
       <div className="max-w-[1090px] mx-auto px-4 sm:px-6 py-6">

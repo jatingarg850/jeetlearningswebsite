@@ -39,9 +39,9 @@ export function CostBreakdown({
 
   return (
     <div className="relative bg-white">
-      {/* Header Section - BRIGHT */}
-      <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 border-b-4 border-blue-400 shadow-lg">
-        <div className="max-w-7xl mx-auto">
+      {/* Detailed Breakdown - BRIGHT */}
+      <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-b from-white to-blue-50 border-b border-blue-200">
+        <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-blue-900 mb-3 md:mb-4 drop-shadow-sm">
               {title}
@@ -51,40 +51,6 @@ export function CostBreakdown({
             </p>
           </div>
 
-          {/* Summary Cards - BRIGHT */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
-            {items.map((item, idx) => (
-              <div
-                key={idx}
-                className="p-4 md:p-6 rounded-lg md:rounded-xl bg-gradient-to-br from-white to-blue-50 shadow-lg border-2 border-blue-300 hover:shadow-2xl hover:scale-105 transition transform"
-                style={{
-                  borderColor: item.color,
-                  background: `linear-gradient(135deg, rgba(255,255,255,0.95), ${item.color}15)`,
-                }}
-              >
-                <div className="flex items-start gap-3 mb-3">
-                  <span className="text-3xl md:text-4xl">{item.icon}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-xs sm:text-sm font-black text-slate-900 uppercase tracking-widest">
-                      {item.category}
-                    </p>
-                  </div>
-                </div>
-                <p className="text-xl sm:text-2xl md:text-3xl font-black text-slate-900 mb-1">
-                  {item.amount}
-                </p>
-                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-semibold">
-                  {item.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Detailed Breakdown - BRIGHT */}
-      <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-b from-white to-blue-50">
-        <div className="max-w-4xl mx-auto">
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-blue-900 mb-6 md:mb-8 drop-shadow-sm">
             Detailed Cost Breakdown
           </h3>
@@ -146,63 +112,6 @@ export function CostBreakdown({
                 )}
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Total Cost Section - BRIGHT */}
-      <section className="py-10 md:py-12 lg:py-16 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-yellow-100 via-orange-100 to-pink-100 border-t-4 border-orange-400 shadow-lg">
-        <div className="max-w-4xl mx-auto">
-          <div className="rounded-lg md:rounded-2xl p-6 md:p-8 lg:p-10 bg-gradient-to-br from-white to-blue-50 shadow-2xl border-4 border-blue-400">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
-              {/* Left: Summary */}
-              <div>
-                <p className="text-xs font-black uppercase tracking-widest text-blue-700 mb-2 drop-shadow-sm">
-                  💰 Total Investment
-                </p>
-                <p className="text-4xl md:text-5xl lg:text-6xl font-black text-blue-900 mb-4 drop-shadow-sm">
-                  ₹{(totalAmount / 100000).toFixed(1)}L
-                </p>
-                <p className="text-sm md:text-base text-slate-800 leading-relaxed mb-6 font-semibold">
-                  This is the estimated total investment for your complete career journey from Class 10 through professional qualification.
-                </p>
-                <div className="space-y-3">
-                  <div className="flex items-center gap-3 p-2 rounded-lg bg-yellow-50">
-                    <div className="w-3 h-3 rounded-full" style={{ background: ACCENT_GOLD }} />
-                    <p className="text-xs md:text-sm text-slate-800 font-semibold">Includes tuition, living, and exam fees</p>
-                  </div>
-                  <div className="flex items-center gap-3 p-2 rounded-lg bg-blue-50">
-                    <div className="w-3 h-3 rounded-full" style={{ background: PRIMARY_BLUE }} />
-                    <p className="text-xs md:text-sm text-slate-800 font-semibold">Varies by college and location</p>
-                  </div>
-                  <div className="flex items-center gap-3 p-2 rounded-lg bg-green-50">
-                    <div className="w-3 h-3 rounded-full" style={{ background: BRIGHT_GREEN }} />
-                    <p className="text-xs md:text-sm text-slate-800 font-semibold">Scholarships can reduce this significantly</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right: Key Points */}
-              <div>
-                <p className="text-xs font-black uppercase tracking-widest text-blue-700 mb-4 drop-shadow-sm">
-                  📊 Key Financial Points
-                </p>
-                <div className="space-y-3 md:space-y-4">
-                  <div className="p-4 md:p-5 rounded-lg bg-gradient-to-br from-blue-100 to-blue-200 border-2 border-blue-400 shadow-md">
-                    <p className="text-xs md:text-sm font-black text-blue-900 mb-1">🏫 Government Colleges</p>
-                    <p className="text-xs text-blue-800 font-semibold">Significantly cheaper than private institutions</p>
-                  </div>
-                  <div className="p-4 md:p-5 rounded-lg bg-gradient-to-br from-amber-100 to-amber-200 border-2 border-amber-400 shadow-md">
-                    <p className="text-xs md:text-sm font-black text-amber-900 mb-1">🏠 Living Expenses</p>
-                    <p className="text-xs text-amber-800 font-semibold">Varies by city (₹10K-25K monthly)</p>
-                  </div>
-                  <div className="p-4 md:p-5 rounded-lg bg-gradient-to-br from-green-100 to-green-200 border-2 border-green-400 shadow-md">
-                    <p className="text-xs md:text-sm font-black text-green-900 mb-1">🎓 Scholarships Available</p>
-                    <p className="text-xs text-green-800 font-semibold">Can cover 50-100% of fees</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
