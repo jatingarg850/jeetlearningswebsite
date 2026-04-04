@@ -4319,5 +4319,569 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
         ]
       }
     ]
+  },
+  clinicalPsychologist: {
+    slug: "clinical-psychologist",
+    badge: "🧠 The Mind Healer for Class 10+",
+    heading: "Clinical Psychologist",
+    subheading: "Heal minds, transform lives, and unlock human potential. From trauma survivors to corporate teams, clinical psychologists are India's frontline warriors against mental health crises.",
+    whyCards: [
+      { icon: "Heart", title: "Mental Health Crisis", description: "India's mental health crisis: 1 in 5 Indians suffer from mental disorders. Urgent need for trained professionals.", borderColor: "#EF4444" },
+      { icon: "TrendingUp", title: "Growing Demand", description: "80-90% of large Indian companies expected to have Employee Assistance Programs by 2030.", borderColor: "#10B981" },
+      { icon: "Award", title: "High Impact Work", description: "Direct impact on individuals' lives—helping them overcome trauma, anxiety, depression, and relationship issues.", borderColor: "#F59E0B" },
+      { icon: "Briefcase", title: "Diverse Career Paths", description: "Hospitals, corporates, NGOs, research institutions, teletherapy platforms, and private practice opportunities.", borderColor: "#3B82F6" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "BA (3 Yrs) + MA (2 Yrs) + RCI Registration", color: "bg-green-100 text-green-700" },
+      { label: "Entry Exams", detail: "CUET, CUET-PG, UGC NET, UPSC", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹2.5L–₹35L+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "1 in 5", label: "Indians with Mental Disorders", gradient: "from-red-500 to-red-600" },
+      { value: "300%", label: "Teletherapy Growth by 2030", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what-is-this",
+        title: "What is This Career All About?",
+        icon: "Lightbulb",
+        description: "Understanding clinical psychology and its impact.",
+        color: "#3B82F6",
+        content: [
+          "Clinical psychologists assess and diagnose mental health conditions using psychological tests and clinical interviews.",
+          "They provide evidence-based psychotherapy using techniques like Cognitive Behavioral Therapy (CBT), psychoanalysis, and family therapy.",
+          "They design personalized treatment plans for each client based on their unique needs and circumstances.",
+          "They conduct research on mental health patterns, treatment effectiveness, and psychological phenomena.",
+          "They consult with schools, organizations, and communities on mental health awareness and prevention.",
+          "They collaborate with psychiatrists, social workers, and other healthcare professionals to provide comprehensive care.",
+          "In India's growing mental health sector, clinical psychologists are becoming essential in hospitals, corporates, NGOs, and private practice."
+        ]
+      },
+      {
+        id: "day-in-life",
+        title: "A Day in the Life: The Mind Healer",
+        icon: "Clock",
+        description: "Real-world experience of a clinical psychologist.",
+        color: "#10B981",
+        content: [
+          "10:00 AM – Couple Therapy: A couple in their early thirties sits across from you, communication broken after five years of marriage. You facilitate dialogue, helping them express needs without blame.",
+          "11:30 AM – Child Assessment: A concerned mother brings her 8-year-old son struggling with concentration and impulsive behavior. You conduct a playful assessment, observing behavior through games and drawing activities.",
+          "1:00 PM – Lunch and Documentation: You take a break, then spend time documenting session notes, updating treatment plans, and reviewing research papers on trauma-focused CBT for an upcoming case.",
+          "2:30 PM – Trauma Survivor: Your most emotionally demanding case—a 35-year-old woman processing childhood sexual abuse. You use trauma-focused therapy techniques, creating a safe space for her to confront painful memories at her own pace.",
+          "3:30 PM – Group Therapy Session: An anxiety support group meets—five individuals sharing experiences and coping strategies under your facilitation.",
+          "6:00 PM – Administrative Work: You finalize insurance claims, respond to appointment requests, and prepare materials for tomorrow's workshop on stress management for a corporate client.",
+          "This day showcases the emotional depth, technical skill, and human connection required in clinical psychology."
+        ]
+      },
+      {
+        id: "personality-traits",
+        title: "Is This You? (Personality Traits & Skills)",
+        icon: "User",
+        description: "Essential qualities for clinical psychologists.",
+        color: "#F59E0B",
+        content: [
+          "Deep Empathy: Ability to truly understand and feel what clients are experiencing. Compassion without becoming overwhelmed by others' pain. Non-judgmental acceptance of diverse life experiences.",
+          "Emotional Stability: Managing your own emotions while handling others' distress. Resilience in the face of difficult stories and situations.",
+          "Patience: Therapy is slow, progress non-linear. Clients may resist, relapse, or take time to trust you.",
+          "Active Listening: Hearing not just words but emotions, subtext, and unspoken needs.",
+          "Ethical Integrity: Absolute confidentiality and trustworthiness. Strong moral compass. Ability to navigate complex ethical dilemmas.",
+          "Cultural Sensitivity: Understanding how culture shapes mental health, family dynamics, and healing approaches.",
+          "Analytical Mind: Ability to diagnose, formulate treatment plans, and evaluate therapy effectiveness.",
+          "Communication Skills: Explaining complex psychological concepts in simple, relatable language.",
+          "Self-Awareness: Understanding your own biases, triggers, and limitations to avoid imposing them on clients."
+        ]
+      },
+      {
+        id: "key-responsibilities",
+        title: "Key Responsibilities and Workflow",
+        icon: "CheckCircle",
+        description: "Daily tasks and professional duties.",
+        color: "#8B5CF6",
+        content: [
+          "Clinical Assessment: Conducting intake interviews with new clients. Administering psychological tests (IQ, personality, neuropsychological). Diagnostic formulation using DSM-5/ICD-11.",
+          "Psychotherapy and Intervention: Individual therapy sessions (typically 45-60 minutes). Group therapy facilitation. Family and couple therapy. Crisis intervention when needed.",
+          "Consultation and Collaboration: Working with psychiatrists, social workers, occupational therapists. School consultations for student mental health. Corporate wellness program development. Providing expert testimony in legal cases.",
+          "Documentation and Administration: Maintaining confidential client records. Writing progress notes after each session. Insurance and billing management (private practice). Appointment scheduling and follow-ups.",
+          "Research and Continuous Learning: Staying updated with latest psychological research. Attending workshops and conferences. Pursuing certifications in specialized techniques. Contributing to research and publications.",
+          "Client Safety and Ethics: Ensuring client confidentiality and safety. Managing dual relationships appropriately. Recognizing and addressing your own limitations and referring clients when necessary."
+        ]
+      },
+      {
+        id: "career-pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 to professional practice.",
+        color: "#06B6D4",
+        content: [
+          "After Class 10: Choose Science stream in Class 11-12 (Biology, Chemistry, Physics, English). This builds foundation for understanding brain and neuroscience. Develop reading habits about psychology and self-help. Volunteer with NGOs working in mental health.",
+          "After Class 12: Pursue BA/BSc in Psychology (3 years). Entrance: CUET (Common University Entrance Test). Minimum eligibility: 50% in Class 12. Covers: General Psychology, Developmental Psychology, Social Psychology, Abnormal Psychology, Research Methods, Statistics.",
+          "After Graduation: MA/MSc in Psychology (2 years) - MANDATORY. Specializations: Clinical Psychology, Counseling Psychology, Applied Psychology. Entrance Exams: CUET-PG, University-specific exams (DU, JNU, BHU, Ambedkar University).",
+          "RCI Registration: After MA/MSc, register with Rehabilitation Council of India (RCI) for official recognition as Clinical Psychologist.",
+          "Advanced Options: MPhil Clinical Psychology (2 years, phasing out). PhD in Clinical Psychology (3-5 years, often funded). Specialized certifications in CBT, DBT, trauma-focused therapy.",
+          "Total Timeline: Minimum 7 years from Class 12 to RCI registration and professional practice."
+        ]
+      },
+      {
+        id: "market-snapshot",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salary ranges and career growth trajectory.",
+        color: "#EC4899",
+        content: [
+          "Entry-Level (0-2 years, Fresh RCI registration): ₹2,50,000 - ₹6,00,000 per annum. Average: ₹4,00,000.",
+          "Early Career (2-5 years): ₹4,00,000 - ₹9,00,000 per annum. Average: ₹6,00,000.",
+          "Mid-Career (5-10 years): ₹7,00,000 - ₹15,00,000 per annum. Average: ₹10,00,000.",
+          "Senior/Experienced (10-15 years): ₹12,00,000 - ₹22,00,000 per annum. Average: ₹16,00,000.",
+          "Leadership/Head of Department: ₹20,00,000 - ₹35,00,000+ per annum. Average: ₹25,00,000.",
+          "Career Growth: Entry to Early Career takes 2-3 years. Early to Mid-Career takes 3-5 years. Mid to Senior takes 5-7 years. Senior to Leadership varies based on specialization and entrepreneurship.",
+          "Private Practice Income: Experienced therapists can earn ₹1,000-3,000 per session × number of clients. Highly successful practitioners earn ₹20-40 LPA."
+        ]
+      },
+      {
+        id: "where-are-jobs",
+        title: "Where Are the Jobs? (Geography & Industries)",
+        icon: "Briefcase",
+        description: "Employment sectors and top cities.",
+        color: "#14B8A6",
+        content: [
+          "Healthcare Institutions: General Hospitals (clinical psychology departments). Psychiatric Hospitals (NIMHANS Bangalore, IHBAS Delhi, CIP Ranchi). Specialty Clinics (addiction treatment, eating disorder clinics). Rehabilitation Centers (de-addiction, trauma recovery).",
+          "Corporate Sector (Rapidly Growing): Employee Assistance Programs (EAP) in-house counseling. HR Departments as organizational behavior consultants. Tech companies (Google, Microsoft, TCS, Infosys) investing heavily in employee mental health.",
+          "Educational Institutions: Schools (CBSE mandate for counselors). Colleges and Universities (campus counseling centers). Online education platforms.",
+          "Government Organizations: Public Hospitals (government psychology departments). Armed Forces (military psychology units). Police Departments (trauma counseling for personnel).",
+          "Non-Governmental Organizations: Mental Health NGOs (Vandrevala Foundation, The Live Love Laugh Foundation). Women's Rights Organizations (domestic violence survivors). Community mental health centers.",
+          "Research Institutions: NIMHANS, IHBAS, CIP (research on mental disorders). Universities (clinical psychology research labs). Teletherapy platforms (Practo, BetterHelp India, Talkspace, InnerHour).",
+          "Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune, Chennai. Tier-2 cities growing rapidly with increasing mental health awareness."
+        ]
+      },
+      {
+        id: "cost-breakdown",
+        title: "What Will It Cost? (Fees & Duration)",
+        icon: "DollarSign",
+        description: "Educational expenses and course duration.",
+        color: "#F97316",
+        content: [
+          "BA/BSc Psychology: Government Institutions: ₹10,000 - ₹60,000/year. Private Institutions: ₹80,000 - ₹2,50,000/year. Duration: 3 years.",
+          "MA/MSc Psychology: Government Institutions: ₹15,000 - ₹80,000/year. Private Institutions: ₹1,00,000 - ₹3,50,000/year. Duration: 2 years.",
+          "RCI MA Clinical Psychology: Government Institutions: ₹12,000 - ₹2,00,000/year. Private Institutions: ₹2,00,000 - ₹10,00,000/year. Duration: 2 years.",
+          "MPhil Clinical (Phasing out): Government Institutions: ₹20,000 - ₹1,50,000/year. Private Institutions: ₹2,50,000 - ₹8,00,000/year. Duration: 2 years.",
+          "PhD in Clinical Psychology: Often funded with fellowship. If unfunded: ₹50,000 - ₹2,00,000/year. Duration: 3-5 years.",
+          "Total Investment: Approximately ₹5-15 lakhs for BA + MA from government institutions. ₹15-40 lakhs from private institutions.",
+          "Additional Costs: Certification exams (₹5,000-15,000). Workshops and training programs. Supervision and mentorship fees."
+        ]
+      },
+      {
+        id: "where-to-study",
+        title: "Where to Study? (Top Institutions)",
+        icon: "BookOpen",
+        description: "Leading universities and colleges in India.",
+        color: "#06B6D4",
+        content: [
+          "Top Government Universities - North: Delhi University (multiple colleges offer BA Hons Psychology, MA Psychology). Jamia Millia Islamia, Delhi (MA Applied Psychology). Banaras Hindu University, Varanasi (BA, MA Psychology). Panjab University, Chandigarh (MA Psychology).",
+          "Top Government Universities - South: University of Madras (Psychology programs). University of Mysore (Psychology department). Andhra University (Psychology programs).",
+          "Top Government Universities - East: Calcutta University (Psychology department). Banaras Hindu University (Psychology programs).",
+          "Top Government Universities - West: Savitribai Phule Pune University (Psychology programs). Mumbai University (Psychology courses across affiliated colleges).",
+          "Top Private Universities: Ashoka University, Sonepat (Liberal arts focus, strong psychology, ₹7,00,000-9,00,000/year). OP Jindal Global University (Psychology programs). Christ University, Bangalore (BA, MA Psychology, ~₹1,50,000/year). Flame University, Pune (Liberal education focus).",
+          "Online/Distance Learning: IGNOU (Indira Gandhi National Open University) - BA Psychology (distance). MA Psychology (distance). Limited options for Clinical Psychology specialization.",
+          "Specialized Institutions: NIMHANS, Bangalore (Research and advanced training). IHBAS, Delhi (Institute of Human Behaviour and Allied Sciences). CIP, Ranchi (Central Institute of Psychiatry)."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Gift",
+        description: "Financial aid and funding options.",
+        color: "#8B5CF6",
+        content: [
+          "Central Government Schemes: UGC NET/JRF Fellowship (For PhD) - ₹31,000/month (first 2 years), ₹35,000/month (next 3 years). Central Sector Scheme of Scholarships - ₹10,000-20,000/year. Maulana Azad National Fellowship - ₹25,000-28,000/month + contingency.",
+          "Prime Minister's Research Fellowship (PMRF): ₹70,000-80,000/month for exceptional PhD students.",
+          "Private/Corporate Scholarships: Tata Trusts Scholarships (various schemes for higher education). K.C. Mahindra Scholarships (postgraduate studies, merit and need-based). Sitaram Jindal Foundation Scholarship (deserving students).",
+          "International Fellowships: Fulbright-Nehru Fellowships (PhD/postdoc in USA, fully funded). Commonwealth Scholarships (studies in UK, Australia, Canada).",
+          "Institutional Scholarships: Many private colleges offer 25-50% fee waivers based on entrance exam scores.",
+          "State-Level Schemes: Various state governments offer scholarships for meritorious students. Check your state's education department website.",
+          "Loan Schemes: PM-Vidyalaxmi provides 3% interest subvention for loans up to ₹10 lakhs."
+        ]
+      },
+      {
+        id: "professional-bodies",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Regulatory bodies and professional credentials.",
+        color: "#10B981",
+        content: [
+          "Rehabilitation Council of India (RCI): The apex regulatory body for clinical psychologists. Mandatory registration for professional practice. Maintains standards of education and practice.",
+          "Indian Psychological Association (IPA): Premier professional body for psychologists. Promotes research, education, and ethical practice. Publishes journals and organizes conferences.",
+          "National Board of Examination in Medical Sciences (NBEMS): Conducts examinations for clinical psychology specialization.",
+          "Certifications Available: Cognitive Behavioral Therapy (CBT) - Specialized training in evidence-based therapy. Dialectical Behavior Therapy (DBT) - For personality disorders and self-harm. Trauma-Focused CBT - Specialization in trauma treatment.",
+          "Other Certifications: Acceptance and Commitment Therapy (ACT). Psychodynamic Therapy. Family Systems Therapy. Child and Adolescent Psychology.",
+          "Continuing Education: RCI requires continuing professional development (CPD) for license renewal. Annual workshops and training programs mandatory.",
+          "Ethical Guidelines: Adherence to IPA Code of Ethics. Confidentiality and client rights protection. Professional boundaries and dual relationships."
+        ]
+      },
+      {
+        id: "career-opportunities",
+        title: "Career Opportunities",
+        icon: "Rocket",
+        description: "Conventional and emerging career paths.",
+        color: "#EF4444",
+        content: [
+          "Conventional Careers: Clinical Psychologist in Hospital Settings (government hospitals with stable job and pension benefits, private hospitals like Apollo, Fortis, Max, Manipal). Psychiatric Hospital/Mental Health Center (NIMHANS, IHBAS, CIP, state mental hospitals). University Professor/Academic (teaching psychology at UG/PG level, research in clinical psychology). Research Scientist (NIMHANS, ICMR, research hospitals).",
+          "Corporate Sector: Employee Assistance Program (EAP) Psychologist (Google, Microsoft, TCS, Infosys, consulting firms). Organizational Behavior Consultant. Corporate Wellness Program Manager. HR Consultant specializing in mental health.",
+          "New-Age Careers (Emerging and Growing Fast): Mental Health Tech Platforms (Teletherapy - Practo, BetterHelp India, Talkspace, InnerHour). AI-Assisted Mental Health Tools (developing assessment algorithms). Virtual Reality Therapy Specialist. Digital Mental Health Coach.",
+          "Freelancing & Entrepreneurship: Freelance Therapist (multiple part-time arrangements, therapy sessions at different clinics or online, income ₹1,000-3,000 per session). Workshop and Training Facilitator (corporate workshops on stress management, communication skills). Mental Health Coaching Practice (not therapy, life coaching with psychological principles). Starting a Mental Health Startup.",
+          "NGO and Social Sector: Mental Health NGO Founder/Director. Community Mental Health Worker. Trauma Counselor for disaster relief. Advocacy and Policy work.",
+          "Academic and Research: University Research Fellow. Clinical Psychology Researcher. Publishing and Contributing to Journals. Mentoring next generation of psychologists."
+        ]
+      },
+      {
+        id: "challenges-realities",
+        title: "Challenges and Realities",
+        icon: "AlertCircle",
+        description: "Honest look at the profession's difficulties.",
+        color: "#EF4444",
+        content: [
+          "Emotional Toll and Vicarious Trauma: Daily exposure to pain—hearing traumatic stories and witnessing suffering. Vicarious trauma—absorbing clients' trauma can affect your own mental health. Compassion fatigue—emotional exhaustion from continuous empathy.",
+          "Lengthy and Expensive Education: 7 years minimum from Class 12 to RCI registration. Competitive admissions—very few seats in top institutions (NIMHANS: ~5-10 seats). High cost of private education.",
+          "Modest Starting Salaries: Entry-level ₹2.5-4 LPA (far lower than engineering/management). Initial struggles building private practice clientele takes years.",
+          "Burnout Risk: High stress managing multiple clients' crises. Always 'on'—hard to switch off therapist mode. Emotional hangover from difficult cases.",
+          "Irregular Income (Private Practice): Client cancellations mean lost income. Seasonal fluctuations (holidays, summer slowdowns). Building stable client base takes 3-5 years.",
+          "Work-Life Balance Challenges: Client emergencies can happen outside office hours. Hard to 'leave work at work'. Difficulty maintaining boundaries.",
+          "Regulatory and Ethical Complexities: Navigating confidentiality laws and ethical dilemmas. Managing dual relationships appropriately. Dealing with mandatory reporting requirements.",
+          "Limited Awareness in India: Many people still don't understand or value mental health. Stigma around therapy and mental illness persists. Lower demand in Tier-2 and Tier-3 cities."
+        ]
+      },
+      {
+        id: "emerging-trends",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Zap",
+        description: "Future of clinical psychology in India.",
+        color: "#F59E0B",
+        content: [
+          "Teletherapy and Digital Mental Health (Explosive Growth): Hybrid models combining in-person and online therapy. AI-assisted platforms with chatbots for initial screening and therapists for treatment. Virtual Reality (VR) therapy for exposure therapy (phobias, PTSD). Expected growth: 300% increase in teletherapy by 2030.",
+          "AI and Technology Integration: Assessment tools using AI to analyze speech patterns and facial expressions for diagnosis. Therapy assistants providing CBT exercises and mood tracking. Predictive analytics identifying at-risk individuals before crisis. Wearable technology monitoring mental health metrics.",
+          "Workplace Mental Health Revolution: 80-90% of large Indian companies expected to have EAPs by 2030. Mental health days becoming standard. Proactive wellness programs replacing reactive crisis management. Peer support programs and mental health champions.",
+          "Insurance and Regulatory Changes: Mental health parity in insurance (equal coverage to physical health). IRDAI expanding mental health coverage requirements. More cashless treatment for therapy. Standardized billing codes for therapy sessions.",
+          "Specialized Niches Growing: Trauma-informed care becoming mainstream. Neurodiversity-affirming approaches (autism, ADHD). Cultural competency in therapy. LGBTQ+ affirming mental health services.",
+          "Research and Evidence-Based Practice: Increased funding for mental health research. Personalized medicine approaches in psychology. Integration of neuroscience and psychology. Global collaboration on mental health solutions."
+        ]
+      },
+      {
+        id: "skills-to-build",
+        title: "Skills to Build While Still in School",
+        icon: "Zap",
+        description: "Practical steps for students in Classes 9-12.",
+        color: "#06B6D4",
+        content: [
+          "Develop Emotional Intelligence: Self-awareness—journal your own emotions, thoughts, reactions. Empathy practice—truly listen to friends and family without judgment. Emotional regulation—manage your own stress and anxiety.",
+          "Read Widely About Psychology: Accessible Books for Beginners - 'The Man Who Mistook His Wife for a Hat' by Oliver Sacks. 'Thinking, Fast and Slow' by Daniel Kahneman. 'Emotional Intelligence' by Daniel Goleman. 'Man's Search for Meaning' by Viktor Frankl.",
+          "Understand Mental Health Issues: Learn about common disorders (depression, anxiety, OCD, schizophrenia, bipolar disorder). Follow credible mental health Instagram accounts (verify credentials). Understand stigma and how to combat it.",
+          "Develop Strong Communication Skills: Writing—start a blog or journal about psychology topics. Speaking—join debate club, participate in school presentations. Active listening—practice in conversations with friends and family.",
+          "Build Research Skills: Learn statistics basics (Khan Academy statistics). Critical thinking—question what you read, look for evidence. Understand research methodology and how studies are conducted.",
+          "Volunteer and Gain Experience: Volunteer with NGOs working in mental health. Participate in mental health awareness campaigns. Shadow a psychologist if possible. Help organize mental health workshops in school.",
+          "Develop Tech Skills: Learn basic data analysis (Excel, Google Sheets). Understand digital platforms for teletherapy. Familiarize yourself with mental health apps and technology."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities in This Career",
+        icon: "User",
+        description: "Inspiring figures in clinical psychology.",
+        color: "#3B82F6",
+        content: [
+          "Dr. Vikram Patel: Pershing Square Professor of Global Health at Harvard Medical School. Co-founder of Sangath, a Goa-based NGO. Global mental health expert working on community-based interventions. Advocate for mental health in developing nations.",
+          "Dr. Achal Bhagat: Senior Consultant Psychiatrist and Psychotherapist based in Delhi. One of India's most respected voices in mental health. Pioneer in integrating psychology and psychiatry. Mentor to many young professionals.",
+          "Dr. Samir Parikh: Director, Department of Mental Health and Behavioral Sciences, Fortis Healthcare. Leading psychiatrist specializing in child and adolescent mental health. Advocate for mental health awareness in India.",
+          "Dr. Anna Chandy: India's First Woman Clinical Psychologist (1920-1996). Trailblazer who became India's first woman to train formally in clinical psychology. Pioneer in establishing psychology as a profession in India.",
+          "Dr. Shekhar Seshadri: Former Director, NIMHANS (2012-2018). Renowned child and adolescent psychiatrist. Leader in mental health research and education. Advocate for mental health policy in India.",
+          "Dr. Harish Shetty: Psychiatrist and psychotherapist based in Mumbai. Known for humanistic approach to mental health. Author and speaker on mental health awareness. Advocate for breaking mental health stigma.",
+          "Dr. Anjali Chhabria: Clinical psychologist and founder of mental health initiatives. Pioneer in workplace mental health in India. Advocate for mental health in corporate sector."
+        ]
+      }
+    ]
+  },
+  counsellingPsychologist: {
+    slug: "counselling-psychologist",
+    badge: "👂 The Listener's Guide for Class 10+",
+    heading: "Counselling Psychologist",
+    subheading: "Be the emotional anchor for society. Help people navigate life's challenges, find clarity, and grow. From schools to corporates to private practice, counselling psychologists are India's wellness warriors.",
+    whyCards: [
+      { icon: "Heart", title: "Mental Health Crisis", description: "India has only 0.07 psychologists per 100,000 people. Massive shortage of trained counsellors. Urgent need for professionals.", borderColor: "#EF4444" },
+      { icon: "TrendingUp", title: "Explosive Market Growth", description: "Indian mental health market growing at 28% CAGR. Post-COVID boom in demand for counselling services.", borderColor: "#10B981" },
+      { icon: "Briefcase", title: "Diverse Career Paths", description: "Schools, corporates, NGOs, online platforms, private practice, sports psychology, UX research, and more.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "High Impact Work", description: "Direct impact on individuals' lives—helping them overcome anxiety, relationship issues, career confusion, and burnout.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "BA (3 Yrs) + MA (2 Yrs) + Optional M.Phil (2 Yrs)", color: "bg-green-100 text-green-700" },
+      { label: "Entry Exams", detail: "CUET, CUET-PG, TISS-NET, GATE", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹2.5L–₹50L+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "28%", label: "Market CAGR Growth", gradient: "from-green-500 to-green-600" },
+      { value: "0.07", label: "Psychologists per 100k People", gradient: "from-red-500 to-red-600" }
+    ],
+    guideSections: [
+      {
+        id: "what-is-this",
+        title: "What is This Career All About?",
+        icon: "Lightbulb",
+        description: "Understanding counselling psychology and its impact.",
+        color: "#3B82F6",
+        content: [
+          "A Counselling Psychologist is a mental health professional who helps people navigate the 'bumps' of everyday life.",
+          "Unlike Clinical Psychologists who treat severe mental illnesses, Counselling Psychologists focus on wellness, personal growth, and resolving conflicts.",
+          "They help people who are confused about their career, struggling in relationships, facing bullying or exam anxiety, or burning out at work.",
+          "They use scientific techniques like Cognitive Behavioral Therapy (CBT), talk therapy, and art therapy to help clients find their own solutions.",
+          "In today's fast-paced India, the joint family support system is shrinking. People are lonelier and more stressed. Counselling Psychologists are the emotional anchors for society.",
+          "They work in schools, corporates, NGOs, hospitals, online platforms, and private practice.",
+          "The field is evolving with new opportunities in sports psychology, UX research, corporate wellness, and digital mental health."
+        ]
+      },
+      {
+        id: "day-in-life",
+        title: "A Day in the Life: The Listener",
+        icon: "Clock",
+        description: "Real-world experience of a counselling psychologist.",
+        color: "#10B981",
+        content: [
+          "8:30 AM – School Counselling: Arrive at an international school. First student is Rohan (Class 10), panicking about Board exams. Use CBT techniques to help him identify specific thoughts scaring him.",
+          "11:00 AM – Workshop Facilitation: Conduct a workshop for Class 8 students on 'Safe Touch and Boundaries.' Make serious topics fun and relatable.",
+          "2:00 PM – Lunch Break: Leave school and head to private clinic. Listen to a podcast on 'Trauma-Informed Care' while eating.",
+          "4:00 PM – Couple Counselling: Young couple struggling with communication arrives. Act as neutral mediator, ensuring they listen to each other without shouting.",
+          "6:00 PM – Corporate Client: IT professional suffering from workplace burnout. Discuss setting boundaries with boss and managing stress.",
+          "8:00 PM – Documentation: Write detailed case notes. Boring but essential for tracking progress and maintaining ethical standards.",
+          "This day showcases the blend of school counselling, private practice, and corporate wellness work."
+        ]
+      },
+      {
+        id: "personality-traits",
+        title: "Is This You? (Personality Traits & Skills)",
+        icon: "User",
+        description: "Essential qualities for counselling psychologists.",
+        color: "#F59E0B",
+        content: [
+          "The Secret Keeper: Friends trust you with their secrets because they know you won't judge them.",
+          "The Listener: You listen to understand, not just to reply. You hear what's not being said.",
+          "The Observer: You notice when someone says 'I'm fine' but their eyes look sad. You pick up on subtle cues.",
+          "The Patient Soul: You understand that change takes time. You don't get frustrated if people don't improve immediately.",
+          "Open-Minded: You are comfortable talking to people from different religions, genders, and backgrounds without bias.",
+          "Empathetic: You can genuinely feel what others are experiencing without losing your professional boundaries.",
+          "Communicator: You can explain complex psychological concepts in simple, relatable language.",
+          "Resilient: You can handle hearing traumatic stories without being overwhelmed. You practice self-care.",
+          "Ethical: You maintain confidentiality and professional boundaries. You know when to refer clients to other professionals."
+        ]
+      },
+      {
+        id: "key-responsibilities",
+        title: "Key Responsibilities and Workflow",
+        icon: "CheckCircle",
+        description: "Daily tasks and professional duties.",
+        color: "#8B5CF6",
+        content: [
+          "Intake Interview: First meeting where you gather client's history and understand the core problem.",
+          "Assessment: Using scientific tools (Stress Scales, Aptitude Tests, Personality Assessments) to measure the issue.",
+          "Goal Setting: Agreeing on what 'success' looks like (e.g., 'I want to give a speech without shaking').",
+          "Intervention: Using therapies (Talk Therapy, Art Therapy, CBT, DBT) to treat the problem over weeks or months.",
+          "Progress Monitoring: Regularly assessing if the client is making progress toward goals.",
+          "Termination: Ending therapy when the client is ready to handle life on their own.",
+          "Documentation: Maintaining detailed case notes and progress records for ethical and legal purposes.",
+          "Collaboration: Working with other professionals (teachers, HR, psychiatrists) when needed.",
+          "Self-Care: Managing your own stress and seeking supervision to prevent burnout."
+        ]
+      },
+      {
+        id: "career-pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 to professional practice.",
+        color: "#06B6D4",
+        content: [
+          "After Class 10: Choose Humanities (Arts) stream with Psychology as main subject. Science (Biology) students also successful as they understand brain biology better.",
+          "After Class 12: Pursue BA/BSc in Psychology (3-4 years). Entrance: CUET-UG for central universities like DU, BHU. Covers basics like Social Psychology, Development, Statistics.",
+          "After Graduation: MA/MSc in Counselling Psychology (2 years) - MANDATORY for practice. Alternatively, MA in Applied Psychology. Entrance Exams: CUET-PG, TISS-NET, GATE (Psychology).",
+          "Specialization Options: Counselling Psychologist (practice with Master's degree in schools, NGOs, corporates). Clinical Psychologist (RCI path requiring M.Phil for medical settings).",
+          "Advanced Options: M.Phil in Clinical Psychology (2 years, if pursuing RCI registration). PhD (3-5 years, for university teaching and senior research).",
+          "Total Timeline: Minimum 5 years (BA + MA) to practice as Counselling Psychologist. 7+ years if pursuing Clinical Psychology with RCI registration."
+        ]
+      },
+      {
+        id: "market-snapshot",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salary ranges and career growth trajectory.",
+        color: "#EC4899",
+        content: [
+          "Entry-Level (School Counselor, NGO Worker): ₹2.5 Lakh – ₹4.5 Lakh per annum. Average: ₹3.5 Lakh.",
+          "Mid-Level (Corporate Wellness Coach, Senior School Counselor): ₹5 Lakh – ₹9 Lakh per annum. Average: ₹7 Lakh.",
+          "Senior-Level (Private Practitioner, RCI Clinical Psychologist): ₹10 Lakh – ₹18 Lakh per annum. Average: ₹14 Lakh.",
+          "Leadership (Head of Mental Health Dept, Celebrity Psychologist): ₹25 Lakh – ₹50 Lakh+ per annum.",
+          "Private Practice Income: Experienced therapists earn ₹1,500-3,000 per session. Established practitioners earn ₹15-30 LPA.",
+          "Metro vs. Tier-2: Metro cities (Mumbai, Bangalore, Delhi) pay 40-50% higher. People more willing to pay for therapy (₹1,500-3,000/session). Tier-2 cities have lower salaries due to stigma.",
+          "Market Growth: Indian mental health market growing at 28% CAGR. Explosive demand post-COVID."
+        ]
+      },
+      {
+        id: "where-are-jobs",
+        title: "Where Are the Jobs? (Geography & Industries)",
+        icon: "Briefcase",
+        description: "Employment sectors and top cities.",
+        color: "#14B8A6",
+        content: [
+          "Schools & Colleges: CBSE/ICSE schools must have counselors by law. Growing demand in international schools and coaching centers.",
+          "Corporate Sector: Companies like Google, Infosys, startups hire Employee Assistance Program (EAP) counselors. Tech companies investing heavily in employee mental health.",
+          "Online Platforms: Apps like YourDOST, Wysa, Amaha hire hundreds of psychologists for chat/video therapy. Remote work opportunities.",
+          "Hospitals & Rehabilitation Centers: Working alongside psychiatrists in mental health departments. De-addiction centers and trauma recovery centers.",
+          "NGOs: Mental health NGOs, women's organizations, community centers. Tribal welfare and development organizations.",
+          "Private Practice: Building your own therapy practice. Increasing demand for private counselors.",
+          "Top Cities: Delhi NCR, Mumbai, Bangalore, Pune, Hyderabad. Tier-2 cities growing rapidly.",
+          "Remote Work: 60-70% of private therapy moved to Zoom/Google Meet. You can sit in Jaipur and counsel clients in New York."
+        ]
+      },
+      {
+        id: "cost-breakdown",
+        title: "What Will It Cost? (Fees & Duration)",
+        icon: "DollarSign",
+        description: "Educational expenses and course duration.",
+        color: "#F97316",
+        content: [
+          "BA/BSc in Psychology: Government (DU, JNU): ₹5,000-15,000/year. Private (Christ, Amity): ₹1,00,000-3,00,000/year. Duration: 3-4 years.",
+          "MA/MSc in Counselling Psychology: Government: ₹10,000-30,000/year. Private: ₹1,50,000-4,00,000/year. Duration: 2 years.",
+          "M.Phil in Clinical Psychology: Government: ₹20,000-1,50,000/year. Private: ₹2,50,000-8,00,000/year. Duration: 2 years (optional).",
+          "PhD in Psychology: Often funded with UGC JRF fellowship (₹37,000/month). If unfunded: ₹50,000-2,00,000/year. Duration: 3-5 years.",
+          "Total Investment: BA + MA from government institutions: ₹5-15 lakhs. BA + MA from private institutions: ₹15-40 lakhs.",
+          "Additional Costs: Supervision costs (₹20,000-50,000/year for initial practice). Certification courses. Workshops and training programs.",
+          "Scholarships: UGC JRF covers tuition and provides monthly stipend. INSPIRE Scholarship for top rankers. Fulbright-Nehru Master's Fellowships."
+        ]
+      },
+      {
+        id: "where-to-study",
+        title: "Where to Study? (Top Institutions)",
+        icon: "BookOpen",
+        description: "Leading universities and colleges in India.",
+        color: "#06B6D4",
+        content: [
+          "North: University of Delhi (North Campus, top tier for Psychology). Jamia Millia Islamia, Delhi (excellent Counselling/Applied Psychology). Panjab University, Chandigarh. Banaras Hindu University, Varanasi.",
+          "West: Tata Institute of Social Sciences (TISS), Mumbai (the 'Holy Grail' for applied psychology). Fergusson College, Pune. MSU Baroda.",
+          "South: Christ (Deemed University), Bangalore (famous for rigorous M.Sc. programs). NIMHANS, Bangalore (M.Phil/PhD, the 'AIIMS of Psychology'). University of Madras, Chennai.",
+          "East: University of Calcutta (one of oldest psychology departments). Banaras Hindu University, Varanasi. Visva-Bharati, Shantiniketan.",
+          "Northeast: Gauhati University, Assam (strong psychology department). Martin Luther Christian University (MLCU), Meghalaya (known for experiential learning in counselling).",
+          "Distance Learning: IGNOU offers BA and MA in Psychology (limited options for specialization).",
+          "Specialized Institutions: NIMHANS Bangalore (research and advanced training). TISS Mumbai (applied psychology focus)."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Gift",
+        description: "Financial aid and funding options.",
+        color: "#8B5CF6",
+        content: [
+          "INSPIRE Scholarship (DST): For top rankers in Class 12 Science pursuing B.Sc. Psychology. Covers tuition and provides monthly stipend.",
+          "UGC JRF (Junior Research Fellowship): If you clear NET-JRF, get robust stipend (₹37,000/month) for PhD. Covers tuition fees.",
+          "Fulbright-Nehru Master's Fellowships: For talented Indians to pursue Master's in Psychology in USA. Fully funded.",
+          "Single Girl Child Scholarship: Offered by UGC for PG students. Merit and need-based.",
+          "Central Sector Scholarship: For students with 80th percentile+ in Class 12. Family income <₹8 LPA.",
+          "State Government Schemes: Various state governments offer scholarships for meritorious students.",
+          "Institutional Scholarships: Many colleges offer merit-based and need-based scholarships. 25-50% fee waivers based on entrance exam scores.",
+          "Loan Schemes: PM-Vidyalaxmi provides 3% interest subvention for loans up to ₹10 lakhs."
+        ]
+      },
+      {
+        id: "professional-bodies",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Regulatory bodies and professional credentials.",
+        color: "#10B981",
+        content: [
+          "Rehabilitation Council of India (RCI): Mandatory registration only if you want to be a 'Clinical Psychologist' in medical settings. Not required for Counselling Psychologists.",
+          "Indian Association of Clinical Psychologists (IACP): Key professional body for psychologists. Promotes ethical practice and professional development.",
+          "Indian Psychological Association (IPA): Premier professional body. Publishes journals and organizes conferences.",
+          "Recommended Certifications: QPR Gatekeeper Training (suicide prevention). Career Counselling Certifications (Univariety, UCLA Ext). Trauma-Informed Care Certification. CBT Certification.",
+          "Professional Ethics: Adherence to professional code of ethics. Confidentiality and client rights protection. Professional boundaries and dual relationships.",
+          "Continuing Education: Regular workshops and training programs. Participation in conferences and seminars. Staying updated with latest research.",
+          "Supervision: Initial practice requires supervision by senior therapist. Ongoing supervision recommended for professional development."
+        ]
+      },
+      {
+        id: "career-opportunities",
+        title: "Career Opportunities",
+        icon: "Rocket",
+        description: "Conventional and emerging career paths.",
+        color: "#EF4444",
+        content: [
+          "Conventional Careers: School Counselor (CBSE/ICSE schools, coaching centers). Marriage Counselor (couples therapy). NGO Field Worker (community mental health). Corporate Wellness Coach (EAP programs).",
+          "New-Age Careers (Emerging and Growing Fast): Sports Psychologist (helping athletes handle pressure). UX Researcher (tech companies studying user behavior). Geriatric Counselor (mental health of elderly). Eco-Anxiety Specialist (climate change anxiety).",
+          "Online Platforms: Teletherapy Counselor (YourDOST, Wysa, Amaha, BetterHelp India). Chat-based Therapy. Video Counseling. AI Supervision (supervising AI chatbots).",
+          "Freelancing & Entrepreneurship: Private Practice (therapy). Corporate Trainer (soft skills, communication). Content Creator (mental health influencer, YouTube, podcasts). Workshop Facilitator (schools, corporates).",
+          "Academic and Research: University Professor/Researcher. Clinical Psychology Researcher. Publishing and Contributing to Journals. Mentoring next generation of counselors.",
+          "Government Sector: School Counselor (government schools). Mental Health Officer (government health departments). Tribal welfare counselor."
+        ]
+      },
+      {
+        id: "challenges-realities",
+        title: "Challenges and Realities",
+        icon: "AlertCircle",
+        description: "Honest look at the profession's difficulties.",
+        color: "#EF4444",
+        content: [
+          "The Burnout Risk: You listen to trauma all day. If you don't take care of yourself, you will burn out. Vicarious trauma is real.",
+          "Slow Start: You won't earn big money immediately after MA. Takes 3-5 years to build reputation and client base. Initial salaries modest.",
+          "Stigma: In India, people still hesitate to pay for therapy. You may have to educate clients on why they need you. Mental health still carries social stigma.",
+          "Emotional Toll: Hearing difficult stories can be emotionally draining. Maintaining professional boundaries is challenging. Difficulty leaving work at work.",
+          "Limited Awareness: Many people don't understand the difference between counselor and therapist. Confusion with life coaches and spiritual advisors.",
+          "Regulatory Confusion: RCI registration only for Clinical Psychologists, not Counselling Psychologists. Can create confusion about credentials.",
+          "Income Variability: Private practice income varies based on client base. Seasonal fluctuations. Client cancellations mean lost income.",
+          "Work-Life Balance: Client emergencies can happen outside office hours. Difficult to maintain boundaries. Always 'on call' feeling."
+        ]
+      },
+      {
+        id: "emerging-trends",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Zap",
+        description: "Future of counselling psychology in India.",
+        color: "#F59E0B",
+        content: [
+          "AI & Chatbots: AI bots like Wysa handling basic anxiety chat. Psychologists needed to supervise these AIs and handle complex cases. Human-AI collaboration.",
+          "Eco-Anxiety: New field treating anxiety related to climate change. Growing demand as climate crisis intensifies.",
+          "Corporate Mental Health Revolution: No longer just 'HR.' Companies hiring full-time 'Chief Wellness Officers' (often psychologists). Mental health becoming core business strategy.",
+          "Teletherapy Explosion: 60-70% of therapy already online. Virtual reality therapy emerging. Global reach for Indian counselors.",
+          "Workplace Wellness: Post-COVID, companies investing heavily in employee mental health. Burnout prevention programs. Stress management workshops.",
+          "Specialized Niches: Sports psychology growing. Geriatric counseling as population ages. LGBTQ+ affirming counseling. Neurodiversity-affirming approaches.",
+          "Required Skills: Digital literacy essential. Data analysis for tracking outcomes. Understanding of AI and technology. Interdisciplinary collaboration."
+        ]
+      },
+      {
+        id: "skills-to-build",
+        title: "Skills to Build While Still in School",
+        icon: "Zap",
+        description: "Practical steps for students in Classes 9-12.",
+        color: "#06B6D4",
+        content: [
+          "Volunteer: Work with an NGO or helpline. Answer phones, listen to people. Even this teaches empathy and communication.",
+          "Read Beyond Textbooks: 'The Man Who Mistook His Wife for a Hat' by Oliver Sacks. 'Maybe You Should Talk to Someone' by Lori Gottlieb. 'Emotional Intelligence' by Daniel Goleman.",
+          "Learn a Language: In India, if you can counsel in Hindi, Marathi, Tamil, or Bengali, job prospects double. Therapy best done in client's mother tongue.",
+          "Develop Listening Skills: Practice active listening with friends and family. Notice body language and tone. Understand what's not being said.",
+          "Study Psychology: Read psychology books and articles. Follow mental health influencers (verify credentials). Understand common disorders and treatments.",
+          "Build Communication Skills: Join debate club or public speaking groups. Write essays on psychological topics. Develop interviewing skills.",
+          "Understand Diversity: Learn about different cultures, religions, and backgrounds. Develop cultural sensitivity. Challenge your own biases.",
+          "Practice Self-Care: Understand your own mental health. Practice meditation or yoga. Develop healthy coping mechanisms.",
+          "Take Online Courses: Coursera, NPTEL courses on psychology. Understand research methodology and statistics."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities in This Career",
+        icon: "User",
+        description: "Inspiring figures in counselling psychology.",
+        color: "#3B82F6",
+        content: [
+          "Dr. Prerna Kohli: Clinical psychologist and author. Served as advisor to President of India. Prominent face in mental health advocacy. Known for accessible mental health content.",
+          "Dr. Dipti Yadav: Renowned psychologist based in Gurugram. Known for holistic approach to wellbeing. Pioneer in corporate mental health.",
+          "Vindhya Undurti: Professor of psychology. Known for work on gender and mental health in India. Distinguished Publication Award winner. Advocate for feminist psychology.",
+          "Anjhula Mya Bais: International psychology strategist and trauma specialist. Recipient of American Psychological Association's Global Citizen Psychologist Citation. Works on trauma and resilience.",
+          "Dr. Mimansa Singh Tanwar: Head of School Mental Health program at Fortis Healthcare. Pioneering work for student mental health. Advocate for school counseling.",
+          "Dr. Harish Shetty: Psychiatrist and psychotherapist. Known for humanistic approach. Author and speaker on mental health. Advocate for breaking stigma.",
+          "Dr. Anjali Chhabria: Clinical psychologist and founder of mental health initiatives. Pioneer in workplace mental health. Advocate for corporate wellness."
+        ]
+      }
+    ]
   }
 };

@@ -14531,8 +14531,1078 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   }
+,
+  geographer: {
+    slug: "geographer",
+    badge: "🌍 The Earth Detective for Class 10+",
+    heading: "Geographer",
+    subheading: "Understanding Earth's landscapes, cultures, and climate systems. From urban planning to environmental conservation, geographers shape how we live.",
+    whyCards: [
+      { icon: "Globe", title: "Climate Crisis Expert", description: "India faces critical climate challenges. Geographers lead adaptation and mitigation strategies.", borderColor: "#10B981" },
+      { icon: "Map", title: "Urban Planning Hub", description: "India's rapid urbanization creates massive demand for urban planners and geographers.", borderColor: "#059669" },
+      { icon: "TrendingUp", title: "Growing Opportunities", description: "GIS, remote sensing, and spatial analysis skills are in high demand across sectors.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "Diverse Career Paths", description: "Work in government, NGOs, tech companies, tourism, or environmental consulting.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "BA (3 Yrs) + MA (2 Yrs) + Optional PhD", color: "bg-green-100 text-green-700" },
+      { label: "Entry Exams", detail: "CUET, CUET-PG, UGC NET, UPSC", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹3L–₹25L+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "₹2.5T", label: "Climate Adaptation Market by 2030", gradient: "from-green-500 to-green-600" },
+      { value: "15%", label: "Annual Growth in GIS Jobs", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Studying Earth's physical and human systems to solve real-world problems.",
+        color: BLUE,
+        content: [
+          "Geography Definition: The science of places and spaces. Study how physical landscapes (mountains, rivers, climate) interact with human societies (culture, economy, politics).",
+          "Physical Geography: Understanding weather patterns, soil formation, water cycles, and ecosystems. Why does Mumbai flood? How do monsoons affect agriculture?",
+          "Human Geography: Studying cultures, economies, cities, and societies. How do migration patterns shape cities? What drives inequality between regions?",
+          "Applied Geography: Using geographic knowledge to solve problems—urban planning, environmental conservation, disaster management, sustainable development.",
+          "Why It Matters: India faces climate change, rapid urbanization, water scarcity, and regional inequality. Geographers are essential for creating sustainable, equitable solutions.",
+          "The Scope: Work in government (urban planning, environmental ministry), NGOs (conservation), tech companies (GIS/mapping), tourism, or academia."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: Rajesh, Urban Planner",
+        icon: "Clock",
+        description: "Real workflow of a geographer in urban planning.",
+        color: BLUE2,
+        content: [
+          "8:00 AM - The Data Dive: Rajesh arrives at his office in Delhi's planning department. He opens GIS software (ArcGIS) to analyze satellite imagery of a proposed metro corridor. He's mapping land use, population density, and environmental zones.",
+          "10:30 AM - Field Survey: He visits the proposed site with a GPS device and drone. He photographs existing infrastructure, talks to residents about their concerns, and collects ground-truth data.",
+          "1:00 PM - Analysis and Mapping: Back at office, he layers data—population, traffic, green spaces, flood zones. He creates maps showing where the metro should go to maximize benefit and minimize environmental impact.",
+          "3:30 PM - Stakeholder Meeting: He presents findings to city officials, environmental consultants, and community representatives. He explains geographic trade-offs: 'This route serves more people but affects a wetland.'",
+          "6:00 PM - Report Writing: He documents recommendations in a detailed report with maps, charts, and policy suggestions. His geographic analysis will influence decisions affecting millions."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? The Geographer DNA",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Personality Traits: Curious about places and cultures, systems thinker, problem-solver, adaptable, passionate about environment or society.",
+          "Hard Skills: GIS and remote sensing, data analysis, cartography, fieldwork techniques, statistics, programming (Python, R), spatial thinking.",
+          "Soft Skills: Communication, critical thinking, collaboration, cultural sensitivity, adaptability.",
+          "The Self-Check: Do you wonder why cities are shaped the way they are? Are you interested in climate change or cultural diversity? Do you enjoy maps and data? If yes, you have the Geographer DNA."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Research Workflow",
+        icon: "Briefcase",
+        description: "From fieldwork to policy impact.",
+        color: BLUE2,
+        content: [
+          "Research Design: Formulating geographic questions and designing studies to answer them.",
+          "Fieldwork: Conducting surveys, interviews, and observations in real locations.",
+          "Data Collection: Using GPS, drones, satellite imagery, and surveys to gather spatial data.",
+          "Analysis: Using GIS, statistics, and qualitative methods to analyze geographic patterns.",
+          "Mapping and Visualization: Creating maps and visualizations to communicate findings.",
+          "Policy Recommendations: Translating research into actionable recommendations for planning and policy.",
+          "Collaboration: Working with urban planners, environmental scientists, policymakers, and communities."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "After Class 12: Choose Humanities stream (Geography, History, Economics). BA/BA (Hons) in Geography (3 years). Entrance: CUET, university-specific exams.",
+          "After Graduation: MA in Geography or specialized PG Diploma in Urban Planning/GIS (2 years). Entrance: CUET-PG, university-specific exams.",
+          "Doctoral Studies: PhD in Geography (3-5 years) for research and academic roles.",
+          "Government Entry: Urban Planner through UPSC, State Civil Services, or specialized recruitment.",
+          "Top Institutions: Delhi University, Banaras Hindu University, University of Mumbai, Jawaharlal Nehru University (JNU), University of Pune, University of Calcutta."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, cities, and industry growth.",
+        color: BLUE2,
+        content: [
+          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Junior Planner, GIS Analyst, Research Assistant.",
+          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Planner, GIS Specialist, Environmental Consultant.",
+          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Planning Director, Senior Consultant, Professor.",
+          "Leadership (15+ years): ₹18L–₹25L+. Positions: Chief Planner, Department Head, Institute Director.",
+          "Government (UPSC): Urban Planner starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
+          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Industries, companies, and opportunities.",
+        color: BLUE,
+        content: [
+          "Conventional Careers: Urban Planner (Government/Private), GIS Analyst, Environmental Consultant, Geographer (Academia), Tourism Planner, Regional Planner.",
+          "New-Age Careers: Climate Change Analyst, Remote Sensing Specialist, Spatial Data Scientist, Smart City Consultant, Disaster Risk Reduction Specialist, Sustainability Consultant.",
+          "Emerging Roles: Climate Migration Specialist, Urban Resilience Planner, Geospatial AI Specialist.",
+          "Freelancing: GIS Consultant, Mapping Specialist, Environmental Impact Assessment, Urban Design Consultant.",
+          "Top Cities: Delhi (Planning), Mumbai (Urban Development), Bangalore (Tech/GIS), Pune, Hyderabad, Ahmedabad.",
+          "Sectors: Government departments, urban development authorities, NGOs, tech companies (Google, Esri), consulting firms, academia, UNESCO, World Bank."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and education costs.",
+        color: BLUE2,
+        content: [
+          "BA/BA (Hons) in Geography: Government ₹10,000-50,000/year, Private ₹50,000-2,00,000/year (3 years).",
+          "MA in Geography: Government ₹15,000-60,000/year, Private ₹80,000-3,00,000/year (2 years).",
+          "PG Diploma in Urban Planning/GIS: ₹1,00,000-3,00,000 (1-2 years).",
+          "PhD in Geography: Fellowships available (UGC/JRF), or ₹1,00,000-3,00,000 total (3-5 years).",
+          "Additional Costs: Living/Hostel (₹6,000-15,000/month), GIS Software (free options like QGIS available), GPS Equipment (₹10,000-50,000), Fieldwork Travel (₹20,000-50,000).",
+          "ROI: With consulting opportunities offering ₹6-18 LPA, investment can be recovered in 2-4 years."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University.",
+          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
+          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
+          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
+          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
+          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "Central Government Schemes: Central Sector Scheme of Scholarships (80th percentile+, family income <₹8L), Post Matric Scholarships (SC/ST/OBC), UGC Scholarships for PG Students.",
+          "UGC NET/JRF Fellowship: ₹31,000-35,000/month for PhD students.",
+          "State Government Schemes: Maharashtra, West Bengal, Uttar Pradesh, and Gujarat offer various scholarship schemes.",
+          "Institutional Scholarships: Delhi University (merit scholarships), JNU (need-based aid), BHU (merit-based scholarships).",
+          "Private/Corporate: Sitaram Jindal Foundation, Tata Trusts, Dr. Ambedkar Central Sector Scheme."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Professional organizations and credentials.",
+        color: BLUE,
+        content: [
+          "Professional Bodies: Indian Geographical Society, National Institute of Urban Affairs (NIUA), Indian Institute of Planners (IIP), ICOMOS India.",
+          "Certifications: Esri GIS Certification, QGIS Certification, Remote Sensing Certification, Urban Planning Certification, Climate Change Adaptation Specialist.",
+          "Specialized Training: Advanced GIS and Remote Sensing, Urban Planning and Design, Climate Change Adaptation, Disaster Risk Reduction.",
+          "Licensing: Urban Planners can register with Indian Institute of Planners (IIP). Government positions require UPSC/State Civil Services clearance.",
+          "These credentials significantly enhance career prospects and earning potential."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in geography careers.",
+        color: BLUE2,
+        content: [
+          "Conventional Careers: Urban Planner, Regional Planner, GIS Analyst, Environmental Consultant, Geographer (Academia), Tourism Planner.",
+          "New-Age Careers: Climate Change Analyst, Remote Sensing Specialist, Spatial Data Scientist, Smart City Consultant, Disaster Risk Reduction Specialist, Sustainability Consultant.",
+          "Emerging Roles: Climate Migration Specialist, Urban Resilience Planner, Geospatial AI Specialist, Metaverse Urban Designer.",
+          "Freelancing: GIS Consultant (₹30,000-1,00,000/month), Mapping Specialist, Environmental Impact Assessment, Urban Design Consultant.",
+          "Interdisciplinary Roles: Geography + Data Science, Policy, Technology, Healthcare."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of geography careers.",
+        color: BLUE,
+        content: [
+          "Limited Academic Positions: Fewer university positions than demand for geographers.",
+          "Fieldwork Challenges: Fieldwork can be physically demanding and sometimes in difficult conditions.",
+          "Policy Implementation Gap: Your research recommendations may not always be implemented due to political or economic constraints.",
+          "Rapid Technology Changes: Must constantly update GIS and remote sensing skills.",
+          "Work-Life Balance: During project deadlines or fieldwork seasons, long hours are common.",
+          "Funding Challenges: Research projects depend on grants, which can be difficult to secure.",
+          "Interdisciplinary Nature: Must collaborate with diverse professionals, requiring strong communication skills."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in geography.",
+        color: BLUE2,
+        content: [
+          "AI and Machine Learning: Automated analysis of satellite imagery, predictive modeling for climate and urban growth, pattern recognition in spatial data.",
+          "Real-Time Geospatial Data: IoT sensors and satellite constellations providing real-time environmental monitoring.",
+          "Climate Adaptation Planning: Growing demand for geographers specializing in climate resilience and adaptation strategies.",
+          "Urban Resilience: Focus on making cities resilient to climate change, disasters, and social challenges.",
+          "Geospatial AI: Combining GIS with AI for advanced spatial analysis and decision-making.",
+          "Impact on Employment: New roles for data scientists, AI specialists, climate analysts. Required skills: Python, R, machine learning, advanced GIS."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Develop Strong Geography Foundation: Focus on physical and human geography. Read beyond textbooks. Resources: 'The World in 2050' by Laurence C. Smith.",
+          "Learn Map Reading: Practice reading topographic maps, understanding scale, and spatial relationships.",
+          "Develop Data Skills: Learn Excel, basic statistics, and data visualization. Tools: Google Sheets, Tableau.",
+          "Learn GIS Basics: Download free QGIS and follow tutorials. Understand spatial data and mapping.",
+          "Visit Geographic Sites: Visit diverse landscapes—mountains, rivers, cities, villages. Observe geographic patterns.",
+          "Follow Current Events: Track climate news, urban development, and environmental issues. Understand geographic implications.",
+          "Develop Research Skills: Practice writing research papers on geographic topics. Learn proper citation.",
+          "Join Geography Clubs: Create or join geography clubs. Organize field trips and awareness campaigns.",
+          "Participate in Competitions: Geography quiz competitions, map-making competitions, environmental awareness campaigns.",
+          "Learn Programming: Python basics for data analysis and GIS scripting.",
+          "Develop Photography Skills: Geographic documentation relies on photography. Practice landscape and urban photography.",
+          "Volunteer: NGOs, environmental projects, urban planning initiatives. Look for summer internships.",
+          "Build Physical Fitness: Fieldwork requires stamina. Develop fitness through sports or regular exercise.",
+          "Cultivate Observation Skills: Practice observing geographic patterns in your surroundings.",
+          "Stay Updated: Follow geography news and discoveries. Join online communities and forums."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Geographers",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Radhakamal Mukerjee (1889-1968): Pioneer of Indian geography. Founder of Indian Geographical Society. Established geography as an academic discipline in India.",
+          "Hari Narain Singh: Renowned geographer specializing in urban geography and regional development. Contributed significantly to understanding Indian urbanization.",
+          "Ashok Dutt: Expert in urban geography and South Asian studies. Authored numerous books on Indian cities and regional development.",
+          "Ramesh Chandra Sharma: Specialist in physical geography and environmental studies. Contributed to understanding India's climate and natural resources.",
+          "Annapurna Shaw: Contemporary geographer focusing on urban development, gender geography, and social issues in Indian cities.",
+          "Sanjay Sharma: Urban planner and geographer working on sustainable cities and climate adaptation in India.",
+          "Ravi Shankar: Geographer specializing in political geography and geopolitics. Expert on India's regional and international relations."
+        ]
+      }
+    ]
+  },
+  political_scientist: {
+    slug: "political_scientist",
+    badge: "🏛️ The Power Analyst for Class 10+",
+    heading: "Political Scientist",
+    subheading: "Analyzing power, governance, and political systems to understand how societies are organized and how change happens. From policy-making to international relations, political scientists shape the future.",
+    whyCards: [
+      { icon: "Globe", title: "Governance Expert", description: "India's complex democracy needs experts to analyze policies, elections, and governance systems.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Policy Influence", description: "Political scientists directly influence government policies, think tanks, and international organizations.", borderColor: "#059669" },
+      { icon: "Briefcase", title: "Diverse Opportunities", description: "Work in government, NGOs, think tanks, media, international organizations, or academia.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "Growing Demand", description: "India's political complexity and global engagement create increasing demand for political expertise.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "BA (3 Yrs) + MA (2 Yrs) + Optional PhD", color: "bg-green-100 text-green-700" },
+      { label: "Entry Exams", detail: "CUET, CUET-PG, UGC NET, UPSC", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹3L–₹30L+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "₹5T", label: "Government Budget Analysis Market", gradient: "from-green-500 to-green-600" },
+      { value: "18%", label: "Growth in Policy Research Jobs", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Studying political systems, power structures, and governance to understand how societies function.",
+        color: BLUE,
+        content: [
+          "Political Science Definition: The systematic study of government, politics, and political behavior. Political scientists analyze how power is distributed, how decisions are made, and how societies are organized.",
+          "Core Areas: Political Theory (ideas about justice, democracy, power), Comparative Politics (comparing different political systems), International Relations (relations between nations), Public Policy (analyzing government policies), Political Behavior (voting, activism, public opinion).",
+          "The Role: Conduct research on political issues, analyze policies, advise governments, work in think tanks, teach students, contribute to public discourse on political matters.",
+          "Why It Matters: India faces complex political challenges—federalism, communalism, corruption, inequality. Political scientists provide evidence-based analysis to guide policy and public understanding.",
+          "The Scope: Work in government (policy analysis, civil services), think tanks (research), NGOs (advocacy), international organizations (UN, World Bank), media (analysis), or academia."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: Priya, Policy Analyst",
+        icon: "Clock",
+        description: "Real workflow of a political scientist in policy research.",
+        color: BLUE2,
+        content: [
+          "9:00 AM - Research Review: Priya arrives at a Delhi-based think tank. She reviews recent government announcements and media reports on a new education policy.",
+          "10:30 AM - Data Analysis: She analyzes election data using statistical software to understand voting patterns in rural vs. urban areas. She's studying how political preferences vary by region.",
+          "1:00 PM - Policy Briefing: She meets with colleagues to discuss findings. They debate the implications: 'Does this voting pattern suggest growing polarization?'",
+          "3:00 PM - Stakeholder Interview: She interviews a government official about the rationale behind a new policy. She takes detailed notes on the political considerations.",
+          "5:00 PM - Report Writing: She drafts a policy brief analyzing the new education policy. She includes recommendations based on comparative analysis of similar policies in other states.",
+          "7:00 PM - Media Engagement: She prepares talking points for a TV debate on the policy. She'll represent the think tank's evidence-based perspective."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? The Political Scientist DNA",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Personality Traits: Intellectually curious about power and governance, critical thinker, analytical, interested in current affairs, passionate about social change.",
+          "Hard Skills: Research methodology, data analysis, statistical software (SPSS, R, Python), qualitative analysis, policy analysis, writing.",
+          "Soft Skills: Critical thinking, communication, debate, collaboration, cultural sensitivity, ability to engage with diverse perspectives.",
+          "The Self-Check: Do you wonder why governments make certain decisions? Are you interested in elections, policies, or international relations? Do you enjoy analyzing complex social issues? If yes, you have the Political Scientist DNA."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Research Workflow",
+        icon: "Briefcase",
+        description: "From research question to policy impact.",
+        color: BLUE2,
+        content: [
+          "Research Design: Formulating political questions and designing studies to answer them.",
+          "Literature Review: Analyzing existing research and theories on political topics.",
+          "Data Collection: Conducting surveys, interviews, analyzing government data, studying voting patterns.",
+          "Analysis: Using statistical and qualitative methods to analyze political phenomena.",
+          "Policy Analysis: Evaluating government policies and their impacts.",
+          "Report Writing: Communicating findings to policymakers, media, and public.",
+          "Advocacy: Engaging in public discourse and policy advocacy based on research findings."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "After Class 12: Choose Humanities stream (Political Science, History, Economics). BA/BA (Hons) in Political Science (3 years). Entrance: CUET, university-specific exams.",
+          "After Graduation: MA in Political Science or specialized PG Diploma in Public Policy/International Relations (2 years). Entrance: CUET-PG, university-specific exams.",
+          "Doctoral Studies: PhD in Political Science (3-5 years) for research and academic roles.",
+          "Government Entry: IAS/IPS through UPSC, Policy Analyst through government recruitment, State Civil Services.",
+          "Top Institutions: Delhi University, Jawaharlal Nehru University (JNU), University of Mumbai, Banaras Hindu University, University of Pune, Ashoka University."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, cities, and industry growth.",
+        color: BLUE2,
+        content: [
+          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Research Associate, Junior Policy Analyst, Teaching Assistant.",
+          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Policy Analyst, Assistant Professor.",
+          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Research Director, Senior Policy Advisor, Associate Professor.",
+          "Leadership (15+ years): ₹18L–₹30L+. Positions: Think Tank Director, Department Head, Professor.",
+          "Government (UPSC): IAS starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
+          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Industries, companies, and opportunities.",
+        color: BLUE,
+        content: [
+          "Conventional Careers: Political Scientist (Academia), Policy Analyst, Government Advisor, Researcher (Think Tank), International Relations Specialist.",
+          "New-Age Careers: Election Data Analyst, Political Risk Analyst, Governance Consultant, Digital Democracy Specialist, Misinformation Analyst.",
+          "Emerging Roles: AI Policy Specialist, Climate Policy Analyst, Cybersecurity Policy Expert.",
+          "Freelancing: Policy Consultant, Political Analyst, Research Consultant, Media Commentator.",
+          "Top Cities: Delhi (Government/Think Tanks), Mumbai (Media/International Organizations), Bangalore (Tech Policy), Hyderabad.",
+          "Sectors: Government departments, think tanks (Observer Research Foundation, Brookings India), NGOs, international organizations (UN, World Bank), media, academia, tech companies (policy teams)."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and education costs.",
+        color: BLUE2,
+        content: [
+          "BA/BA (Hons) in Political Science: Government ₹10,000-50,000/year, Private ₹50,000-2,00,000/year (3 years).",
+          "MA in Political Science: Government ₹15,000-60,000/year, Private ₹80,000-3,00,000/year (2 years).",
+          "PG Diploma in Public Policy: ₹1,00,000-3,00,000 (1-2 years).",
+          "PhD in Political Science: Fellowships available (UGC/JRF), or ₹1,00,000-3,00,000 total (3-5 years).",
+          "Additional Costs: Living/Hostel (₹6,000-15,000/month), Research Materials (₹10,000-30,000), Fieldwork Travel (₹20,000-50,000).",
+          "ROI: With consulting opportunities offering ₹6-20 LPA, investment can be recovered in 2-4 years."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University.",
+          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
+          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
+          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
+          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
+          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "Central Government Schemes: Central Sector Scheme of Scholarships (80th percentile+, family income <₹8L), Post Matric Scholarships (SC/ST/OBC), UGC Scholarships for PG Students.",
+          "UGC NET/JRF Fellowship: ₹31,000-35,000/month for PhD students.",
+          "State Government Schemes: Maharashtra, West Bengal, Uttar Pradesh, and Gujarat offer various scholarship schemes.",
+          "Institutional Scholarships: Delhi University (merit scholarships), JNU (need-based aid), BHU (merit-based scholarships).",
+          "Private/Corporate: Sitaram Jindal Foundation, Tata Trusts, Dr. Ambedkar Central Sector Scheme."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Professional organizations and credentials.",
+        color: BLUE,
+        content: [
+          "Professional Bodies: Indian Political Science Association, Indian Council of Social Science Research (ICSSR), Institute of Social Sciences (ISS).",
+          "Certifications: Public Policy Certification, Data Analysis Certification, International Relations Certification, Research Methodology Certification.",
+          "Specialized Training: Advanced Research Methods, Policy Analysis, International Relations, Governance Studies.",
+          "Licensing: Government positions require UPSC/State Civil Services clearance.",
+          "These credentials significantly enhance career prospects and earning potential."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in political science careers.",
+        color: BLUE2,
+        content: [
+          "Conventional Careers: Political Scientist (Academia), Policy Analyst, Government Advisor, Researcher (Think Tank), International Relations Specialist.",
+          "New-Age Careers: Election Data Analyst, Political Risk Analyst, Governance Consultant, Digital Democracy Specialist, Misinformation Analyst.",
+          "Emerging Roles: AI Policy Specialist, Climate Policy Analyst, Cybersecurity Policy Expert, Geopolitics Analyst.",
+          "Freelancing: Policy Consultant (₹30,000-1,00,000/month), Political Analyst, Research Consultant, Media Commentator.",
+          "Interdisciplinary Roles: Political Science + Data Science, Economics, Technology, Law."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of political science careers.",
+        color: BLUE,
+        content: [
+          "Limited Academic Positions: Fewer university positions than demand for political scientists.",
+          "Political Sensitivity: Research on sensitive political topics can face resistance or censorship.",
+          "Policy Implementation Gap: Your research recommendations may not be implemented due to political constraints.",
+          "Funding Challenges: Research projects depend on grants, which can be difficult to secure.",
+          "Work-Life Balance: During election seasons or policy crises, long hours are common.",
+          "Objectivity Pressure: Must maintain academic objectivity while engaging with politically charged topics.",
+          "Interdisciplinary Nature: Must collaborate with diverse professionals, requiring strong communication skills."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in political science.",
+        color: BLUE2,
+        content: [
+          "Data-Driven Politics: AI and machine learning analyzing voting patterns, predicting political outcomes, and understanding public opinion.",
+          "Digital Democracy: Focus on online political participation, misinformation, and digital governance.",
+          "Global Challenges: Climate politics, migration, international security, and pandemic governance.",
+          "Governance Innovation: New models of governance, participatory democracy, and citizen engagement.",
+          "Impact on Employment: New roles for data scientists, AI specialists, digital analysts. Required skills: Python, R, machine learning, data visualization."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Develop Strong Political Foundation: Read about Indian politics, constitution, and governance. Resources: 'The Constitution of India' (simplified versions), 'India After Gandhi' by Ramachandra Guha.",
+          "Follow Current Affairs: Track news on elections, policies, and political developments. Understand political implications.",
+          "Develop Research Skills: Practice writing research papers on political topics. Learn proper citation.",
+          "Learn Data Skills: Excel, basic statistics, and data visualization. Tools: Google Sheets, Tableau.",
+          "Develop Critical Thinking: Practice analyzing political arguments and identifying biases.",
+          "Join Debate Clubs: Participate in debates on political and social issues. Develop argumentation skills.",
+          "Volunteer: NGOs, election monitoring, civic engagement projects. Look for summer internships.",
+          "Learn Programming: Python basics for data analysis.",
+          "Read Widely: Political theory, history, economics, sociology. Develop interdisciplinary understanding.",
+          "Participate in Competitions: Essay competitions, debate competitions, model parliament.",
+          "Build Communication Skills: Practice writing and public speaking.",
+          "Stay Updated: Follow political news and analysis. Join online communities and forums.",
+          "Develop Observation Skills: Observe political processes in your community and school."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Political Scientists",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Rajni Kothari (1928-2015): Founder of Centre for the Study of Developing Societies (CSDS). Pioneer of Indian political science. Studied Indian democracy and social movements.",
+          "Granville Austin: Constitutional expert who studied India's Constitution and democratic institutions.",
+          "Ashis Nandy: Renowned political psychologist and social critic. Studied Indian politics, culture, and modernity.",
+          "Sudipta Kaviraj: Contemporary political theorist. Expert on Indian democracy, nationalism, and political thought.",
+          "Pratap Bhanu Mehta: Political philosopher and public intellectual. Writes on Indian democracy, governance, and constitutional issues.",
+          "Ramachandra Guha: Historian and political commentator. Known for analysis of Indian politics and society.",
+          "Christophe Jaffrelot: French political scientist specializing in Indian politics, Hindu nationalism, and South Asian politics."
+        ]
+      }
+    ]
+  },
+  historian: {
+    slug: "historian",
+    badge: "📚 The Time Detective for Class 10+",
+    heading: "Historian",
+    subheading: "Uncovering the stories of the past to understand the present and shape the future. From ancient civilizations to modern movements, historians preserve and interpret human history.",
+    whyCards: [
+      { icon: "BookOpen", title: "5,000 Years of History", description: "India's rich past with countless untold stories waiting to be discovered and preserved.", borderColor: "#10B981" },
+      { icon: "Globe", title: "Global Relevance", description: "Understanding history is crucial for addressing contemporary issues like identity, conflict, and social change.", borderColor: "#059669" },
+      { icon: "TrendingUp", title: "Growing Tech Integration", description: "Digital humanities, AI, and data analysis revolutionizing historical research and interpretation.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "Diverse Career Paths", description: "Work in academia, museums, heritage management, publishing, media, or cultural organizations.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "BA (3 Yrs) + MA (2 Yrs) + Optional PhD (3-5 Yrs)", color: "bg-green-100 text-green-700" },
+      { label: "Entry Exams", detail: "CUET, CUET-PG, UGC NET, UPSC", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹3L–₹28L+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "100+", label: "Museums and Heritage Sites in India", gradient: "from-green-500 to-green-600" },
+      { value: "12%", label: "Growth in Heritage Tourism", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Studying, interpreting, and preserving human history through research and analysis.",
+        color: BLUE,
+        content: [
+          "Historian Definition: A scholar who studies human history through primary sources (documents, artifacts, oral histories) and secondary sources (books, research). They interpret the past to understand how societies developed.",
+          "What They Study: Political history (empires, revolutions), social history (everyday life, culture), economic history (trade, industry), intellectual history (ideas, philosophy), and more.",
+          "The Role: Conduct archival research, analyze primary sources, write scholarly works, teach students, preserve historical records, contribute to public understanding of history.",
+          "Why It Matters: History provides context for understanding contemporary issues. It helps us learn from past mistakes and successes. In India, historians preserve the narratives of diverse communities and challenge dominant narratives.",
+          "The Scope: Work in universities, museums, archives, heritage organizations, UNESCO, publishing houses, media, or as independent scholars.",
+          "The Impact: Historians shape how societies understand themselves and their place in the world."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: Priya, Academic Historian",
+        icon: "Clock",
+        description: "Real workflow of a historian in academia.",
+        color: BLUE2,
+        content: [
+          "9:00 AM - Archive Research: Priya arrives at the National Archives in Delhi. She's researching women's participation in the Indian independence movement. She carefully handles century-old documents, taking photographs and notes.",
+          "12:00 PM - Analysis and Interpretation: Back at her university office, she analyzes documents, cross-references them with other sources, and identifies patterns. She's building an argument about overlooked female freedom fighters.",
+          "2:00 PM - Teaching Preparation: She prepares for her afternoon lecture on 'Social Movements in Modern India.' She creates slides, selects primary source excerpts, and plans discussion questions.",
+          "3:30 PM - Classroom Teaching: She teaches 60 students, encouraging them to think critically about historical sources. She asks: 'Whose perspective is this document from? What's missing?'",
+          "5:00 PM - Writing and Research: She works on her book manuscript, integrating new findings from today's archival research. She's writing a chapter on women's economic contributions during independence.",
+          "7:00 PM - Reflection: As the day ends, she reflects on how her research might change how people understand India's independence struggle."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? The Historian DNA",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Personality Traits: Deep curiosity about the past, critical thinker, detail-oriented, patient, passionate about understanding human experience, empathetic.",
+          "Hard Skills: Research methodology, archival work, source analysis and criticism, writing and communication, data analysis, digital humanities tools, foreign languages (helpful).",
+          "Soft Skills: Critical thinking, analytical skills, communication, collaboration, cultural sensitivity, adaptability.",
+          "The Self-Check: Do you find yourself asking 'why' about historical events? Are you fascinated by how people lived in the past? Do you enjoy reading and research? If yes, you have the Historian DNA."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Research Workflow",
+        icon: "Briefcase",
+        description: "From research to publication.",
+        color: BLUE2,
+        content: [
+          "Research Design: Formulating historical questions and designing research projects to answer them.",
+          "Archival Research: Locating, accessing, and analyzing primary sources in archives and libraries.",
+          "Source Analysis: Critically evaluating sources for authenticity, bias, and reliability.",
+          "Interpretation: Synthesizing evidence to develop historical arguments and narratives.",
+          "Writing: Producing scholarly articles, books, and public-facing content.",
+          "Teaching: Educating students about history and historical methodology.",
+          "Public Engagement: Presenting findings to general audiences through lectures, exhibitions, and media.",
+          "Collaboration: Working with other historians, archivists, and cultural organizations."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "After Class 12: Choose Humanities stream (History, Literature, Philosophy). BA/BA (Hons) in History (3 years). Entrance: CUET, university-specific exams.",
+          "After Graduation: MA in History or specialized PG Diploma in Heritage Management/Museum Studies (2 years). Entrance: CUET-PG, university-specific exams.",
+          "Doctoral Studies: PhD in History (3-5 years) for research and academic roles.",
+          "Government Entry: Historian through UPSC, State Civil Services, or specialized recruitment in cultural departments.",
+          "Top Institutions: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, University of Mumbai, University of Calcutta, Aligarh Muslim University."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, cities, and industry growth.",
+        color: BLUE2,
+        content: [
+          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Research Assistant, Junior Curator, Lecturer.",
+          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Museum Curator, Assistant Professor.",
+          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Professor, Research Director, Senior Curator.",
+          "Leadership (15+ years): ₹18L–₹28L+. Positions: Department Head, Institute Director, Chief Curator.",
+          "Government (UPSC): Historian starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
+          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Kolkata) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities in heritage tourism."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Industries, companies, and opportunities.",
+        color: BLUE,
+        content: [
+          "Conventional Careers: University Professor, Museum Curator, Archivist, Heritage Manager, Historian (Government), Researcher.",
+          "New-Age Careers: Digital Historian, Public Historian, Heritage Tourism Consultant, Cultural Resource Manager, Digital Humanities Specialist, Oral History Specialist.",
+          "Emerging Roles: Metaverse Historian, Blockchain Provenance Specialist, AI-Assisted Historical Analysis Specialist.",
+          "Freelancing: Heritage Tour Guide (₹30,000-1,00,000/month), Historical Consultant, Heritage Writer/Author, Documentary Researcher.",
+          "Top Cities: Delhi (Archives, Universities), Kolkata (Museums, Archives), Mumbai (Heritage Sites), Pune, Varanasi, Lucknow.",
+          "Sectors: Government departments, universities, museums, archives, UNESCO, NGOs, publishing houses, media, tourism companies."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and education costs.",
+        color: BLUE2,
+        content: [
+          "BA/BA (Hons) in History: Government ₹10,000-50,000/year, Private ₹50,000-2,00,000/year (3 years).",
+          "MA in History: Government ₹15,000-60,000/year, Private ₹80,000-3,00,000/year (2 years).",
+          "PG Diploma in Heritage Management/Museum Studies: ₹1,00,000-3,00,000 (1-2 years).",
+          "PhD in History: Fellowships available (UGC/JRF), or ₹1,00,000-3,00,000 total (3-5 years).",
+          "Additional Costs: Living/Hostel (₹6,000-15,000/month), Books and Research Materials (₹5,000-10,000/year), Archive Access Fees (₹1,000-5,000), Travel for Research (₹20,000-50,000).",
+          "ROI: With consulting and heritage tourism opportunities offering ₹6-18 LPA, investment can be recovered in 2-4 years."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University, Aligarh Muslim University.",
+          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
+          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
+          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
+          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
+          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "Central Government Schemes: Central Sector Scheme of Scholarships (80th percentile+, family income <₹8L), Post Matric Scholarships (SC/ST/OBC), UGC Scholarships for PG Students.",
+          "ICHR Fellowships: Indian Council of Historical Research offers Junior and Senior Research Fellowships for history research.",
+          "UGC NET/JRF Fellowship: ₹31,000-35,000/month for PhD students.",
+          "State Government Schemes: Maharashtra, West Bengal, Uttar Pradesh, and Gujarat offer various scholarship schemes.",
+          "Institutional Scholarships: Delhi University (merit scholarships), JNU (need-based aid), BHU (merit-based scholarships).",
+          "Private/Corporate: Sitaram Jindal Foundation, Tata Trusts, Dr. Ambedkar Central Sector Scheme."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Professional organizations and credentials.",
+        color: BLUE,
+        content: [
+          "Professional Bodies: Indian Historical Association, Indian Council of Historical Research (ICHR), Indian History Congress, UNESCO.",
+          "Certifications: PG Diploma in Heritage Management, Museum Studies Certification, Archival Studies Certification, Digital Humanities Certification.",
+          "Specialized Training: Advanced Research Methodology, Archival Management, Museum Curation, Heritage Conservation, Digital Humanities.",
+          "Licensing: No mandatory license required. However, government positions require UPSC/State Civil Services clearance. Museum positions may require specific certifications.",
+          "These credentials significantly enhance career prospects and earning potential."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in history careers.",
+        color: BLUE2,
+        content: [
+          "Conventional Careers: University Professor, Museum Curator, Archivist, Heritage Manager, Historian (Government), Researcher.",
+          "New-Age Careers: Digital Historian, Public Historian, Heritage Tourism Consultant, Cultural Resource Manager, Digital Humanities Specialist, Oral History Specialist.",
+          "Emerging Roles: Metaverse Historian, Blockchain Provenance Specialist, AI-Assisted Historical Analysis Specialist.",
+          "Freelancing: Heritage Tour Guide (₹30,000-1,00,000/month), Historical Consultant, Heritage Writer/Author, Documentary Researcher, Online Course Creator.",
+          "Interdisciplinary Roles: History + Data Science, Technology, Policy, Media."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of history careers.",
+        color: BLUE,
+        content: [
+          "Limited Academic Positions: Fewer university positions than demand for historians.",
+          "Modest Starting Salaries: Entry-level salaries (₹2.5-4.5 LPA) are lower than engineering or management careers.",
+          "Funding Challenges: Research projects depend on grants, which can be difficult to secure.",
+          "Archival Access Issues: Some archives have limited access or poor preservation conditions.",
+          "Work-Life Balance: During research projects or teaching seasons, long hours are common.",
+          "Slow Career Progression: Moving from junior to senior positions often takes 10-15 years.",
+          "Political Sensitivity: Historical research can be politically sensitive. Historians may face pressure to present certain narratives.",
+          "Limited Public Awareness: History is not mainstream. Explaining your job to relatives can be exhausting.",
+          "Infrastructure Gaps: Many institutions lack modern research facilities and digital tools."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in history.",
+        color: BLUE2,
+        content: [
+          "Digital Humanities: AI-powered text analysis, digital archives, and virtual reconstructions of historical sites.",
+          "Oral History and Digital Storytelling: Recording and preserving oral histories using digital platforms.",
+          "Public History: Growing emphasis on making history accessible to general audiences through museums, documentaries, and digital media.",
+          "Interdisciplinary History: Combining history with data science, environmental science, and technology.",
+          "Decolonizing History: Reexamining history from diverse perspectives and challenging Eurocentric narratives.",
+          "Climate History: Understanding how climate change has shaped human history and societies.",
+          "Impact on Employment: New roles for digital historians, data analysts, and public historians. Required skills: Digital tools, data analysis, multimedia production."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Develop Strong History Foundation: Focus on Indian and world history. Read beyond textbooks. Resources: 'A History of India' by Romila Thapar, 'The Discovery of India' by Jawaharlal Nehru.",
+          "Learn Research Skills: Practice writing research papers on historical topics. Learn proper citation (Chicago, MLA, APA styles).",
+          "Develop Critical Thinking: Analyze historical sources. Ask: 'Who wrote this? Why? What's their bias? What's missing?'",
+          "Visit Museums and Archives: Explore local museums and heritage sites. Understand how history is preserved and presented.",
+          "Learn Digital Skills: Basic computer skills, digital archiving tools, and data analysis. Tools: Google Sheets, basic Python.",
+          "Read Widely: History books, biographies, historical fiction. Understand different perspectives and narratives.",
+          "Join History Clubs: Create or join history clubs. Organize heritage walks and awareness campaigns.",
+          "Participate in Competitions: History quiz competitions, essay competitions on historical topics, heritage photography competitions.",
+          "Learn Languages: English (academic writing), regional languages (fieldwork), Sanskrit (epigraphy).",
+          "Develop Writing Skills: Practice clear, analytical writing. Start a history blog or contribute to school magazine.",
+          "Volunteer: Museums, archives, heritage organizations. Look for summer internships.",
+          "Cultivate Observation Skills: Practice observing historical patterns in your surroundings.",
+          "Stay Updated: Follow history news and discoveries. Join online communities and forums.",
+          "Develop Photography Skills: Historical documentation relies on photography. Practice heritage and archival photography."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Historians",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "Romila Thapar: Padma Bhushan Awardee, renowned historian of ancient India. Authored 'A History of India' and challenged traditional narratives of Indian history.",
+          "Irfan Habib: Marxist historian specializing in medieval and early modern India. Pioneered agrarian history and economic history of India.",
+          "Ramachandra Guha: Prominent historian and public intellectual. Known for works on Indian independence, environmental history, and social movements.",
+          "Sunil Khilnani: Contemporary historian focusing on modern India, democracy, and Indian civilization. Author of 'The Idea of India.'",
+          "Upinder Singh: Historian of ancient India specializing in political history and archaeology. Known for integrating archaeological evidence with textual sources.",
+          "Sanjay Subrahmanyam: Global historian studying Indian Ocean trade and early modern history. Pioneered connected history approach.",
+          "Shashi Tharoor: Historian, author, and politician. Known for works on Indian history, colonialism, and contemporary India."
+        ]
+      }
+    ]
+  },
+  sociologist: {
+    slug: "sociologist",
+    badge: "👥 The Society Scientist for Class 10+",
+    heading: "Sociologist",
+    subheading: "Understanding how societies work—from family structures to social movements. Sociologists analyze human behavior, social institutions, and social change to create a more equitable world.",
+    whyCards: [
+      { icon: "Users", title: "Social Change Agent", description: "India's rapid social transformation creates demand for experts to understand and guide change.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Inequality Expert", description: "Sociologists address caste, class, gender, and regional inequalities that shape Indian society.", borderColor: "#059669" },
+      { icon: "Globe", title: "Diverse Opportunities", description: "Work in government, NGOs, research institutes, media, tech companies, or academia.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "Growing Recognition", description: "Sociology increasingly valued for understanding social issues and designing social programs.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "BA (3 Yrs) + MA (2 Yrs) + Optional PhD", color: "bg-green-100 text-green-700" },
+      { label: "Entry Exams", detail: "CUET, CUET-PG, UGC NET, UPSC", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "₹3L–₹25L+ (Entry to Leadership)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "₹3T", label: "Social Development Market by 2030", gradient: "from-green-500 to-green-600" },
+      { value: "20%", label: "Growth in Social Research Jobs", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Studying human societies, social institutions, and social change to understand how people live together.",
+        color: BLUE,
+        content: [
+          "Sociology Definition: The scientific study of human society, social institutions, and social behavior. Sociologists analyze how societies are organized, how people interact, and how social change happens.",
+          "Core Areas: Social Structure (how society is organized), Socialization (how people learn social norms), Social Institutions (family, education, religion, economy), Social Stratification (inequality), Social Change (how societies evolve).",
+          "The Role: Conduct research on social issues, analyze social phenomena, advise on social programs, teach students, contribute to public understanding of social issues.",
+          "Why It Matters: India faces complex social challenges—caste discrimination, gender inequality, communalism, urbanization, migration. Sociologists provide evidence-based analysis to guide policy and social change.",
+          "The Scope: Work in government (social policy), NGOs (social development), research institutes (social research), media (social analysis), tech companies (social impact), or academia."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: Anjali, Social Researcher",
+        icon: "Clock",
+        description: "Real workflow of a sociologist in social research.",
+        color: BLUE2,
+        content: [
+          "9:00 AM - Research Planning: Anjali arrives at an NGO office in Mumbai. She reviews her research project on women's economic participation in informal sectors.",
+          "10:30 AM - Fieldwork: She visits a slum community to conduct interviews with women workers. She takes detailed notes on their experiences, challenges, and aspirations.",
+          "1:00 PM - Data Organization: Back at office, she organizes interview transcripts and field notes. She codes data to identify themes and patterns.",
+          "3:00 PM - Team Meeting: She meets with colleagues to discuss findings. They debate interpretations: 'Does this pattern suggest systemic discrimination or individual choice?'",
+          "5:00 PM - Analysis: She analyzes data using qualitative software. She identifies key themes and develops insights about women's economic participation.",
+          "7:00 PM - Report Writing: She drafts a research report with findings and recommendations. Her analysis will inform NGO programs and policy advocacy."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? The Sociologist DNA",
+        icon: "User",
+        description: "Self-assessment for the ideal candidate.",
+        color: BLUE,
+        content: [
+          "Personality Traits: Curious about people and society, empathetic, critical thinker, interested in social justice, passionate about understanding diversity.",
+          "Hard Skills: Research methodology, qualitative and quantitative analysis, data analysis software (SPSS, NVivo, R), statistics, writing.",
+          "Soft Skills: Empathy, communication, cultural sensitivity, collaboration, ability to engage with diverse communities.",
+          "The Self-Check: Do you wonder why societies are organized the way they are? Are you interested in social issues like inequality or discrimination? Do you enjoy understanding different cultures and communities? If yes, you have the Sociologist DNA."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities & Research Workflow",
+        icon: "Briefcase",
+        description: "From research question to social impact.",
+        color: BLUE2,
+        content: [
+          "Research Design: Formulating sociological questions and designing studies to answer them.",
+          "Literature Review: Analyzing existing research and theories on social topics.",
+          "Data Collection: Conducting surveys, interviews, focus groups, ethnographic observation.",
+          "Analysis: Using qualitative and quantitative methods to analyze social phenomena.",
+          "Interpretation: Making sense of data and developing sociological insights.",
+          "Report Writing: Communicating findings to researchers, policymakers, and communities.",
+          "Advocacy: Engaging in social change based on research findings."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Educational journey from Class 10 onwards.",
+        color: BLUE,
+        content: [
+          "After Class 12: Choose Humanities stream (Sociology, History, Economics). BA/BA (Hons) in Sociology (3 years). Entrance: CUET, university-specific exams.",
+          "After Graduation: MA in Sociology or specialized PG Diploma in Social Development/Social Research (2 years). Entrance: CUET-PG, university-specific exams.",
+          "Doctoral Studies: PhD in Sociology (3-5 years) for research and academic roles.",
+          "Government Entry: Social Welfare Officer through UPSC, State Civil Services, or specialized recruitment.",
+          "Top Institutions: Delhi University, Jawaharlal Nehru University (JNU), University of Mumbai, Banaras Hindu University, University of Pune, University of Calcutta."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Salaries, cities, and industry growth.",
+        color: BLUE2,
+        content: [
+          "Entry-Level (0-3 years): ₹2.5L–₹4.5L. Positions: Research Associate, Junior Social Researcher, Teaching Assistant.",
+          "Mid-Level (4-8 years): ₹5L–₹10L. Positions: Senior Researcher, Social Program Manager, Assistant Professor.",
+          "Senior-Level (8-15 years): ₹10L–₹18L. Positions: Research Director, Senior Program Manager, Associate Professor.",
+          "Leadership (15+ years): ₹18L–₹25L+. Positions: Institute Director, Department Head, Professor.",
+          "Government (UPSC): Social Welfare Officer starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
+          "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Industries, companies, and opportunities.",
+        color: BLUE,
+        content: [
+          "Conventional Careers: Sociologist (Academia), Social Researcher, Social Program Manager, Government Advisor, NGO Professional.",
+          "New-Age Careers: Social Impact Analyst, Community Development Specialist, Social Media Analyst, Corporate Social Responsibility (CSR) Manager, User Research Specialist.",
+          "Emerging Roles: AI Ethics Specialist, Digital Divide Researcher, Social Equity Consultant.",
+          "Freelancing: Social Research Consultant (₹30,000-1,00,000/month), Program Evaluator, Social Impact Assessor.",
+          "Top Cities: Delhi (Government/Think Tanks), Mumbai (NGOs/Media), Bangalore (Tech/Social Impact), Pune, Hyderabad.",
+          "Sectors: Government departments, NGOs, research institutes, tech companies (social impact teams), consulting firms, academia, international organizations (UN, World Bank)."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Course fees and education costs.",
+        color: BLUE2,
+        content: [
+          "BA/BA (Hons) in Sociology: Government ₹10,000-50,000/year, Private ₹50,000-2,00,000/year (3 years).",
+          "MA in Sociology: Government ₹15,000-60,000/year, Private ₹80,000-3,00,000/year (2 years).",
+          "PG Diploma in Social Development: ₹1,00,000-3,00,000 (1-2 years).",
+          "PhD in Sociology: Fellowships available (UGC/JRF), or ₹1,00,000-3,00,000 total (3-5 years).",
+          "Additional Costs: Living/Hostel (₹6,000-15,000/month), Research Materials (₹10,000-30,000), Fieldwork Travel (₹20,000-50,000).",
+          "ROI: With consulting opportunities offering ₹6-18 LPA, investment can be recovered in 2-4 years."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Top institutions across India.",
+        color: BLUE,
+        content: [
+          "North India: Delhi University, Jawaharlal Nehru University (JNU), Banaras Hindu University, Panjab University (Chandigarh), Lucknow University.",
+          "West India: University of Mumbai, University of Pune, Maharaja Sayajirao University (Baroda), Gujarat University.",
+          "South India: University of Madras, University of Mysore, Bangalore University, Andhra University.",
+          "East India: University of Calcutta, Visva-Bharati University, Assam University.",
+          "Central India: Banaras Hindu University, Dr. Harisingh Gour University (Sagar).",
+          "Private: Ashoka University (Haryana), FLAME University (Pune), Symbiosis (Pune)."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Financial assistance programs.",
+        color: BLUE2,
+        content: [
+          "Central Government Schemes: Central Sector Scheme of Scholarships (80th percentile+, family income <₹8L), Post Matric Scholarships (SC/ST/OBC), UGC Scholarships for PG Students.",
+          "UGC NET/JRF Fellowship: ₹31,000-35,000/month for PhD students.",
+          "State Government Schemes: Maharashtra, West Bengal, Uttar Pradesh, and Gujarat offer various scholarship schemes.",
+          "Institutional Scholarships: Delhi University (merit scholarships), JNU (need-based aid), BHU (merit-based scholarships).",
+          "Private/Corporate: Sitaram Jindal Foundation, Tata Trusts, Dr. Ambedkar Central Sector Scheme."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Professional organizations and credentials.",
+        color: BLUE,
+        content: [
+          "Professional Bodies: Indian Sociological Society, Indian Council of Social Science Research (ICSSR), Institute of Social Sciences (ISS).",
+          "Certifications: Social Research Certification, Data Analysis Certification, Program Evaluation Certification, Community Development Certification.",
+          "Specialized Training: Advanced Research Methods, Qualitative Analysis, Social Program Evaluation, Community Engagement.",
+          "Licensing: Government positions require UPSC/State Civil Services clearance.",
+          "These credentials significantly enhance career prospects and earning potential."
+        ]
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Diverse paths in sociology careers.",
+        color: BLUE2,
+        content: [
+          "Conventional Careers: Sociologist (Academia), Social Researcher, Social Program Manager, Government Advisor, NGO Professional.",
+          "New-Age Careers: Social Impact Analyst, Community Development Specialist, Social Media Analyst, CSR Manager, User Research Specialist.",
+          "Emerging Roles: AI Ethics Specialist, Digital Divide Researcher, Social Equity Consultant, Organizational Culture Specialist.",
+          "Freelancing: Social Research Consultant (₹30,000-1,00,000/month), Program Evaluator, Social Impact Assessor.",
+          "Interdisciplinary Roles: Sociology + Data Science, Psychology, Economics, Technology."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of sociology careers.",
+        color: BLUE,
+        content: [
+          "Limited Academic Positions: Fewer university positions than demand for sociologists.",
+          "Sensitive Topics: Research on sensitive social issues can face resistance or censorship.",
+          "Implementation Gap: Your research recommendations may not be implemented due to political or social constraints.",
+          "Funding Challenges: Research projects depend on grants, which can be difficult to secure.",
+          "Emotional Toll: Working with marginalized communities can be emotionally challenging.",
+          "Work-Life Balance: During fieldwork or project deadlines, long hours are common.",
+          "Interdisciplinary Nature: Must collaborate with diverse professionals, requiring strong communication skills."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Sparkles",
+        description: "What's next in sociology.",
+        color: BLUE2,
+        content: [
+          "Digital Society: Focus on online communities, social media behavior, digital inequality, and virtual social movements.",
+          "Social Impact Tech: Growing demand for sociologists in tech companies to understand social implications of technology.",
+          "Climate Sociology: Emerging field studying social dimensions of climate change and environmental justice.",
+          "Social Equity: Increasing focus on addressing inequality, discrimination, and social justice.",
+          "Data-Driven Sociology: Using big data and AI to analyze social phenomena and predict social trends.",
+          "Impact on Employment: New roles for data scientists, AI specialists, social analysts. Required skills: Python, R, machine learning, data visualization."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Actionable steps to start your journey.",
+        color: BLUE,
+        content: [
+          "Develop Strong Sociology Foundation: Read about society, culture, and social issues. Resources: 'Sociology' by Anthony Giddens, 'The Sociological Imagination' by C. Wright Mills.",
+          "Follow Current Affairs: Track news on social issues, social movements, and social change. Understand sociological implications.",
+          "Develop Research Skills: Practice writing research papers on social topics. Learn proper citation.",
+          "Learn Data Skills: Excel, basic statistics, and data visualization. Tools: Google Sheets, Tableau.",
+          "Develop Critical Thinking: Practice analyzing social arguments and identifying biases.",
+          "Engage with Communities: Volunteer with NGOs, community organizations, or social movements. Understand diverse perspectives.",
+          "Learn Programming: Python basics for data analysis.",
+          "Read Widely: Sociology, history, economics, psychology, anthropology. Develop interdisciplinary understanding.",
+          "Participate in Competitions: Essay competitions, debate competitions, social research competitions.",
+          "Build Communication Skills: Practice writing and public speaking.",
+          "Stay Updated: Follow sociology news and research. Join online communities and forums.",
+          "Develop Observation Skills: Observe social patterns in your community and school.",
+          "Practice Empathy: Develop ability to understand diverse perspectives and experiences."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Sociologists",
+        icon: "User",
+        description: "Inspiring figures in the field.",
+        color: BLUE2,
+        content: [
+          "M.N. Srinivas (1916-1999): Pioneer of Indian sociology. Introduced concepts of 'Sanskritization' and 'dominant caste.' Founder of Indian Institute of Science's sociology department.",
+          "André Béteille (1934-2021): Padma Bhushan awardee. Renowned for studies on caste, class, and inequality in Indian society.",
+          "Yogendra Singh: Contemporary sociologist specializing in social change, modernization, and Indian society.",
+          "Ramachandra Guha: Historian and sociologist studying social movements, environmental history, and Indian society.",
+          "Satish Saberwal: Sociologist focusing on Indian history, society, and culture.",
+          "Leela Dube: Pioneer feminist sociologist studying gender, kinship, and Indian society.",
+          "Dipankar Gupta: Contemporary sociologist studying Indian society, modernity, and social change."
+        ]
+      }
+    ]
+  }
+
 };
-
-
-
-

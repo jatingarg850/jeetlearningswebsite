@@ -1693,6 +1693,30 @@ export const careerVideos: Record<string, CareerVideo[]> = {
       url: "https://www.youtube.com/embed/qetB7DIQX-A",
     },
   ],
+  political_scientist: [
+    {
+      id: 1,
+      title: "Political Scientist Career Overview - The Power Analyst",
+      url: "https://www.youtube.com/embed/XUtuzb6oE9w",
+    },
+    {
+      id: 2,
+      title: "Policy Analysis & Governance in India",
+      url: "https://www.youtube.com/embed/jqP-_nidvuA",
+    },
+    {
+      id: 3,
+      title: "Political Research & Social Change",
+      url: "https://www.youtube.com/embed/NrPYmPFr2P0",
+    },
+  ],
+  sociologist: [
+    {
+      id: 1,
+      title: "Sociologist Career Overview - The Society Scientist",
+      url: "https://www.youtube.com/embed/yy0eICeMRJo",
+    },
+  ],
 };
 
 export function getCareerVideos(careerSlug: string): CareerVideo[] {
