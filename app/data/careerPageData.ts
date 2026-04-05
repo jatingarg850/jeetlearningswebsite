@@ -177,19 +177,6 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Course fees and additional expenses.",
-        color: RED2,
-        content: [
-          "Professional Exams: Each exam costs between ₹10,000 to ₹30,000 (including study materials).",
-          "Coaching: Professional coaching for specific papers (like CM1 or CS1) can cost ₹15,000 – ₹25,000 per paper.",
-          "University Degree: ₹1.5 Lakhs – ₹6 Lakhs (Total).",
-          "Total Journey: To become a Fellow, expect to spend roughly ₹5 Lakhs – ₹8 Lakhs over 5–8 years."
-        ]
-      },
-      {
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
@@ -664,20 +651,6 @@ export const careerPageData: Record<string, CareerPageData> = {
         ]
       },
       {
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Course fees and additional expenses.",
-        color: RED2,
-        content: [
-          "Government Institutions: ₹5,000 – ₹50,000 (Total fees for B.Com/M.Com).",
-          "Private/Premier (IIMs/Top BBA): ₹10 Lakhs – ₹25 Lakhs (Total fees).",
-          "Preparation Costs: Bank PO coaching (₹15,000 – ₹40,000).",
-          "Duration: 3 years for UG; 2 years for PG/MBA.",
-          "Living/Hostel: ₹40,000–1.5 Lakhs annually."
-        ]
-      },
-      {
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
@@ -903,20 +876,6 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Top Cities: Mumbai (Financial Hub), Delhi NCR (Corporate HQs), Bengaluru (Startups/Tech), and Hyderabad.",
           "Global Opportunities: Indian CAs are in high demand in the Middle East (Dubai), UK, and Singapore.",
           "Remote Work: High potential for virtual CFO services and international consulting roles."
-        ]
-      },
-      {
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Course fees and additional expenses.",
-        color: RED2,
-        content: [
-          "ICAI Fees: Total registration and exam fees across all levels are approximately ₹75,000 – ₹85,000.",
-          "Coaching: Optional private coaching can cost between ₹1.5 Lakhs – ₹3 Lakhs for all levels.",
-          "Duration: Minimum 4.5 to 5 years from Class 12.",
-          "Earnings: Unlike other courses, you earn a stipend during your 2-year Articleship.",
-          "Total Investment: Approximately ₹3-4 Lakhs including coaching and living expenses."
         ]
       },
       {
@@ -1147,20 +1106,6 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Practising CS (PCS): You can start your own firm and consult for multiple startups.",
           "International: High demand in Dubai, Singapore, and UK, though local law certifications may be needed.",
           "Startups: Growing demand as startups scale and need compliance expertise."
-        ]
-      },
-      {
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Course fees and additional expenses.",
-        color: RED2,
-        content: [
-          "ICSI Fees (Total): Approximately ₹30,000 – ₹45,000 for all three levels (excluding coaching).",
-          "Coaching: Optional private coaching can cost ₹1 Lakh – ₹2 Lakhs for the entire journey.",
-          "Duration: 3 to 4 years (including a mandatory 21-month practical training period).",
-          "Stipend: During your 21-month training, you earn a monthly stipend of ₹15,000 – ₹25,000.",
-          "Total Investment: Approximately ₹1.5-2.5 Lakhs including coaching and living expenses."
         ]
       },
       {

@@ -344,30 +344,7 @@ export function CostBreakdown({
         </section>
       )}
 
-      {/* CTA Section */}
-      <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-r from-blue-600 to-indigo-600">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-4 md:mb-6">
-            Ready to Invest in Your Future?
-          </h3>
-          <p className="text-sm md:text-base text-blue-100 mb-8 max-w-2xl mx-auto font-medium">
-            Get personalized financial guidance, explore scholarship opportunities, and plan your investment strategy
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
-              className="px-6 sm:px-8 md:px-10 py-3 md:py-4 rounded-xl font-bold text-sm md:text-base text-blue-600 transition-all hover:scale-105 shadow-lg"
-              style={{ background: ACCENT_GOLD }}
-            >
-              Explore Scholarships
-            </button>
-            <button
-              className="px-6 sm:px-8 md:px-10 py-3 md:py-4 rounded-xl font-bold text-sm md:text-base text-white border-2 border-white transition-all hover:bg-white hover:text-blue-600"
-            >
-              Financial Planning Guide
-            </button>
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }

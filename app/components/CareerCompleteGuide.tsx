@@ -4,6 +4,8 @@ import { useState, useRef } from "react";
 import { CareerGuideSection } from "@/app/data/careerPageData";
 import { DynamicIcon } from "./DynamicIcon";
 import { DayInLifeCarousel } from "./DayInLifeCarousel";
+import { CostChallenges } from "./CostChallenges";
+import { WhereToStudyCarousel } from "./WhereToStudyCarousel";
 import {
   Brain, Hourglass, Microscope, MessageSquare, Monitor,
   ClipboardList, Target, Star,
@@ -614,6 +616,30 @@ function SectionScholarship({ section, careerName }: { section: CareerGuideSecti
   );
 }
 
+// ─── 6. COST CHALLENGES SECTION ──────────────────────────────────
+function SectionCosts({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
+  return (
+    <CostChallenges
+      title={section.title}
+      description={section.description}
+      items={section.content}
+      sectionColor={section.color}
+    />
+  );
+}
+
+// ─── 6B. WHERE TO STUDY CAROUSEL SECTION ─────────────────────────
+function SectionWhereToStudy({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
+  return (
+    <WhereToStudyCarousel
+      title={section.title}
+      description={section.description}
+      items={section.content}
+      sectionColor={section.color}
+    />
+  );
+}
+
 // ─── 7. CHALLENGE ALERT CARDS (expandable) ─────────────────────
 function SectionChallenges({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const [expanded, setExpanded] = useState<number | null>(null);
@@ -756,10 +782,16 @@ const SECTION_COMPONENTS = [
   SectionWho,            // Index 2: Is This You
   SectionResponsibilities, // Index 3: Key Responsibilities
   SectionResponsibilities, // Index 4: Career Pathways (reuse Responsibilities style)
-  SectionInstitutions,   // Index 5: Where to Study
-  SectionScholarship,    // Index 6: Scholarships
-  SectionChallenges,     // Index 7: Challenges
-  SectionStartNow,       // Index 8: Skills to Build
+  SectionResponsibilities, // Index 5: Market Snapshot (reuse Responsibilities style)
+  SectionResponsibilities, // Index 6: Where Are the Jobs (reuse Responsibilities style)
+  SectionCosts,          // Index 7: What Will It Cost
+  SectionWhereToStudy,   // Index 8: Where to Study (carousel)
+  SectionScholarship,    // Index 9: Scholarships
+  SectionChallenges,     // Index 10: Challenges
+  SectionStartNow,       // Index 11: Skills to Build
+  SectionStartNow,       // Index 12: Emerging Trends (reuse StartNow style)
+  SectionStartNow,       // Index 13: Start Now (reuse StartNow style)
+  SectionStartNow,       // Index 14: Famous Leaders (reuse StartNow style)
 ];
 
 // ─── MAIN EXPORT ─────────────────────────────────────────────────
