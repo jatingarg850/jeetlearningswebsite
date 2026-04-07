@@ -80,21 +80,16 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
                 className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-canam-border shadow-sm hover:shadow-md transition-shadow"
               >
                 {/* Header */}
-                <div className="flex items-start gap-3 mb-4">
+                <div className="flex items-center gap-3 mb-4">
                   <div 
                     className="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold flex-shrink-0"
                     style={{ background: section.color }}
                   >
                     <DynamicIcon name={section.icon} className="w-5 h-5" />
                   </div>
-                  <div>
-                    <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
-                      Point {idx + 1}
-                    </div>
-                    <h3 className="text-lg font-bold text-slate-900 mt-1">
-                      {title}
-                    </h3>
-                  </div>
+                  <h3 className="text-lg font-bold text-slate-900">
+                    {title}
+                  </h3>
                 </div>
 
                 {/* Content */}
@@ -442,6 +437,20 @@ function SectionChallenges({ section, careerName }: { section: CareerGuideSectio
 function SectionStartNow({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const lineColors = [GOLD, GREEN, BLUE, INDIGO, TEAL, ROSE, "#7C3AED"];
 
+  const parseHighlight = (text: string) => {
+    const colonIndex = text.indexOf(":");
+    if (colonIndex > -1) {
+      return {
+        highlight: text.substring(0, colonIndex).trim(),
+        rest: text.substring(colonIndex + 1).trim(),
+      };
+    }
+    return {
+      highlight: "",
+      rest: text,
+    };
+  };
+
   return (
     <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-purple-50 to-blue-50 relative">
       <div className="absolute bottom-0 right-0 w-1/3 h-2/3 opacity-10 pointer-events-none hidden md:block mix-blend-multiply">
@@ -454,6 +463,7 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
         <div className="flex flex-col gap-4">
           {section.content.map((point, i) => {
             const color = lineColors[i % lineColors.length];
+            const { highlight, rest } = parseHighlight(point);
             return (
               <div
                 key={i}
@@ -477,7 +487,12 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
                 {/* text content */}
                 <div className="flex-1 pt-1">
                   <p className="text-base leading-relaxed font-medium text-slate-800">
-                    {point}
+                    {highlight && (
+                      <>
+                        <span className="font-black text-slate-900">{highlight}:</span> {rest}
+                      </>
+                    )}
+                    {!highlight && point}
                   </p>
                 </div>
               </div>

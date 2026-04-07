@@ -4,7 +4,6 @@ interface InstitutionType {
   type: string;
   institutions: string[];
   color: string;
-  severity: "Critical" | "High" | "Medium";
 }
 
 interface WhereToStudyCarouselProps {
@@ -23,6 +22,7 @@ export function WhereToStudyCarousel({
   // Parse items into institution types
   const institutionTypes: InstitutionType[] = [];
   let currentType: InstitutionType | null = null;
+  const colors = ["#EF4444", "#F97316", "#EAB308"];
 
   items.forEach((item) => {
     // Check if this is a type header (ends with colon or is a category)
@@ -36,8 +36,7 @@ export function WhereToStudyCarousel({
         currentType = {
           type: typeMatch[1].trim(),
           institutions: [],
-          color: ["#EF4444", "#F97316", "#EAB308"][institutionTypes.length % 3],
-          severity: ["Critical", "High", "Medium"][institutionTypes.length % 3] as "Critical" | "High" | "Medium",
+          color: colors[institutionTypes.length % colors.length],
         };
       }
     } else if (currentType) {
@@ -52,70 +51,60 @@ export function WhereToStudyCarousel({
       type: "Institutions",
       institutions: items,
       color: "#1E40AF",
-      severity: "High",
     });
   } else if (currentType) {
     institutionTypes.push(currentType);
   }
 
   return (
-    <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-blue-50 via-slate-50 to-indigo-50 border-b border-blue-200">
+    <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-slate-50 to-indigo-50 border-b border-blue-200">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-8 md:mb-12">
-          <div className="flex items-center justify-center gap-3 mb-4">
+        <div className="text-center mb-6 md:mb-8">
+          <div className="flex items-center justify-center gap-3 mb-3">
             <div
-              className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl"
+              className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-lg"
               style={{ background: sectionColor }}
             >
               🏫
             </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900">
               {title}
             </h2>
           </div>
-          <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto font-medium">
+          <p className="text-sm md:text-base text-slate-600 max-w-2xl mx-auto font-medium">
             {description}
           </p>
         </div>
 
-        {/* All Content Displayed */}
-        <div className="space-y-4">
+        {/* Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {institutionTypes.map((institution, idx) => (
             <div
               key={idx}
-              className="rounded-xl overflow-hidden shadow-lg bg-white border-l-4"
-              style={{ borderLeftColor: institution.color }}
+              className="p-5 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+              style={{
+                borderTop: `3px solid ${institution.color}`,
+              }}
             >
-              {/* Header */}
-              <div
-                className="px-6 md:px-8 py-5 md:py-6 flex items-center justify-between text-white font-bold"
-                style={{ background: institution.color }}
-              >
-                <div className="flex items-center gap-3">
-                  <div className="text-lg md:text-xl">⚠️</div>
-                  <span className="text-sm md:text-base uppercase tracking-wider">
-                    {institution.type}
-                  </span>
-                </div>
-                <span className="text-xs md:text-sm font-semibold">{institution.severity}</span>
-              </div>
+              {/* Type Header */}
+              <h3 className="text-base font-bold text-slate-900 mb-4">
+                {institution.type}
+              </h3>
 
-              {/* Content - Always Visible */}
-              <div className="px-6 md:px-8 py-6 md:py-8 bg-white border-t" style={{ borderTopColor: `${institution.color}20` }}>
-                <div className="space-y-3">
-                  {institution.institutions.map((inst, instIdx) => (
-                    <div key={instIdx} className="flex items-start gap-3">
-                      <div
-                        className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
-                        style={{ background: institution.color }}
-                      />
-                      <p className="text-slate-700 text-sm md:text-base leading-relaxed font-medium">
-                        {inst}
-                      </p>
-                    </div>
-                  ))}
-                </div>
+              {/* Institutions List */}
+              <div className="space-y-2">
+                {institution.institutions.map((inst, instIdx) => (
+                  <div key={instIdx} className="flex items-start gap-2">
+                    <div
+                      className="w-2 h-2 rounded-full mt-1.5 flex-shrink-0"
+                      style={{ background: institution.color }}
+                    />
+                    <p className="text-slate-600 text-sm leading-relaxed">
+                      {inst}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
           ))}
