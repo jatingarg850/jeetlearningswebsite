@@ -72,6 +72,48 @@ export default function Navbar() {
                 Home
               </Link>
 
+              <Link
+                href="/career-library"
+                className="font-inter text-slate-600 font-medium hover:text-[var(--color-canam-red)] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[var(--color-canam-red)] after:transition-all hover:after:w-full"
+              >
+                Career Library
+              </Link>
+
+              <Link
+                href="/dmit"
+                className="font-inter text-slate-600 font-medium hover:text-[var(--color-canam-red)] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[var(--color-canam-red)] after:transition-all hover:after:w-full"
+              >
+                DMIT
+              </Link>
+
+              <Link
+                href="/psychometric"
+                className="font-inter text-slate-600 font-medium hover:text-[var(--color-canam-red)] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[var(--color-canam-red)] after:transition-all hover:after:w-full"
+              >
+                Psychometric
+              </Link>
+
+              <Link
+                href="/resources"
+                className="font-inter text-slate-600 font-medium hover:text-[var(--color-canam-red)] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[var(--color-canam-red)] after:transition-all hover:after:w-full"
+              >
+                Resources
+              </Link>
+
+              <Link
+                href="/blog"
+                className="font-inter text-slate-600 font-medium hover:text-[var(--color-canam-red)] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[var(--color-canam-red)] after:transition-all hover:after:w-full"
+              >
+                Blog
+              </Link>
+
+              <Link
+                href="/contact"
+                className="font-inter text-slate-600 font-medium hover:text-[var(--color-canam-red)] transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-[var(--color-canam-red)] after:transition-all hover:after:w-full"
+              >
+                Contact
+              </Link>
+
               {/* Categories Dropdown */}
               <div 
                 className="relative"
