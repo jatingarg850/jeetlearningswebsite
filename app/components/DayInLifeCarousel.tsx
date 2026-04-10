@@ -58,11 +58,11 @@ export function DayInLifeCarousel({ content, title, description, color }: DayInL
             >
               <Clock className="w-5 h-5" />
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
               {title}
             </h2>
           </div>
-          <p className="text-slate-600 text-sm md:text-base max-w-2xl mx-auto">
+          <p className="text-slate-600 text-base md:text-lg max-w-2xl mx-auto">
             {description}
           </p>
         </div>
@@ -78,17 +78,17 @@ export function DayInLifeCarousel({ content, title, description, color }: DayInL
               }}
             >
               {/* Time */}
-              <div className="text-2xl font-black mb-2" style={{ color }}>
+              <div className="text-3xl font-black mb-2" style={{ color }}>
                 {activity.time}
               </div>
 
               {/* Title */}
-              <h3 className="text-base font-bold text-slate-900 mb-2">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">
                 {activity.title}
               </h3>
 
               {/* Description */}
-              <p className="text-sm text-slate-600 leading-relaxed">
+              <p className="text-base text-slate-600 leading-relaxed">
                 {activity.description}
               </p>
             </div>

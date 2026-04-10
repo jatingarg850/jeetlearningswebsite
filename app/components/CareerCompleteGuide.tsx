@@ -77,7 +77,7 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
             return (
               <div
                 key={idx}
-                className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-canam-border shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
+                className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-canam-border shadow-sm hover:shadow-md transition-shadow"
               >
                 {/* Header */}
                 <div className="flex items-center gap-3 mb-4">
@@ -87,13 +87,13 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
                   >
                     <DynamicIcon name={section.icon} className="w-5 h-5" />
                   </div>
-                  <h3 className="text-lg font-bold text-slate-900">
+                  <h3 className="text-xl font-bold text-slate-900">
                     {title}
                   </h3>
                 </div>
 
                 {/* Content */}
-                <p className="text-sm md:text-base text-slate-600 leading-relaxed text-justify flex-1">
+                <p className="text-base md:text-lg text-slate-600 leading-relaxed">
                   {content}
                 </p>
               </div>
@@ -161,14 +161,14 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
                   >
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
+                  <h3 className="text-lg font-bold text-slate-900">
                     {title}
                   </h3>
                 </div>
 
                 {/* Description */}
                 {description && (
-                  <p className="text-slate-600 text-sm leading-relaxed">
+                  <p className="text-slate-600 text-base leading-relaxed">
                     {description}
                   </p>
                 )}
@@ -185,18 +185,45 @@ function SectionWho({ section, careerName }: { section: CareerGuideSection; care
 function SectionResponsibilities({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const stepColors = ["#3B82F6", "#8B5CF6", "#EC4899", "#F59E0B", "#10B981", "#06B6D4", "#6366F1"];
   
+  // Check if this is the scholarship section
+  const isScholarshipSection = section.id === "scholarships";
+  
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Grid Layout - responsive columns */}
+        <div className={`grid gap-4 ${isScholarshipSection ? "grid-cols-1 md:grid-cols-3" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}`}>
           {section.content.map((content, i) => {
             const colonIndex = content.indexOf(":");
-            const title = colonIndex > -1 ? content.substring(0, colonIndex).trim() : content;
+            const mainTitle = colonIndex > -1 ? content.substring(0, colonIndex).trim() : content;
             const description = colonIndex > -1 ? content.substring(colonIndex + 1).trim() : content;
             const color = stepColors[i % stepColors.length];
+            
+            // For scholarship section, treat each item as a simple card
+            if (isScholarshipSection) {
+              return (
+                <div
+                  key={i}
+                  className="p-5 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
+                  style={{
+                    borderLeft: `4px solid ${color}`,
+                  }}
+                >
+                  <h3 className="text-lg font-bold text-slate-900 mb-2">
+                    {mainTitle}
+                  </h3>
+                  <p className="text-base text-slate-600 leading-relaxed">
+                    {description}
+                  </p>
+                </div>
+              );
+            }
+            
+            // For other sections, check for nested content
+            const hasColonHeadings = /[A-Z][^:]*:\s*[^.!?]*[.!?]/.test(description);
+            const hasArrowItems = /→/.test(description);
 
             return (
               <div
@@ -206,15 +233,59 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
                   borderLeft: `4px solid ${color}`,
                 }}
               >
-                {/* Title */}
-                <h3 className="text-base font-bold text-slate-900 mb-2">
-                  {title}
+                {/* Main Title */}
+                <h3 className="text-lg font-bold text-slate-900 mb-3">
+                  {mainTitle}
                 </h3>
 
-                {/* Description */}
-                <p className="text-sm text-slate-600 leading-relaxed">
-                  {description}
-                </p>
+                {/* Content with arrow-separated items (Exam Roadmap) */}
+                {hasArrowItems ? (
+                  <div className="space-y-2">
+                    {description.split("→").map((item, idx) => {
+                      const trimmed = item.trim();
+                      const parenIndex = trimmed.indexOf("(");
+                      const subheading = parenIndex > -1 ? trimmed.substring(0, parenIndex).trim() : trimmed;
+                      const subdesc = parenIndex > -1 ? trimmed.substring(parenIndex).trim() : "";
+                      
+                      return (
+                        <div key={idx}>
+                          <p className="text-base font-semibold text-slate-800">
+                            {subheading}
+                          </p>
+                          {subdesc && (
+                            <p className="text-base text-slate-600 leading-relaxed">
+                              {subdesc}
+                            </p>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : hasColonHeadings ? (
+                  /* Content with colon-separated sub-headings */
+                  <div className="space-y-3">
+                    {description.match(/([A-Z][^:]*?):\s*([^.!?]*[.!?])/g)?.map((item, idx) => {
+                      const subColonIndex = item.indexOf(":");
+                      const subheading = item.substring(0, subColonIndex).trim();
+                      const subdesc = item.substring(subColonIndex + 1).trim().replace(/[.!?]$/, "");
+                      return (
+                        <div key={idx}>
+                          <p className="text-base font-semibold text-slate-800 mb-1">
+                            {subheading}
+                          </p>
+                          <p className="text-base text-slate-600 leading-relaxed">
+                            {subdesc}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  /* Regular description */
+                  <p className="text-base text-slate-600 leading-relaxed">
+                    {description}
+                  </p>
+                )}
               </div>
             );
           })}
@@ -293,7 +364,7 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
 
                     {/* Institution count badge */}
                     <div
-                      className="inline-block px-3 py-1 rounded-full text-xs font-bold mb-4"
+                      className="inline-block px-3 py-1 rounded-full text-sm font-bold mb-4"
                       style={{ background: `${instType.color}15`, color: instType.color }}
                     >
                       {institutions.length} Option{institutions.length !== 1 ? 's' : ''}
@@ -305,7 +376,7 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
                         className="w-2 h-2 rounded-full"
                         style={{ background: instType.color }}
                       />
-                      <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                      <span className="text-sm font-semibold text-slate-500 uppercase tracking-wider">
                         {isExpanded ? "Hide" : "View"} Details
                       </span>
                     </div>
@@ -320,7 +391,7 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
                                 className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
                                 style={{ background: instType.color }}
                               />
-                              <p className="text-slate-700 text-sm leading-relaxed">
+                              <p className="text-slate-700 text-base leading-relaxed">
                                 {inst.replace(instType.type + ": ", "").trim()}
                               </p>
                             </div>
@@ -354,8 +425,8 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
               <DynamicIcon name="Info" className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="font-bold text-slate-900 mb-2">Pro Tip</h4>
-              <p className="text-slate-600 text-sm leading-relaxed">
+              <h4 className="font-bold text-slate-900 mb-2 text-lg">Pro Tip</h4>
+              <p className="text-slate-600 text-base leading-relaxed">
                 Most actuarial education requires classroom interaction and practical problem-solving. Choose an institution that offers strong faculty mentorship and industry connections.
               </p>
             </div>
@@ -416,12 +487,12 @@ function SectionChallenges({ section, careerName }: { section: CareerGuideSectio
                 }}
               >
                 {/* Title */}
-                <h3 className="text-base font-bold text-slate-900 mb-2">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">
                   {title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-slate-600 text-sm leading-relaxed">
+                <p className="text-slate-600 text-base leading-relaxed">
                   {description}
                 </p>
               </div>
@@ -486,7 +557,7 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
 
                 {/* text content */}
                 <div className="flex-1 pt-1">
-                  <p className="text-base leading-relaxed font-medium text-slate-800">
+                  <p className="text-lg leading-relaxed font-medium text-slate-800">
                     {highlight && (
                       <>
                         <span className="font-black text-slate-900">{highlight}:</span> {rest}
@@ -507,19 +578,19 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
 // ─── SHARED HEADER ────────────────────────────────────────────────
 function SectionHeader({ section, light = false }: { section: CareerGuideSection; light?: boolean }) {
   return (
-    <div className="mb-6 text-center">
-      <div className="flex items-center justify-center gap-3 mb-2">
+    <div className="mb-8 text-center">
+      <div className="flex items-center justify-center gap-4 mb-3">
         <div
-          className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm"
+          className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md"
           style={{ background: section.color ?? "#1E40AF" }}
         >
-          <DynamicIcon name={section.icon} className="w-6 h-6 text-white" />
+          <DynamicIcon name={section.icon} className="w-7 h-7 text-white" />
         </div>
-        <h3 className={`text-xl sm:text-2xl md:text-3xl font-black leading-tight ${light ? "text-white" : "text-slate-900"}`}>
+        <h2 className={`text-3xl sm:text-4xl md:text-5xl font-black leading-tight ${light ? "text-white" : "text-slate-900"}`}>
           {section.title}
-        </h3>
+        </h2>
       </div>
-      <p className={`text-sm md:text-base leading-relaxed max-w-2xl mx-auto ${light ? "text-white/70" : "text-slate-500"}`}>
+      <p className={`text-base md:text-lg leading-relaxed max-w-3xl mx-auto ${light ? "text-white/70" : "text-slate-600"}`}>
         {section.description}
       </p>
     </div>
@@ -532,17 +603,17 @@ const SECTION_COMPONENTS = [
   SectionDayInLife,      // Index 1: A Day in the Life
   SectionWho,            // Index 2: Is This You
   SectionResponsibilities, // Index 3: Key Responsibilities
-  SectionResponsibilities, // Index 4: Career Pathways (reuse Responsibilities style)
-  SectionResponsibilities, // Index 5: Market Snapshot (reuse Responsibilities style)
-  SectionResponsibilities, // Index 6: Where Are the Jobs (reuse Responsibilities style)
-  SectionCosts,          // Index 7: What Will It Cost
-  SectionWhereToStudy,   // Index 8: Where to Study (carousel)
-  SectionChallenges,     // Index 9: Challenges (was Scholarships)
-  SectionChallenges,     // Index 10: Challenges
-  SectionStartNow,       // Index 11: Skills to Build
-  SectionStartNow,       // Index 12: Emerging Trends (reuse StartNow style)
-  SectionStartNow,       // Index 13: Start Now (reuse StartNow style)
-  SectionStartNow,       // Index 14: Famous Leaders (reuse StartNow style)
+  SectionResponsibilities, // Index 4: Career Pathways
+  SectionResponsibilities, // Index 5: Market Snapshot
+  SectionResponsibilities, // Index 6: Where Are the Jobs
+  SectionInstitutions,   // Index 7: Where to Study
+  SectionChallenges,     // Index 8: Professional Bodies
+  SectionChallenges,     // Index 9: Scholarships
+  SectionChallenges,     // Index 10: Career Opportunities
+  SectionChallenges,     // Index 11: Challenges
+  SectionStartNow,       // Index 12: Emerging Trends
+  SectionStartNow,       // Index 13: Skills to Build
+  SectionStartNow,       // Index 14: Famous Leaders
 ];
 
 // ─── MAIN EXPORT ─────────────────────────────────────────────────

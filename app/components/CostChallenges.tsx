@@ -43,11 +43,11 @@ export function CostChallenges({
             >
               ⊕
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
               {title}
             </h2>
           </div>
-          <p className="text-sm md:text-base text-slate-600 max-w-2xl mx-auto font-medium">
+          <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto font-medium">
             {description}
           </p>
         </div>
@@ -63,13 +63,13 @@ export function CostChallenges({
               }}
             >
               {/* Title */}
-              <h3 className="text-base font-bold text-slate-900 mb-2">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">
                 {challenge.title}
               </h3>
 
               {/* Content */}
               {challenge.content && (
-                <p className="text-slate-600 text-sm leading-relaxed">
+                <p className="text-slate-600 text-base leading-relaxed">
                   {challenge.content}
                 </p>
               )}

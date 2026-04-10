@@ -120,11 +120,9 @@ export function CareerPageClient({
       description: "Financial aid available",
       color: "#9B0000",
       content: [
-        "Central: Central Sector Scholarship supports high-performing Class 12 students from low-income families.",
-        "Community: Post-Matric Scholarships available for SC, ST, OBC, and minority students.",
-        "Merit: Merit-cum-Means and NMMS scholarships support deserving economically weaker students.",
-        "AICTE: Pragati and Saksham schemes support technical and professional course students.",
-        "State: State governments and universities offer additional merit and need-based financial aid.",
+        "IAI Trust Scholarships: Merit-based fee waivers for students from economically weaker sections.",
+        "Corporate: Firms like Milliman and Swiss Re often sponsor the exam fees for their employees.",
+        "NSP: General government scholarships for merit students (B.Sc. level).",
       ],
     },
     {

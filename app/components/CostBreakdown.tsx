@@ -55,28 +55,28 @@ export function CostBreakdown({
             <div className="p-6 rounded-2xl bg-white shadow-md border-l-4" style={{ borderColor: PRIMARY_BLUE }}>
               <div className="flex items-center gap-3 mb-2">
                 <DollarSign className="w-5 h-5" style={{ color: PRIMARY_BLUE }} />
-                <p className="text-xs font-bold uppercase text-slate-500">Total Investment</p>
+                <p className="text-sm font-bold uppercase text-slate-500">Total Investment</p>
               </div>
-              <p className="text-2xl md:text-3xl font-black text-slate-900">₹{(totalAmount / 100000).toFixed(1)}L+</p>
-              <p className="text-xs text-slate-500 mt-2">Over entire duration</p>
+              <p className="text-3xl md:text-4xl font-black text-slate-900">₹{(totalAmount / 100000).toFixed(1)}L+</p>
+              <p className="text-sm text-slate-500 mt-2">Over entire duration</p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white shadow-md border-l-4" style={{ borderColor: ACCENT_GOLD }}>
               <div className="flex items-center gap-3 mb-2">
                 <Calendar className="w-5 h-5" style={{ color: ACCENT_GOLD }} />
-                <p className="text-xs font-bold uppercase text-slate-500">Duration</p>
+                <p className="text-sm font-bold uppercase text-slate-500">Duration</p>
               </div>
-              <p className="text-2xl md:text-3xl font-black text-slate-900">6-10 Yrs</p>
-              <p className="text-xs text-slate-500 mt-2">Including exams & training</p>
+              <p className="text-3xl md:text-4xl font-black text-slate-900">6-10 Yrs</p>
+              <p className="text-sm text-slate-500 mt-2">Including exams & training</p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white shadow-md border-l-4" style={{ borderColor: "#10B981" }}>
               <div className="flex items-center gap-3 mb-2">
                 <TrendingUp className="w-5 h-5" style={{ color: "#10B981" }} />
-                <p className="text-xs font-bold uppercase text-slate-500">ROI</p>
+                <p className="text-sm font-bold uppercase text-slate-500">ROI</p>
               </div>
-              <p className="text-2xl md:text-3xl font-black text-slate-900">300%+</p>
-              <p className="text-xs text-slate-500 mt-2">Within 5 years</p>
+              <p className="text-3xl md:text-4xl font-black text-slate-900">300%+</p>
+              <p className="text-sm text-slate-500 mt-2">Within 5 years</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export function CostBreakdown({
           <div className="flex gap-0 md:gap-2">
             <button
               onClick={() => setActiveTab("breakdown")}
-              className={`flex-1 md:flex-none px-4 md:px-6 py-4 font-bold text-sm md:text-base transition-all border-b-2 ${
+              className={`flex-1 md:flex-none px-4 md:px-6 py-4 font-bold text-base md:text-lg transition-all border-b-2 ${
                 activeTab === "breakdown"
                   ? "text-blue-600 border-blue-600"
                   : "text-slate-600 border-transparent hover:text-slate-900"
@@ -98,7 +98,7 @@ export function CostBreakdown({
             </button>
             <button
               onClick={() => setActiveTab("roi")}
-              className={`flex-1 md:flex-none px-4 md:px-6 py-4 font-bold text-sm md:text-base transition-all border-b-2 ${
+              className={`flex-1 md:flex-none px-4 md:px-6 py-4 font-bold text-base md:text-lg transition-all border-b-2 ${
                 activeTab === "roi"
                   ? "text-blue-600 border-blue-600"
                   : "text-slate-600 border-transparent hover:text-slate-900"
@@ -108,7 +108,7 @@ export function CostBreakdown({
             </button>
             <button
               onClick={() => setActiveTab("timeline")}
-              className={`flex-1 md:flex-none px-4 md:px-6 py-4 font-bold text-sm md:text-base transition-all border-b-2 ${
+              className={`flex-1 md:flex-none px-4 md:px-6 py-4 font-bold text-base md:text-lg transition-all border-b-2 ${
                 activeTab === "timeline"
                   ? "text-blue-600 border-blue-600"
                   : "text-slate-600 border-transparent hover:text-slate-900"
@@ -124,7 +124,7 @@ export function CostBreakdown({
       {activeTab === "breakdown" && (
         <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-8 md:mb-12">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mb-8 md:mb-12">
               Cost Breakdown by Category
             </h3>
 
@@ -144,19 +144,19 @@ export function CostBreakdown({
                   >
                     <div className="flex items-center gap-4 flex-1 text-left">
                       <div
-                        className="w-14 h-14 md:w-16 md:h-16 rounded-xl flex items-center justify-center text-3xl md:text-4xl flex-shrink-0 shadow-md"
+                        className="w-16 h-16 md:w-20 md:h-20 rounded-xl flex items-center justify-center text-4xl md:text-5xl flex-shrink-0 shadow-md"
                         style={{ background: `${item.color}15` }}
                       >
                         {item.icon}
                       </div>
                       <div className="min-w-0">
-                        <p className="font-black text-base md:text-lg text-slate-900">{item.category}</p>
-                        <p className="text-xs md:text-sm text-slate-600 mt-1 font-medium">{item.description}</p>
+                        <p className="font-black text-lg md:text-xl text-slate-900">{item.category}</p>
+                        <p className="text-sm md:text-base text-slate-600 mt-1 font-medium">{item.description}</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4 flex-shrink-0">
                       <div className="text-right">
-                        <p className="font-black text-lg md:text-xl text-slate-900">{item.amount}</p>
+                        <p className="font-black text-xl md:text-2xl text-slate-900">{item.amount}</p>
                       </div>
                       <div
                         className="w-10 h-10 rounded-full flex items-center justify-center text-white transition-transform flex-shrink-0"
@@ -198,7 +198,7 @@ export function CostBreakdown({
       {activeTab === "roi" && (
         <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-8 md:mb-12">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mb-8 md:mb-12">
               Return on Investment & Earnings
             </h3>
 
@@ -210,16 +210,16 @@ export function CostBreakdown({
                     1
                   </div>
                   <div>
-                    <p className="text-xs font-bold uppercase tracking-widest text-blue-700">Entry Level</p>
-                    <p className="text-sm text-blue-600 font-semibold">0-2 Years</p>
+                    <p className="text-sm font-bold uppercase tracking-widest text-blue-700">Entry Level</p>
+                    <p className="text-base text-blue-600 font-semibold">0-2 Years</p>
                   </div>
                 </div>
-                <p className="text-3xl md:text-4xl font-black text-slate-900 mb-2">₹8-12 LPA</p>
-                <p className="text-sm text-slate-700 mb-4">After qualification & first job</p>
+                <p className="text-4xl md:text-5xl font-black text-slate-900 mb-2">₹8-12 LPA</p>
+                <p className="text-base text-slate-700 mb-4">After qualification & first job</p>
                 <div className="space-y-2 pt-4 border-t border-blue-300">
-                  <p className="text-xs text-slate-700"><span className="font-bold">Annual Salary:</span> ₹8-12 Lakhs</p>
-                  <p className="text-xs text-slate-700"><span className="font-bold">Payback Period:</span> 2-3 years</p>
-                  <p className="text-xs text-slate-700"><span className="font-bold">Monthly:</span> ₹67K-1L</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Annual Salary:</span> ₹8-12 Lakhs</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Payback Period:</span> 2-3 years</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Monthly:</span> ₹67K-1L</p>
                 </div>
               </div>
 
@@ -230,16 +230,16 @@ export function CostBreakdown({
                     2
                   </div>
                   <div>
-                    <p className="text-xs font-bold uppercase tracking-widest text-amber-700">Mid Career</p>
-                    <p className="text-sm text-amber-600 font-semibold">5-7 Years</p>
+                    <p className="text-sm font-bold uppercase tracking-widest text-amber-700">Mid Career</p>
+                    <p className="text-base text-amber-600 font-semibold">5-7 Years</p>
                   </div>
                 </div>
-                <p className="text-3xl md:text-4xl font-black text-slate-900 mb-2">₹25-35 LPA</p>
-                <p className="text-sm text-slate-700 mb-4">With experience & promotions</p>
+                <p className="text-4xl md:text-5xl font-black text-slate-900 mb-2">₹25-35 LPA</p>
+                <p className="text-base text-slate-700 mb-4">With experience & promotions</p>
                 <div className="space-y-2 pt-4 border-t border-amber-300">
-                  <p className="text-xs text-slate-700"><span className="font-bold">Annual Salary:</span> ₹25-35 Lakhs</p>
-                  <p className="text-xs text-slate-700"><span className="font-bold">Annual Savings:</span> ₹20+ Lakhs</p>
-                  <p className="text-xs text-slate-700"><span className="font-bold">Monthly:</span> ₹2-3L</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Annual Salary:</span> ₹25-35 Lakhs</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Annual Savings:</span> ₹20+ Lakhs</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Monthly:</span> ₹2-3L</p>
                 </div>
               </div>
 
@@ -250,39 +250,39 @@ export function CostBreakdown({
                     3
                   </div>
                   <div>
-                    <p className="text-xs font-bold uppercase tracking-widest text-green-700">Senior Level</p>
-                    <p className="text-sm text-green-600 font-semibold">10+ Years</p>
+                    <p className="text-sm font-bold uppercase tracking-widest text-green-700">Senior Level</p>
+                    <p className="text-base text-green-600 font-semibold">10+ Years</p>
                   </div>
                 </div>
-                <p className="text-3xl md:text-4xl font-black text-slate-900 mb-2">₹50+ LPA</p>
-                <p className="text-sm text-slate-700 mb-4">Leadership & expertise</p>
+                <p className="text-4xl md:text-5xl font-black text-slate-900 mb-2">₹50+ LPA</p>
+                <p className="text-base text-slate-700 mb-4">Leadership & expertise</p>
                 <div className="space-y-2 pt-4 border-t border-green-300">
-                  <p className="text-xs text-slate-700"><span className="font-bold">Annual Salary:</span> ₹50+ Lakhs</p>
-                  <p className="text-xs text-slate-700"><span className="font-bold">Annual Savings:</span> ₹45+ Lakhs</p>
-                  <p className="text-xs text-slate-700"><span className="font-bold">Monthly:</span> ₹4L+</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Annual Salary:</span> ₹50+ Lakhs</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Annual Savings:</span> ₹45+ Lakhs</p>
+                  <p className="text-sm text-slate-700"><span className="font-bold">Monthly:</span> ₹4L+</p>
                 </div>
               </div>
             </div>
 
             {/* ROI Calculation */}
             <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-r from-indigo-50 to-purple-50 border-2 border-indigo-200">
-              <h4 className="font-black text-slate-900 mb-4">ROI Calculation</h4>
+              <h4 className="font-black text-lg md:text-xl text-slate-900 mb-4">ROI Calculation</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center pb-3 border-b border-indigo-200">
-                  <p className="text-slate-700 font-medium">Total Investment:</p>
-                  <p className="font-black text-slate-900">₹5-15 Lakhs</p>
+                  <p className="text-slate-700 font-medium text-base">Total Investment:</p>
+                  <p className="font-black text-slate-900 text-base">₹5-15 Lakhs</p>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-indigo-200">
-                  <p className="text-slate-700 font-medium">Entry Level Salary (Annual):</p>
-                  <p className="font-black text-slate-900">₹8-12 Lakhs</p>
+                  <p className="text-slate-700 font-medium text-base">Entry Level Salary (Annual):</p>
+                  <p className="font-black text-slate-900 text-base">₹8-12 Lakhs</p>
                 </div>
                 <div className="flex justify-between items-center pb-3 border-b border-indigo-200">
-                  <p className="text-slate-700 font-medium">Payback Period:</p>
-                  <p className="font-black text-slate-900">2-3 Years</p>
+                  <p className="text-slate-700 font-medium text-base">Payback Period:</p>
+                  <p className="font-black text-slate-900 text-base">2-3 Years</p>
                 </div>
                 <div className="flex justify-between items-center pt-3 bg-white rounded-lg p-3">
-                  <p className="text-slate-700 font-bold">5-Year Earnings:</p>
-                  <p className="font-black text-green-600 text-lg">₹50-70 Lakhs</p>
+                  <p className="text-slate-700 font-bold text-base">5-Year Earnings:</p>
+                  <p className="font-black text-green-600 text-lg md:text-xl">₹50-70 Lakhs</p>
                 </div>
               </div>
             </div>
@@ -293,7 +293,7 @@ export function CostBreakdown({
       {activeTab === "timeline" && (
         <section className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-8 md:mb-12">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mb-8 md:mb-12">
               Investment Timeline
             </h3>
 
@@ -318,12 +318,12 @@ export function CostBreakdown({
                     <div className="p-5 md:p-6 rounded-xl bg-gradient-to-br from-slate-50 to-blue-50 border border-blue-200">
                       <div className="flex justify-between items-start mb-2">
                         <div>
-                          <p className="text-xs font-bold uppercase text-blue-600 mb-1">{phase.year}</p>
-                          <h4 className="font-black text-slate-900 text-lg">{phase.title}</h4>
+                          <p className="text-sm font-bold uppercase text-blue-600 mb-1">{phase.year}</p>
+                          <h4 className="font-black text-slate-900 text-xl md:text-2xl">{phase.title}</h4>
                         </div>
-                        <p className="font-black text-blue-600 text-lg">{phase.cost}</p>
+                        <p className="font-black text-blue-600 text-lg md:text-xl">{phase.cost}</p>
                       </div>
-                      <p className="text-sm text-slate-700 mt-3">{phase.details}</p>
+                      <p className="text-base text-slate-700 mt-3">{phase.details}</p>
                     </div>
                   </div>
                 </div>

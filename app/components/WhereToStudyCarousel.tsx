@@ -68,11 +68,11 @@ export function WhereToStudyCarousel({
             >
               🏫
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900">
               {title}
             </h2>
           </div>
-          <p className="text-sm md:text-base text-slate-600 max-w-2xl mx-auto font-medium">
+          <p className="text-base md:text-lg text-slate-600 max-w-2xl mx-auto font-medium">
             {description}
           </p>
         </div>
@@ -88,7 +88,7 @@ export function WhereToStudyCarousel({
               }}
             >
               {/* Type Header */}
-              <h3 className="text-base font-bold text-slate-900 mb-4">
+              <h3 className="text-lg font-bold text-slate-900 mb-4">
                 {institution.type}
               </h3>
 
@@ -100,7 +100,7 @@ export function WhereToStudyCarousel({
                       className="w-2 h-2 rounded-full mt-1.5 flex-shrink-0"
                       style={{ background: institution.color }}
                     />
-                    <p className="text-slate-600 text-sm leading-relaxed">
+                    <p className="text-slate-600 text-base leading-relaxed">
                       {inst}
                     </p>
                   </div>
