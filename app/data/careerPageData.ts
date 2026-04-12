@@ -143,9 +143,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: RED,
         content: [
-          "After Class 12: Entry Exam: Appear for the ACET (Actuarial Common Entrance Test) conducted by the IAI. Degree Route: Enroll in a B.Sc. in Actuarial Science, Mathematics, or Statistics. Concurrent Study: Most students clear 3–5 professional papers while doing their college degree.",
-          "After Graduation: Lateral Entry: If you have a degree in Engineering, Math, Commerce (with Math), or are a CA/CS, you can apply to the IAI directly. Masters Route: Pursue an M.Sc. in Actuarial Science or an MBA in Insurance/Risk Management.",
-          "The Exam Roadmap: Student Member (Clear ACET) → Associate (Clear Core Principles & Core Practices) → Fellow (Clear Specialist Principles & Specialist Advanced + 3 years work experience)."
+          "A. After Class 12: Entry Exam: Appear for the ACET (Actuarial Common Entrance Test) conducted by the IAI.; Degree Route: Enroll in a B.Sc. in Actuarial Science, Mathematics, or Statistics.; Concurrent Study: Most students clear 3–5 professional papers while doing their college degree.",
+          "B. After Graduation: Lateral Entry: If you have a degree in Engineering, Math, Commerce (with Math), or are a CA/CS, you can apply to the IAI directly.; Masters Route: Pursue an M.Sc. in Actuarial Science or an MBA in Insurance/Risk Management.",
+          "C. The Exam Roadmap: Student Member → Clear ACET.; Associate → Clear Core Principles (CS, CM, CB) and Core Practices (CP).; Fellow → Clear Specialist Principles (SP) and Specialist Advanced (SA) + 3 years work experience."
         ],
       },
       {

@@ -222,8 +222,10 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
             }
             
             // For other sections, check for nested content
-            const hasColonHeadings = /[A-Z][^:]*:\s*[^.!?]*[.!?]/.test(description);
+            const hasSemicolonItems = /;/.test(description);
             const hasArrowItems = /→/.test(description);
+            const hasColonHeadings = /[A-Z][^:]*:\s*[^.!?]*[.!?]/.test(description);
+            const isJobsSection = section.id === "jobs";
 
             return (
               <div
@@ -238,14 +240,62 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
                   {mainTitle}
                 </h3>
 
-                {/* Content with arrow-separated items (Exam Roadmap) */}
-                {hasArrowItems ? (
+                {/* Content for jobs section - split by comma and add bullets */}
+                {isJobsSection ? (
+                  <div className="space-y-2">
+                    {description.split(",").map((item, idx) => {
+                      const trimmed = item.trim();
+                      if (!trimmed) return null;
+                      return (
+                        <div key={idx} className="flex items-start gap-2">
+                          <div
+                            className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                            style={{ background: color }}
+                          />
+                          <p className="text-base text-slate-600 leading-relaxed">
+                            {trimmed}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : hasSemicolonItems ? (
+                  <div className="space-y-3">
+                    {description.split(";").map((item, idx) => {
+                      const trimmed = item.trim();
+                      if (!trimmed) return null;
+                      
+                      const colonIndex = trimmed.indexOf(":");
+                      const subheading = colonIndex > -1 ? trimmed.substring(0, colonIndex).trim() : trimmed;
+                      const subdesc = colonIndex > -1 ? trimmed.substring(colonIndex + 1).trim() : "";
+                      
+                      return (
+                        <div key={idx} className="flex items-start gap-2">
+                          <div
+                            className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                            style={{ background: color }}
+                          />
+                          <div className="flex-1">
+                            <p className="text-base font-semibold text-slate-800">
+                              {subheading}
+                            </p>
+                            {subdesc && (
+                              <p className="text-base text-slate-600 leading-relaxed">
+                                {subdesc}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : hasArrowItems ? (
                   <div className="space-y-2">
                     {description.split("→").map((item, idx) => {
                       const trimmed = item.trim();
-                      const parenIndex = trimmed.indexOf("(");
-                      const subheading = parenIndex > -1 ? trimmed.substring(0, parenIndex).trim() : trimmed;
-                      const subdesc = parenIndex > -1 ? trimmed.substring(parenIndex).trim() : "";
+                      const colonIndex = trimmed.indexOf(":");
+                      const subheading = colonIndex > -1 ? trimmed.substring(0, colonIndex).trim() : trimmed;
+                      const subdesc = colonIndex > -1 ? trimmed.substring(colonIndex + 1).trim() : "";
                       
                       return (
                         <div key={idx} className="flex items-start gap-2">
@@ -268,7 +318,6 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
                     })}
                   </div>
                 ) : hasColonHeadings ? (
-                  /* Content with colon-separated sub-headings */
                   <div className="space-y-3">
                     {description.match(/([A-Z][^:]*?):\s*([^.!?]*[.!?])/g)?.map((item, idx) => {
                       const subColonIndex = item.indexOf(":");
@@ -293,7 +342,6 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
                     })}
                   </div>
                 ) : (
-                  /* Regular description */
                   <p className="text-base text-slate-600 leading-relaxed">
                     {description}
                   </p>
@@ -328,6 +376,11 @@ function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSe
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
+
+        {/* Intro Text */}
+        <p className="text-base md:text-lg text-slate-700 leading-relaxed mb-6">
+          The Indian actuarial market is one of the highest-paying professions in the country.
+        </p>
 
         {/* Table */}
         <div className="overflow-x-auto rounded-xl border border-slate-300 shadow-sm mb-6">
