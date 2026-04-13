@@ -22,10 +22,12 @@ export function DayInLifeCarousel({ content, title, description, color }: DayInL
     const timeMatch = text.match(/^(\d{1,2}:\d{2}\s*(?:AM|PM))/i);
     const time = timeMatch ? timeMatch[1].trim() : "N/A";
     
-    // Remove time and dash from text to get the rest
-    const withoutTime = text.replace(/^(\d{1,2}:\d{2}\s*(?:AM|PM))\s*–\s*/i, "").trim();
+    // Remove time prefix and optional separator (dash, colon) to get activity text
+    const withoutTime = text
+      .replace(/^(\d{1,2}:\d{2}\s*(?:AM|PM))\s*[-–—:]?\s*/i, "")
+      .trim();
     
-    // Split by first dash or colon to get title and description
+    // Prefer "Title: description" format; fall back to first sentence split.
     const dashIndex = withoutTime.indexOf(":");
     let activityTitle = "";
     let activityDesc = "";
@@ -34,8 +36,14 @@ export function DayInLifeCarousel({ content, title, description, color }: DayInL
       activityTitle = withoutTime.substring(0, dashIndex).trim();
       activityDesc = withoutTime.substring(dashIndex + 1).trim();
     } else {
-      activityTitle = withoutTime;
-      activityDesc = withoutTime;
+      const sentenceSplit = withoutTime.match(/^(.+?[.!?])\s+(.+)$/);
+      if (sentenceSplit) {
+        activityTitle = sentenceSplit[1].trim().replace(/[.!?]$/, "");
+        activityDesc = sentenceSplit[2].trim();
+      } else {
+        activityTitle = withoutTime;
+        activityDesc = "";
+      }
     }
     
     return {

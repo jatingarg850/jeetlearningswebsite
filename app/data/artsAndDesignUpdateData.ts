@@ -3771,9 +3771,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Zoya, a Digital Journalist at a leading news app in New Delhi",
         color: BLUE2,
         content: [
-          "08:00 AM: Zoya wakes up and immediately checks Twitter (X) and news wires. A major policy change was announced late last night. She quickly messages her editor: 'I'm doing a breakdown video on this.'",
+          "08:00 AM: News Check: Zoya wakes up and immediately checks Twitter (X) and news wires. A major policy change was announced late last night. She quickly messages her editor: 'I'm doing a breakdown video on this.'",
           "10:00 AM: The Newsroom Buzz. She reaches the office. It's chaotic but exciting. TVs are blaring different channels. She attends the morning editorial meeting where the team decides the 'Story of the Day.' Zoya pitches a story about rising electric vehicle sales in Tier-2 cities. Her editor gives the green light.",
-          "12:00 PM: Field Work. She grabs her 'MoJo Kit' (Mobile Journalism kit: a smartphone, a tripod, and a lapel mic). She doesn't need a big camera crew. She visits an EV showroom in Noida to interview customers. She shoots video clips, records audio, and takes notes—all on her phone.",
+          "12:00 PM: Field Work: She grabs her 'MoJo Kit' (Mobile Journalism kit: a smartphone, a tripod, and a lapel mic). She doesn't need a big camera crew. She visits an EV showroom in Noida to interview customers. She shoots video clips, records audio, and takes notes—all on her phone.",
           "03:00 PM: The 'Desk' Work. Back at the office, she edits the video using an app, writes a 300-word article to go with it, and designs a thumbnail. She uses AI tools to quickly transcribe her interviews (checking them for errors, of course).",
           "05:00 PM: Going Live. Breaking news! A protest has erupted near the city center. Zoya rushes to the spot. She goes live on the news app's Instagram page, reporting what she sees. Thousands of people watch her in real-time.",
           "07:30 PM: Wrapping Up. She schedules her EV story for tomorrow morning's newsletter. She's tired, her feet hurt, but the thrill of witnessing history firsthand keeps her going."
@@ -4229,10 +4229,10 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE2,
         content: [
           "09:00 AM: The Field Visit. Your day starts not in an office, but in a jeep. You are visiting a remote village to inspect a new bridge. You talk to the local farmers, listen to their complaints about water supply, and take notes. You aren't just an officer; you are a listener.",
-          "12:30 PM: The Public Hearing. Back at the office, it's time for 'Jan Sunwai.' A long line of people waits outside. One man has lost his land records; a woman needs help with a medical grant. You listen, verify documents, and pass immediate orders. This is where you see the direct impact of your power.",
+          "12:30 PM - The Public Hearing. Back at the office, it's time for 'Jan Sunwai.' A long line of people waits outside. One man has lost his land records; a woman needs help with a medical grant. You listen, verify documents, and pass immediate orders. This is where you see the direct impact of your power.",
           "03:00 PM: The Law & Order Huddle. You meet with the local Police Chief. There is a large festival coming up, and you need to plan the crowd control strategy. You coordinate with the health department for ambulances and the electricity board for lighting. You are the 'Conductor' of this massive orchestra.",
           "06:00 PM: The Policy Review. The evening is quieter but intense. You are reviewing a 50-page report on rural employment. You need to suggest changes to the state government to make the scheme more effective. Your brain shifts from 'field mode' to 'strategy mode.'",
-          "09:00 PM: The Emergency Call. Just as you prepare for dinner, your phone rings. There's been a minor landslide on the highway. You coordinate with the rescue teams and ensure the road is cleared by dawn. You head to bed, knowing that tomorrow, the puzzles will be different, but the goal will remain the same: Service."
+          "09:00 PM: The Emergency Call: Just as you prepare for dinner, your phone rings. There's been a minor landslide on the highway. You coordinate with the rescue teams and ensure the road is cleared by dawn. You head to bed, knowing that tomorrow, the puzzles will be different, but the goal will remain the same: Service."
         ]
       },
       {
@@ -5177,7 +5177,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Meet Coach Rahul, a Physical Trainer in South Delhi",
         color: BLUE2,
         content: [
-          "05:30 AM: My alarm rings early. In this profession, your workday starts when others are still sleeping. I head to a premium fitness studio in South Delhi. My first client is a CEO who needs to fit her workout in before her 8:00 AM meetings.",
+          "05:30 AM: My alarm rings early: In this profession, your workday starts when others are still sleeping. I head to a premium fitness studio in South Delhi. My first client is a CEO who needs to fit her workout in before her 8:00 AM meetings.",
           "07:00 AM: I'm leading a 'Functional Training' group class. There are 15 people of different ages. I have to be like a DJ—keeping the energy high, correcting their form, and making sure everyone stays safe.",
           "11:00 AM: The 'Midday Gap.' Most people are at their offices now. This is my time for Self-Growth. I spend two hours on my own workout and another hour reading a new research paper on 'Hypertrophy' (muscle growth).",
           "02:00 PM: I log into my laptop for Virtual Coaching. I have a client in London and another in Mumbai. We do a video call where I watch their form through the camera and adjust their nutrition plan on a shared app.",
@@ -13036,7 +13036,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         content: [
           "08:30 AM - Morning Routine: Aaryan's day doesn't start with a tie and blazer. He wakes up, grabs his coffee, and checks his emails on his phone. He works in a 'hybrid' model, so today is a work-from-home day.",
           "10:00 AM - Daily Stand-up: Aaryan logs into Zoom/Teams with his 6-member team. In 15 minutes, they discuss: What did I do yesterday? What will I do today? Are there any blockers? Aaryan mentions he's stuck on a 'bug' (error) in the payment gateway code.",
-          "11:00 AM – 1:00 PM - Deep Focus Time: Aaryan puts on his noise-canceling headphones. He opens his Code Editor (a specialized writing tool for code). He is writing 'Python' logic to ensure that when a user clicks 'Pay', the money is deducted correctly. It's like solving a complex math puzzle where every comma matters.",
+          "11:00 AM - Deep Focus Time: Aaryan puts on his noise-canceling headphones. He opens his Code Editor (a specialized writing tool for code). He is writing 'Python' logic to ensure that when a user clicks 'Pay', the money is deducted correctly. It's like solving a complex math puzzle where every comma matters.",
           "1:30 PM - Lunch & Learning: Lunch break. He watches a quick YouTube video on a new AI tool while eating. Continuous learning is part of the job!",
           "3:00 PM - Pair Programming: He pairs up with a colleague, Priya, to debug the error he mentioned earlier. They look at lines of code together, hypothesize solutions, and test them. 'Bingo! It was a logic error in line 45.' The relief is instant.",
           "5:00 PM - Code Review & Deployment: Before his code goes 'live,' a senior engineer reviews it. They suggest a more efficient way to write the same logic. Aaryan makes the changes. He 'pushes' his code to the central repository and logs off. His brain is tired, but he feels satisfied."
