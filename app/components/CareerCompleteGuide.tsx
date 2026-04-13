@@ -51,6 +51,7 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
         content: text.slice(colonIndex + 1).trim(),
       };
     }
+    // If no colon, extract first sentence as title
     const sentences = text.split(/(?<=[.!?])\s+/);
     if (sentences.length > 1) {
       return {
@@ -58,8 +59,18 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
         content: sentences.slice(1).join(" ").trim(),
       };
     }
+    // If only one sentence, use first 60 chars as title
+    if (text.length > 60) {
+      const titleEnd = text.indexOf(" ", 50);
+      if (titleEnd > -1) {
+        return {
+          title: text.substring(0, titleEnd).trim(),
+          content: text.substring(titleEnd).trim(),
+        };
+      }
+    }
     return {
-      title: text.substring(0, 50).trim(),
+      title: text.substring(0, 50).trim() + "...",
       content: text.trim(),
     };
   };
@@ -79,20 +90,20 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
                 className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-canam-border shadow-sm hover:shadow-md transition-shadow"
               >
                 {/* Header */}
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-start gap-3 mb-4">
                   <div 
-                    className="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold flex-shrink-0"
+                    className="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold flex-shrink-0 mt-0.5"
                     style={{ background: section.color }}
                   >
                     <DynamicIcon name={section.icon} className="w-5 h-5" />
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900">
+                  <h3 className="text-lg font-bold text-slate-900 leading-snug line-clamp-3">
                     {title}
                   </h3>
                 </div>
 
                 {/* Content */}
-                <p className="text-base md:text-lg text-slate-600 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   {content}
                 </p>
               </div>
@@ -194,7 +205,7 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
         <SectionHeader section={section} light={false} />
 
         {/* Grid Layout - responsive columns */}
-        <div className={`grid gap-4 ${(isScholarshipSection || isInstitutionsSection) ? "grid-cols-1 md:grid-cols-3" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}`}>
+        <div className={`grid gap-4 ${(isScholarshipSection || isInstitutionsSection) ? "grid-cols-1 md:grid-cols-3" : "grid-cols-1 md:grid-cols-2"}`}>
           {section.content.map((content, i) => {
             const colonIndex = content.indexOf(":");
             const mainTitle = colonIndex > -1 ? content.substring(0, colonIndex).trim() : content;
@@ -472,36 +483,37 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* Institution Types Grid - All Content Visible */}
+        {/* Institution Types Grid - Only Show Categories with Institutions */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {institutionTypes.map((instType, idx) => {
-            const institutions = groupedContent[instType.type] || [];
+          {institutionTypes
+            .filter((instType) => (groupedContent[instType.type] || []).length > 0)
+            .map((instType, idx) => {
+              const institutions = groupedContent[instType.type] || [];
 
-            return (
-              <div
-                key={idx}
-                className="rounded-xl overflow-hidden bg-white border border-slate-200 shadow-sm"
-                style={{ borderTop: `3px solid ${instType.color}` }}
-              >
-                {/* Content */}
-                <div className="p-5">
-                  {/* Icon and Title */}
-                  <div className="flex items-center gap-3 mb-4">
-                    <div
-                      className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-                      style={{ background: `${instType.color}15`, color: instType.color }}
-                    >
-                      <DynamicIcon name={instType.icon} className="w-5 h-5" />
+              return (
+                <div
+                  key={idx}
+                  className="rounded-xl overflow-hidden bg-white border border-slate-200 shadow-sm"
+                  style={{ borderTop: `3px solid ${instType.color}` }}
+                >
+                  {/* Content */}
+                  <div className="p-5">
+                    {/* Icon and Title */}
+                    <div className="flex items-center gap-3 mb-4">
+                      <div
+                        className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
+                        style={{ background: `${instType.color}15`, color: instType.color }}
+                      >
+                        <DynamicIcon name={instType.icon} className="w-5 h-5" />
+                      </div>
+                      <h3 className="text-lg font-bold text-slate-900">
+                        {instType.type}
+                      </h3>
                     </div>
-                    <h3 className="text-lg font-bold text-slate-900">
-                      {instType.type}
-                    </h3>
-                  </div>
 
-                  {/* Institutions List - All Visible */}
-                  <div className="space-y-2">
-                    {institutions.length > 0 ? (
-                      institutions.map((inst, i) => (
+                    {/* Institutions List - All Visible */}
+                    <div className="space-y-2">
+                      {institutions.map((inst, i) => (
                         <div key={i} className="flex items-start gap-2">
                           <div
                             className="w-2 h-2 rounded-full mt-1.5 flex-shrink-0"
@@ -511,17 +523,12 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
                             {inst}
                           </p>
                         </div>
-                      ))
-                    ) : (
-                      <p className="text-slate-600 text-base leading-relaxed">
-                        No institutions listed
-                      </p>
-                    )}
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
       </div>
     </section>
@@ -684,6 +691,44 @@ function SectionHeader({ section, light = false }: { section: CareerGuideSection
 }
 
 // ─── SECTION ROUTER ───────────────────────────────────────────────
+const getComponentForSection = (section: CareerGuideSection) => {
+  const titleLower = section.title.toLowerCase();
+  const idLower = section.id.toLowerCase();
+  
+  // Route based on section title first (most reliable for flexibility)
+  if (titleLower.includes("what is this")) return SectionWhat;
+  if (titleLower.includes("day in the life")) return SectionDayInLife;
+  if (titleLower.includes("is this you")) return SectionWho;
+  if (titleLower.includes("market snapshot")) return SectionMarketSnapshot;
+  if (titleLower.includes("what will it cost") || titleLower.includes("investment required")) return SectionCosts;
+  if (titleLower.includes("where to study")) return SectionInstitutions;
+  if (titleLower.includes("challenges")) return SectionChallenges;
+  if (titleLower.includes("emerging trends") || titleLower.includes("future outlook")) return SectionStartNow;
+  if (titleLower.includes("skills to build")) return SectionStartNow;
+  if (titleLower.includes("famous") || titleLower.includes("personalities")) return SectionStartNow;
+  
+  // Route based on section ID for remaining sections
+  if (idLower === "1") return SectionWhat;
+  if (idLower === "2") return SectionDayInLife;
+  if (idLower === "3") return SectionWho;
+  if (idLower === "4") return SectionResponsibilities;
+  if (idLower === "5") return SectionResponsibilities;
+  if (idLower === "6") return SectionMarketSnapshot;
+  if (idLower === "7") return SectionResponsibilities;
+  if (idLower === "8") return SectionCosts;
+  if (idLower === "9") return SectionResponsibilities;
+  if (idLower === "10") return SectionResponsibilities;
+  if (idLower === "11") return SectionResponsibilities;
+  if (idLower === "12") return SectionResponsibilities;
+  if (idLower === "13") return SectionChallenges;
+  if (idLower === "14") return SectionStartNow;
+  if (idLower === "15") return SectionStartNow;
+  if (idLower === "16") return SectionStartNow;
+  
+  // Default fallback
+  return SectionResponsibilities;
+};
+
 const SECTION_COMPONENTS = [
   SectionWhat,           // Index 0: What is This Career
   SectionDayInLife,      // Index 1: A Day in the Life
@@ -720,7 +765,7 @@ export function CareerCompleteGuide({ careerName, sections }: Props) {
 
       {/* Individual sections with unique carousel styles */}
       {sections.map((section, idx) => {
-        const Component = SECTION_COMPONENTS[idx % SECTION_COMPONENTS.length];
+        const Component = getComponentForSection(section);
         return <Component key={section.id} section={section} careerName={careerName} />;
       })}
     </div>

@@ -18,20 +18,21 @@ interface Activity {
 export function DayInLifeCarousel({ content, title, description, color }: DayInLifeCarouselProps) {
   // Parse time and activity from content
   const parseActivity = (text: string): Activity => {
-    const timeMatch = text.match(/^(\d{1,2}:\d{2}\s*(?:AM|PM)?)/i);
-    const time = timeMatch ? timeMatch[1] : "N/A";
+    // Match time with AM/PM (e.g., "8:30 AM", "11:00 AM")
+    const timeMatch = text.match(/^(\d{1,2}:\d{2}\s*(?:AM|PM))/i);
+    const time = timeMatch ? timeMatch[1].trim() : "N/A";
     
-    // Remove time from text
-    const withoutTime = text.replace(/^(\d{1,2}:\d{2}\s*(?:AM|PM)?)\s*-\s*/i, "").trim();
+    // Remove time and dash from text to get the rest
+    const withoutTime = text.replace(/^(\d{1,2}:\d{2}\s*(?:AM|PM))\s*–\s*/i, "").trim();
     
-    // Split by first colon to get title and description
-    const colonIndex = withoutTime.indexOf(":");
+    // Split by first dash or colon to get title and description
+    const dashIndex = withoutTime.indexOf(":");
     let activityTitle = "";
     let activityDesc = "";
     
-    if (colonIndex > -1) {
-      activityTitle = withoutTime.substring(0, colonIndex).trim();
-      activityDesc = withoutTime.substring(colonIndex + 1).trim();
+    if (dashIndex > -1) {
+      activityTitle = withoutTime.substring(0, dashIndex).trim();
+      activityDesc = withoutTime.substring(dashIndex + 1).trim();
     } else {
       activityTitle = withoutTime;
       activityDesc = withoutTime;
