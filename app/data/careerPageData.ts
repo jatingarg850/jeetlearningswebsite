@@ -4,9 +4,11 @@ import { bioScienceUpdateData } from './bioScienceUpdateData';
 import { architectureAndConstructionUpdateData } from './architectureAndConstructionUpdateData';
 import { hospitalityUpdateData } from './hospitalityUpdateData';
 import { healthScienceUpdateData } from './healthScienceUpdateData';
+import { homeScienceUpdateData } from './homeScienceUpdateData';
 import { educationUpdateData } from './educationUpdateData';
 import { businessManagementUpdateData } from './businessManagementUpdateData';
 import { publicSafetyAndSecurityUpdateData } from './publicSafetyAndSecurityUpdateData';
+import { environmentUpdateData } from './environmentUpdateData';
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -4956,6 +4958,519 @@ export const careerPageData: Record<string, CareerPageData> = {
     ],
   },
 
+  // ─── JUDGE ──────────────────────────────────────────────────────
+  judge: {
+    slug: "judge",
+    badge: "⚖️ Career Exploration for Class 10+",
+    heading: "The Arbiters of Justice",
+    subheading:
+      "Judges are the pillars of the judicial system who interpret laws, deliver justice, and uphold constitutional rights. They preside over courts, make critical decisions that impact lives, and shape society's legal landscape. In today's India, becoming a judge is not just a career—it is a calling to serve justice and protect the rights of every citizen.",
+    whyCards: [
+      { icon: "⚖️", title: "Guardian of Justice", description: "Deliver fair decisions that shape society and protect fundamental rights", borderColor: "#F59E0B" },
+      { icon: "🏛️", title: "Prestige & Authority", description: "Hold one of the most respected positions in Indian society", borderColor: "#1E40AF" },
+      { icon: "📚", title: "Intellectual Challenge", description: "Engage with complex legal cases and constitutional interpretations daily", borderColor: "#6366F1" },
+      { icon: "🌐", title: "Lifetime Security", description: "Excellent salary, pension, and job security until retirement", borderColor: "#10B981" },
+    ],
+    quickFacts: [
+      { label: "Salary Range", detail: "₹1.5L–₹1.5Cr annually", color: "bg-amber-100 text-amber-700" },
+      { label: "Career Span", detail: "Typically until age 62–65", color: "bg-blue-100 text-blue-700" },
+      { label: "Duration to Judge", detail: "LLB (5/3 years) + 5–15 years practice + PCS-J exam", color: "bg-indigo-100 text-indigo-700" },
+    ],
+    statCards: [
+      { value: "₹1.5L–₹1.5Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
+      { value: "30–40% CAGR", label: "Salary Growth as Rank Increases", gradient: "from-blue-600 to-indigo-600" },
+    ],
+    guideSections: [
+      {
+        id: "1",
+        title: "What is This Career All About?",
+        icon: "⚖️",
+        description: "Understanding the role of a judge in the Indian judicial system",
+        color: RED,
+        content: [
+          "When you think of a 'Judge,' the image of someone in a black robe banging a gavel might come to mind. But that's just the surface. The role is far deeper.",
+          "A Judge is the 'Keeper of Justice.' They interpret the Constitution and laws of India, listen to both sides of a dispute, weigh the evidence, and deliver decisions that have permanent impact on people's lives. Whether it is sending a criminal to jail, awarding custody of a child, or declaring a government decision unconstitutional, judges wield immense responsibility.",
+          "In today's India, with an overburdened judiciary (over 60 million pending cases), judges are more critical than ever. They are not just courtroom administrators—they are constitutional guardians who ensure the rule of law prevails in a democracy.",
+          "Becoming a judge requires not just legal expertise, but wisdom, impartiality, and an unwavering commitment to justice. It is a career for those who genuinely want to serve society and protect the Constitution.",
+        ],
+      },
+      {
+        id: "2",
+        title: "A Day in the Life",
+        icon: "⏰",
+        description: "Real-world experience of a working judge",
+        color: RED2,
+        content: [
+          "08:00 AM: Justice Ramakrishnan arrives at the Delhi High Court. He has 5 cases on his docket today. His chambers staff briefs him on each case file.",
+          "09:00 AM: First hearing. A writ petition is filed challenging a government policy. He listens to arguments from both the petitioner's lawyer and the government counsel for 2 hours. He takes detailed notes and reserves judgment.",
+          "11:30 AM: Lunch break. He reviews written submissions from yesterday's cases. Judges don't just listen in court; they spend hours reading legal briefs and precedents.",
+          "01:00 PM: Criminal case hearing. A criminal defense lawyer argues that his client's confession was coerced. The judge questions both sides to unearth the truth.",
+          "03:00 PM: Administrative work. He reviews case schedules, meets with the High Court registrar about court resource allocation, and handles judicial matters.",
+          "04:30 PM: Judgment Delivery. He announces a written judgment in a civil dispute case. It took him 3 days to write because every sentence has legal weight.",
+          "05:30 PM: Chambers time. He dictates notes for upcoming judgments to his secretary. Judges often work late into the evening.",
+          "06:30 PM: Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape.",
+        ],
+      },
+      {
+        id: "3",
+        title: "Is This You? (Personality Traits & Skills)",
+        icon: "🎯",
+        description: "Traits that make someone well-suited to become a judge",
+        color: RED3,
+        content: [
+          "The Neutral Observer: Can you listen to both sides without bias? Judges must put aside personal opinions.",
+          "The Intellectual: Do you enjoy reading philosophy, ethics, and complex legal theory?",
+          "The Disciplined: Can you maintain a strict work schedule and courtroom decorum?",
+          "The Patient: Can you sit through long, sometimes tedious arguments and remain sharp?",
+          "The Decisive: Can you make tough calls knowing they will affect people's lives?",
+          "The Ethical: Do you have unquestionable integrity and moral character?",
+          "The Learner: Will you continue studying law and judicial precedents throughout your career?",
+        ],
+      },
+      {
+        id: "4",
+        title: "Key Responsibilities and Workflow",
+        icon: "📋",
+        description: "Core duties of a judge",
+        color: RED4,
+        content: [
+          "The judicial workflow has several key stages:",
+          "1. Case Hearing: Listen to arguments from both sides (plaintiff and defendant/prosecution and defense).",
+          "2. Evidence Examination: Review documents, witness testimonies, and expert reports.",
+          "3. Legal Research: Study precedents and constitutional provisions applicable to the case.",
+          "4. Analysis: Weigh evidence, apply law, and determine the truth.",
+          "5. Judgment Writing: Draft a detailed written judgment explaining the reasoning and decision.",
+          "6. Pronouncement: Publicly announce the judgment in court.",
+          "7. Implementation: Ensure that the judgment is properly executed.",
+        ],
+      },
+      {
+        id: "5",
+        title: "Career Pathways in India",
+        icon: "🛤️",
+        description: "How to become a judge in India",
+        color: RED5,
+        content: [
+          "Pathway to Judiciary in India:",
+          "  • Step 1: Complete your LLB (5-year integrated or 3-year after graduation)",
+          "  • Step 2: Register with Bar Council and practice law for 7–12 years (mandatory practice period varies by state)",
+          "  • Step 3: Gain experience as an advocate and build expertise in a specific area",
+          "  • Step 4: Appear for PCS-J (Public Service Commission - Judicial) exam conducted by UPSC or State PSCs",
+          "  • Step 5: Clear PCS-J (prelims, mains, interviews, medical test)",
+          "  • Step 6: Appointed as Civil Judge (District Judge level entry point)",
+          "  • Step 7: Progress through ranks: Addl. District Judge → Sessions Judge → High Court Judge → Appellate judge",
+          "Target Timeline: On average, 15–20 years from law school to becoming a High Court Judge",
+        ],
+      },
+      {
+        id: "6",
+        title: "Market Snapshot — India 2026",
+        icon: "📈",
+        description: "Salary, growth, and judicial system data",
+        color: RED,
+        content: [
+          "Judicial Vacancies: India has a severe shortage of judges. As of 2026, over 30% of sanctioned judge positions remain vacant.",
+          "Demand: Unprecedented demand due to 60+ million pending cases and rapid legal system expansion.",
+          "Salary Ranges (Annual CTC in INR):",
+          "  • Civil Judge (Entry-level): ₹1.5L–₹3L",
+          "  • Additional District Judge: ₹5L–₹8L",
+          "  • Sessions Judge: ₹10L–₹15L",
+          "  • High Court Judge: ₹30L–₹50L+",
+          "  • Chief Justice (apex position): ₹1.5Cr",
+          "Pension: One of the best pension schemes in India (50% of last drawn salary after retirement)",
+        ],
+      },
+      {
+        id: "7",
+        title: "Where Are the Jobs?",
+        icon: "💼",
+        description: "Judicial system structure and opportunities",
+        color: RED2,
+        content: [
+          "Judicial Hierarchy in India:",
+          "  • District Courts: Entry-level judiciary (Local trials, civil/criminal cases)",
+          "  • High Courts: 25 High Courts across India (Appeals from District Courts)",
+          "  • Supreme Court: Apex court (Constitutional matters and landmark cases)",
+          "Selection Process: Competitive PCS-J exam through State PSC or UPSC",
+          "Geographic Variation: Different states have different demand levels",
+          "Alternative Paths: Tribunal memberships, Arbitration, and Alternative Dispute Resolution (ADR) as stepping stones",
+        ],
+      },
+      {
+        id: "8",
+        title: "What Will It Cost?",
+        icon: "💰",
+        description: "Investment required to become a judge",
+        color: RED3,
+        content: [
+          "Law Education (LLB):",
+          "  • National Law Universities: ₹12L–₹18L (5 years)",
+          "  • Private Universities: ₹20L–₹40L (5 years)",
+          "  • Government Colleges: ₹20,000–₹1L (highly affordable)",
+          "Practice Period (before PCS-J):",
+          "  • Self-employed advocate: Depends on practice growth (₹0 structured, but need to sustain living costs)",
+          "  • Law Firm associate: Better salary, but takes longer to gain independent practice experience",
+          "PCS-J Exam Preparation: ₹30,000–₹1.5L for coaching classes and study materials",
+          "ROI: Excellent — Though investment upfront is required, the lifetime job security and pension make it highly rewarding",
+        ],
+      },
+      {
+        id: "10",
+        title: "Scholarship Opportunities",
+        icon: "🎓",
+        description: "Financial support for aspiring judges",
+        color: RED5,
+        content: [
+          "Law School Scholarships: Almost all NLUs and law colleges offer merit-based scholarships",
+          "Government Schemes: NSP (National Scholarship Portal) for professional degrees",
+          "IDIA and PreLaw Programs: Support for underprivileged aspirants preparing for law school",
+          "State-Based: Various states offer scholarships for law students pursuing judicial careers",
+          "Merit-Cum-Means: Universities offer assistance to deserving students",
+          "Foundation Support: Organizations like Vidhi Centre for Legal Policy offer internships and grants",
+        ],
+      },
+      {
+        id: "11",
+        title: "Professional Bodies & Licensing",
+        icon: "📜",
+        description: "Regulatory framework for judges",
+        color: RED,
+        content: [
+          "Bar Council of India (BCI): Mandatory registration to practice law before becoming a judge",
+          "UPSC & State PSCs: Conduct PCS-J exams for judicial recruitment",
+          "High Courts: Appoint judges and oversee judicial administration",
+          "Judicial Accountability: Judges are bound by the Code of Conduct for Indian Judiciary",
+          "Impeachment Process: Judges can only be removed by Parliament through impeachment",
+          "Separation of Powers: Judiciary remains independent from executive and legislative branches",
+        ],
+      },
+      {
+        id: "12",
+        title: "Career Opportunities",
+        icon: "🚀",
+        description: "Diverse paths within judicial service",
+        color: RED2,
+        content: [
+          "Traditional Judicial Path:",
+          "  • District Judge → High Court Judge → Possible Chief Justice",
+          "Specialized Judicial Roles:",
+          "  • Administrative Judge: Oversees court administration and case management",
+          "  • Commercial Court Judge: Handles business and commercial disputes",
+          "  • Family Court Judge: Specializes in matrimonial and family law cases",
+          "Alternative Paths:",
+          "  • Arbitrator: Private judicial services for dispute resolution",
+          "  • Tribunal Member: Labor, IP, Environmental tribunals, etc.",
+          "  • Legal Researcher: Supreme Court research divisions",
+        ],
+      },
+      {
+        id: "13",
+        title: "Challenges and Realities",
+        icon: "⚠️",
+        description: "Challenges faced by judges in India",
+        color: RED3,
+        content: [
+          "Case Backlog Crisis: Pending cases often exceed 5–10 years. Judges work under immense pressure.",
+          "Inadequate Resources: Many courts lack modern technology and infrastructure.",
+          "Media Scrutiny: High-profile cases attract intense media coverage and public criticism.",
+          "Judicial Fatigue: Long working hours (often 12+ hours/day) can lead to burnout.",
+          "Political Pressure: Occasionally, controversial cases attract political attention.",
+          "Work-Life Balance: Judicial duty often extends beyond 9–5.",
+          "Safety Concerns: Judges handling criminal cases sometimes face security threats.",
+        ],
+      },
+      {
+        id: "14",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "🔮",
+        description: "Future of India's judiciary and judicial system",
+        color: RED4,
+        content: [
+          "Digital Justice: Supreme Court pushing 'e-courts' and virtual hearing systems. Tech-savviness is becoming mandatory.",
+          "AI in Courts: Legal research software and case prediction tools are emerging. Judges will use AI to expedite decisions.",
+          "Decriminalization Trends: Shift towards alternative dispute resolution (ADR), mediation, and arbitration to reduce court load.",
+          "Judicial Reforms: Active Chief Justice-led reforms to reduce pendency and improve efficiency.",
+          "Diversity Drive: Initiatives to increase representation of women and minorities in the judiciary.",
+          "International Collaboration: Indian judges increasingly participate in cross-border dispute resolution.",
+          "Expected Growth: 40–50% increase in judicial vacancies expected to be filled by 2030.",
+        ],
+      },
+      {
+        id: "15",
+        title: "Skills to Build While Still in School",
+        icon: "📚",
+        description: "Foundation-building for a judicial career",
+        color: RED5,
+        content: [
+          "Read the Constitution: Understand the Constitution of India. It is the judge's handbook.",
+          "Read Supreme Court Judgments: Build familiarity with landmark cases and judicial reasoning.",
+          "Debating: Develop the ability to construct logical arguments and counter-arguments.",
+          "Philosophy and Ethics: Study ethical frameworks. Judicial judgment requires moral reasoning.",
+          "Socio-Political Awareness: Stay updated on social issues and their legal implications.",
+          "Enhance Analytical Skills: Solve logic puzzles and case studies daily.",
+          "Develop Equanimity: Practice patience and impartiality in decision-making.",
+        ],
+      },
+      {
+        id: "16",
+        title: "Famous Indian Judges",
+        icon: "⭐",
+        description: "Inspiring judges who shaped India's legal system",
+        color: RED,
+        content: [
+          "Chief Justice D.Y. Chandrachud: Current CJI. Known for progressive judgments on privacy rights and gender equality.",
+          "Justice H.R. Khanna: Authored the famous ADM Jabalpur judgment protecting individual rights during Emergency.",
+          "Justice M.N. Venkatachaliah: Former CJI. Leading voice on constitutional interpretation and judicial activism.",
+          "Justice Leila Seth: First female judge of Delhi High Court. Pioneered women's rights jurisprudence.",
+          "Justice P.N. Bhagwati: Former CJI who strengthened Public Interest Litigation (PIL) in India.",
+          "Justice Sarvepalli Radhakrishnan: Philosopher-judge. Bridged law and philosophy with profound judicial insights.",
+        ],
+      },
+    ],
+  },
+
+  // ─── STAFF SELECTION COMMISSION ────────────────────────────────
+  staff_selection_commission: {
+    slug: "staff_selection_commission",
+    badge: "🏛️ The Backbone of Governance for Class 10+",
+    heading: "Staff Selection Commission (SSC)",
+    subheading:
+      "SSC is the central recruitment gateway to Group B and Group C posts across the Union government. It opens multiple entry points after Class 10, Class 12, or graduation for students who want a stable, high-impact public service career.",
+    whyCards: [
+      { icon: "ShieldCheck", title: "Government Backbone", description: "Power the ministries, audits, investigations, and revenue systems that keep India running.", borderColor: "#F59E0B" },
+      { icon: "Layers3", title: "Multiple Entry Points", description: "Start after Class 10, Class 12, or graduation depending on your ambition and timeline.", borderColor: "#1E40AF" },
+      { icon: "Laptop", title: "Digital-First Role", description: "Modern SSC work is increasingly tied to e-Office, analytics, and paperless administration.", borderColor: "#6366F1" },
+      { icon: "Banknote", title: "Stable Career", description: "Central government pay, allowances, pension benefits, and long-term security.", borderColor: "#10B981" },
+    ],
+    quickFacts: [
+      { label: "Entry Routes", detail: "MTS, CHSL, CGL, JE, CPO, and more", color: "bg-amber-100 text-amber-700" },
+      { label: "Salary Range", detail: "₹38,000–₹1,50,000 gross monthly", color: "bg-blue-100 text-blue-700" },
+      { label: "Eligibility", detail: "Class 10, 12, diploma, or any degree", color: "bg-indigo-100 text-indigo-700" },
+    ],
+    statCards: [
+      { value: "1 Lakh+", label: "Projected vacancies by 2030", gradient: "from-amber-500 to-amber-600" },
+      { value: "4 Stages", label: "Common SSC selection process", gradient: "from-blue-600 to-indigo-600" },
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "ShieldCheck",
+        description: "The recruitment system that powers the central government workforce.",
+        color: RED,
+        content: [
+          "The Staff Selection Commission is an attached office of the Department of Personnel and Training (DoPT). Its core responsibility is to recruit personnel for Group B (Non-Gazetted) and Group C (Non-Technical) posts across Central Government ministries and departments.",
+          "Think of SSC professionals as the hands and feet of governance. They process documents, manage records, support audits, handle revenue work, and keep ministries functioning smoothly.",
+          "Depending on the post, SSC recruits can work in finance, administration, investigations, customs, income tax, engineering, or clerical support roles. The common thread is public service and operational discipline.",
+        ],
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: The Assistant Section Officer",
+        icon: "Clock",
+        description: "How SSC work looks inside a ministry office.",
+        color: RED2,
+        content: [
+          "9:30 AM: Enter South Block in New Delhi and settle into a desk surrounded by legacy files and high-speed systems.",
+          "11:00 AM: Draft a brief for a senior diplomat or officer by coordinating inputs from multiple departments.",
+          "1:30 PM: Discuss policy, finance, and administration over lunch with colleagues from different ministries.",
+          "3:30 PM: Work on e-Office, tagging digital files and ensuring sensitive records are searchable and properly indexed.",
+          "6:30 PM: Review an RTI query before leaving, knowing that accuracy and transparency are part of the job.",
+        ],
+      },
+      {
+        id: "who",
+        title: "Is This You? Personality & Skills",
+        icon: "User",
+        description: "Traits that fit SSC-style government work.",
+        color: RED3,
+        content: [
+          "Discipline: Government work runs on rules, timelines, and structured routines.",
+          "Patience: Recruitment, transfers, and file movement can take time.",
+          "Ethical Core: You will handle public records, sensitive data, and taxpayer money.",
+          "Drafting Ability: Clear, polite, and legally sound writing is essential.",
+          "Adaptability: You may be posted across departments and locations.",
+          "Numerical Ability: Important for audit, tax, and accounts-related work.",
+          "Digital Literacy: Office software, portals, and dashboards are now part of the job.",
+        ],
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities and Workflow",
+        icon: "ClipboardList",
+        description: "The administrative workflow that keeps offices moving.",
+        color: RED4,
+        content: [
+          "Diarizing: Record every incoming communication, digital or physical.",
+          "Noting: Write a concise summary and suggest the next action on a file.",
+          "Drafting: Prepare the official reply, order, or note sheet.",
+          "Field Investigation: For inspector-level roles, conduct raids, audits, or site inspections.",
+          "Document Management: Organize and verify records so they can be traced quickly.",
+          "Public Service Delivery: Help offices answer queries, move files, and execute policy.",
+        ],
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "The major SSC exams and entry routes.",
+        color: RED,
+        content: [
+          "After Class 10: SSC MTS and Havaldar posts are open to eligible candidates from any stream.",
+          "After Class 12: SSC CHSL opens clerical and data-entry roles for candidates with strong typing and accuracy.",
+          "After Graduation: SSC CGL is the major 'Mini-IAS' route for inspector and assistant-level roles.",
+          "Technical Route: SSC JE recruits candidates with a diploma or degree in engineering.",
+          "Stage 1: Tier-I computer-based exam covering reasoning, maths, English, and general knowledge.",
+          "Stage 2: Tier-II for advanced subjects and typing/data entry tests where applicable.",
+          "Stage 3: Document verification and medical examination before final appointment.",
+        ],
+      },
+      {
+        id: "market",
+        title: "Market Snapshot — India 2026",
+        icon: "TrendingUp",
+        description: "Pay, growth, and hiring trends for SSC roles.",
+        color: RED2,
+        content: [
+          "Salary Ranges (Gross Monthly): Level 4 roles such as MTS or Tax Assistant are around ₹38,000 to ₹45,000.",
+          "Level 7 roles such as Inspectors or ASOs are around ₹75,000 to ₹85,000.",
+          "Senior roles such as Section Officer can reach ₹1,10,000 to ₹1,50,000 per month.",
+          "Growth Trajectory: The first major promotion often arrives within 6 to 8 years, depending on the post and department.",
+          "Hiring Trend: Recruitment has been accelerated to fill large vacancies and support digital governance programs.",
+        ],
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "Briefcase",
+        description: "Departments and offices that hire through SSC.",
+        color: RED,
+        content: [
+          "Top Sectors: Central Secretariat, CAG audit offices, CBDT income tax offices, CBIC customs, CBI, and Intelligence Bureau.",
+          "Geography: Pan-India postings are common, from metropolitan cities to border and remote districts.",
+          "International: Some MEA-linked SSC posts can involve embassy work abroad for fixed terms.",
+          "Work Style: Office-based, policy-heavy, and highly process-driven with limited ambiguity.",
+        ],
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Preparation and living costs for SSC aspirants.",
+        color: RED3,
+        content: [
+          "Exam Fees: Around ₹100 for many SSC exams, with exemptions for eligible categories.",
+          "Online Coaching: Roughly ₹1,500 to ₹6,000 through popular digital platforms.",
+          "Offline Coaching: Roughly ₹15,000 to ₹45,000 in major coaching hubs.",
+          "Living Costs: In places like Mukherjee Nagar or Jaipur, expect ₹8,000 to ₹12,000 per month for rent and food.",
+        ],
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Popular coaching hubs and learning platforms.",
+        color: RED4,
+        content: [
+          "Coaching Hubs: Mukherjee Nagar and Laxmi Nagar in Delhi remain the best-known SSC prep clusters.",
+          "North India: Jaipur and Prayagraj are strong prep markets.",
+          "South India: Chennai, Hyderabad, and Bengaluru have active coaching ecosystems.",
+          "East and West: Patna, Kolkata, and Pune are also popular for aspirants.",
+          "Online Platforms: Unacademy, Careerwill, Khan Global Studies, Adda247, Testbook, and Physics Wallah are widely used.",
+        ],
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship Opportunities",
+        icon: "Gift",
+        description: "Fee waivers and support for aspirants.",
+        color: RED5,
+        content: [
+          "Central Sector Scheme: Supports meritorious students with family income below prescribed limits.",
+          "State Schemes: Bihar and Uttar Pradesh often support coaching or stipend-based preparation for competitive exams.",
+          "Institutional Support: Coaching platforms sometimes run scholarship tests for full or partial fee waivers.",
+          "Self-Study Support: Affordable test series and online practice can keep preparation costs low.",
+        ],
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies & Certifications",
+        icon: "Award",
+        description: "Practical credentials that improve employability.",
+        color: RED,
+        content: [
+          "No external license is needed in the way a legal or medical career requires one; the SSC selection list is the gateway.",
+          "CCC (Course on Computer Concepts): Strongly recommended for Group C office-based roles.",
+          "Typing and Data Entry Skills: Often essential for CHSL and related clerical roles.",
+          "Office Tools: Proficiency in spreadsheets, document processing, and government portals matters a lot in modern offices.",
+        ],
+      },
+      {
+        id: "opportunities",
+        title: "Career Opportunities",
+        icon: "Rocket",
+        description: "Roles available through SSC recruitment.",
+        color: RED2,
+        content: [
+          "Conventional: Auditor, Income Tax Inspector, Stenographer, Junior Engineer, Assistant Section Officer, and Tax Assistant.",
+          "New-Age: Data Security Officer, GST Analytics Specialist, and E-Governance Coordinator.",
+          "After-Service Paths: Policy consultant, exam mentor, or administrative trainer after a long government career.",
+        ],
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "What aspirants should prepare for.",
+        color: RED3,
+        content: [
+          "Intense Competition: Millions apply for limited seats, so preparation must be consistent and long-term.",
+          "Transfer Policy: Frequent transfers can be difficult for family life and stability.",
+          "Repetitive Work: Some office roles can feel monotonous at first.",
+          "Rule-Driven Environment: You need patience for process-heavy, procedural work.",
+        ],
+      },
+      {
+        id: "future",
+        title: "Emerging Trends & Future Outlook (2025–2035)",
+        icon: "Sparkles",
+        description: "Where SSC work is heading next.",
+        color: RED4,
+        content: [
+          "AI-Assisted Governance: Routine data entry and document sorting will increasingly be automated.",
+          "Digital Public Infrastructure: More work will revolve around Aadhaar, UPI, DigiLocker, and India Stack systems.",
+          "Data Auditing: Roles will shift toward verification, analytics, and decision support.",
+          "Paperless Administration: The e-Office model will keep expanding across ministries.",
+        ],
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build in School",
+        icon: "BookOpen",
+        description: "Early habits that help SSC aspirants later.",
+        color: RED5,
+        content: [
+          "Speed Maths: Practice mental arithmetic daily to improve accuracy and speed.",
+          "Read Editorials: Build English comprehension and awareness of policy issues.",
+          "Typing Practice: Work toward at least 35 words per minute.",
+          "Current Affairs: Follow one reliable news source every day.",
+        ],
+      },
+      {
+        id: "famous",
+        title: "Famous Indian Personalities",
+        icon: "Star",
+        description: "Public figures who connect to this career path.",
+        color: RED,
+        content: [
+          "M.S. Dhoni: Served as a Ticket Examiner in the Railways before becoming a national sports icon.",
+          "Kiran Bedi: An inspiration for public service aspirants and uniformed-service candidates.",
+          "Many Senior Bureaucrats: Several officers began as SSC recruits and rose into policy-making roles.",
+        ],
+      },
+    ],
+  },
+
   // ─── INDUSTRIAL DESIGNER ─────────────────────────────────────────
   industrial_designer: {
     slug: "industrial_designer",
@@ -5227,9 +5742,9 @@ export const careerPageData: Record<string, CareerPageData> = {
     ],
   },
 
-  // ─── INDUSTRIAL ENGINEER ─────────────────────────────────────────
-  industrial_engineer: {
-    slug: "industrial_engineer",
+  // ─── INDUSTRIAL ENGINEERING MANAGEMENT ─────────────────────────────────────────
+  industrial_engineering_management: {
+    slug: "industrial_engineering_management",
     badge: "⚙️ Career Exploration for Class 10+",
     heading: "The Efficiency Experts",
     subheading:
@@ -5772,10 +6287,264 @@ export const careerPageData: Record<string, CareerPageData> = {
   },
   ...hospitalityUpdateData,
   ...healthScienceUpdateData,
+  ...homeScienceUpdateData,
   ...publicSafetyAndSecurityUpdateData,
+  ...environmentUpdateData,
+  geology: {
+    slug: "geology",
+    badge: "The Earth Detective for Class 10+",
+    heading: "Geology",
+    subheading: "Study rocks, minerals, and Earth systems to uncover resources, predict hazards, and understand our planet's history.",
+    whyCards: [
+      { icon: "Mountain", title: "Planet Explorer", description: "Decode Earth's layers, landscapes, and geological history.", borderColor: "#92400E" },
+      { icon: "Pickaxe", title: "Resource Discovery", description: "Support mining, groundwater, petroleum, and infrastructure projects.", borderColor: "#B45309" },
+      { icon: "Shield", title: "Disaster Readiness", description: "Help assess earthquake, landslide, and erosion risk for safer cities.", borderColor: "#DC2626" },
+      { icon: "Globe", title: "Climate Insight", description: "Use geological records to understand long-term climate shifts.", borderColor: "#0F766E" },
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "3 years (B.Sc) + 2 years (M.Sc)", color: "bg-amber-100 text-amber-700" },
+      { label: "Salary Range", detail: "INR 3L to INR 20L+", color: "bg-orange-100 text-orange-700" },
+      { label: "Top Sectors", detail: "Mining, Oil & Gas, GIS, Research", color: "bg-emerald-100 text-emerald-700" },
+    ],
+    statCards: [
+      { value: "INR 20L+", label: "Senior Specialist Potential", gradient: "from-amber-600 to-orange-600" },
+      { value: "4+", label: "Major Industry Pathways", gradient: "from-emerald-600 to-teal-600" },
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What Is Geology?",
+        icon: "Target",
+        description: "Understanding Earth materials and processes.",
+        color: RED,
+        content: [
+          "Geology is the science of Earth - rocks, minerals, soils, fossils, and the processes that shape mountains, rivers, and oceans.",
+          "Geologists investigate how Earth changes over time and use that knowledge for practical decisions in engineering, environment, and energy.",
+          "In India, geology is critical for groundwater mapping, mineral exploration, infrastructure planning, and disaster mitigation."
+        ],
+      },
+      {
+        id: "pathway",
+        title: "Education Pathway",
+        icon: "Map",
+        description: "How to enter the field from school.",
+        color: RED2,
+        content: [
+          "Class 11-12: Prefer Physics, Chemistry, Mathematics or Biology based on your target specialization.",
+          "Bachelor's: B.Sc in Geology, Earth Science, or Geophysics.",
+          "Master's: M.Sc in Applied Geology, Structural Geology, Hydrogeology, or Petroleum Geology for stronger job outcomes.",
+          "Advanced routes: GATE for geoscience tracks, research programs, and PSU opportunities."
+        ],
+      },
+      {
+        id: "roles",
+        title: "Career Roles",
+        icon: "Briefcase",
+        description: "Where geologists work.",
+        color: RED,
+        content: [
+          "Exploration Geologist: Locate and evaluate mineral and energy resources.",
+          "Hydrogeologist: Study groundwater systems and water quality.",
+          "Engineering Geologist: Support tunnels, dams, highways, and large construction.",
+          "Environmental Geologist: Assess land contamination, erosion, and reclamation projects."
+        ],
+      },
+      {
+        id: "skills",
+        title: "Skills To Build Now",
+        icon: "Rocket",
+        description: "Practical preparation for students.",
+        color: RED2,
+        content: [
+          "Strengthen fundamentals in chemistry, physics, and geography.",
+          "Learn map reading, remote sensing, and basic GIS tools.",
+          "Practice field observation and documentation through local surveys or science projects.",
+          "Build digital analysis skills with Excel and introductory data tools."
+        ],
+      }
+    ],
+  },
+  oceanographer: {
+    slug: "oceanographer",
+    badge: "The Blue Planet Scientist for Class 10+",
+    heading: "Oceanographer",
+    subheading: "Study seas, coastlines, and marine systems to solve climate, resource, and coastal resilience challenges.",
+    whyCards: [
+      { icon: "Waves", title: "Ocean Discovery", description: "Explore currents, ecosystems, and the chemistry of oceans.", borderColor: "#0369A1" },
+      { icon: "Thermometer", title: "Climate Relevance", description: "Oceans drive weather and climate patterns that affect all life.", borderColor: "#0284C7" },
+      { icon: "Fish", title: "Marine Conservation", description: "Support biodiversity and sustainable marine resource management.", borderColor: "#0E7490" },
+      { icon: "Building2", title: "Coastal Planning", description: "Help governments and industries protect coastlines and ports.", borderColor: "#1D4ED8" },
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "3 years (B.Sc) + 2 years (M.Sc)", color: "bg-sky-100 text-sky-700" },
+      { label: "Salary Range", detail: "INR 3.5L to INR 22L+", color: "bg-cyan-100 text-cyan-700" },
+      { label: "Domains", detail: "Physical, Chemical, Biological, Geological", color: "bg-blue-100 text-blue-700" },
+    ],
+    statCards: [
+      { value: "4", label: "Core Oceanography Streams", gradient: "from-sky-600 to-cyan-600" },
+      { value: "INR 22L+", label: "Senior Scientist Potential", gradient: "from-blue-600 to-indigo-600" },
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What Is Oceanography?",
+        icon: "Target",
+        description: "Science of the oceans and coastal systems.",
+        color: RED,
+        content: [
+          "Oceanography studies the physical movement, chemistry, biology, and geology of oceans.",
+          "Oceanographers analyze waves, currents, temperature, marine life, and seabed structures.",
+          "The field supports weather prediction, fisheries management, blue economy planning, and climate resilience."
+        ],
+      },
+      {
+        id: "pathway",
+        title: "Education Pathway",
+        icon: "Map",
+        description: "Build your route into marine science.",
+        color: RED2,
+        content: [
+          "Class 11-12: Choose Science stream with strong Physics and Mathematics foundations.",
+          "Bachelor's: Marine Science, Oceanography, Environmental Science, Geology, or Physics-based programs.",
+          "Master's: Oceanography, Coastal Management, Marine Biology, or Remote Sensing specializations.",
+          "Research track: Aim for institute internships, field surveys, and thesis-driven projects."
+        ],
+      },
+      {
+        id: "roles",
+        title: "Career Roles",
+        icon: "Briefcase",
+        description: "Where oceanographers contribute.",
+        color: RED,
+        content: [
+          "Physical Oceanographer: Model currents, waves, and heat transport.",
+          "Marine Biologist: Study marine organisms and ecosystems.",
+          "Coastal Scientist: Assess shoreline change, erosion, and sea-level impacts.",
+          "Marine Data Analyst: Use satellite and sensor data for ocean forecasting."
+        ],
+      },
+      {
+        id: "skills",
+        title: "Skills To Build Now",
+        icon: "Rocket",
+        description: "Student preparation checklist.",
+        color: RED2,
+        content: [
+          "Strengthen mathematics, statistics, and environmental science basics.",
+          "Learn spreadsheet analysis, plotting, and entry-level coding for data interpretation.",
+          "Follow marine and climate reports to build domain awareness.",
+          "Participate in nature clubs, coastal clean-up drives, and citizen-science activities."
+        ],
+      }
+    ],
+  },
+  wildlife_biologist: {
+    slug: "wildlife_biologist",
+    badge: "The Voice of the Wild for Class 10+",
+    heading: "Wildlife Biologist",
+    subheading: "Study animal behavior and ecosystems to protect biodiversity, habitats, and ecological balance.",
+    whyCards: [
+      { icon: "PawPrint", title: "Conservation Impact", description: "Protect threatened species and fragile habitats.", borderColor: "#166534" },
+      { icon: "TreePine", title: "Field Research", description: "Work in forests, wetlands, grasslands, and protected reserves.", borderColor: "#15803D" },
+      { icon: "Microscope", title: "Data-Driven Ecology", description: "Use tracking, genetics, and statistical tools for wildlife research.", borderColor: "#0F766E" },
+      { icon: "Shield", title: "Policy Support", description: "Inform conservation strategy and human-wildlife conflict mitigation.", borderColor: "#B45309" },
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "3 years (B.Sc) + 2 years (M.Sc)", color: "bg-green-100 text-green-700" },
+      { label: "Salary Range", detail: "INR 3L to INR 18L+", color: "bg-emerald-100 text-emerald-700" },
+      { label: "Work Type", detail: "Field Surveys + Lab/Data Analysis", color: "bg-lime-100 text-lime-700" },
+    ],
+    statCards: [
+      { value: "50%+", label: "Role Involves Field Work", gradient: "from-green-600 to-emerald-600" },
+      { value: "INR 18L+", label: "Senior Conservation Roles", gradient: "from-teal-600 to-green-700" },
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What Is Wildlife Biology?",
+        icon: "Target",
+        description: "Science of wildlife and ecosystems.",
+        color: RED,
+        content: [
+          "Wildlife biologists study animals in their natural habitats and examine how ecosystems function.",
+          "They monitor species populations, migration, breeding patterns, and habitat quality.",
+          "Their work guides conservation action, anti-poaching policy, and restoration planning."
+        ],
+      },
+      {
+        id: "pathway",
+        title: "Education Pathway",
+        icon: "Map",
+        description: "From school to conservation careers.",
+        color: RED2,
+        content: [
+          "Class 11-12: Focus on Biology with strong science fundamentals.",
+          "Bachelor's: Zoology, Life Sciences, Forestry, Environmental Science, or Wildlife Science.",
+          "Master's: Wildlife Biology, Ecology, Conservation Biology, or allied fields.",
+          "Experience: Prioritize internships with NGOs, forest departments, and biodiversity projects."
+        ],
+      },
+      {
+        id: "roles",
+        title: "Career Roles",
+        icon: "Briefcase",
+        description: "Professional pathways in the field.",
+        color: RED,
+        content: [
+          "Wildlife Researcher: Study species ecology, movement, and habitat use.",
+          "Conservation Officer: Support reserve planning and biodiversity protection programs.",
+          "Ecological Consultant: Conduct impact assessments for development projects.",
+          "Wildlife Educator: Build public awareness and community conservation engagement."
+        ],
+      },
+      {
+        id: "skills",
+        title: "Skills To Build Now",
+        icon: "Rocket",
+        description: "Student preparation checklist.",
+        color: RED2,
+        content: [
+          "Build biology and ecology fundamentals through practical observation.",
+          "Learn data recording, photography, GIS basics, and report writing.",
+          "Develop patience, safety awareness, and ethical field behavior.",
+          "Volunteer in biodiversity and conservation initiatives to gain real exposure."
+        ],
+      }
+    ],
+  },
 };
 
 export function getCareerPageData(slug: string): CareerPageData | null {
-  return agricultureUpdateData[slug] || artsAndDesignUpdateData[slug] || bioScienceUpdateData[slug] || architectureAndConstructionUpdateData[slug] || educationUpdateData[slug] || businessManagementUpdateData[slug] || publicSafetyAndSecurityUpdateData[slug] || careerPageData[slug] || null;
+  const slugAliases: Record<string, string> = {
+    sports_person: "sportsperson",
+    engineering_technology: "engineering_and_technology",
+    sales_person: "sales_professional",
+    software_testing_quality_assurance: "software_testing_qa",
+    internet_of_things_iot: "internet_of_things",
+    electronics_and_communication: "electronics_communication_engineering",
+    block_chain_engineer: "blockchain_engineer",
+    sociology: "sociologist",
+    mentor_and_coach: "school_teacher",
+    indian_economic_services: "indian_economic_service",
+    business_operation_manager: "business_operations_manager",
+    information_technology_management: "it_management",
+    indian_armed_forces: "indian_army",
+  };
+
+  const normalizedSlug = slugAliases[slug.toLowerCase()] || slug.toLowerCase().replace(/[-\s]+/g, "_");
+
+  return (
+    agricultureUpdateData[normalizedSlug] ||
+    artsAndDesignUpdateData[normalizedSlug] ||
+    bioScienceUpdateData[normalizedSlug] ||
+    architectureAndConstructionUpdateData[normalizedSlug] ||
+    educationUpdateData[normalizedSlug] ||
+    businessManagementUpdateData[normalizedSlug] ||
+    homeScienceUpdateData[normalizedSlug] ||
+    publicSafetyAndSecurityUpdateData[normalizedSlug] ||
+    environmentUpdateData[normalizedSlug] ||
+    careerPageData[normalizedSlug] ||
+    null
+  );
 }
 

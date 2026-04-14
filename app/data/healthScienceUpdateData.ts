@@ -4320,8 +4320,8 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  clinicalPsychologist: {
-    slug: "clinical-psychologist",
+  clinical_psychology: {
+    slug: "clinical_psychology",
     badge: "🧠 The Mind Healer for Class 10+",
     heading: "Clinical Psychologist",
     subheading: "Heal minds, transform lives, and unlock human potential. From trauma survivors to corporate teams, clinical psychologists are India's frontline warriors against mental health crises.",

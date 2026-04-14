@@ -437,6 +437,58 @@ export const careerDetails: Record<string, CareerDetail> = {
     ],
     scope: "Prestigious career with excellent earning potential and social impact",
   },
+  judge: {
+    title: "Judge",
+    description: "Preside over courts and deliver justice by interpreting and applying laws",
+    overview:
+      "A Judge is a senior judicial officer who presides over courts, listens to legal arguments, reviews evidence, and delivers binding judgments. Judges interpret the Constitution and laws of India to ensure justice and protect fundamental rights. The Indian judiciary comprises District Courts, High Courts, and the Supreme Court. To become a judge, one must first practice law for 7–12 years, then clear the PCS-J (Public Service Commission - Judicial) exam. Judges embody the rule of law and are custodians of constitutional values.",
+    eligibility: [
+      "12th pass (any stream)",
+      "LLB degree (5-year integrated or 3-year after graduation)",
+      "7–12 years of legal practice as an advocate",
+      "Minimum age 35 years (varies by state)",
+      "Citizenship and sound moral character",
+    ],
+    duration: "LLB (5/3 years) + 7-12 years legal practice + 1-2 years PCS-J preparation/examination",
+    salary: "₹1.5L–₹3L (Civil Judge) | ₹5L–₹15L (Additional District Judge/Sessions Judge) | ₹30L–₹50L+ (High Court Judge) | ₹1.5Cr (Chief Justice of India)",
+    skills: [
+      "Legal knowledge and constitutional interpretation",
+      "Judicial reasoning and logical analysis",
+      "Impartiality and ethical judgment",
+      "Listening and attention to detail",
+      "Written and oral communication",
+      "Case law research and analysis",
+      "Administrative and management abilities",
+      "Equanimity under pressure",
+    ],
+    subjects: ["Constitutional Law", "Criminal Law", "Civil Law", "Administrative Law", "Evidence Act", "Judicial Procedure"],
+    colleges: [
+      "National Law Schools (All 24 NLUs)",
+      "Delhi University (Faculty of Law)",
+      "Mumbai University (Institute of Law)",
+      "National Law School Bangalore",
+      "NALSAR Hyderabad",
+      "Gujarat National Law University",
+      "Symbiosis Law School Pune",
+      "West Bengal National University of Juridical Sciences",
+    ],
+    jobRoles: [
+      "Civil Judge",
+      "Sessions Judge",
+      "High Court Judge",
+      "Appellate Judge",
+      "Chief Justice",
+      "Administrative Judge",
+    ],
+    companies: [
+      "District Courts",
+      "High Courts",
+      "Supreme Court",
+      "Tribunals",
+      "Government Judiciary",
+    ],
+    scope: "Prestigious and secure career serving the nation's justice system. Lifetime employment, excellent salary, and a defined pension. Opportunity to shape legal precedents and protect constitutional rights. Path to becoming Chief Justice of India (CJI).",
+  },
   teacher: {
     title: "School Teacher",
     description: "Educate and guide students in academic and personal development",
@@ -1463,11 +1515,73 @@ export const careerDetails: Record<string, CareerDetail> = {
     ],
     scope: "Indian personal accessories market projected to reach $3.01 Billion by 2030, growing at 7.6% annually. Top cities: Bangalore (Tech/Lifestyle), Mumbai (Luxury), Jaipur (Gems), Kanpur (Leather). High demand for Wearable Tech Designers and Sustainable Material Researchers. Emerging opportunities in AI-generated design, smart accessories, and circular economy design."
   },
+  staff_selection_commission: {
+    title: "Staff Selection Commission (SSC)",
+    description: "Recruit for central government Group B and Group C roles across ministries and departments",
+    overview:
+      "The Staff Selection Commission (SSC) is an attached office of the Department of Personnel and Training (DoPT). It recruits for Group B (Non-Gazetted) and Group C (Non-Technical) posts across central government ministries, departments, and attached offices. SSC careers include administration, audits, revenue, investigations, customs, clerical work, and technical posts such as Junior Engineer. It is one of the most accessible and stable public-sector career paths for students after Class 10, Class 12, diploma, or graduation.",
+    eligibility: [
+      "Class 10 pass for posts like MTS and Havaldar",
+      "Class 12 pass for CHSL and similar clerical roles",
+      "Bachelor's degree for CGL and most Group B posts",
+      "Diploma or degree in engineering for Junior Engineer posts",
+      "Typing speed and computer literacy for clerical/data-entry roles",
+    ],
+    duration: "Varies by exam route; 1-3 years of focused preparation is common",
+    salary: "₹38,000-₹45,000 gross monthly (Level 4) | ₹75,000-₹85,000 (Level 7) | ₹1.1L-₹1.5L+ (Senior roles)",
+    skills: [
+      "Reasoning and quantitative aptitude",
+      "English comprehension and drafting",
+      "General awareness and current affairs",
+      "Typing speed and computer literacy",
+      "Office procedure and file management",
+      "Data handling and accuracy",
+      "Discipline and patience",
+    ],
+    subjects: ["Mathematics", "Reasoning", "English", "General Awareness", "Computer fundamentals", "Current Affairs"],
+    colleges: [
+      "No single college is required for SSC",
+      "Delhi University",
+      "University of Delhi School of Open Learning",
+      "Banaras Hindu University",
+      "State universities across India",
+    ],
+    jobRoles: [
+      "Auditor",
+      "Income Tax Inspector",
+      "Assistant Section Officer",
+      "Stenographer",
+      "Junior Engineer",
+      "Tax Assistant",
+      "Sub-Inspector",
+      "MTS",
+    ],
+    companies: [
+      "Central Secretariat",
+      "CBIC",
+      "CBDT",
+      "CAG",
+      "CBI",
+      "Intelligence Bureau",
+      "MEA",
+    ],
+    scope:
+      "SSC offers a stable, nationally distributed public-sector career with central government pay, allowances, pension benefits, and clear promotion ladders. Demand remains strong as India expands digital governance, tax compliance, audit oversight, and administrative capacity. The career is especially attractive for candidates who want early entry into government service and long-term job security.",
+  },
 };
 
 export function getCareerDetail(careerSlug: string): CareerDetail | null {
-  // Convert slug to match the key format
-  const key = careerSlug.toLowerCase();
+  // Convert slug to match the key format and keep legacy aliases working.
+  const normalizedSlug = careerSlug.toLowerCase();
+  const key = normalizedSlug === "sports_person"
+    ? "sportsperson"
+    : normalizedSlug === "sales_person"
+      ? "sales_professional"
+      : normalizedSlug === "mentor_and_coach"
+        ? "teacher"
+      : normalizedSlug === "information_technology_management"
+        ? "it_management"
+      : normalizedSlug;
   return careerDetails[key] || null;
 }
 

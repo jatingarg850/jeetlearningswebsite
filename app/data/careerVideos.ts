@@ -349,7 +349,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
     {
       id: 2,
       title: "Predictive Maintenance & Smart Operations",
-      url: "https://www.youtube.com/embed/4W1xSm2T1P",
+      url: "https://www.youtube.com/embed/rF5VIXn6wDQ",
     },
     {
       id: 3,
@@ -810,6 +810,18 @@ export const careerVideos: Record<string, CareerVideo[]> = {
       url: "https://www.youtube.com/embed/z3F_9M0o5es",
     },
   ],
+  sports_management: [
+    {
+      id: 1,
+      title: "Sports Management Career in India - Complete Guide",
+      url: "https://www.youtube.com/embed/WOOfEtRBDxM",
+    },
+    {
+      id: 2,
+      title: "Sports Management Career Pathways and Opportunities",
+      url: "https://www.youtube.com/embed/wJfMjp0KwWw",
+    },
+  ],
   physical_trainer: [
     {
       id: 1,
@@ -846,7 +858,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
       url: "https://www.youtube.com/embed/AYX6bVz1X6E",
     },
   ],
-  engineering_technology: [
+  engineering_and_technology: [
     {
       id: 1,
       title: "Engineering & Technology Career Overview - The Builders of Tomorrow",
@@ -1082,7 +1094,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
     {
       id: 1,
       title: "Electronics & Communication Engineering Career Overview - The Architects of the Future",
-      url: "https://www.youtube.com/embed/N3I4CEJGMCMs",
+      url: "https://www.youtube.com/embed/Z3ruVE-uQFY",
     },
     {
       id: 2,
@@ -1094,7 +1106,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
     {
       id: 1,
       title: "Ethical Hacking Career Overview - The Digital Bodyguard",
-      url: "https://www.youtube.com/embed/GyOuh6eIPZY",
+      url: "https://www.youtube.com/embed/rF5VIXn6wDQ",
     },
     {
       id: 2,
@@ -1560,7 +1572,7 @@ export const careerVideos: Record<string, CareerVideo[]> = {
     {
       id: 1,
       title: "Technical Trainer Career Overview - The Skill Architect",
-      url: "https://www.youtube.com/embed/placeholder1",
+      url: "https://www.youtube.com/embed/V8WfZ_ra3ek",
     },
   ],
   bpo: [
@@ -1801,10 +1813,49 @@ export const careerVideos: Record<string, CareerVideo[]> = {
       url: "https://www.youtube.com/embed/CcvK1VeICp0",
     },
   ],
+  staff_selection_commission: [
+    {
+      id: 1,
+      title: "SSC Career Overview - The Backbone of Governance",
+      url: "https://www.youtube.com/embed/nq2VQbUDyr4",
+    },
+    {
+      id: 2,
+      title: "Mastering the SSC CGL Exam Roadmap",
+      url: "https://www.youtube.com/embed/5cnYYUp2feU",
+    },
+  ],
 };
 
 export function getCareerVideos(careerSlug: string): CareerVideo[] {
-  const videos = careerVideos[careerSlug];
+  const normalizedInput = careerSlug.toLowerCase().replace(/[-\s]+/g, "_");
+
+  const normalizedSlug = normalizedInput === "sports_person"
+    ? "sportsperson"
+    : normalizedInput === "engineering_technology"
+      ? "engineering_and_technology"
+      : normalizedInput === "sales_person"
+        ? "sales_professional"
+        : normalizedInput === "software_testing_quality_assurance"
+          ? "software_testing_qa"
+        : normalizedInput === "electronics_and_communication"
+          ? "electronics_communication_engineering"
+        : normalizedInput === "block_chain_engineer"
+          ? "blockchain_engineer"
+        : normalizedInput === "sociology"
+          ? "sociologist"
+        : normalizedInput === "mentor_and_coach"
+          ? "school_teacher"
+        : normalizedInput === "indian_economic_services"
+          ? "indian_economic_service"
+        : normalizedInput === "information_technology_management"
+          ? "it_management"
+        : normalizedInput === "indian_armed_forces"
+          ? "indian_army"
+        : normalizedInput === "oceanographer"
+          ? "oceanography"
+          : normalizedInput;
+  const videos = careerVideos[normalizedSlug];
   
   // If no videos exist for this career, return empty array
   // The component will handle empty arrays gracefully

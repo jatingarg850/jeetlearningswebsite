@@ -66,6 +66,18 @@ export function CareerPageClient({
             imageUrl={careerImagesMap[career] || `https://loremflickr.com/600/400/flat,illustration,cartoon,vector,${career}?lock=${career.length}`} 
           />
         )}
+        {!pageData && (
+          <section className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-20">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 md:p-10 text-center shadow-sm">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">
+                {careerName}
+              </h1>
+              <p className="text-sm sm:text-base md:text-lg text-slate-700 max-w-2xl mx-auto">
+                Full career guide content for this section is being prepared and will be available soon.
+              </p>
+            </div>
+          </section>
+        )}
       </div>
 
       {/* Thin Divider */}

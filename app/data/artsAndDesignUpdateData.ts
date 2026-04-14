@@ -4896,6 +4896,247 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
+  sports_management: {
+    slug: "sports_management",
+    badge: "📊 Sports Management Career in India for Class 10+",
+    heading: "Sports Management Career in India",
+    subheading: "The business side of sports where strategy, operations, branding, and people management power every major league and event.",
+    whyCards: [
+      { icon: "Briefcase", title: "Business Side of Sports", description: "Plan, organize, direct, and budget sports organizations and events.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "High-Growth Industry", description: "India's sports economy is expanding across leagues, media, and tech.", borderColor: "#059669" },
+      { icon: "Users", title: "Massive Team Impact", description: "Support athletes, fans, sponsors, and operations behind every match.", borderColor: "#3B82F6" },
+      { icon: "Target", title: "Future Global Ambition", description: "Help build infrastructure for Olympic-scale opportunities in India.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Entry Salary", detail: "₹4L-₹8L", color: "bg-green-100 text-green-700" },
+      { label: "Projected Industry Size", detail: "$130B by 2030", color: "bg-blue-100 text-blue-700" },
+      { label: "Growth Rate", detail: "14% CAGR", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "$130B", label: "Indian Sports Industry by 2030", gradient: "from-green-500 to-green-600" },
+      { value: "14%", label: "Projected CAGR", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "1",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "The business engine behind teams, leagues, and events",
+        color: BLUE,
+        content: [
+          "When you watch a nail-biting IPL final or the electric atmosphere of the Pro Kabaddi League, you are seeing the result of thousands of hours of behind-the-scenes work.",
+          "Sports Management is the business side of sports. It involves planning, organizing, directing, and budgeting of anything related to a sports organization or event.",
+          "Professionals in this field handle everything from social media and talent scouting to sponsorship negotiations and stadium operations.",
+          "India is no longer a one-sport nation. With IPL, ISL, PKL, WPL, and global event ambitions, the country needs smart young managers to build infrastructure and scale sports professionally."
+        ]
+      },
+      {
+        id: "2",
+        title: "A Day in the Life",
+        icon: "Clock",
+        description: "Meet Rohan, Assistant Manager (Operations)",
+        color: BLUE2,
+        content: [
+          "09:30 AM: Start at the corporate office of an IPL franchise and align with the digital marketing team on fan engagement campaigns.",
+          "11:30 AM: Negotiate with a vendor in Ahmedabad for 50,000 customized team flags; every rupee saved helps team operations.",
+          "01:30 PM: Coordinate with scouts returning from a junior tournament and support legal paperwork for player trials.",
+          "03:00 PM: Conduct a stadium site visit with security and catering teams, checking VIP boxes, dugout areas, fan zones, and safety issues.",
+          "05:30 PM: Review sponsorship proposals and assess brand fit with team positioning.",
+          "08:00 PM: Execute match simulation logistics late into the evening to ensure smooth event-day delivery."
+        ]
+      },
+      {
+        id: "3",
+        title: "Is This You? (Traits & Skills Required)",
+        icon: "User",
+        description: "Check if you have the Manager's DNA",
+        color: BLUE,
+        content: [
+          "Passionate but Objective: Love sports but take tough business decisions without emotional bias.",
+          "Multitasking Genius: Handle sponsorship discussions while managing venue and seating details.",
+          "Negotiation Skills: Work with vendors, agents, and brands to secure high-value deals.",
+          "Tech-Savvy: Use analytics, AI insights, and data tools for pricing, scouting, and fan engagement.",
+          "Crisis Management: Stay calm and solve issues quickly during high-pressure match situations."
+        ]
+      },
+      {
+        id: "4",
+        title: "Key Responsibilities and Workflow",
+        icon: "Briefcase",
+        description: "The season cycle of a sports manager",
+        color: BLUE2,
+        content: [
+          "Pre-Season: Research market trends, sign sponsors, and plan team travel and logistics.",
+          "During Season: Run on-ground operations, manage social media execution, and ensure fan safety.",
+          "Post-Season: Analyze ROI, review player and campaign performance, and begin next-cycle brand planning."
+        ]
+      },
+      {
+        id: "5",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Routes after Class 10, Class 12, and Graduation",
+        color: BLUE,
+        content: [
+          "After Class 10: Choose any stream; Commerce is recommended for business foundations. Volunteer in school or local sports events.",
+          "After Class 12: Pursue Bachelor of Sports Management (BSM) or BBA in Sports Management. Entrance options include SMAT (IISM) and CUET pathways.",
+          "After Graduation: Specialize with MBA or PG Diploma in Sports Management.",
+          "Switching Routes: Law graduates can move into sports law, and math/stat graduates can move into sports analytics."
+        ]
+      },
+      {
+        id: "6",
+        title: "Market Snapshot - India 2026",
+        icon: "TrendingUp",
+        description: "Compensation and growth projections",
+        color: BLUE2,
+        content: [
+          "Salary Ranges (Annual): Entry-Level ₹4L-₹8L | Mid-Level (5-10 years) ₹12L-₹25L | Senior-Level ₹30L-₹60L | Leadership/CXO ₹80L-₹2Cr+.",
+          "Growth Outlook: Indian sports industry projected to reach $130 Billion by 2030 at 14% CAGR.",
+          "Hiring Trend: Shift from generalist manager roles to specialized sports analytics and digital fan engagement roles.",
+          "Benchmarks compiled from 6figr, Mordor Intelligence, and industry reports."
+        ]
+      },
+      {
+        id: "7",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Top sectors, cities, and global routes",
+        color: BLUE,
+        content: [
+          "Top Industries: Professional leagues (IPL, ISL, PKL), sports marketing agencies (IMG Reliance, JSW Sports), sports tech startups (Dream11), and government organizations (SAI).",
+          "Top Cities: Mumbai (HQ ecosystem), Bengaluru (sports tech), Delhi-NCR (federations), and Pune.",
+          "International: Opportunities with FIFA, ICC, NBA, often via Indian agencies or advanced global programs."
+        ]
+      },
+      {
+        id: "8",
+        title: "What Will It Cost?",
+        icon: "DollarSign",
+        description: "Course fees, living costs, and extras",
+        color: BLUE2,
+        content: [
+          "Government Institutions: ₹30,000-₹2L total course cost.",
+          "Private Institutions: ₹8L-₹18L total for a 3-year degree.",
+          "Living Costs in Metros: ₹1.5L-₹2.5L per year.",
+          "Extra Certifications: Data analytics or digital marketing courses typically cost ₹20,000-₹50,000."
+        ]
+      },
+      {
+        id: "9",
+        title: "Where to Study?",
+        icon: "BookOpen",
+        description: "Leading institutes and programs",
+        color: BLUE,
+        content: [
+          "Government: Garware Institute (Mumbai University), Tamil Nadu Physical Education and Sports University (Chennai), IIM Rohtak (Executive and specialized programs).",
+          "Private: IISM Mumbai, Symbiosis School of Sports Sciences Pune, NASM Ahmedabad/Jaipur, Sister Nivedita University Kolkata.",
+          "Choose institutes with real-event internships and strong league-industry exposure."
+        ]
+      },
+      {
+        id: "10",
+        title: "Scholarship Opportunities",
+        icon: "Award",
+        description: "Funding support and fee waivers",
+        color: BLUE2,
+        content: [
+          "REVA University Sports Scholarship: Up to 100% fee waiver for state and national level athletes.",
+          "IndianOil Acers Scholarship: Monthly stipends for budding talent.",
+          "Institutional Merit Scholarships: Many private colleges offer 25-50% fee waivers for top entrance rankers."
+        ]
+      },
+      {
+        id: "11",
+        title: "Professional Bodies & Certifications",
+        icon: "Certificate",
+        description: "Regulators and high-value credentials",
+        color: BLUE,
+        content: [
+          "Professional Bodies: Sports Authority of India (SAI), All India Football Federation (AIFF).",
+          "Certifications: AISTS India postgraduate certifications, FIFA Diploma in Football Management.",
+          "Skill Add-ons: Data science and analytics credentials from Coursera or Google can improve employability."
+        ]
+      },
+      {
+        id: "12",
+        title: "Career Opportunities",
+        icon: "Briefcase",
+        description: "Conventional, new-age, and entrepreneurial paths",
+        color: BLUE2,
+        content: [
+          "Conventional Roles: Team Manager, Sports Agent, Event Coordinator.",
+          "New-Age Roles: eSports Manager, Sports Data Scientist, Athlete Branding Specialist, Anti-Doping Officer.",
+          "Entrepreneurship: Start a sports academy, sports travel agency, or fantasy sports app."
+        ]
+      },
+      {
+        id: "13",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "Ground realities of the profession",
+        color: BLUE,
+        content: [
+          "Long Hours: Match calendars include weekends and holidays; downtime is often only after the season.",
+          "High Pressure: A poor sponsorship decision or security lapse can cause financial and brand damage.",
+          "Networking Heavy: Career growth depends on both skills and industry relationships."
+        ]
+      },
+      {
+        id: "14",
+        title: "Emerging Trends (2025-2035)",
+        icon: "Zap",
+        description: "Where the next decade is headed",
+        color: BLUE2,
+        content: [
+          "AI and AR: Stadium experiences will include immersive live-stat overlays and smarter fan personalization.",
+          "eSports Boom: Managing virtual teams and digital tournaments is becoming a mainstream management career.",
+          "Women's Sports Growth: WPL momentum signals strong long-term expansion in women's sports business."
+        ]
+      },
+      {
+        id: "15",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Preparation during Class 9-12",
+        color: BLUE,
+        content: [
+          "Volunteer: Manage scoreboards, registrations, or logistics for inter-school matches.",
+          "Master Excel: Build confidence in budgeting and player/event data handling.",
+          "Communication: Start a sports blog or YouTube channel reviewing matches.",
+          "Language Skills: Learning Spanish or German can open global opportunities, especially in football ecosystems."
+        ]
+      },
+      {
+        id: "16",
+        title: "Famous Indian Personalities",
+        icon: "Star",
+        description: "Leaders who shaped sports business in India",
+        color: BLUE2,
+        content: [
+          "Nita Ambani: Chairperson of Football Sports Development Limited and a key force in modern Indian football development.",
+          "Mustafa Ghouse: CEO of JSW Sports; helped build India's private sports ecosystem.",
+          "Deepthi Bopaiah: CEO of GoSports Foundation; known for supporting Olympic athlete development.",
+          "Bunty Sajdeh: Founder of Cornerstone; built athlete brand-management pathways for top Indian stars.",
+          "Tenzing Niyogi: CEO of Ultimate Kho Kho; demonstrated commercial potential of traditional Indian sports."
+        ]
+      },
+      {
+        id: "17",
+        title: "Sources & Further Reading",
+        icon: "BookOpen",
+        description: "Reference reports and guides",
+        color: BLUE,
+        content: [
+          "6figr Sports Management Salary Data 2026",
+          "Mordor Intelligence: India Spectator Sports Market Report 2031",
+          "Havas Media Network: The Rise of Emerging Sports in India 2025",
+          "IISM Mumbai: Career Pathways after 12th Guide",
+          "National Sports Policy 2025 Draft"
+        ]
+      }
+    ]
+  },
   sportsperson: {
     slug: "sportsperson",
     badge: "🏆 The Champions of India for Class 10+",
@@ -5853,8 +6094,8 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       }
     ]
   },
-  engineering_technology: {
-    slug: "engineering_technology",
+  engineering_and_technology: {
+    slug: "engineering_and_technology",
     badge: "⚙️ The Builders of Tomorrow for Class 10+",
     heading: "The Builders of Tomorrow",
     subheading: "Creating innovative solutions that transform industries and improve lives globally.",
