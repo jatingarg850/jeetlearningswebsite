@@ -145,7 +145,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "A. After Class 12: Entry Exam: Appear for the ACET (Actuarial Common Entrance Test) conducted by the IAI.; Degree Route: Enroll in a B.Sc. in Actuarial Science, Mathematics, or Statistics.; Concurrent Study: Most students clear 3–5 professional papers while doing their college degree.",
           "B. After Graduation: Lateral Entry: If you have a degree in Engineering, Math, Commerce (with Math), or are a CA/CS, you can apply to the IAI directly.; Masters Route: Pursue an M.Sc. in Actuarial Science or an MBA in Insurance/Risk Management.",
-          "C. The Exam Roadmap: Student Member → Clear ACET.; Associate → Clear Core Principles (CS, CM, CB) and Core Practices (CP).; Fellow → Clear Specialist Principles (SP) and Specialist Advanced (SA) + 3 years work experience."
+          "C. The Exam Roadmap: Student Member : Clear ACET.; Associate : Clear Core Principles (CS, CM, CB) and Core Practices (CP).; Fellow : Clear Specialist Principles (SP) and Specialist Advanced (SA) + 3 years work experience."
         ],
       },
       {
@@ -171,9 +171,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: RED,
         content: [
           "Top Industries: Life & General Insurance (LIC, HDFC Life), Reinsurance (Swiss Re, Munich Re), Consulting Firms (EY, Deloitte, Milliman), and Pension Funds.",
-          "Top Cities: Mumbai (The Financial Hub), Gurugram/Delhi, Bengaluru, and Hyderabad.",
+          "Top Cities: Mumbai (The Financial Hub), Gurugram/Delhi, Bengaluru, Hyderabad.",
           "Remote Work: High potential for 'Consulting Actuaries' and data analysts to work for global firms (UK/USA) from India.",
-          "International: Strong demand in USA, UK, Australia, and Canada for Indian actuaries."
+          "International: Strong demand in USA, UK, Australia, Canada for Indian actuaries."
         ]
       },
       {
@@ -861,7 +861,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         color: RED,
         content: [
           "Top Industries: Banking & Finance (BFSI), IT & Tech, Manufacturing, E-commerce, and Public Sector Undertakings (PSUs).",
-          "Top Cities: Mumbai (Financial Hub), Delhi NCR (Corporate HQs), Bengaluru (Startups/Tech), and Hyderabad.",
+          "Top Cities: Mumbai (Financial Hub), Delhi NCR (Corporate HQs), Bengaluru (Startups/Tech), Hyderabad.",
           "Global Opportunities: Indian CAs are in high demand in the Middle East (Dubai), UK, and Singapore.",
           "Remote Work: High potential for virtual CFO services and international consulting roles."
         ]
@@ -1874,7 +1874,7 @@ export const careerPageData: Record<string, CareerPageData> = {
             "KPOs: Evalueserve, Genpact, Infosys BPM.",
             "Mutual Funds: SBI MF, HDFC MF, ICICI Prudential.",
             "Fintech Startups: Zerodha, Groww, Upstox.",
-            "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech), Gurugram/Delhi, and Hyderabad.",
+            "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech), Gurugram/Delhi, Hyderabad.",
             "Remote Potential: High for 'Freelance Equity Researchers' and 'Financial Content Creators.'",
             "Corporate Finance: Treasury and FP&A roles in large corporations.",
           ],
@@ -2377,7 +2377,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED2,
           content: [
             "Top Industries: Banking (SBI, HDFC, ICICI), Investment Firms (Goldman Sachs), Insurance (LIC), and Fintech (Paytm, PhonePe).",
-            "Top Cities: Mumbai (The Risk Capital), Bengaluru (Fintech Risk), Gurugram, and Hyderabad.",
+            "Top Cities: Mumbai (The Risk Capital), Bengaluru (Fintech Risk), Gurugram, Hyderabad.",
             "Remote Potential: High for 'Risk Consultants' and data-heavy 'Quantitative Analysts.'",
             "International: High demand in Singapore, London, and New York for Indian FRM-certified professionals.",
             "Corporate Finance: Treasury and risk management roles in large corporations.",

@@ -1468,7 +1468,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE,
         content: [
           "Industries: Advertising Agencies (Ogilvy, DDB Mudra), IT Companies (TCS, Google), E-commerce (Amazon, Myntra), and Startups.",
-          "Top Cities: Bangalore (The Design Tech Hub), Mumbai (The Creative Capital), Delhi-NCR, and Hyderabad.",
+          "Top Cities: Bangalore (The Design Tech Hub), Mumbai (The Creative Capital), Delhi-NCR, Hyderabad.",
           "Remote/Gig Potential: Extremely High. 40% of Indian graphic designers now work as freelancers for global clients on platforms like Upwork or Behance."
         ]
       },
