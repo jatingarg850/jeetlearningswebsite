@@ -159,9 +159,9 @@ export default function Navbar() {
 
             {/* Contact & CTA */}
             <div className="hidden md:flex items-center gap-4">
-              <a href="tel:18001378055" className="group flex items-center gap-2 px-3 py-2">
+              <a href="tel:+919670699777" className="group flex items-center gap-2 px-3 py-2">
                 <Phone className="w-4 h-4 text-slate-400 group-hover:text-[var(--color-canam-red)] transition-colors" />
-                <span className="text-xs font-semibold text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors">1800 137 8055</span>
+                <span className="text-xs font-semibold text-slate-600 group-hover:text-[var(--color-canam-red)] transition-colors">+91 9670699777</span>
               </a>
 
               <Link
@@ -277,11 +277,11 @@ export default function Navbar() {
 
         <div className="p-6 bg-slate-50 border-t border-slate-100">
           <p className="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">Need Help?</p>
-          <a href="tel:18001378055" className="flex items-center gap-3 text-slate-800 font-poppins font-bold text-xl mb-6">
+          <a href="tel:+919670699777" className="flex items-center gap-3 text-slate-800 font-poppins font-bold text-xl mb-6">
             <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
               <Phone className="w-5 h-5 text-[var(--color-canam-red)]" />
             </div>
-            1800 137 8055
+            +91 9670699777
           </a>
           <Link
             href="/contact"

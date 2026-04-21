@@ -1,16 +1,78 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Download, Star, Search } from "lucide-react";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/app/hooks/useScrollAnimation";
-import { libraryResources, categories, resourceTypes } from "@/app/data/careerLibraryData";
+import { libraryResources as staticResources, categories as staticCategories, resourceTypes } from "@/app/data/careerLibraryData";
+
+interface AdminResource {
+  id: number;
+  title: string;
+  category: string;
+  resourceType: string;
+  description: string;
+  rating: number;
+  downloads: number;
+}
 
 export default function CareerLibraryClient() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedType, setSelectedType] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
+  const [libraryResources, setLibraryResources] = useState(staticResources);
+  const [categories, setCategories] = useState(staticCategories);
   const { ref: heroRef, isVisible: heroVisible } = useScrollAnimation();
+
+  // Load admin-added resources from localStorage
+  useEffect(() => {
+    const savedResources = localStorage.getItem("careerLibrary");
+    if (savedResources) {
+      const adminResources: AdminResource[] = JSON.parse(savedResources);
+
+      // Convert admin resources to match the library resource format
+      const convertedAdminResources = adminResources.map((resource) => {
+        // Map resource type to valid literal type
+        const typeMap: { [key: string]: "guide" | "ebook" | "video" | "template" | "tool" } = {
+          "guide": "guide",
+          "ebook": "ebook",
+          "video": "video",
+          "template": "template",
+          "tool": "tool",
+          "Guide": "guide",
+          "eBook": "ebook",
+          "Video": "video",
+          "Template": "template",
+          "Tool": "tool",
+          "Webinar": "guide",
+        };
+
+        const mappedType = typeMap[resource.resourceType] || "guide";
+
+        return {
+          id: resource.id.toString(),
+          title: resource.title,
+          category: resource.category,
+          type: mappedType,
+          description: resource.description,
+          image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80",
+          rating: resource.rating,
+          downloads: resource.downloads,
+        };
+      });
+
+      // Use only admin resources
+      setLibraryResources(convertedAdminResources);
+
+      // Get unique categories from admin resources only
+      const adminCategories = [...new Set(adminResources.map((r) => r.category))];
+      setCategories(["All", ...adminCategories]);
+    } else {
+      // If no admin resources, show empty state
+      setLibraryResources([]);
+      setCategories(["All"]);
+    }
+  }, []);
 
   const filteredResources = libraryResources.filter(resource => {
     const categoryMatch = selectedCategory === "All" || resource.category === selectedCategory;
@@ -172,6 +234,9 @@ export default function CareerLibraryClient() {
                       src={resource.image}
                       alt={resource.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80";
+                      }}
                     />
                     <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
                       <span className="text-2xl">{getTypeIcon(resource.type)}</span>

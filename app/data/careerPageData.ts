@@ -9,6 +9,7 @@ import { educationUpdateData } from './educationUpdateData';
 import { businessManagementUpdateData } from './businessManagementUpdateData';
 import { publicSafetyAndSecurityUpdateData } from './publicSafetyAndSecurityUpdateData';
 import { environmentUpdateData } from './environmentUpdateData';
+import { mentorAndCoachUpdateData } from './mentorAndCoachUpdateData';
 export interface CareerHeroStat {
   value: string;
   label: string;
@@ -4988,8 +4989,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Understanding the role of a judge in the Indian judicial system",
         color: RED,
         content: [
-          "When you think of a 'Judge,' the image of someone in a black robe banging a gavel might come to mind. But that's just the surface. The role is far deeper.",
+          "Social Impact & Authority: Unlike private practice, where you represent a client, a judge represents the law itself. You are the ultimate arbiter of justice, interpreting the Constitution and laws of India to deliver decisions that shape society.",
           "A Judge is the 'Keeper of Justice.' They interpret the Constitution and laws of India, listen to both sides of a dispute, weigh the evidence, and deliver decisions that have permanent impact on people's lives. Whether it is sending a criminal to jail, awarding custody of a child, or declaring a government decision unconstitutional, judges wield immense responsibility.",
+          "Job Security & Prestige: Judicial service offers a high level of job security, a respected social standing, and a structured career path with clear promotion tracks. Judges are shielded from political pressure to ensure impartial decisions.",
+          "Intellectual Rigor: You are constantly engaging with complex legal theories and diverse cases. The judiciary's independence is a cornerstone of democracy.",
           "In today's India, with an overburdened judiciary (over 60 million pending cases), judges are more critical than ever. They are not just courtroom administrators—they are constitutional guardians who ensure the rule of law prevails in a democracy.",
           "Becoming a judge requires not just legal expertise, but wisdom, impartiality, and an unwavering commitment to justice. It is a career for those who genuinely want to serve society and protect the Constitution.",
         ],
@@ -5018,6 +5021,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Traits that make someone well-suited to become a judge",
         color: RED3,
         content: [
+          "Experienced Professionals: Advocates or prosecutors (3+ years) seeking stability and prestige.",
+          "Ethical Individuals: Those committed to integrity, justice, and strong moral character.",
+          "Analytical Minds: Experts in research, critical thinking, and complex law interpretation.",
+          "Resilient Temperaments: Calm, impartial individuals with high emotional intelligence and patience.",
           "The Neutral Observer: Can you listen to both sides without bias? Judges must put aside personal opinions.",
           "The Intellectual: Do you enjoy reading philosophy, ethics, and complex legal theory?",
           "The Disciplined: Can you maintain a strict work schedule and courtroom decorum?",
@@ -5034,6 +5041,12 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Core duties of a judge",
         color: RED4,
         content: [
+          "Legal Expertise: Deep mastery of laws, precedents, and procedures to ensure justice.",
+          "Impartiality: Unwavering objectivity to guarantee fair treatment for all parties.",
+          "Decisiveness: Making sound, high-pressure decisions that impact lives and society.",
+          "Precision: Meticulous attention to detail in documents and case law.",
+          "Dedication: A robust work ethic and commitment to the judicial process.",
+          "Adaptability: Commitment to lifelong learning within an evolving legal landscape.",
           "The judicial workflow has several key stages:",
           "1. Case Hearing: Listen to arguments from both sides (plaintiff and defendant/prosecution and defense).",
           "2. Evidence Examination: Review documents, witness testimonies, and expert reports.",
@@ -5103,15 +5116,13 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Investment required to become a judge",
         color: RED3,
         content: [
-          "Law Education (LLB):",
-          "  • National Law Universities: ₹12L–₹18L (5 years)",
-          "  • Private Universities: ₹20L–₹40L (5 years)",
-          "  • Government Colleges: ₹20,000–₹1L (highly affordable)",
-          "Practice Period (before PCS-J):",
-          "  • Self-employed advocate: Depends on practice growth (₹0 structured, but need to sustain living costs)",
-          "  • Law Firm associate: Better salary, but takes longer to gain independent practice experience",
-          "PCS-J Exam Preparation: ₹30,000–₹1.5L for coaching classes and study materials",
-          "ROI: Excellent — Though investment upfront is required, the lifetime job security and pension make it highly rewarding",
+          "LLB Course: A 3 or 5-year LLB degree is essential. Annual fees at reputable colleges can range from ₹1–7 Lakhs.",
+          "Coaching/Preparation: Coaching for judicial service exams (PCS-J), which can range from ₹50,000 to ₹1,50,000 or more.",
+          "Exam Fees: Multiple state-level exams require fees, and travel costs for prelims, mains, and interviews.",
+          "Study Materials: Printed notes, specialized textbooks, and 'Diglot' Bare Acts cost between ₹5,000 and ₹20,000.",
+          "Digital Access: Subscriptions to legal research databases like SCC Online or LexisNexis.",
+          "Practice Period: Self-employed advocate work depends on practice growth (₹0 structured, but need to sustain living costs). Law firm associate roles offer better salary but take longer to gain independent practice experience.",
+          "ROI: Excellent — Though investment upfront is required, the lifetime job security and pension make it highly rewarding.",
         ],
       },
       {
@@ -5121,12 +5132,18 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Financial support for aspiring judges",
         color: RED5,
         content: [
-          "Law School Scholarships: Almost all NLUs and law colleges offer merit-based scholarships",
-          "Government Schemes: NSP (National Scholarship Portal) for professional degrees",
-          "IDIA and PreLaw Programs: Support for underprivileged aspirants preparing for law school",
-          "State-Based: Various states offer scholarships for law students pursuing judicial careers",
-          "Merit-Cum-Means: Universities offer assistance to deserving students",
-          "Foundation Support: Organizations like Vidhi Centre for Legal Policy offer internships and grants",
+          "GEV Memorial Merit Scholarship: ₹2,00,000 annually to meritorious undergraduate/postgraduate law students, including mentorship.",
+          "Foundation for Excellence (FFE) Scholarship: Offers ₹50,000 annually for 5 years to 1st-year 5-year integrated law students.",
+          "Aditya Birla Scholarship Programme: A highly competitive, merit-based scholarship for law students.",
+          "LSAT-India Scholarship: Awarded based on exceptional performance in the LSAT-India entrance exam.",
+          "PNB Housing Finance Protsahan Scholarship: Designed for students facing financial constraints.",
+          "Central Sector Scheme of Scholarship: Ministry of Education initiative for college students.",
+          "Law School Scholarships: Almost all NLUs and law colleges offer merit-based scholarships.",
+          "Government Schemes: NSP (National Scholarship Portal) for professional degrees.",
+          "IDIA and PreLaw Programs: Support for underprivileged aspirants preparing for law school.",
+          "State-Based: Various states offer scholarships for law students pursuing judicial careers.",
+          "Merit-Cum-Means: Universities offer assistance to deserving students.",
+          "Foundation Support: Organizations like Vidhi Centre for Legal Policy offer internships and grants.",
         ],
       },
       {
@@ -5170,13 +5187,14 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Challenges faced by judges in India",
         color: RED3,
         content: [
-          "Case Backlog Crisis: Pending cases often exceed 5–10 years. Judges work under immense pressure.",
-          "Inadequate Resources: Many courts lack modern technology and infrastructure.",
-          "Media Scrutiny: High-profile cases attract intense media coverage and public criticism.",
-          "Judicial Fatigue: Long working hours (often 12+ hours/day) can lead to burnout.",
-          "Political Pressure: Occasionally, controversial cases attract political attention.",
-          "Work-Life Balance: Judicial duty often extends beyond 9–5.",
-          "Safety Concerns: Judges handling criminal cases sometimes face security threats.",
+          "Extreme Workload & Case Backlog: Judges face an enormous number of pending cases, resulting in high-pressure work environments. Over 60 million cases are pending in Indian courts.",
+          "Impartiality Under Pressure: Maintaining neutrality while dealing with intense public and political pressure. High-profile cases attract media scrutiny and public criticism.",
+          "Mental & Emotional Toll: Constant exposure to serious, distressing cases involving crime, family disputes, and human suffering can lead to burnout.",
+          "Administrative & Infrastructure Hurdles: Subordinate courts often lack modern facilities, technology, and adequate support staff.",
+          "Bureaucratic Hurdles: Subordination to high courts, potential for vexatious complaints, and complex administrative procedures.",
+          "Judicial Fatigue: Long working hours (often 12+ hours/day) can lead to exhaustion and health issues.",
+          "Safety Concerns: Judges handling criminal cases sometimes face security threats from convicted criminals or their associates.",
+          "Work-Life Balance: Judicial duty often extends beyond 9–5, affecting personal and family life.",
         ],
       },
       {
@@ -5202,6 +5220,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Foundation-building for a judicial career",
         color: RED5,
         content: [
+          "Stream Selection: You can choose any stream (Arts, Commerce, or Science). Arts/Humanities is recommended as subjects like History, Political Science, and Sociology provide a helpful background for law.",
+          "Focus Subjects: Focus on strengthening your English proficiency, reading comprehension, and logical reasoning.",
+          "Entrance Exam Preparation: In Class 11 and 12, start preparing for national-level law entrance exams to get into a top law university.",
           "Read the Constitution: Understand the Constitution of India. It is the judge's handbook.",
           "Read Supreme Court Judgments: Build familiarity with landmark cases and judicial reasoning.",
           "Debating: Develop the ability to construct logical arguments and counter-arguments.",
@@ -5218,12 +5239,12 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Inspiring judges who shaped India's legal system",
         color: RED,
         content: [
-          "Chief Justice D.Y. Chandrachud: Current CJI. Known for progressive judgments on privacy rights and gender equality.",
-          "Justice H.R. Khanna: Authored the famous ADM Jabalpur judgment protecting individual rights during Emergency.",
-          "Justice M.N. Venkatachaliah: Former CJI. Leading voice on constitutional interpretation and judicial activism.",
-          "Justice Leila Seth: First female judge of Delhi High Court. Pioneered women's rights jurisprudence.",
-          "Justice P.N. Bhagwati: Former CJI who strengthened Public Interest Litigation (PIL) in India.",
-          "Justice Sarvepalli Radhakrishnan: Philosopher-judge. Bridged law and philosophy with profound judicial insights.",
+          "J.S. Verma: Championed women's rights and the Vishaka guidelines, which became landmark protections against sexual harassment in the workplace.",
+          "H.R. Khanna: Defended civil liberties via his historic ADM Jabalpur dissent during the Emergency, protecting individual rights when the government tried to suspend them.",
+          "V.R. Krishna Iyer: Pioneered social justice and human rights for the underprivileged, expanding the scope of judicial activism in India.",
+          "Leila Seth: First female High Court Chief Justice; advocated for gender property equality and women's rights in family law.",
+          "Y.V. Chandrachud: India's longest-serving Chief Justice, known for progressive judgments and judicial reforms.",
+          "D.Y. Chandrachud: Led the judiciary's modern digital transition and championed privacy rights and gender equality in landmark judgments.",
         ],
       },
     ],
@@ -6524,7 +6545,6 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     electronics_and_communication: "electronics_communication_engineering",
     block_chain_engineer: "blockchain_engineer",
     sociology: "sociologist",
-    mentor_and_coach: "school_teacher",
     indian_economic_services: "indian_economic_service",
     business_operation_manager: "business_operations_manager",
     information_technology_management: "it_management",
@@ -6543,6 +6563,7 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     homeScienceUpdateData[normalizedSlug] ||
     publicSafetyAndSecurityUpdateData[normalizedSlug] ||
     environmentUpdateData[normalizedSlug] ||
+    mentorAndCoachUpdateData[normalizedSlug] ||
     careerPageData[normalizedSlug] ||
     null
   );

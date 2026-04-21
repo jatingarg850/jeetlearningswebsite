@@ -157,7 +157,7 @@ export const careerImagesMap = {
   "robotics_engineer": "https://img.freepik.com/free-vector/construction-worker-carrying-oversized-light-bulb-illustration_1308-185215.jpg?semt=ais_hybrid&w=740&q=80",
   "statistician": "https://img.freepik.com/premium-photo/3d-flat-icon-business-dashboard-illustration-with-customizable-text-doodle-line-cartoon-style_980716-290081.jpg?semt=ais_hybrid&w=740&q=80",
   "physical_trainer": "https://img.freepik.com/premium-vector/sports-disabled-people-flat-vector-illustration_277904-41217.jpg?semt=ais_hybrid&w=740&q=80",
-  "sports_management": "https://img.freepik.com/free-vector/flat-sport-landing-page-template_23-2148221630.jpg?semt=ais_hybrid&w=740&q=80",
+  "sports_management": "https://imgs.search.brave.com/3zHkPr_yA91VfU7Mxba26UaQk0F26uaBt67bSDcKFN4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIx/MzM1NjIxMi92ZWN0/b3IvZG9jdG9ycy1p/bi10aGUtZmlnaHQt/YWdhaW5zdC10aGUt/bmV3LXZpcnVzLWls/bHVzdHJhdGlvbnMu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PXdDUEFmQndJOXhu/bll5ZFZJLXBkdmNI/QVVCbmNZc2NTeWxO/T09QSjh2LVU9",
   "sports_physiotherapist": "https://img.freepik.com/premium-vector/physiotherapy-rehabilitation-concept-with-doctor-patient_1302-25143.jpg?semt=ais_hybrid&w=740&q=80",
   "engineering_and_technology": "https://img.freepik.com/premium-vector/person-engages-with-various-digital-tools-surrounded-by-icons-representing-technology-data-new-functions-customizable-semi-flat-illustration_538213-149247.jpg?semt=ais_rp_progressive&w=740&q=80",
   "sports_person": "https://img.freepik.com/free-vector/american-football-players-front-field-flat-design_23-2148794213.jpg?semt=ais_hybrid&w=740&q=80",

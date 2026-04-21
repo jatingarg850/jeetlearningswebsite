@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
+import PsychometricTestClient from "./PsychometricTestClient";
 
 const testFamilies = [
   {
@@ -169,27 +170,7 @@ export default function PsychometricPage() {
       <Navbar />
 
       <main>
-        <section className="bg-gradient-to-br from-orange-800 via-amber-700 to-rose-700 text-white px-4 sm:px-6 py-20 md:py-28">
-          <div className="max-w-6xl mx-auto">
-            <span className="inline-flex rounded-full border border-white/30 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide bg-white/10">
-              Psychometric Guide
-            </span>
-            <h1 className="mt-5 text-4xl sm:text-5xl md:text-6xl font-black leading-tight">
-              Psychometric Analysis Tests
-            </h1>
-            <p className="mt-5 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed">
-              Psychometric testing uses standardized scientific tools to measure behavior, aptitude, intelligence, and personality for clearer decisions in education, career, and professional growth.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/contact" className="rounded-full bg-white text-slate-900 px-5 py-2.5 font-bold hover:bg-slate-100 transition-colors">
-                Book Psychometric Consultation
-              </Link>
-              <Link href="/" className="rounded-full border border-white/60 px-5 py-2.5 font-semibold hover:bg-white/10 transition-colors">
-                Back To Home
-              </Link>
-            </div>
-          </div>
-        </section>
+        <PsychometricTestClient />
 
         <section className="px-4 sm:px-6 py-10">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
