@@ -10,7 +10,7 @@ import { CareerCompleteGuide } from "@/app/components/CareerCompleteGuide";
 import { CostBreakdown } from "@/app/components/CostBreakdown";
 import { getCareerPageData } from "@/app/data/careerPageData";
 import { getCareerVideos } from "@/app/data/careerVideos";
-import { allCareerCosts } from "@/app/data/costBreakdownData";
+import { allCategoryCosts } from "@/app/data/careerCategoryCosting";
 import { careerImagesMap } from "../../data/careerImagesMap.js";
 
 interface CareerPageClientProps {
@@ -95,13 +95,12 @@ export function CareerPageClient({
 
       {/* ── Cost Breakdown ────────────────────────────────────────── */}
       <div id="cost">
-        {allCareerCosts[career] && (
-          <CostBreakdown
-            title="What Will It Cost?"
-            subtitle="Complete financial breakdown for your career journey"
-            items={allCareerCosts[career]}
-          />
-        )}
+        <CostBreakdown
+          title="What Will It Cost?"
+          subtitle="Complete financial breakdown for your career journey"
+          careerSlug={career}
+          categorySlug={category}
+        />
       </div>
 
       {/* ── Video Carousel ────────────────────────────────────────── */}

@@ -42,73 +42,44 @@ function SectionWhat({ section, careerName }: { section: CareerGuideSection; car
     );
   }
 
-  // Modern professional carousel for "What is This Career All About?"
-  const parseContent = (text: string) => {
-    const colonIndex = text.indexOf(":");
-    if (colonIndex > -1) {
-      return {
-        title: text.slice(0, colonIndex).trim(),
-        content: text.slice(colonIndex + 1).trim(),
-      };
-    }
-    // If no colon, extract first sentence as title
-    const sentences = text.split(/(?<=[.!?])\s+/);
-    if (sentences.length > 1) {
-      return {
-        title: sentences[0].trim(),
-        content: sentences.slice(1).join(" ").trim(),
-      };
-    }
-    // If only one sentence, use first 60 chars as title
-    if (text.length > 60) {
-      const titleEnd = text.indexOf(" ", 50);
-      if (titleEnd > -1) {
-        return {
-          title: text.substring(0, titleEnd).trim(),
-          content: text.substring(titleEnd).trim(),
-        };
-      }
-    }
-    return {
-      title: text.substring(0, 50).trim() + "...",
-      content: text.trim(),
-    };
-  };
-
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-white border-b border-canam-border">
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* Simple Grid Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {section.content.map((item, idx) => {
-            const { title, content } = parseContent(item);
-            return (
-              <div
-                key={idx}
-                className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-canam-border shadow-sm hover:shadow-md transition-shadow"
-              >
-                {/* Header */}
-                <div className="flex items-start gap-3 mb-4">
+        {/* Bullet List Layout */}
+        <div className="max-w-4xl mx-auto">
+          <ul className="space-y-4">
+            {section.content.map((item, idx) => {
+              // Parse content with colon separator
+              const colonIndex = item.indexOf(":");
+              const hasColon = colonIndex > -1;
+              const label = hasColon ? item.substring(0, colonIndex).trim() : "";
+              const description = hasColon ? item.substring(colonIndex + 1).trim() : item;
+
+              return (
+                <li key={idx} className="flex gap-4 items-start">
                   <div 
-                    className="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold flex-shrink-0 mt-0.5"
+                    className="w-6 h-6 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0 mt-1"
                     style={{ background: section.color }}
                   >
-                    <DynamicIcon name={section.icon} className="w-5 h-5" />
+                    <span className="text-sm">•</span>
                   </div>
-                  <h3 className="text-lg font-bold text-slate-900 leading-snug line-clamp-3">
-                    {title}
-                  </h3>
-                </div>
-
-                {/* Content */}
-                <p className="text-base text-slate-600 leading-relaxed">
-                  {content}
-                </p>
-              </div>
-            );
-          })}
+                  <div className="flex-1">
+                    {hasColon ? (
+                      <p className="text-base text-slate-700 leading-relaxed">
+                        <span className="font-bold text-slate-900">{label}:</span> {description}
+                      </p>
+                    ) : (
+                      <p className="text-base text-slate-700 leading-relaxed">
+                        {item}
+                      </p>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </section>
@@ -251,21 +222,73 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
                   {mainTitle}
                 </h3>
 
-                {/* Content for jobs section - split by semicolon and add bullets */}
+                {/* Content for jobs section - handle array of items */}
                 {isJobsSection ? (
-                  <div className="space-y-2">
-                    {description.split(";").map((item, idx) => {
-                      const trimmed = item.trim();
-                      if (!trimmed) return null;
+                  <div className="space-y-4">
+                    {section.content.map((item, itemIdx) => {
+                      const colonIndex = item.indexOf(":");
+                      const label = colonIndex > -1 ? item.substring(0, colonIndex).trim() : item;
+                      const contentText = colonIndex > -1 ? item.substring(colonIndex + 1).trim() : "";
+                      
+                      // Remove trailing period if exists
+                      const cleanContent = contentText.replace(/\.$/, "");
+                      
+                      // Smart comma splitter that respects parentheses
+                      const splitByCommaRespectingBrackets = (text: string) => {
+                        const items: string[] = [];
+                        let current = "";
+                        let bracketDepth = 0;
+                        
+                        for (let i = 0; i < text.length; i++) {
+                          const char = text[i];
+                          
+                          if (char === "(") bracketDepth++;
+                          else if (char === ")") bracketDepth--;
+                          else if (char === "," && bracketDepth === 0) {
+                            if (current.trim()) items.push(current.trim());
+                            current = "";
+                            continue;
+                          }
+                          
+                          current += char;
+                        }
+                        
+                        if (current.trim()) items.push(current.trim());
+                        return items;
+                      };
+                      
+                      const contentItems = cleanContent ? splitByCommaRespectingBrackets(cleanContent) : [];
+                      
                       return (
-                        <div key={idx} className="flex items-start gap-2">
-                          <div
-                            className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
-                            style={{ background: color }}
-                          />
-                          <p className="text-base text-slate-600 leading-relaxed">
-                            {trimmed}
-                          </p>
+                        <div key={itemIdx}>
+                          <div className="flex items-start gap-3 mb-3">
+                            <div
+                              className="w-2.5 h-2.5 rounded-full mt-1.5 flex-shrink-0"
+                              style={{ background: color }}
+                            />
+                            <div className="flex-1">
+                              <p className="text-base font-bold text-slate-900">
+                                {label}
+                              </p>
+                            </div>
+                          </div>
+                          
+                          {/* Sub-items for each comma-separated value */}
+                          {contentItems.length > 0 && (
+                            <div className="ml-8 space-y-2">
+                              {contentItems.map((subItem, subIdx) => (
+                                <div key={subIdx} className="flex items-start gap-3">
+                                  <div
+                                    className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"
+                                    style={{ background: color, opacity: 0.7 }}
+                                  />
+                                  <p className="text-base text-slate-600 leading-relaxed">
+                                    {subItem}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       );
                     })}

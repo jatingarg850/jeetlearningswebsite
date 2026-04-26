@@ -6,8 +6,8 @@ import Link from "next/link";
 const resources = [
   {
     icon: BookOpen,
-    title: "Career Library",
-    description: "Comprehensive guides across career clusters with practical pathways.",
+    title: "Career Path",
+    description: "Explore study programs and comprehensive guides across career clusters with practical pathways.",
     color: "#3B82F6",
     link: "/career-library",
   },
@@ -47,7 +47,7 @@ export function ResourcesSection() {
             Resources & Support
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Access Entrance Exams, Education News, Career Library content, and expert blog insights.
+            Access Entrance Exams, Education News, Career Path content, and expert blog insights.
           </p>
         </div>
 

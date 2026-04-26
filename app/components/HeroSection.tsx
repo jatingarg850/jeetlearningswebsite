@@ -37,12 +37,12 @@ export default function HeroSection() {
           </div>
 
           {/* Main Heading */}
-          <h1 className="font-poppins text-slate-900 mb-6 text-5xl lg:text-7xl xl:text-[80px] font-bold leading-[1.05] tracking-tight">
+          <h1 className="font-poppins text-slate-900 mb-6 text-6xl lg:text-8xl xl:text-[100px] font-bold leading-[1.05] tracking-tight">
             Premium <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-canam-red)] to-red-500">Study Abroad</span> Counselling
           </h1>
 
           {/* Description */}
-          <p className="font-inter text-slate-600 mb-10 text-lg lg:text-xl leading-relaxed max-w-xl">
+          <p className="font-inter text-slate-600 mb-10 text-xl lg:text-2xl leading-relaxed max-w-xl">
             From university selection to visa assistance, get expert guidance
             throughout the application journey. Personalized services
             for undergrad, master's, PhD, and MBA aspirants.

@@ -2,35 +2,47 @@
 
 import { useState } from "react";
 import { ChevronDown, TrendingUp, DollarSign, Calendar, Target } from "lucide-react";
+import { allCategoryCosts, CategoryCost } from "@/app/data/careerCategoryCosting";
+import { getCareerCosts } from "@/app/data/careerIndividualCosting";
 
 const PRIMARY_BLUE = "#1E40AF";
 const ACCENT_GOLD = "#F59E0B";
 
-interface CostItem {
-  category: string;
-  amount: string;
-  description: string;
-  icon: string;
-  color: string;
-  details?: string[];
-}
-
 interface CostBreakdownProps {
   title?: string;
   subtitle?: string;
-  items: CostItem[];
+  items?: CategoryCost[];
+  categorySlug?: string;
+  careerSlug?: string;
 }
 
 export function CostBreakdown({
   title = "What Will It Cost?",
   subtitle = "Complete financial breakdown for your career journey",
   items,
+  categorySlug,
+  careerSlug,
 }: CostBreakdownProps) {
+  // Priority: careerSlug > categorySlug > items
+  let costItems: any[] = [];
+  
+  if (careerSlug) {
+    const careerData = getCareerCosts(careerSlug);
+    // If career has specific costs, use them; otherwise fall back to category
+    costItems = (careerData?.costs && careerData.costs.length > 0) 
+      ? careerData.costs 
+      : (categorySlug ? allCategoryCosts[categorySlug as keyof typeof allCategoryCosts] : []);
+  } else if (categorySlug) {
+    costItems = allCategoryCosts[categorySlug as keyof typeof allCategoryCosts] || [];
+  } else if (items) {
+    costItems = items;
+  }
+  
   const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
   const [activeTab, setActiveTab] = useState<"breakdown" | "roi" | "timeline">("breakdown");
 
   // Calculate total cost
-  const totalAmount = items.reduce((sum, item) => {
+  const totalAmount = costItems.reduce((sum, item) => {
     const amount = item.amount.replace(/[₹,+\-\s]/g, "");
     const num = parseInt(amount) || 0;
     return sum + num;
@@ -129,7 +141,7 @@ export function CostBreakdown({
             </h3>
 
             <div className="space-y-3 md:space-y-4">
-              {items.map((item, idx) => (
+              {costItems.map((item, idx) => (
                 <div
                   key={idx}
                   className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 bg-white border border-slate-200"
@@ -174,7 +186,7 @@ export function CostBreakdown({
                   {expandedIndex === idx && item.details && (
                     <div className="px-5 md:px-7 pb-6 md:pb-8 bg-gradient-to-b from-slate-50 to-white border-t-2" style={{ borderTopColor: item.color }}>
                       <div className="space-y-3">
-                        {item.details.map((detail, detailIdx) => (
+                        {item.details.map((detail: string, detailIdx: number) => (
                           <div key={detailIdx} className="flex gap-3 items-start">
                             <div
                               className="w-2 h-2 rounded-full mt-2 flex-shrink-0"

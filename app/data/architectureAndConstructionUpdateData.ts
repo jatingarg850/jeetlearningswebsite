@@ -618,20 +618,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "Emerging Roles: Sustainability Manager (Carbon footprint reduction), Smart Factory Consultant, Reliability Engineer (Data-driven maintenance)."
         ]
       },
-      {
-        id: "costs",
-        title: "What Will It Cost?",
-        icon: "CircleDollarSign",
-        description: "Course fees and additional expenses.",
-        color: BLUE2,
-        content: [
-          "Diploma/Polytechnic: ₹20,000 – ₹1.5 Lakhs (Total).",
-          "B.Tech (Government): ₹3 Lakhs – ₹10 Lakhs (Total).",
-          "MBA (IIMs/Top Private): ₹15 Lakhs – ₹25 Lakhs.",
-          "Hostel/Living: Approx. ₹10,000 – ₹20,000 per month in cities like Pune or Bengaluru.",
-          "Duration: 3-4 years for B.Tech; 3 years for Diploma; 2 years for MBA."
-        ]
-      },
+      
       {
         id: "institutions",
         title: "Where to Study?",

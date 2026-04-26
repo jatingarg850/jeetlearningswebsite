@@ -336,10 +336,10 @@ export function CareerPageClient({
               border: "1px solid rgba(255, 255, 255, 0.3)"
             }}
           >
-            <h2 className="font-poppins font-bold text-[#505050] mb-3" style={{ fontSize: "clamp(24px,2.5vw,32px)" }}>
+            <h2 className="font-poppins font-bold text-[#505050] mb-3" style={{ fontSize: "clamp(32px,3.5vw,48px)" }}>
               Learn More Through Videos
             </h2>
-            <p className="font-poppins text-[#757575]" style={{ fontSize: "16px" }}>
+            <p className="font-poppins text-[#757575]" style={{ fontSize: "20px" }}>
               Watch expert insights and student experiences
             </p>
           </motion.div>
@@ -379,10 +379,10 @@ export function CareerPageClient({
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-center mb-8"
             >
-              <h3 className="font-poppins font-bold text-[#505050] text-xl">
+              <h3 className="font-poppins font-bold text-[#505050] text-2xl">
                 {videos[currentVideoIndex].title}
               </h3>
-              <p className="font-poppins text-[#757575] text-sm mt-2">
+              <p className="font-poppins text-[#757575] text-base mt-2">
                 Video {currentVideoIndex + 1} of {videos.length}
               </p>
             </motion.div>
@@ -504,7 +504,7 @@ export function CareerPageClient({
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-poppins font-bold text-[#505050] mb-4"
-            style={{ fontSize: "clamp(24px,2.5vw,32px)" }}
+            style={{ fontSize: "clamp(32px,2.5vw,48px)" }}
           >
             Ready to Start Your {careerName} Journey?
           </motion.h2>
@@ -514,7 +514,7 @@ export function CareerPageClient({
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-poppins text-[#757575] mb-8"
-            style={{ fontSize: "16px", lineHeight: "26px" }}
+            style={{ fontSize: "20px", lineHeight: "30px" }}
           >
             Get personalized career guidance from our expert counselors to help you make the right decisions for your future.
           </motion.p>
@@ -526,7 +526,7 @@ export function CareerPageClient({
             className="inline-flex items-center gap-2 px-8 py-4 font-poppins font-semibold text-white rounded-xl transition-all hover:opacity-90 hover:-translate-y-1 hover:scale-105 backdrop-blur-sm"
             style={{ 
               background: `linear-gradient(135deg, ${CANAM_RED} 0%, #DA1313 100%)`,
-              fontSize: "16px",
+              fontSize: "20px",
               boxShadow: "0 8px 24px rgba(194, 0, 0, 0.3)"
             }}
           >

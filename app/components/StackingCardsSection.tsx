@@ -29,13 +29,13 @@ export default function StackingCardsSection({
         <div className="text-center mb-16">
           <h2
             className="font-poppins text-[#505050] font-bold mb-3 animate-fadeInUp"
-            style={{ fontSize: "32px", lineHeight: "36px" }}
+            style={{ fontSize: "40px", lineHeight: "44px" }}
           >
             {title}
           </h2>
           <p
             className="font-poppins text-[#505050] font-normal animate-fadeInUp"
-            style={{ fontSize: "17px", lineHeight: "25px", animationDelay: "0.1s" }}
+            style={{ fontSize: "21px", lineHeight: "30px", animationDelay: "0.1s" }}
           >
             {subtitle}
           </p>
@@ -80,7 +80,7 @@ export default function StackingCardsSection({
                   <div className="flex-1">
                     <h3
                       className="font-poppins font-bold text-[#505050]"
-                      style={{ fontSize: "20px", lineHeight: "24px" }}
+                      style={{ fontSize: "24px", lineHeight: "28px" }}
                     >
                       {card.title}
                     </h3>
@@ -90,7 +90,7 @@ export default function StackingCardsSection({
                 {/* Description */}
                 <p
                   className="font-poppins text-[#757575] mb-6"
-                  style={{ fontSize: "15px", lineHeight: "22px" }}
+                  style={{ fontSize: "18px", lineHeight: "26px" }}
                 >
                   {card.description}
                 </p>
@@ -107,7 +107,7 @@ export default function StackingCardsSection({
                     <li
                       key={itemIndex}
                       className="flex items-start gap-3 font-poppins text-[#505050]"
-                      style={{ fontSize: "14px", lineHeight: "20px" }}
+                      style={{ fontSize: "17px", lineHeight: "24px" }}
                     >
                       <span
                         className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center mt-0.5"

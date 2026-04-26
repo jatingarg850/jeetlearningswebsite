@@ -97,7 +97,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
               animate={heroVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-poppins text-[#505050] font-bold mb-4"
-              style={{ fontSize: "clamp(24px, 2.5vw, 32px)", lineHeight: "1.2" }}
+              style={{ fontSize: "clamp(32px, 3.5vw, 48px)", lineHeight: "1.2" }}
             >
               {displayName || "Career Programs"}
             </motion.h1>
@@ -107,7 +107,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
               animate={heroVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="font-poppins text-[#757575] mb-8"
-              style={{ fontSize: "16px", lineHeight: "26px" }}
+              style={{ fontSize: "20px", lineHeight: "30px" }}
             >
               Discover your perfect career path with our comprehensive programs and expert guidance
             </motion.p>
@@ -247,7 +247,7 @@ export function CategoryClient({ careers, category, categoryName }: CategoryClie
             animate={ctaVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6 }}
             className="font-poppins font-bold text-[#505050] mb-2"
-            style={{ fontSize: "22px" }}
+            style={{ fontSize: "26px" }}
           >
             Not sure which career is right for you?
           </motion.h3>

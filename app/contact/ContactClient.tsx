@@ -53,13 +53,13 @@ export default function ContactClient() {
             <div className="w-10 h-0.5 bg-[#C20000] mx-auto mb-4" />
             <h1
               className="font-poppins text-[#505050] font-bold mb-4"
-              style={{ fontSize: "clamp(24px, 2.5vw, 32px)", lineHeight: "1.2" }}
+              style={{ fontSize: "clamp(32px, 3.5vw, 48px)", lineHeight: "1.2" }}
             >
               Contact Our Expert Team
             </h1>
             <p
               className="font-poppins text-[#757575] max-w-2xl mx-auto"
-              style={{ fontSize: "16px", lineHeight: "26px" }}
+              style={{ fontSize: "20px", lineHeight: "30px" }}
             >
               Have questions about your career path? Reach out to us and our counselors will get back to you within 24 hours
             </p>

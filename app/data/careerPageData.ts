@@ -1922,7 +1922,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           color: RED,
           content: [
             "CFA Institute: The most prestigious global body for financial analysts.",
-            "SEBI: Requires analysts to be NISM Certified (Series XV: Research Analyst) to sign off on public reports.",
+            "SEBI: Requires analysts to be NISM Certified (Series XV Research Analyst):  to sign off on public reports.",
             "NISM Certification: National Institute of Securities Markets certification is mandatory for research analysts.",
             "Professional Associations: CFA Society India, ICAI (for CA-qualified analysts).",
             "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually.",

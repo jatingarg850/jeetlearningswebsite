@@ -35,7 +35,7 @@ const slides: Slide[] = [
       "From STEM and healthcare to design and humanities, discover pathways matched to your aptitude, personality, and long-term goals.",
     highlight: "4,000+ roles can be mapped to your profile",
     bgColor: "from-indigo-700 via-blue-700 to-slate-700",
-    cta: "Open Career Library",
+    cta: "Open Career Path",
     ctaTarget: "/career-library",
   },
   {

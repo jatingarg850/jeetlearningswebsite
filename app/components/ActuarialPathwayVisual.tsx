@@ -8,7 +8,7 @@ export function ActuarialPathwayVisual() {
             {/* Header */}
             <div className="bg-slate-900 text-white p-4 md:p-6 text-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-blue-500/20 mix-blend-overlay" />
-                <h3 className="text-xl md:text-2xl font-black uppercase tracking-wider relative z-10">Careeer Pathways & Market Snapshot <span className="text-amber-400">2026</span></h3>
+                <h3 className="text-2xl md:text-3xl font-black uppercase tracking-wider relative z-10">Careeer Pathways & Market Snapshot <span className="text-amber-400">2026</span></h3>
             </div>
 
             {/* Pathways Section */}
@@ -40,7 +40,7 @@ export function ActuarialPathwayVisual() {
                     {/* Exam Structure */}
                     <div className="bg-white border-2 border-indigo-100 p-6 rounded-2xl text-center shadow-sm mt-4 md:mt-6 relative">
                         <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full border border-indigo-200 shadow-sm">CORE JOURNEY</div>
-                        <h5 className="font-bold text-slate-800 text-lg mb-2">~15 Papers accross 4 Stages</h5>
+                        <h5 className="font-bold text-slate-800 text-2xl mb-2">~15 Papers accross 4 Stages</h5>
                         <div className="flex flex-wrap items-center justify-center gap-2 text-sm text-slate-600 font-medium">
                             <span>Core Principles</span> <ArrowRight className="w-4 h-4 text-slate-400" />
                             <span>Core Practices</span> <ArrowRight className="w-4 h-4 text-slate-400" />
@@ -76,14 +76,14 @@ export function ActuarialPathwayVisual() {
             <div className="p-4 md:p-8 bg-white grid lg:grid-cols-2 gap-8 lg:gap-12">
                 {/* Salary */}
                 <div>
-                    <h4 className="flex items-center gap-2 text-lg font-bold text-slate-800 mb-6 pb-2 border-b border-slate-100"><BadgeIndianRupee className="text-emerald-500" /> Salary Snapshot</h4>
+                    <h4 className="flex items-center gap-2 text-2xl font-bold text-slate-800 mb-6 pb-2 border-b border-slate-100"><BadgeIndianRupee className="text-emerald-500" /> Salary Snapshot</h4>
                     <div className="relative pl-6 border-l-4 border-indigo-100 space-y-6">
                         <div className="absolute top-0 bottom-0 left-[-4px] w-1 bg-gradient-to-b from-indigo-500 to-blue-300" />
 
                         <div className="relative">
                             <div className="absolute -left-[28px] top-1 w-4 h-4 rounded-full bg-indigo-500 ring-4 ring-white" />
-                            <div className="font-bold text-slate-800 text-lg">CXO / Appointed<span className="text-slate-500 text-sm font-normal ml-2">15+ yrs</span></div>
-                            <div className="text-indigo-600 font-bold text-xl mt-1">₹80 LPA — 2+ Cr</div>
+                            <div className="font-bold text-slate-800 text-2xl">CXO / Appointed<span className="text-slate-500 text-base font-normal ml-2">15+ yrs</span></div>
+                            <div className="text-indigo-600 font-bold text-3xl mt-1">₹80 LPA — 2+ Cr</div>
                         </div>
                         <div className="relative">
                             <div className="absolute -left-[28px] top-1 w-3 h-3 rounded-full bg-indigo-400 ring-4 ring-white" />

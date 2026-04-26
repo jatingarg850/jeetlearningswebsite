@@ -29,13 +29,13 @@ export default function ResourcesClient() {
             <div className="w-10 h-0.5 bg-[#C20000] mx-auto mb-4" />
             <h1
               className="font-poppins text-[#505050] font-bold mb-4"
-              style={{ fontSize: "clamp(24px, 2.5vw, 32px)", lineHeight: "1.2" }}
+              style={{ fontSize: "clamp(32px, 3.5vw, 48px)", lineHeight: "1.2" }}
             >
               Comprehensive Career Resources
             </h1>
             <p
               className="font-poppins text-[#757575] max-w-2xl mx-auto"
-              style={{ fontSize: "16px", lineHeight: "26px" }}
+              style={{ fontSize: "20px", lineHeight: "30px" }}
             >
               Professional bodies, top universities, and scholarship opportunities across all career paths
             </p>

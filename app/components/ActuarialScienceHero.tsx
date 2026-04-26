@@ -71,12 +71,12 @@ export function ActuarialScienceHero() {
                 className="h-1 rounded-full"
                 style={{ background: CANAM_RED }}
               />
-              <h1 className="text-5xl md:text-6xl font-bold text-[#505050] leading-tight">
+              <h1 className="text-6xl md:text-7xl font-bold text-[#505050] leading-tight">
                 Master the <span style={{ color: CANAM_RED }}>Mathematics</span> of Risk
               </h1>
             </div>
 
-            <p className="text-lg text-[#757575] leading-relaxed max-w-lg">
+            <p className="text-xl text-[#757575] leading-relaxed max-w-lg">
               Become an Actuary and shape the future of insurance, pensions, and investments. India needs 25,000 actuaries by 2030 — and you could be one of them.
             </p>
 
@@ -138,8 +138,8 @@ export function ActuarialScienceHero() {
                   <stat.icon className="w-5 h-5" style={{ color: CANAM_RED }} />
                 </div>
               </div>
-              <p className="text-2xl font-bold text-[#505050] mb-1">{stat.number}</p>
-              <p className="text-sm text-[#757575]">{stat.label}</p>
+              <p className="text-3xl font-bold text-[#505050] mb-1">{stat.number}</p>
+              <p className="text-base text-[#757575]">{stat.label}</p>
             </motion.div>
           ))}
         </motion.div>

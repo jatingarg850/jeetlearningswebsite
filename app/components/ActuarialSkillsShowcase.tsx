@@ -78,7 +78,7 @@ export function ActuarialSkillsShowcase({ categories }: ActuarialSkillsShowcaseP
             <span className="text-sm font-semibold" style={{ color: BRIGHT_BLUE }}>Essential Skills</span>
           </motion.div>
           <motion.h2
-            className="text-5xl md:text-6xl font-bold text-[#505050] mb-4"
+            className="text-6xl md:text-7xl font-bold text-[#505050] mb-4"
           >
             Skills You'll Master
           </motion.h2>
@@ -86,7 +86,7 @@ export function ActuarialSkillsShowcase({ categories }: ActuarialSkillsShowcaseP
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-[#757575] max-w-2xl mx-auto"
+            className="text-xl text-[#757575] max-w-2xl mx-auto"
           >
             Develop expertise across multiple domains to excel as an actuary
           </motion.p>
@@ -118,7 +118,7 @@ export function ActuarialSkillsShowcase({ categories }: ActuarialSkillsShowcaseP
                 >
                   {category.skills[0]?.icon || "📊"}
                 </motion.div>
-                <h3 className="text-2xl font-bold text-[#505050]">{category.name}</h3>
+                <h3 className="text-3xl font-bold text-[#505050]">{category.name}</h3>
               </div>
 
               {/* Skills */}

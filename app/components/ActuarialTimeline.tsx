@@ -66,7 +66,7 @@ export function ActuarialTimeline({ steps }: ActuarialTimelineProps) {
           className="text-center mb-20"
         >
           <motion.h2
-            className="text-5xl md:text-6xl font-bold text-[#505050] mb-4"
+            className="text-6xl md:text-7xl font-bold text-[#505050] mb-4"
           >
             Your 6-10 Year Journey
           </motion.h2>
@@ -74,7 +74,7 @@ export function ActuarialTimeline({ steps }: ActuarialTimelineProps) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-[#757575] max-w-2xl mx-auto"
+            className="text-xl text-[#757575] max-w-2xl mx-auto"
           >
             A structured path from Class 12 to becoming a Fellow Actuary
           </motion.p>
@@ -142,7 +142,7 @@ export function ActuarialTimeline({ steps }: ActuarialTimelineProps) {
                       >
                         {step.phase}
                       </motion.p>
-                      <h3 className="text-2xl font-bold text-[#505050] mt-2">{step.title}</h3>
+                      <h3 className="text-3xl font-bold text-[#505050] mt-2">{step.title}</h3>
                     </div>
                     <motion.div
                       whileHover={{ scale: 1.1 }}
