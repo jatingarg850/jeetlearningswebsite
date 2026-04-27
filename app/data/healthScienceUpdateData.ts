@@ -113,22 +113,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Market Size: Global alternative medicine market rising at 7.35% CAGR.",
           "Metro vs. Tier-2: Metros offer 15% higher salaries. Tier-2 cities (Kochi, Haridwar) are wellness tourism hubs with high demand."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Government AYUSH Hospitals, Private Wellness Resorts (Ananda, Jindal Naturecure), Pharmaceutical R&D (Dabur, Himalaya), Corporate Wellness Programs, Private Clinics.",
-          "Top Cities: Rishikesh (Yoga hub), Bangalore (Naturopathy), Kerala (Ayurveda hub), Pune, Delhi, Mumbai.",
-          "Freelancing: Extremely high potential. Many practitioners run successful private clinics or become 'Digital Health Coaches.'",
-          "International: High demand in USA, Germany, UAE for licensed practitioners. Growing wellness tourism globally.",
-          "Emerging Opportunities: Wellness tech startups, AI-integrated diagnosis, corporate wellness consulting, health coaching platforms."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -380,23 +365,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization.",
           "International: Huge demand in Middle East, UK (NHS), Canada. Requires IELTS/OET and local licensing exams."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Corporate Hospitals (Apollo, Max, Fortis), Diagnostic Chains (Dr. Lal PathLabs, Metropolis), Government Medical Colleges, Forensic Labs.",
-          "Top Cities: Bangalore, Mumbai, Delhi-NCR, Hyderabad, Chennai, Pune, Kolkata.",
-          "Emerging Opportunities: AI-Assisted Imaging, 3D Reconstruction Specialist, Tele-Radiology Services, Mobile Imaging Units.",
-          "Freelancing: High demand for 'Night-shift' locum technicians and remote 'Tele-radiology' assistants.",
-          "International: Huge demand in Middle East, UK (NHS), Canada. Growing opportunities worldwide.",
-          "Entrepreneurship: Starting own diagnostic center, mobile imaging unit, or radiology consulting firm."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -649,23 +618,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Demand: India will need 45,000+ trained health management professionals by 2030.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Government Health Departments (NHM), International Agencies (WHO, UNICEF), NGOs (Bill & Melinda Gates Foundation), Health-Tech Startups, CSR wings of big companies.",
-          "Top Cities: New Delhi (Policy Hub), Hyderabad, Bangalore, Mumbai, Pune.",
-          "Emerging Opportunities: AI Health Data Analytics, Epidemiological Modelling, Digital Health Policy, Climate Health.",
-          "Remote Work: Increasing in Public Health Data Analytics and Health Policy Research.",
-          "International: High demand in developing nations in Africa and SE Asia for Indian experts. WHO and UNICEF recruiting.",
-          "Entrepreneurship: Starting 'Health-Tech NGO' or consultancy for smart-city health projects."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -920,23 +873,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Growth Trajectory: Reaching 'Senior Consultant' role typically takes 7–10 years with consistent experience.",
           "International: High demand in Canada, UK, Australia. Requires IELTS/OET and local licensing exams."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Multispecialty Hospitals, Sports Teams (IPL, ISL), Schools/NGOs, Corporate Wellness Programs, Private Clinics.",
-          "Top Cities: Bangalore (Health-tech hub), Delhi, Mumbai, Hyderabad, Pune, Kolkata.",
-          "Gig Economy: High potential for Home-based Therapy (charging ₹800–₹2,500 per session). Tele-therapy booming post-pandemic.",
-          "Emerging Opportunities: AI-assisted Rehab Specialist, VR Exposure Therapist, Neuro-psychologist, Geriatric Wellness Coach.",
-          "Freelancing: High demand for locum therapists and remote tele-therapy assistants.",
-          "International: Huge demand in Canada, UK, Australia. Growing opportunities worldwide."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1189,23 +1126,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Metros (Mumbai, Hyderabad, Ahmedabad) offer higher base pay. Tier-2 'Pharma Hubs' like Baddi (HP) or Sikkim offer faster growth in manufacturing.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Pharmaceutical MNCs (Sun Pharma, Cipla), R&D Labs, Clinical Research Organizations (CROs), Hospital Chains, Government Drug Control Departments.",
-          "Top Cities: Hyderabad (The Pharma Capital), Mumbai, Ahmedabad, Bangalore (Biotech focus), Visakhapatnam, Pune.",
-          "Emerging Opportunities: Pharmacovigilance, Medical Writing, Regulatory Affairs, AI Drug Discovery, Health-Tech Consulting.",
-          "Remote Potential: Rising in Pharmacovigilance (drug safety monitoring) and Medical Writing.",
-          "International: High demand in USA, UK, Australia for B.Pharm/Pharm.D holders. Requires local licensing exams like NAPLEX.",
-          "Entrepreneurship: Starting 'Jan Aushadhi' Kendra, Nutraceutical brand, e-pharmacy startup, or pharmaceutical consulting firm."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1459,23 +1380,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Metros like Mumbai/Delhi offer 15% higher pay. Tier-2 cities have higher 'patient-to-doctor' demand.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Eye Hospitals (L.V. Prasad, Sankara Nethralaya), Optical Chains (Titan Eye+, Lenskart), MNCs (Johnson & Johnson, Bausch + Lomb), Medical Colleges.",
-          "Top Cities: Bangalore, Delhi-NCR, Mumbai, Chennai, Hyderabad, Pune, Kolkata.",
-          "Emerging Opportunities: Tele-Optometry, Ophthalmic Research, AI Vision Analysis, Myopia Control Specialist, Sports Vision Consultant.",
-          "International: High demand in UK, Canada, Australia. Requires local licensing exams.",
-          "Freelancing: High potential for mobile optometry, private practice, corporate wellness programs.",
-          "Entrepreneurship: Starting own optometry clinic, optical chain, or health-tech startup."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1729,23 +1634,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Market Size: Projected to grow at CAGR of 8.3% through 2030. Hospital expansion driving demand.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Sectors: Multispecialty Hospitals, Trauma Centers, Day-Care Surgery Centers, Medical Equipment Companies (as product trainers), Private Clinics.",
-          "Top Cities: Delhi-NCR, Mumbai, Chennai, Bangalore, Hyderabad, Pune, Kolkata.",
-          "Emerging Opportunities: Robotic Surgery Centers, Transplant Coordination, OT Simulation Training, Medical Equipment Sales.",
-          "International: Huge demand in UAE, UK, Canada. Growing opportunities in Middle East and Europe.",
-          "Freelancing: High potential for medical equipment training, surgical consulting, international assignments.",
-          "Entrepreneurship: Starting medical equipment sterilization business, recruitment agency for paramedical staff, or OT training center."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2000,23 +1889,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Market Size: Private nursing market growing at CAGR of 7.6%, reaching $171.6M by 2030.",
           "Demand: Healthcare workforce expected to grow by 6.3M additional jobs by 2030. Massive job expansion."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Government Hospitals (AIIMS), Corporate Hospitals (Apollo, Fortis), Home Healthcare Startups (Portea), Nursing Education, Private Clinics.",
-          "Top Cities: Bangalore, Delhi-NCR, Mumbai, Chennai, Kochi, Hyderabad, Pune.",
-          "Emerging Opportunities: Tele-Nursing, Nursing Informatics (managing data), Home-based Acute Care, AI-assisted nursing.",
-          "International: Indian nurses most sought-after globally in UK (NHS), USA, Germany, Middle East. Growing opportunities worldwide.",
-          "Freelancing: High potential for home healthcare services, private nursing agencies, corporate wellness programs.",
-          "Entrepreneurship: Starting home-care nursing agency, training center for paramedical staff, or health-tech startup."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2271,23 +2144,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Salaries standardized by MNCs, but Tier-2/3 residents often save more due to lower living costs while working remotely.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Healthcare BPOs (Nuance, TransDyne), Hospitals (Apollo, Manipal), Private MT Agencies, Medical Coding Companies.",
-          "Top Cities: Bangalore, Hyderabad, Chennai, Delhi-NCR, Coimbatore, Pune.",
-          "Remote Work: Over 70% of MT roles in 2026 are remote or hybrid. Work from anywhere in India.",
-          "International: Opportunities to work for US-based firms directly as freelancer. Global client base.",
-          "Emerging Opportunities: AI-Assisted Transcription, Ambient Scribing, Telemedicine Documentation, Real-time Editing.",
-          "Freelancing: High potential for independent medical scribe work, virtual healthcare assistant, or specialized transcription services."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2542,23 +2399,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Salaries in Tier-1 cities (Mumbai, Delhi) 20% higher. Living costs lower in Tier-2/3 cities where demand rising fastest.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Private Diagnostic Chains (Dr. Lal PathLabs, Metropolis), Government Hospitals (AIIMS), Pharma R&D, Forensic Labs, Blood Banks, Medical Colleges.",
-          "Top Cities: Delhi-NCR, Mumbai, Bangalore, Hyderabad, Pune, Chennai, Kolkata.",
-          "Emerging Opportunities: Home Sample Collection professionals, Freelance radiology technologists, AI Diagnostic Specialists, Tele-Pathology services.",
-          "International: Skilled Indian techs highly recruited in UAE, UK, Canada (often requiring IELTS/OET scores). Growing opportunities in Gulf countries.",
-          "Freelancing: High potential for independent sample collection services, diagnostic consulting, telemedicine support.",
-          "Entrepreneurship: Starting own collection center, specialized testing lab, or diagnostic franchise."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2812,23 +2653,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Salaries 20-30% higher in Metros (Delhi, Mumbai, Bangalore). Job growth exploding in Tier-2 cities due to government-funded hospital expansions.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Multi-specialty Hospital Chains (Apollo, Fortis, Max), Diagnostic Networks, Health Insurance Companies, Healthcare Consulting firms (KPMG, Deloitte), Government Hospitals.",
-          "Top Cities: Delhi-NCR, Mumbai, Bangalore, Hyderabad, Chennai, Pune, Kolkata.",
-          "Emerging Opportunities: Telemedicine Operations, Health Data Analytics, AI Implementation, Medical Tourism Coordination, Healthcare Startups.",
-          "Remote Work: While 'Floor Managers' must be on-site, rising roles in Telemedicine Operations and Health Data Analytics allow remote work.",
-          "International: High demand in Middle East, UK, USA for trained Indian administrators. Growing opportunities in Gulf countries.",
-          "Entrepreneurship: Starting specialized diagnostic chain, home-healthcare service, healthcare consulting firm, or health-tech startup."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -3082,23 +2907,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Private practitioners in Metros often earn more, but Tier-2 cities have lower competition and higher trust in traditional systems.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Government AYUSH Hospitals, Private Clinics, Homeopathic Pharmaceutical Companies (SBL, Willmar Schwabe), Research Councils (CCRH), Medical Colleges.",
-          "Top Cities: Kolkata (The Homeopathy Capital of India), Mumbai, Delhi, Bangalore, Chandigarh, Pune.",
-          "Emerging Opportunities: Tele-Homeopathy platforms, Homeopathic Data Science, Quality Control in Pharma, Wellness Content Creation, Corporate wellness programs.",
-          "International: High demand in Germany, UK, UAE for qualified Indian practitioners. Growing opportunities in Europe and Middle East.",
-          "Freelancing: High potential for private practice, online global consulting, corporate wellness speaking, health content creation.",
-          "Entrepreneurship: Starting own clinic, homeopathic pharmacy, wellness app, or multi-clinic chain."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -3352,23 +3161,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: While Metro salaries higher, 'demand-to-doctor' ratio in Tier-2/Tier-3 cities better, often allowing private practitioners to earn more.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Government Hospitals (AIIMS, State Hospitals), Corporate Hospital Chains (Apollo, Fortis, Max), Diagnostic Centers, Pharmaceutical R&D, Medical Colleges.",
-          "Top Cities: Delhi-NCR, Mumbai, Bangalore, Hyderabad, Chennai, Pune, Kolkata.",
-          "Emerging Opportunities: Telemedicine (consulting patients via video calls from anywhere), Medical AI Consulting, Clinical Research, Health-tech startups.",
-          "International: High demand in UK (NHS), Middle East, USA (requires exams like USMLE or PLAB). Growing opportunities in Gulf countries.",
-          "Freelancing: High potential for private practice, medical consulting, telemedicine platforms, health content creation.",
-          "Entrepreneurship: Starting own polyclinic, diagnostic lab, health-tech startup, or medical education platform."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -3622,23 +3415,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Salaries in Tier-1 cities (Bangalore, Mumbai, Delhi) 30% higher due to concentration of corporate wellness and tech startups.",
           "Growth Trajectory: Entry to Senior Specialist takes roughly 8–12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Hospitals (Max, Apollo, Fortis), Wellness Apps (HealthifyMe, Cult.fit), Food Companies (Nestlé, Danone), Sports Academies (JSW Sports), Corporate Wellness Programs.",
-          "Top Cities: Bangalore (Health-tech hub), Delhi-NCR (Public Health/Policy), Mumbai (Celebrity/Sports), Hyderabad (Research), Pune.",
-          "Emerging Opportunities: Virtual Coaching, Health Content Writing, Nutrigenomics Consulting, Food Labelling Consulting, AI-integrated nutrition apps.",
-          "International: Licensed RDs have high demand in Middle East, Canada, Australia. Growing opportunities in Gulf countries.",
-          "Freelancing: High potential for private practice, meal subscription services, online coaching, health blogging/influencing.",
-          "Entrepreneurship: Starting specialized meal subscription service, private wellness clinic, nutrition app, or food product company."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -3891,23 +3668,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Salaries 20-30% higher in Metro cities like Delhi and Bangalore. Competition lower in Tier-2 cities.",
           "Demand: Dentist-to-population ratio 1:10,000 vs WHO recommendation 1:2,000. Massive shortage creating opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Private Clinics, Corporate Dental Chains (Clove Dental, Apollo White), Government Hospitals (Army Dental Corps, Railways), Pharmaceutical/Dental Product companies, Dental labs.",
-          "Top Cities: Bangalore (Health-tech hub), Mumbai, Delhi-NCR, Hyderabad, Pune, Chennai.",
-          "Gig Economy: High potential for freelancing as consultant specialist (e.g., Orthodontist visiting 10 different clinics weekly).",
-          "International: High demand in Middle East, UK, Australia (requires clearing local licensing exams like ORE or ADC).",
-          "Emerging Opportunities: Teledentistry platforms, AI-dental analysis, clear aligner consulting, forensic odontology, dental supply business.",
-          "Entrepreneurship: Starting specialized clinic, dental supply business, oral-care startup, or multi-clinic chain."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -4160,23 +3921,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Industry Growth: Audiology market expected to grow at CAGR of 7.5% through 2030.",
           "Growth Trajectory: Entry to Senior Specialist takes 8-10 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: "#1E40AF",
-        content: [
-          "Top Industries: Private/Government Hospitals, Hearing Aid MNCs (Signia, Phonak, Widex, Oticon), Rehabilitation Centers, Schools for Hearing Impaired, ENT Clinics.",
-          "Top Cities: Mysore (The hub), Bangalore, Delhi, Chennai, Mumbai, Hyderabad, Pune.",
-          "Emerging Opportunities: Tele-audiology (consulting and programming hearing aids remotely via apps), Intraoperative Monitoring (monitoring nerves during brain surgery), Hearing Science in tech labs.",
-          "International: Huge demand in USA, Australia, Middle East for RCI-registered Indian audiologists. Growing opportunities in Gulf countries.",
-          "Freelancing: High potential for private practice. Many audiologists run successful independent clinics or tele-audiology platforms.",
-          "Entrepreneurship: Starting 'Hearing Solutions' clinics, specialized pediatric centers, or audiology tech startups."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -4436,24 +4181,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Career Growth: Entry to Early Career takes 2-3 years. Early to Mid-Career takes 3-5 years. Mid to Senior takes 5-7 years. Senior to Leadership varies based on specialization and entrepreneurship.",
           "Private Practice Income: Experienced therapists can earn ₹1,000-3,000 per session × number of clients. Highly successful practitioners earn ₹20-40 LPA."
         ]
-      },
-      {
-        id: "where-are-jobs",
-        title: "Where Are the Jobs? (Geography & Industries)",
-        icon: "Briefcase",
-        description: "Employment sectors and top cities.",
-        color: "#14B8A6",
-        content: [
-          "Healthcare Institutions: General Hospitals (clinical psychology departments). Psychiatric Hospitals (NIMHANS Bangalore, IHBAS Delhi, CIP Ranchi). Specialty Clinics (addiction treatment, eating disorder clinics). Rehabilitation Centers (de-addiction, trauma recovery).",
-          "Corporate Sector (Rapidly Growing): Employee Assistance Programs (EAP) in-house counseling. HR Departments as organizational behavior consultants. Tech companies (Google, Microsoft, TCS, Infosys) investing heavily in employee mental health.",
-          "Educational Institutions: Schools (CBSE mandate for counselors). Colleges and Universities (campus counseling centers). Online education platforms.",
-          "Government Organizations: Public Hospitals (government psychology departments). Armed Forces (military psychology units). Police Departments (trauma counseling for personnel).",
-          "Non-Governmental Organizations: Mental Health NGOs (Vandrevala Foundation, The Live Love Laugh Foundation). Women's Rights Organizations (domestic violence survivors). Community mental health centers.",
-          "Research Institutions: NIMHANS, IHBAS, CIP (research on mental disorders). Universities (clinical psychology research labs). Teletherapy platforms (Practo, BetterHelp India, Talkspace, InnerHour).",
-          "Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune, Chennai. Tier-2 cities growing rapidly with increasing mental health awareness."
-        ]
-      },
-      {
+      },{
         id: "cost-breakdown",
         title: "What Will It Cost? (Fees & Duration)",
         icon: "DollarSign",
@@ -4717,25 +4445,7 @@ export const healthScienceUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Metro cities (Mumbai, Bangalore, Delhi) pay 40-50% higher. People more willing to pay for therapy (₹1,500-3,000/session). Tier-2 cities have lower salaries due to stigma.",
           "Market Growth: Indian mental health market growing at 28% CAGR. Explosive demand post-COVID."
         ]
-      },
-      {
-        id: "where-are-jobs",
-        title: "Where Are the Jobs? (Geography & Industries)",
-        icon: "Briefcase",
-        description: "Employment sectors and top cities.",
-        color: "#14B8A6",
-        content: [
-          "Schools & Colleges: CBSE/ICSE schools must have counselors by law. Growing demand in international schools and coaching centers.",
-          "Corporate Sector: Companies like Google, Infosys, startups hire Employee Assistance Program (EAP) counselors. Tech companies investing heavily in employee mental health.",
-          "Online Platforms: Apps like YourDOST, Wysa, Amaha hire hundreds of psychologists for chat/video therapy. Remote work opportunities.",
-          "Hospitals & Rehabilitation Centers: Working alongside psychiatrists in mental health departments. De-addiction centers and trauma recovery centers.",
-          "NGOs: Mental health NGOs, women's organizations, community centers. Tribal welfare and development organizations.",
-          "Private Practice: Building your own therapy practice. Increasing demand for private counselors.",
-          "Top Cities: Delhi NCR, Mumbai, Bangalore, Pune, Hyderabad. Tier-2 cities growing rapidly.",
-          "Remote Work: 60-70% of private therapy moved to Zoom/Google Meet. You can sit in Jaipur and counsel clients in New York."
-        ]
-      },
-      {
+      },{
         id: "cost-breakdown",
         title: "What Will It Cost? (Fees & Duration)",
         icon: "DollarSign",

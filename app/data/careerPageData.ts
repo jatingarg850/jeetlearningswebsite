@@ -72,16 +72,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Target", title: "Risk Detectives", description: "Use math to predict future events and their financial impact.", borderColor: "#F59E0B" },
       { icon: "TrendingUp", title: "Highest Earning Potential", description: "One of the highest-paying careers in India with ₹1Cr+ for leaders.", borderColor: "#1E40AF" },
       { icon: "Globe", title: "Global Opportunities", description: "Work anywhere in the world with this universally valued skill.", borderColor: "#6366F1" },
-      { icon: "Zap", title: "Growing Demand", description: "India needs 25,000 actuaries by 2030; currently only 500-700 exist.", borderColor: "#10B981" },
+      { icon: "Zap", title: "Growing Demand", description: "India needs 25,000 actuaries by 2030; currently only 500-700 exist.", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Duration", detail: "6-10 Years (ACET + 13-15 Exams)", color: "bg-amber-100 text-amber-700" },
       { label: "Salary Range", detail: "₹6L–₹3Cr+", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "4.8-5.2% CAGR, Global Demand", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Growth", detail: "4.8-5.2% CAGR, Global Demand", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹1Cr+", label: "Leadership Salary", gradient: "from-amber-500 to-amber-600" },
-      { value: "500-700", label: "Actuaries in India", gradient: "from-blue-600 to-indigo-600" },
+      { value: "500-700", label: "Actuaries in India", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -95,7 +95,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Definition: Actuarial Science is the art and science of predicting the future using math. Actuaries are 'Risk Detectives' who use mathematics, statistics, and financial theory to measure the probability of future events.",
           "The Impact: They calculate the financial impact of events like accidents, natural disasters, or even how long people might live.",
           "Global Powerhouse: In today's India, this career is a global powerhouse. As our economy grows, every new business, high-speed train, or health insurance policy needs an actuary to ensure it is financially stable."
-        ],
+        ]
       },
       {
         id: "dayinlife",
@@ -109,7 +109,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "1:30 PM - Data Mining: After lunch, dive into high-performance software like R or Python. Run a 'Stress Test' on the company's pension funds. Simulate a situation where the stock market drops by 20% to see if the company can still pay its retirees.",
           "4:00 PM - Consulting with the 'Big Bosses': Join a video call with the Chief Financial Officer (CFO). Translate complex statistical formulas into simple business advice: 'If we want to stay profitable, we need to adjust our reserves by 5% this year.'",
           "7:00 PM - The Study Sprint: Being an actuary is a journey of continuous learning. Spend your evening at a quiet cafe, studying for your next professional exam from the Institute of Actuaries of India (IAI). Each cleared exam brings a massive jump in salary and expertise."
-        ],
+        ]
       },
       {
         id: "who",
@@ -123,7 +123,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Infinite Patience: Becoming a fully 'Fellow' Actuary takes years of exams. You need the grit to keep going.",
           "Business Sense: You understand that numbers have to make sense for a business to survive.",
           "Communication Skills: You can explain a complex formula to someone who doesn't even like math."
-        ],
+        ]
       },
       {
         id: "responsibilities",
@@ -137,7 +137,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Pricing & Valuation: Deciding the 'fair price' for a policy or the 'safe amount' to keep in a bank.",
           "Reporting: Presenting findings to government regulators (like IRDAI) to ensure the company is following the law.",
           "Continuous Monitoring: Updating models as new data arrives and market conditions change."
-        ],
+        ]
       },
       {
         id: "pathways",
@@ -149,7 +149,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "A. After Class 12: Entry Exam: Appear for the ACET (Actuarial Common Entrance Test) conducted by the IAI.; Degree Route: Enroll in a B.Sc. in Actuarial Science, Mathematics, or Statistics.; Concurrent Study: Most students clear 3–5 professional papers while doing their college degree.",
           "B. After Graduation: Lateral Entry: If you have a degree in Engineering, Math, Commerce (with Math), or are a CA/CS, you can apply to the IAI directly.; Masters Route: Pursue an M.Sc. in Actuarial Science or an MBA in Insurance/Risk Management.",
           "C. The Exam Roadmap: Student Member : Clear ACET.; Associate : Clear Core Principles (CS, CM, CB) and Core Practices (CP).; Fellow : Clear Specialist Principles (SP) and Specialist Advanced (SA) + 3 years work experience."
-        ],
+        ]
       },
       {
         id: "market",
@@ -271,7 +271,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Priya Nair: A prominent woman actuary pioneering AI applications in actuarial science."
         ]
       }
-    ],
+    ]
   },
 
   // ─── BIOMEDICAL ENGINEERING ─────────────────────────────────────
@@ -284,16 +284,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Heart", title: "Life-Saving Impact", description: "Your innovations directly save lives and improve healthcare for 1.4 billion people.", borderColor: "#EF4444" },
       { icon: "Zap", title: "MedTech Revolution", description: "India's 'Make in India' initiative creating urgent demand for affordable medical devices.", borderColor: "#F59E0B" },
       { icon: "TrendingUp", title: "Explosive Growth", description: "Indian Medical Device market expected to reach $50 Billion by 2030 with 15% CAGR.", borderColor: "#10B981" },
-      { icon: "Globe", title: "Global Opportunities", description: "High demand in USA, Germany, Japan for Indian biomedical engineers.", borderColor: "#3B82F6" },
+      { icon: "Globe", title: "Global Opportunities", description: "High demand in USA, Germany, Japan for Indian biomedical engineers.", borderColor: "#3B82F6" }
     ],
     quickFacts: [
       { label: "Duration", detail: "4 Years B.Tech / 2 Years M.Tech", color: "bg-red-100 text-red-700" },
       { label: "Salary Range", detail: "₹3.5L–₹45L+ (Entry to Senior)", color: "bg-orange-100 text-orange-700" },
-      { label: "Growth", detail: "15% CAGR, India's MedTech Hub", color: "bg-green-100 text-green-700" },
+      { label: "Growth", detail: "15% CAGR, India's MedTech Hub", color: "bg-green-100 text-green-700" }
     ],
     statCards: [
       { value: "$50B", label: "Medical Device Market by 2030", gradient: "from-red-500 to-red-600" },
-      { value: "15%", label: "CAGR Growth Rate", gradient: "from-orange-500 to-orange-600" },
+      { value: "15%", label: "CAGR Growth Rate", gradient: "from-orange-500 to-orange-600" }
     ],
     guideSections: [
       {
@@ -307,7 +307,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "India is undergoing a 'MedTech Revolution' with the government's 'Make in India' initiative. There's urgent need for professionals who can design affordable medical devices. As the 'Pharmacy of the World' transitions into a 'MedTech Hub,' biomedical engineers will ensure high-quality healthcare is accessible for 1.4 billion people.",
           "This career combines the precision of engineering with the compassion of healthcare. You'll work on cutting-edge technologies like robotic surgical systems, wearable health monitors, artificial organs, and diagnostic equipment that transform patient outcomes.",
           "The field is rapidly evolving with AI integration, 3D bioprinting, nanomedicine, and personalized healthcare solutions. India needs skilled biomedical engineers to lead this transformation and make advanced healthcare affordable for all."
-        ],
+        ]
       },
       {
         id: "2",
@@ -322,7 +322,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "03:00 PM - Quality Control Call: On call with manufacturing plant in Chennai discussing Quality Control standards for orthopedic implants. Zero room for error; 0.1mm mistake can mean failed surgery. Reviews batch testing reports and compliance documentation.",
           "05:30 PM - Regulatory Compliance: Reviews Regulatory Compliance document. Before any medical device can be sold in India, it must pass strict safety tests by CDSCO (Central Drugs Standard Control Organization). Ensures all documentation is complete for upcoming audit.",
           "07:00 PM - Inspiration: Drives home seeing billboard for robotic-assisted surgery center, knowing an engineer like him made it possible. Reflects on the lives changed by his work."
-        ],
+        ]
       },
       {
         id: "3",
@@ -337,7 +337,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Problem Solving: You're a detective when machines fail. You enjoy troubleshooting complex systems and finding elegant solutions.",
           "Communication: You can explain technical concepts to non-technical doctors and hospital staff. You bridge the gap between engineering and medicine.",
           "Continuous Learning: You stay updated with latest medical technologies and regulatory standards. You're passionate about innovation."
-        ],
+        ]
       },
       {
         id: "4",
@@ -352,7 +352,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Maintenance & Training: Ensuring devices work perfectly in real-world conditions. Training doctors and hospital staff on proper usage and maintenance.",
           "Regulatory Compliance: Navigating CDSCO approval process, ISO 13485 certification, and international standards like FDA approval for global markets.",
           "Quality Assurance: Implementing quality control measures throughout manufacturing to ensure zero defects in life-critical devices."
-        ],
+        ]
       },
       {
         id: "5",
@@ -365,7 +365,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Path B - After Class 12: Must have Physics, Chemistry, Biology/Mathematics (PCMB/PCB). Entrance Exams: JEE Main, JEE Advanced, NEET, state-level exams. B.Tech/B.E. in Biomedical Engineering (4 years).",
           "Path C - After Graduation: For Engineers (Mechanical/Electronics/IT): M.Tech in Biomedical Engineering via GATE exam. For Life Science Graduates: M.Sc. in Biomedical Science followed by PhD.",
           "Specialization Options: Medical Device Design, Clinical Engineering, Rehabilitation Engineering, Biomedical Instrumentation, Tissue Engineering, Biomaterials."
-        ],
+        ]
       },
       {
         id: "6",
@@ -506,7 +506,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Dr. Devi Shetty (Cardiac Surgeon): Working closely with biomedical engineers to develop affordable cardiac care solutions. Revolutionizing healthcare accessibility."
         ]
       }
-    ],
+    ]
   },
 
   // ─── BANKING & FINANCIAL SERVICES ────────────────────────────────
@@ -519,16 +519,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Zap", title: "Massive Employment", description: "90 lakh+ jobs across India in BFSI sector.", borderColor: "#F59E0B" },
       { icon: "Building2", title: "Economic Backbone", description: "Contributes ~6% of India's total GDP and growing.", borderColor: "#1E40AF" },
       { icon: "Globe", title: "Diverse Roles", description: "Banks, insurance, mutual funds, fintech & more.", borderColor: "#6366F1" },
-      { icon: "Smartphone", title: "Digital Future", description: "Fintech and digital banking are booming with AI.", borderColor: "#10B981" },
+      { icon: "Smartphone", title: "Digital Future", description: "Fintech and digital banking are booming with AI.", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Duration", detail: "3-4 Years (B.Com/BBA) + Exams", color: "bg-amber-100 text-amber-700" },
       { label: "Salary Range", detail: "₹3.5L–₹5Cr+", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "3rd Largest Banking Sector by 2030", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Growth", detail: "3rd Largest Banking Sector by 2030", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹1Cr+", label: "Leadership Salary", gradient: "from-amber-500 to-amber-600" },
-      { value: "90L+", label: "Jobs in BFSI India", gradient: "from-blue-600 to-indigo-600" },
+      { value: "90L+", label: "Jobs in BFSI India", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -615,21 +615,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Salary Comparison: Metros have higher base pay + high cost of living. Tier-2/3 Cities offer competitive pay (especially in PSBs) with significantly lower living costs.",
           "Career Growth: Typically takes 7–10 years to reach Middle Management role (Scale III or IV in PSBs). Indian banking sector expected to become the third-largest in the world by 2030."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: Public Sector Banks (SBI, PNB), Private Banks (HDFC, ICICI), Foreign Banks (HSBC, Citibank), NBFCs (Bajaj Finance), and Fintech Startups (PhonePe, Razorpay).",
-          "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech Hub), Chennai, and Delhi-NCR.",
-          "Remote Work: Rising in Backend Operations, Financial Analysis, and Customer Support Tech.",
-          "International: High demand for Indian CAs and MBAs in Dubai, Singapore, and London."
-        ]
-      },
-      {
+      },{
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
@@ -734,7 +720,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Naina Lal Kidwai: First Indian woman to graduate from Harvard Business School and a former head of HSBC India."
         ]
       }
-    ],
+    ]
   },
 
   // ─── CHARTERED ACCOUNTANT ────────────────────────────────────────
@@ -747,16 +733,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Scale", title: "Legally Recognised", description: "Only CAs can conduct statutory company audits.", borderColor: "#F59E0B" },
       { icon: "Briefcase", title: "Versatile Career", description: "Work in firms, corporations, govt, or independently.", borderColor: "#1E40AF" },
       { icon: "TrendingUp", title: "High Earning", description: "₹25–100+ LPA for experienced professionals.", borderColor: "#6366F1" },
-      { icon: "Globe", title: "Global Recognition", description: "ICAI qualification respected worldwide.", borderColor: "#10B981" },
+      { icon: "Globe", title: "Global Recognition", description: "ICAI qualification respected worldwide.", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Duration", detail: "5-7 Years (Foundation → Intermediate → Articleship → Final)", color: "bg-amber-100 text-amber-700" },
       { label: "Salary Range", detail: "₹8L–₹5Cr+", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "9.76% CAGR, 130K CAs Needed Annually", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Growth", detail: "9.76% CAGR, 130K CAs Needed Annually", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹1Cr+", label: "Leadership Salary", gradient: "from-amber-500 to-amber-600" },
-      { value: "4.07L", label: "CAs in India", gradient: "from-blue-600 to-indigo-600" },
+      { value: "4.07L", label: "CAs in India", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -843,21 +829,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Hiring Trends: Massive growth in Global Capability Centers (GCCs) where Indian CAs manage finances of global MNCs from India.",
           "Demand: India requires approximately 130,000 new CAs annually to meet domestic and global outsourcing needs."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: Banking & Finance (BFSI), IT & Tech, Manufacturing, E-commerce, and Public Sector Undertakings (PSUs).",
-          "Top Cities: Mumbai (Financial Hub), Delhi NCR (Corporate HQs), Bengaluru (Startups/Tech), Hyderabad.",
-          "Global Opportunities: Indian CAs are in high demand in the Middle East (Dubai), UK, and Singapore.",
-          "Remote Work: High potential for virtual CFO services and international consulting roles."
-        ]
-      },
-      {
+      },{
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
@@ -962,7 +934,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Uday Kotak: Founder of Kotak Mahindra Bank; a legendary CA-turned-entrepreneur."
         ]
       }
-    ],
+    ]
   },
 
   // ─── COMPANY SECRETARY ───────────────────────────────────────────
@@ -975,16 +947,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Scale", title: "Legally Mandatory", description: "Many companies must legally hire a full-time CS.", borderColor: "#F59E0B" },
       { icon: "Building2", title: "Regulated Profession", description: "Governed by ICSI with strong professional standing.", borderColor: "#1E40AF" },
       { icon: "TrendingUp", title: "Growing Demand", description: "Startups and expanding businesses need CS experts.", borderColor: "#6366F1" },
-      { icon: "Globe", title: "Multi-Sector Scope", description: "Work in corporates, MNCs, and as independent consultant.", borderColor: "#10B981" },
+      { icon: "Globe", title: "Multi-Sector Scope", description: "Work in corporates, MNCs, and as independent consultant.", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Duration", detail: "3-4 Years (CSEET + Executive + Professional)", color: "bg-amber-100 text-amber-700" },
       { label: "Salary Range", detail: "₹7L–₹5Cr+", color: "bg-blue-100 text-blue-700" },
-      { label: "Growth", detail: "40% Demand Surge in MNCs", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Growth", detail: "40% Demand Surge in MNCs", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹1Cr+", label: "Leadership Salary", gradient: "from-amber-500 to-amber-600" },
-      { value: "40%", label: "Demand Increase", gradient: "from-blue-600 to-indigo-600" },
+      { value: "40%", label: "Demand Increase", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -1071,22 +1043,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Hiring Trends: Demand has surged by 40% in MNCs due to new ESG (Environmental, Social, Governance) and AI compliance laws.",
           "Growth: Mumbai remains the highest-paying market, followed by Bengaluru and Delhi NCR."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: Banking (BFSI), IT/Tech, Pharmaceuticals, and Manufacturing.",
-          "Listed Companies: Every company listed on the stock exchange must have a whole-time CS.",
-          "Practising CS (PCS): You can start your own firm and consult for multiple startups.",
-          "International: High demand in Dubai, Singapore, and UK, though local law certifications may be needed.",
-          "Startups: Growing demand as startups scale and need compliance expertise."
-        ]
-      },
-      {
+      },{
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
@@ -1193,7 +1150,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Shyamala Gopinath: A renowned CS and corporate governance expert who has shaped regulatory frameworks."
         ]
       }
-    ],
+    ]
   },
 
   // ─── COST ACCOUNTANT ─────────────────────────────────────────────
@@ -1207,16 +1164,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         { icon: "🏭", title: "Manufacturing Backbone", description: "Essential in manufacturing, MNCs, and PSUs across India", borderColor: "#F59E0B" },
         { icon: "⚖️", title: "Legally Mandated", description: "Certain companies must have CMA cost audits by law", borderColor: "#1E40AF" },
         { icon: "🌐", title: "Global Recognition", description: "ICAI-CMA certification recognized internationally", borderColor: "#6366F1" },
-        { icon: "💡", title: "Strategic Role", description: "Drive business efficiency and profitability decisions", borderColor: "#10B981" },
+        { icon: "💡", title: "Strategic Role", description: "Drive business efficiency and profitability decisions", borderColor: "#10B981" }
       ],
       quickFacts: [
         { label: "Salary Range", detail: "₹6L–₹1Cr+ annually", color: "bg-amber-100 text-amber-700" },
         { label: "Market Growth", detail: "9% global growth to 2030", color: "bg-blue-100 text-blue-700" },
-        { label: "Duration", detail: "3–5 years total", color: "bg-indigo-100 text-indigo-700" },
+        { label: "Duration", detail: "3–5 years total", color: "bg-indigo-100 text-indigo-700" }
       ],
       statCards: [
         { value: "₹6L–₹1Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-        { value: "9% CAGR", label: "Global Market Growth", gradient: "from-blue-600 to-indigo-600" },
+        { value: "9% CAGR", label: "Global Market Growth", gradient: "from-blue-600 to-indigo-600" }
       ],
       guideSections: [
         {
@@ -1228,8 +1185,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           content: [
             "Think of a massive factory making smartphones. Have you ever wondered how they decide the exact price of that phone? It's not just a random number. They have to account for the cost of the screen, the tiny chips inside, the electricity used in the factory, the salary of the workers, and even the cost of the box it comes in. A Cost and Management Accountant (CMA) is the professional who figures this out.",
             "While a regular accountant looks at the \"what happened\" (past financial records), a CMA looks at the \"how to make it better\" (future efficiency). They are the \"Efficiency Engineers\" of the corporate world. Their job is to manage costs, reduce waste, and ensure a company is making a profit without compromising on quality.",
-            "In today's India, with the \"Make in India\" initiative and a booming startup culture, CMAs are more important than ever. They help Indian businesses become globally competitive by ensuring every rupee spent is a rupee well-invested.",
-          ],
+            "In today's India, with the \"Make in India\" initiative and a booming startup culture, CMAs are more important than ever. They help Indian businesses become globally competitive by ensuring every rupee spent is a rupee well-invested."
+          ]
         },
         {
           id: "2",
@@ -1242,8 +1199,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "11:00 AM – Data Crunching: Back at his desk, Vivek opens his \"Costing Dashboard.\" He analyzes the raw material prices for steel, which have spiked this morning. He runs a \"What-If\" simulation: If steel prices stay this high, should we change our supplier or slightly adjust our car's selling price?",
             "1:30 PM – The Budget Battle: Lunch is followed by a meeting with the Marketing and Production heads. Marketing wants a bigger budget for ads; Production wants new machinery. Vivek acts as the \"Voice of Reason.\" He presents a data-driven report showing that investing in the new machinery will reduce long-term production costs, actually creating more money for ads next year.",
             "4:00 PM – The Audit Trail: He spends the late afternoon working on a \"Cost Audit\" report. This is a legal requirement for many Indian industries. He ensures that the company is following government guidelines for cost records, preventing any legal hiccups.",
-            "6:30 PM – Strategy Signing-Off: Before leaving, Vivek briefs the CEO on a \"Waste Reduction\" project. By recycling scrap metal more efficiently, the plant has saved ₹50 Lakhs this quarter. Vivek heads home knowing that his calculations helped keep a thousand people's jobs secure by keeping the company profitable.",
-          ],
+            "6:30 PM – Strategy Signing-Off: Before leaving, Vivek briefs the CEO on a \"Waste Reduction\" project. By recycling scrap metal more efficiently, the plant has saved ₹50 Lakhs this quarter. Vivek heads home knowing that his calculations helped keep a thousand people's jobs secure by keeping the company profitable."
+          ]
         },
         {
           id: "3",
@@ -1259,8 +1216,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Problem Solver: You enjoy finding ways to reduce costs without compromising quality.",
             "Clear Communicator: You can explain complex numbers in simple words to non-financial managers.",
             "Tech-Savvy: You're comfortable with Excel, ERP systems, and data visualization tools.",
-            "Ethical: You believe in honest reporting and transparent financial practices.",
-          ],
+            "Ethical: You believe in honest reporting and transparent financial practices."
+          ]
         },
         {
           id: "4",
@@ -1277,8 +1234,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Pricing Strategy: Recommend optimal product prices based on cost analysis and market conditions.",
             "Performance Improvement: Identify inefficiencies and suggest ways to reduce waste and improve productivity.",
             "Compliance: Ensure adherence to GST, labor laws, and industry-specific regulations.",
-            "The CMA follows a cycle: Plan → Execute → Monitor → Analyze → Improve.",
-          ],
+            "The CMA follows a cycle: Plan → Execute → Monitor → Analyze → Improve."
+          ]
         },
         {
           id: "5",
@@ -1291,8 +1248,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "After Class 10: Provisional Registration. Start preparing for the Foundation level while finishing school.",
             "After Class 12: Step 1: Foundation (4 papers). Step 2: Intermediate (8 papers). Step 3: Final (8 papers). Open to Science, Commerce, and Humanities (Fine Arts is excluded).",
             "After Graduation: Direct Entry. Skip the Foundation level. Start directly at the Intermediate stage.",
-            "The Step-by-Step Roadmap: 1. Foundation: Basic accounting, law, and math. 2. Intermediate: Deep dive into cost accounting, taxation, and auditing. 3. Training: A mandatory 15-month \"Practical Training\" (Internship) to get real-world experience. 4. Final: Strategic management, international taxation, and cost audits.",
-          ],
+            "The Step-by-Step Roadmap: 1. Foundation: Basic accounting, law, and math. 2. Intermediate: Deep dive into cost accounting, taxation, and auditing. 3. Training: A mandatory 15-month \"Practical Training\" (Internship) to get real-world experience. 4. Final: Strategic management, international taxation, and cost audits."
+          ]
         },
         {
           id: "6",
@@ -1310,8 +1267,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "India's Manufacturing Sector: Growing at 5–7% annually, driving demand for CMAs.",
             "Top-Paying Cities: Mumbai, Bengaluru, Delhi-NCR, and Pune.",
             "Hiring Trends: Demand surging in automotive, pharmaceuticals, FMCG, and IT services.",
-            "Freelance Opportunities: 15–20% of CMAs work as independent consultants.",
-          ],
+            "Freelance Opportunities: 15–20% of CMAs work as independent consultants."
+          ]
         },
         {
           id: "7",
@@ -1328,8 +1285,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Startups: Growing demand from e-commerce and tech startups for cost management.",
             "Practising CMA (PCMA): Start your own firm and consult for multiple companies.",
             "International: High demand in UAE, Singapore, UK, and USA for Indian CMAs.",
-            "Emerging Roles: ESG Reporting, AI-driven cost optimization, and supply chain analytics.",
-          ],
+            "Emerging Roles: ESG Reporting, AI-driven cost optimization, and supply chain analytics."
+          ]
         },
         {
           id: "8",
@@ -1346,8 +1303,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Study Materials: ₹5,000–₹10,000 for books and online resources.",
             "Exam Fees: Included in stage fees.",
             "Stipend During Training: Earn ₹10,000–₹20,000 monthly during practical training—offsetting costs.",
-            "Scholarships: Available for top rankers and economically weaker students.",
-          ],
+            "Scholarships: Available for top rankers and economically weaker students."
+          ]
         },
         {
           id: "10",
@@ -1364,8 +1321,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "National Scholarship Portal (NSP): Central government schemes for eligible students.",
             "State-Level Schemes: Pragati, Saksham, and other state-specific scholarships.",
             "Employer Sponsorship: Many companies sponsor employees pursuing CMA.",
-            "Stipend During Training: Earn ₹10,000–₹20,000 monthly during practical training.",
-          ],
+            "Stipend During Training: Earn ₹10,000–₹20,000 monthly during practical training."
+          ]
         },
         {
           id: "11",
@@ -1382,8 +1339,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Annual Fees: Membership fees are nominal (₹500–₹1,000 annually).",
             "Continuing Professional Education (CPE): Mandatory 40 hours annually to maintain membership.",
             "Code of Ethics: CMAs must adhere to ICAI's strict code of professional conduct.",
-            "International Recognition: ICAI-CMA is recognized by cost accounting bodies in UK, USA, and other countries.",
-          ],
+            "International Recognition: ICAI-CMA is recognized by cost accounting bodies in UK, USA, and other countries."
+          ]
         },
         {
           id: "12",
@@ -1400,8 +1357,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Emerging Roles: ESG Reporting Head, AI-driven cost optimization specialist, supply chain analyst.",
             "Academia: CMA professor or training consultant.",
             "Government: Auditor in CAG office or government audit departments.",
-            "International: Opportunities in UAE, Singapore, UK, USA, and other countries.",
-          ],
+            "International: Opportunities in UAE, Singapore, UK, USA, and other countries."
+          ]
         },
         {
           id: "13",
@@ -1417,8 +1374,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Industry Dependency: Job availability depends heavily on manufacturing sector growth.",
             "Work-Life Balance: Busy seasons (month-end, quarter-end) involve long hours.",
             "Perception Issue: Sometimes unfairly perceived as a 'second choice' compared to CA.",
-            "Continuous Learning: Rapid changes in technology and regulations require constant upskilling.",
-          ],
+            "Continuous Learning: Rapid changes in technology and regulations require constant upskilling."
+          ]
         },
         {
           id: "14",
@@ -1435,8 +1392,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Sustainability Accounting: Green accounting and carbon cost accounting will be mainstream.",
             "Data Science Integration: CMAs will use machine learning for predictive cost analysis.",
             "Global Mobility: Increased opportunities for Indian CMAs in international markets.",
-            "Salary Growth: Expected 8–10% annual salary growth in the next decade.",
-          ],
+            "Salary Growth: Expected 8–10% annual salary growth in the next decade."
+          ]
         },
         {
           id: "15",
@@ -1453,8 +1410,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Math Skills: Strong arithmetic and algebra are foundational.",
             "Writing Skills: Practice clear, concise business writing.",
             "Public Speaking: Join debate clubs to build presentation skills.",
-            "Register Early: Register for CMA Foundation as soon as you complete Class 12.",
-          ],
+            "Register Early: Register for CMA Foundation as soon as you complete Class 12."
+          ]
         },
         {
           id: "16",
@@ -1467,10 +1424,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Anil Khandelwal: Senior CMA and management consultant; advisor to Fortune 500 companies.",
             "Priya Sharma: CMA and ESG reporting expert; leading sustainability accounting in India.",
             "Rajesh Verma: CFO of a leading automotive company; known for cost optimization strategies.",
-            "Meera Desai: Practising CMA and founder of a successful consulting firm; mentor to thousands.",
-          ],
-        },
-      ],
+            "Meera Desai: Practising CMA and founder of a successful consulting firm; mentor to thousands."
+          ]
+        }
+      ]
     },
 
   // ─── ECONOMIST ───────────────────────────────────────────────────
@@ -1484,16 +1441,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         { icon: "🔍", title: "Solve Real Problems", description: "Address poverty, unemployment, and inflation", borderColor: "#F59E0B" },
         { icon: "🏛️", title: "Government & Policy", description: "Shape India's economic policies at the top level", borderColor: "#1E40AF" },
         { icon: "📊", title: "Data-Driven", description: "Apply statistics to real-world economic problems", borderColor: "#6366F1" },
-        { icon: "🌐", title: "Global Scope", description: "Work with IMF, World Bank, and global institutions", borderColor: "#10B981" },
+        { icon: "🌐", title: "Global Scope", description: "Work with IMF, World Bank, and global institutions", borderColor: "#10B981" }
       ],
       quickFacts: [
         { label: "Salary Range", detail: "₹6L–₹1Cr+ annually", color: "bg-amber-100 text-amber-700" },
         { label: "Market Growth", detail: "15% annual growth for quantitative economists", color: "bg-blue-100 text-blue-700" },
-        { label: "Duration", detail: "3-year BA/BSc + 2-year MA/MSc", color: "bg-indigo-100 text-indigo-700" },
+        { label: "Duration", detail: "3-year BA/BSc + 2-year MA/MSc", color: "bg-indigo-100 text-indigo-700" }
       ],
       statCards: [
         { value: "₹7 Trillion", label: "India's GDP Target by 2026", gradient: "from-amber-500 to-amber-600" },
-        { value: "15% CAGR", label: "Quantitative Economist Growth", gradient: "from-blue-600 to-indigo-600" },
+        { value: "15% CAGR", label: "Quantitative Economist Growth", gradient: "from-blue-600 to-indigo-600" }
       ],
       guideSections: [
         {
@@ -1508,8 +1465,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "They aren't just 'math people'; they are social detectives who use data to solve world problems like poverty, unemployment, and climate change.",
             "In 2026 India, economists are the architects helping our nation move toward a $7 Trillion economy, ensuring that growth reaches every village and city.",
             "Economists work in government (RBI, Ministry of Finance), corporations (Google, Goldman Sachs), and international organizations (World Bank, IMF).",
-            "The profession combines rigorous data analysis with real-world problem-solving and policy impact.",
-          ],
+            "The profession combines rigorous data analysis with real-world problem-solving and policy impact."
+          ]
         },
         {
           id: "2",
@@ -1522,8 +1479,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "11:30 AM – The Strategy Huddle: Rohan joins a brainstorming session with his team. They are working on a project for the Ministry of Education to understand if providing free laptops increases student scores. He reviews data from thousands of schools, looking for cause and effect.",
             "1:30 PM – Data Visualizing: After lunch, Rohan dives into software like R or Stata. He creates a digital map of India, showing where the new 'Green Energy' jobs are being created. He translates a complex 50-page spreadsheet into a single, beautiful chart that a politician can understand in 5 minutes.",
             "4:00 PM – The Media Briefing: Rohan is interviewed by a business news channel. He explains in simple Hindi and English why the 'Digital Rupee' is making shopping safer for common citizens. He has to be a great communicator, turning 'jargon' into 'stories.'",
-            "7:00 PM – The Global Call: Before heading home, Rohan has a video call with economists in New York and London. They discuss how global trade is changing. As he closes his laptop, he feels a sense of pride—his work today might influence a law that helps millions tomorrow.",
-          ],
+            "7:00 PM – The Global Call: Before heading home, Rohan has a video call with economists in New York and London. They discuss how global trade is changing. As he closes his laptop, he feels a sense of pride—his work today might influence a law that helps millions tomorrow."
+          ]
         },
         {
           id: "3",
@@ -1539,8 +1496,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Communication: Can you tell a story using facts and figures?",
             "Analytical Mind: You enjoy breaking down complex problems into manageable pieces.",
             "Tech-Savvy: Comfortable with Excel, R, Python, and data visualization tools.",
-            "Patience: You understand that economic changes take time to show results.",
-          ],
+            "Patience: You understand that economic changes take time to show results."
+          ]
         },
         {
           id: "4",
@@ -1556,8 +1513,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Policy Recommendation: Suggesting a solution (like importing onions) to the government.",
             "The professional workflow follows a Question-Data-Solution cycle.",
             "Economists must communicate findings to both technical and non-technical audiences.",
-            "Continuous monitoring and adjustment of recommendations based on real-world outcomes.",
-          ],
+            "Continuous monitoring and adjustment of recommendations based on real-world outcomes."
+          ]
         },
         {
           id: "5",
@@ -1572,8 +1529,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Lateral Entry: Career-switch via a Masters in Public Policy (MPP). Great for Engineers or Law graduates.",
             "PhD Route: For academic careers and top research positions.",
             "IES (Indian Economic Service): The most prestigious cadre for economists in the Indian government.",
-            "Certifications: CFA (Chartered Financial Analyst) or FRM (Financial Risk Manager) add massive value.",
-          ],
+            "Certifications: CFA (Chartered Financial Analyst) or FRM (Financial Risk Manager) add massive value."
+          ]
         },
         {
           id: "6",
@@ -1589,8 +1546,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "  • Leadership/CXO: ₹1 Crore+ (Common in Investment Banking and MNCs)",
             "Metro vs. Tier-2: 70% of high-paying jobs are in Delhi-NCR, Mumbai, and Bengaluru.",
             "Growth Trajectory: It takes about 8–12 years to reach a 'Lead Economist' position.",
-            "Projections: The demand for 'Quantitative Economists' (those who know coding) is expected to grow by 15% annually up to 2030.",
-          ],
+            "Projections: The demand for 'Quantitative Economists' (those who know coding) is expected to grow by 15% annually up to 2030."
+          ]
         },
         {
           id: "7",
@@ -1606,8 +1563,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Think Tanks: ICRIER, CEIC, Observer Research Foundation.",
             "Academia: Universities and research institutions.",
             "Consulting: Management consulting firms and policy advisory groups.",
-            "Media: Business journalism and economic commentary.",
-          ],
+            "Media: Business journalism and economic commentary."
+          ]
         },
         {
           id: "8",
@@ -1618,8 +1575,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           content: [
             "Public/Premier: Shri Ram College of Commerce (SRCC), Delhi; Delhi School of Economics (DSE); St. Stephen's College, Delhi; Madras School of Economics (MSE), Chennai; Presidency University, Kolkata",
             "Private: Ashoka University (Sonipat); FLAME University (Pune); NMIMS (Mumbai)",
-            "Online/Distance: IGNOU offers distance education in Economics",
-          ],
+            "Online/Distance: IGNOU offers distance education in Economics"
+          ]
         },
         {
           id: "10",
@@ -1634,8 +1591,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Specific: RBI Young Scholars Scheme (Includes a stipend).",
             "State-Level: Various state governments offer scholarships for economics students.",
             "Merit-Based: Top performers in entrance exams receive full or partial scholarships.",
-            "Need-Based: Many institutions offer financial aid based on family income.",
-          ],
+            "Need-Based: Many institutions offer financial aid based on family income."
+          ]
         },
         {
           id: "11",
@@ -1649,8 +1606,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Professional Associations: Indian Economic Association, Delhi School of Economics Alumni Network.",
             "Continuing Education: Many employers require ongoing professional development.",
             "International Recognition: Indian economists are recognized globally, especially those with PhDs from top universities.",
-            "Membership: Join professional bodies to stay updated on industry trends.",
-          ],
+            "Membership: Join professional bodies to stay updated on industry trends."
+          ]
         },
         {
           id: "12",
@@ -1665,8 +1622,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Government: Policy maker, economic advisor, budget analyst.",
             "Corporate: Market analyst, business strategist, pricing specialist.",
             "International: Economist at World Bank, IMF, or UN agencies.",
-            "Entrepreneurship: Start your own economic research or consulting firm.",
-          ],
+            "Entrepreneurship: Start your own economic research or consulting firm."
+          ]
         },
         {
           id: "13",
@@ -1681,8 +1638,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Government and top research jobs are highly competitive with limited seats.",
             "Career growth is slow; recognition takes years of consistent hard work.",
             "Real-world problems rarely have textbook solutions.",
-            "Economic predictions can go wrong, inviting public criticism.",
-          ],
+            "Economic predictions can go wrong, inviting public criticism."
+          ]
         },
         {
           id: "14",
@@ -1698,8 +1655,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Behavioral Economics: Understanding human psychology in financial decisions.",
             "Climate Economics: Carbon pricing and sustainability accounting will be mainstream.",
             "Global Trade: Post-pandemic supply chain restructuring will need economist expertise.",
-            "Salary Growth: Expected 8–10% annual salary growth in the next decade.",
-          ],
+            "Salary Growth: Expected 8–10% annual salary growth in the next decade."
+          ]
         },
         {
           id: "15",
@@ -1715,8 +1672,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Strengthen statistics and data interpretation skills.",
             "Join debates to sharpen logical and communication skills.",
             "Learn basic Excel or Python for data analysis.",
-            "Track India's budget, inflation, and government schemes regularly.",
-          ],
+            "Track India's budget, inflation, and government schemes regularly."
+          ]
         },
         {
           id: "16",
@@ -1729,10 +1686,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Raghuram Rajan: Former RBI Governor who predicted the 2008 global financial crisis.",
             "Abhijit Banerjee: 2019 Nobel Prize winner who uses small experiments to fight global poverty.",
             "Gita Gopinath: The first female Chief Economist of the IMF.",
-            "Manmohan Singh: The architect of India's 1991 economic reforms that changed our lives forever.",
-          ],
-        },
-      ],
+            "Manmohan Singh: The architect of India's 1991 economic reforms that changed our lives forever."
+          ]
+        }
+      ]
     },
 
   // ─── FINANCIAL ANALYST ───────────────────────────────────────────
@@ -1746,16 +1703,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         { icon: "🔍", title: "Strategic Impact", description: "Guide billion-dollar investment decisions", borderColor: "#F59E0B" },
         { icon: "📊", title: "Data-Driven", description: "Blend maths, finance, and technology daily", borderColor: "#1E40AF" },
         { icon: "💼", title: "High Demand", description: "Needed across banks, MNCs, and investment firms", borderColor: "#6366F1" },
-        { icon: "🌐", title: "Global Reach", description: "CFA is a globally respected qualification", borderColor: "#10B981" },
+        { icon: "🌐", title: "Global Reach", description: "CFA is a globally respected qualification", borderColor: "#10B981" }
       ],
       quickFacts: [
         { label: "Salary Range", detail: "₹6L–₹1.2Cr+ annually", color: "bg-amber-100 text-amber-700" },
         { label: "Market Growth", detail: "8–10% annual job growth", color: "bg-blue-100 text-blue-700" },
-        { label: "Duration", detail: "3-year UG + CFA (3 levels)", color: "bg-indigo-100 text-indigo-700" },
+        { label: "Duration", detail: "3-year UG + CFA (3 levels)", color: "bg-indigo-100 text-indigo-700" }
       ],
       statCards: [
         { value: "₹6L–₹1.2Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-        { value: "8–10% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" },
+        { value: "8–10% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" }
       ],
       guideSections: [
         {
@@ -1770,8 +1727,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "In today's India—one of the world's fastest-growing economies—Financial Analysts are the navigators. They help steer billions of rupees into projects that create jobs, build infrastructure, and grow the wealth of ordinary citizens.",
             "Without them, the financial world would be like sailing a ship in a storm without a compass.",
             "Financial Analysts work in investment banks, mutual funds, private equity firms, and fintech startups.",
-            "They combine rigorous data analysis with market intuition and strategic thinking.",
-          ],
+            "They combine rigorous data analysis with market intuition and strategic thinking."
+          ]
         },
         {
           id: "2",
@@ -1784,8 +1741,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "10:30 AM – The Spreadsheet Deep-Dive: With the markets open, Ishaan dives into Excel. He is 'building a model' for a renewable energy company. He plugs in their electricity production, the cost of solar panels, and their debt levels. He isn't just looking at what they earned yesterday; he's trying to predict what they will earn in 2030.",
             "1:30 PM – The Management Call: After a quick working lunch, Ishaan joins a video call with the CEO of the company he is analyzing. He asks tough questions: 'Why did your profit margins drop last quarter?' and 'How will the new government tax affect your expansion?' He has to be part-investigator and part-journalist.",
             "4:00 PM – The Investment Pitch: Ishaan presents his findings to the Senior Fund Manager. He has five minutes to convince them to buy or sell the stock. He uses clear charts and sharp logic. It's high-pressure; one recommendation could involve hundreds of crores of rupees.",
-            "7:30 PM – Learning for Tomorrow: As the office quietens, Ishaan spends an hour studying for his CFA (Chartered Financial Analyst) Level II exam. In this field, the learning never stops. He leaves the office knowing his analysis today might help a retired teacher's pension grow tomorrow.",
-          ],
+            "7:30 PM – Learning for Tomorrow: As the office quietens, Ishaan spends an hour studying for his CFA (Chartered Financial Analyst) Level II exam. In this field, the learning never stops. He leaves the office knowing his analysis today might help a retired teacher's pension grow tomorrow."
+          ]
         },
         {
           id: "3",
@@ -1801,8 +1758,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Soft Skills: The ability to explain complex financial 'jargon' through simple stories.",
             "Curiosity: You constantly ask questions and dig deeper into data.",
             "Resilience: You handle market volatility and pressure with composure.",
-            "Tech-Savvy: Comfortable with financial software, Python, and data visualization tools.",
-          ],
+            "Tech-Savvy: Comfortable with financial software, Python, and data visualization tools."
+          ]
         },
         {
           id: "4",
@@ -1818,8 +1775,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "The workflow follows a Data → Logic → Recommendation cycle.",
             "Monitoring: Continuously tracking market trends, company news, and economic changes.",
             "Presenting: Communicating findings to fund managers, investors, and senior leadership.",
-            "Updating: Revising recommendations based on new information and market developments.",
-          ],
+            "Updating: Revising recommendations based on new information and market developments."
+          ]
         },
         {
           id: "5",
@@ -1834,8 +1791,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Lateral Entry: Career-switch for Engineers or CAs. CAs have a direct advantage; Engineers often need an MBA.",
             "CFA Program: 3 levels (Level I, II, III) with 4-year work experience requirement for charter.",
             "MBA Finance: From IIMs or top B-schools for accelerated career growth.",
-            "Specializations: Equity Research, Credit Analysis, Investment Banking, or Wealth Management.",
-          ],
+            "Specializations: Equity Research, Credit Analysis, Investment Banking, or Wealth Management."
+          ]
         },
         {
           id: "6",
@@ -1851,8 +1808,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "  • CXO/Managing Director: ₹1.2 Crore – ₹4 Crores+",
             "City Comparison: Mumbai offers roughly 20% higher salaries than Tier-2 cities but comes with higher cost of living.",
             "Hiring Trends: Job growth is estimated at 8–10% annually due to the rise of retail investing in India via apps.",
-            "Bonus Structure: Performance bonuses can add 30–100% to base salary in good years.",
-          ],
+            "Bonus Structure: Performance bonuses can add 30–100% to base salary in good years."
+          ]
         },
         {
           id: "7",
@@ -1867,8 +1824,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Fintech Startups: Zerodha, Groww, Upstox.",
             "Top Cities: Mumbai (Financial Capital), Bengaluru (Fintech), Gurugram/Delhi, Hyderabad.",
             "Remote Potential: High for 'Freelance Equity Researchers' and 'Financial Content Creators.'",
-            "Corporate Finance: Treasury and FP&A roles in large corporations.",
-          ],
+            "Corporate Finance: Treasury and FP&A roles in large corporations."
+          ]
         },
         {
           id: "8",
@@ -1883,8 +1840,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Living Costs: ₹15,000 – ₹25,000/month in Mumbai or Bengaluru.",
             "Study Materials: ₹50,000–₹1 Lakh for CFA prep courses.",
             "Exam Fees: Included in CFA program costs.",
-            "Scholarships: Can significantly reduce out-of-pocket expenses.",
-          ],
+            "Scholarships: Can significantly reduce out-of-pocket expenses."
+          ]
         },
         {
           id: "10",
@@ -1899,8 +1856,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "State-Level: Various state governments offer scholarships for commerce students.",
             "Merit-Based: Top performers in entrance exams receive full or partial scholarships.",
             "Need-Based: Many institutions offer financial aid based on family income.",
-            "Employer Sponsorship: Many firms sponsor employees pursuing CFA.",
-          ],
+            "Employer Sponsorship: Many firms sponsor employees pursuing CFA."
+          ]
         },
         {
           id: "11",
@@ -1914,8 +1871,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "NISM Certification: National Institute of Securities Markets certification is mandatory for research analysts.",
             "Professional Associations: CFA Society India, ICAI (for CA-qualified analysts).",
             "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually.",
-            "International Recognition: CFA charter is recognized globally across 165+ countries.",
-          ],
+            "International Recognition: CFA charter is recognized globally across 165+ countries."
+          ]
         },
         {
           id: "12",
@@ -1930,8 +1887,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Corporate Finance: Treasury, FP&A (Financial Planning & Analysis), Valuation specialist.",
             "Private Equity: Deal analysis, portfolio management, exit strategy planning.",
             "Wealth Management: Managing portfolios for high-net-worth individuals.",
-            "Entrepreneurship: Start your own investment advisory or fintech firm.",
-          ],
+            "Entrepreneurship: Start your own investment advisory or fintech firm."
+          ]
         },
         {
           id: "13",
@@ -1946,8 +1903,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Meeting tight deadlines with accurate reports is extremely stressful.",
             "Top finance jobs attract thousands of highly qualified candidates.",
             "Market predictions can fail, directly impacting investor decisions.",
-            "Long working hours, especially during quarterly results season, are common.",
-          ],
+            "Long working hours, especially during quarterly results season, are common."
+          ]
         },
         {
           id: "14",
@@ -1963,8 +1920,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "ESG Integration: Environmental, Social, and Governance factors becoming core to valuation.",
             "Automation: Routine analysis will be automated; strategic thinking will be premium.",
             "Global Opportunities: Indian analysts increasingly sought in international markets.",
-            "Salary Growth: Expected 8–10% annual salary growth in the next decade.",
-          ],
+            "Salary Growth: Expected 8–10% annual salary growth in the next decade."
+          ]
         },
         {
           id: "15",
@@ -1980,8 +1937,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Financial Modeling: Start learning DCF and other valuation techniques.",
             "Math Mastery: Strong foundation in statistics and calculus.",
             "Case Studies: Analyze real companies and their financial statements.",
-            "Networking: Join investment clubs and attend finance seminars.",
-          ],
+            "Networking: Join investment clubs and attend finance seminars."
+          ]
         },
         {
           id: "16",
@@ -1994,10 +1951,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Ashwath Damodaran: Known globally as the 'Dean of Valuation.'",
             "Radhika Gupta: CEO of Edelweiss MF, who used her analytical background to become a leader in finance.",
             "Deepak Shenoy: Founder of Capitalmind, pioneering financial education in India.",
-            "Priya Nair: Leading equity research analyst known for deep sector analysis.",
-          ],
-        },
-      ],
+            "Priya Nair: Leading equity research analyst known for deep sector analysis."
+          ]
+        }
+      ]
     },
 
   // ─── FINANCIAL & INVESTMENT PLANNING ─────────────────────────────
@@ -2011,16 +1968,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         { icon: "❤️", title: "Human Impact", description: "Help families achieve their life dreams", borderColor: "#F59E0B" },
         { icon: "📈", title: "Growing Market", description: "Middle-class moving beyond gold & FDs to MF & digital assets", borderColor: "#1E40AF" },
         { icon: "💼", title: "Independent Practice", description: "Build your own financial planning business", borderColor: "#6366F1" },
-        { icon: "🌐", title: "Diverse Opportunities", description: "Work in banks, wealth firms, or independently", borderColor: "#10B981" },
+        { icon: "🌐", title: "Diverse Opportunities", description: "Work in banks, wealth firms, or independently", borderColor: "#10B981" }
       ],
       quickFacts: [
         { label: "Salary Range", detail: "₹4.5L–₹1Cr+ annually", color: "bg-amber-100 text-amber-700" },
         { label: "Market Growth", detail: "12–15% CAGR until 2030", color: "bg-blue-100 text-blue-700" },
-        { label: "Duration", detail: "3-year UG + CFP certification", color: "bg-indigo-100 text-indigo-700" },
+        { label: "Duration", detail: "3-year UG + CFP certification", color: "bg-indigo-100 text-indigo-700" }
       ],
       statCards: [
         { value: "₹4.5L–₹1Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-        { value: "12–15% CAGR", label: "Wealth Management Growth", gradient: "from-blue-600 to-indigo-600" },
+        { value: "12–15% CAGR", label: "Wealth Management Growth", gradient: "from-blue-600 to-indigo-600" }
       ],
       guideSections: [
         {
@@ -2034,8 +1991,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "In simple, jargon-free terms, a Financial Planner is like a 'Life Architect' for your money. They don't just tell you where to put your savings; they help you map out your entire life's journey.",
             "A professional in this field looks at a person's income, expenses, and dreams (like starting a business or traveling the world) and creates a step-by-step roadmap to make those dreams a reality.",
             "In today's India, this career is more important than ever. We are moving away from traditional savings like gold and fixed deposits toward a complex world of mutual funds, stocks, and digital assets.",
-            "With over 140 crore people and a booming middle class, India needs experts who can ensure that the hard-earned money of Indian families is safe, growing, and working for them.",
-          ],
+            "With over 140 crore people and a booming middle class, India needs experts who can ensure that the hard-earned money of Indian families is safe, growing, and working for them."
+          ]
         },
         {
           id: "2",
@@ -2048,8 +2005,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "10:30 AM – The Dream Session: Aryan's first meeting is with a young couple in their late 20s. They want to plan for a home in five years and a world tour in ten. Aryan doesn't talk about numbers yet. He asks about their lifestyle, their fears, and their priorities. This is the 'Discovery' phase, where he listens more than he speaks.",
             "1:30 PM – The Portfolio Construction: After a quick lunch, Aryan sits down with his specialized software. He analyzes a client's existing investments. He uses Asset Allocation—a fancy way of saying he spreads their money across different 'baskets' like equity (stocks), debt (bonds), and gold to make sure they aren't taking too much risk.",
             "4:00 PM – The Crisis Call: A client calls, panicked because the stock market has dropped by 2%. Aryan spends 20 minutes calmly explaining that their plan is built for 15 years, not 15 minutes. In this career, you are often part-economist and part-psychologist.",
-            "6:00 PM – Learning & Compliance: Before wrapping up, Aryan reviews the latest guidelines from SEBI (Securities and Exchange Board of India). He updates his client reports and reads a research paper on 'Green Investing.' As he heads home, he feels the satisfaction of knowing he helped a family move one step closer to their dream home.",
-          ],
+            "6:00 PM – Learning & Compliance: Before wrapping up, Aryan reviews the latest guidelines from SEBI (Securities and Exchange Board of India). He updates his client reports and reads a research paper on 'Green Investing.' As he heads home, he feels the satisfaction of knowing he helped a family move one step closer to their dream home."
+          ]
         },
         {
           id: "3",
@@ -2064,8 +2021,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Patience & Calm: Can you stay cool when everyone else is panicking about the economy?",
             "Communication Skills: Can you explain a complex concept (like 'Compound Interest') to a 14-year-old or an 80-year-old?",
             "Organizational: You manage multiple client portfolios and deadlines simultaneously.",
-            "Continuous Learner: Financial markets and regulations change constantly.",
-          ],
+            "Continuous Learner: Financial markets and regulations change constantly."
+          ]
         },
         {
           id: "4",
@@ -2081,8 +2038,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "4. Developing the Plan: Designing a custom roadmap to reach the client's goals.",
             "5. Implementation: Helping the client actually buy the right funds or insurance.",
             "6. Monitoring: Meeting every six months to adjust the plan as life changes.",
-            "Ongoing: Staying updated on tax laws, market trends, and regulatory changes.",
-          ],
+            "Ongoing: Staying updated on tax laws, market trends, and regulatory changes."
+          ]
         },
         {
           id: "5",
@@ -2096,8 +2053,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "During/After Graduation: Start the CFP (Certified Financial Planner) certification. Conducted by FPSB India (5 Specialist modules + 1 Final).",
             "Post-Graduation: MBA (Finance) or M.Com. Appear for CAT/XAT/NMAT for MBA.",
             "Professional Entry: Register with SEBI as an Investment Adviser (RIA). Requires NISM Series X-A and X-B certifications.",
-            "Specializations: Wealth Management, Retirement Planning, Tax Planning, or Estate Planning.",
-          ],
+            "Specializations: Wealth Management, Retirement Planning, Tax Planning, or Estate Planning."
+          ]
         },
         {
           id: "6",
@@ -2113,8 +2070,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "  • Leadership/CXO: ₹1 Crore – ₹4 Crores+ (In top Wealth Management firms)",
             "Metro vs. Tier-2: While Mumbai is the financial capital, there is a massive 25% growth in demand for planners in cities like Indore, Jaipur, and Kochi.",
             "Industry Growth: The Indian Wealth Management industry is expected to grow at a CAGR of 12–15% until 2030.",
-            "Bonus Structure: Performance bonuses can add 20–50% to base salary.",
-          ],
+            "Bonus Structure: Performance bonuses can add 20–50% to base salary."
+          ]
         },
         {
           id: "7",
@@ -2129,8 +2086,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Freelancing: Starting your own 'Registered Investment Advisory' (RIA) firm.",
             "International: High demand for Indian CFPs in the Middle East (Dubai/Qatar) and through global reciprocity in the USA/UK.",
             "Insurance Companies: Life and general insurance firms hiring financial advisors.",
-            "Corporate Finance: Treasury and wealth management roles in large corporations.",
-          ],
+            "Corporate Finance: Treasury and wealth management roles in large corporations."
+          ]
         },
         {
           id: "9",
@@ -2145,8 +2102,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Private: Aditya Birla Capital COVID Scholarship or HDFC Badhte Kadam for students in financial distress.",
             "Merit-Based: Top performers in entrance exams receive full or partial scholarships.",
             "Employer Sponsorship: Many firms sponsor employees pursuing CFP.",
-            "FPSB Scholarships: Available for deserving CFP candidates.",
-          ],
+            "FPSB Scholarships: Available for deserving CFP candidates."
+          ]
         },
         {
           id: "10",
@@ -2161,8 +2118,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "NISM Certification: Series X-A and X-B certifications required for investment advisory.",
             "IRDAI: If dealing with insurance products, IRDAI registration is needed.",
             "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually.",
-            "Code of Ethics: Must adhere to strict professional conduct standards.",
-          ],
+            "Code of Ethics: Must adhere to strict professional conduct standards."
+          ]
         },
         {
           id: "11",
@@ -2177,8 +2134,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Specializations: Retirement Planning, Tax Planning, Estate Planning, or ESG Investing.",
             "Corporate: Treasury management and financial planning roles.",
             "International: Global wealth management and cross-border financial planning.",
-            "Education: Financial literacy trainer and educator.",
-          ],
+            "Education: Financial literacy trainer and educator."
+          ]
         },
         {
           id: "12",
@@ -2193,8 +2150,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Market Fluctuations: Market downturns can disturb even the best-laid financial plans.",
             "Constantly Changing Rules: SEBI and IRDAI regulations change frequently.",
             "Competition: Banks and online platforms are creating strong competition for independent planners.",
-            "Pressure: Managing someone's life savings creates enormous emotional and professional pressure.",
-          ],
+            "Pressure: Managing someone's life savings creates enormous emotional and professional pressure."
+          ]
         },
         {
           id: "13",
@@ -2209,8 +2166,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Financialization of Savings: People moving from cash to market-linked investments.",
             "Digital Assets: Cryptocurrency and blockchain-based investments will require new expertise.",
             "Personalization: AI-driven personalized financial plans for mass market.",
-            "Salary Growth: Expected 10–12% annual salary growth in the next decade.",
-          ],
+            "Salary Growth: Expected 10–12% annual salary growth in the next decade."
+          ]
         },
         {
           id: "14",
@@ -2225,8 +2182,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Listen: Practice active listening. Try to understand your friends' or parents' worries without interrupting them.",
             "Learn Percentages: Strong foundation in percentage calculations and compound interest.",
             "Follow Budget: Track India's annual budget and understand tax implications.",
-            "Networking: Join investment clubs and attend finance seminars.",
-          ],
+            "Networking: Join investment clubs and attend finance seminars."
+          ]
         },
         {
           id: "15",
@@ -2239,10 +2196,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "P.V. Subramanyam: A veteran financial trainer and author known for his deep wisdom on long-term wealth creation.",
             "Radhika Gupta: CEO of Edelweiss MF, who has used her platform to educate millions of Indians on the importance of 'Asset Allocation.'",
             "Nilesh Shah: A member of the PM's Economic Advisory Council, known for simplifying complex investment concepts for the common man.",
-            "Lovaii Navlakhi: One of India's pioneering fee-only financial planners who set the gold standard for ethics in the profession.",
-          ],
-        },
-      ],
+            "Lovaii Navlakhi: One of India's pioneering fee-only financial planners who set the gold standard for ethics in the profession."
+          ]
+        }
+      ]
     },
 
   // ─── FINANCIAL RISK MANAGEMENT ───────────────────────────────────
@@ -2256,16 +2213,16 @@ export const careerPageData: Record<string, CareerPageData> = {
         { icon: "🛡️", title: "Critical Function", description: "Banks & firms cannot operate without risk managers", borderColor: "#F59E0B" },
         { icon: "📊", title: "Data-Driven", description: "Use cutting-edge models like Value at Risk (VaR)", borderColor: "#1E40AF" },
         { icon: "🌐", title: "Global Certification", description: "FRM by GARP is recognised worldwide", borderColor: "#6366F1" },
-        { icon: "💼", title: "High Demand", description: "RBI, SEBI regulations drive constant hiring", borderColor: "#10B981" },
+        { icon: "💼", title: "High Demand", description: "RBI, SEBI regulations drive constant hiring", borderColor: "#10B981" }
       ],
       quickFacts: [
         { label: "Salary Range", detail: "₹6L–₹1.5Cr+ annually", color: "bg-amber-100 text-amber-700" },
         { label: "Market Growth", detail: "12–15% annual job growth", color: "bg-blue-100 text-blue-700" },
-        { label: "Duration", detail: "3-year UG + FRM (2 levels)", color: "bg-indigo-100 text-indigo-700" },
+        { label: "Duration", detail: "3-year UG + FRM (2 levels)", color: "bg-indigo-100 text-indigo-700" }
       ],
       statCards: [
         { value: "₹6L–₹1.5Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-        { value: "12–15% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" },
+        { value: "12–15% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" }
       ],
       guideSections: [
         {
@@ -2279,8 +2236,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "In simple, jargon-free terms, a Financial Risk Manager is a 'Professional Shield.' They are the experts who identify everything that could go wrong with a company's money—from a sudden drop in the value of the Rupee to a global pandemic—and create a plan to stop that 'wrong thing' from hurting the business.",
             "In today's India, which is aiming to become a $7 Trillion economy, these professionals are essential. They ensure that as our businesses grow, they don't collapse like a house of cards during a storm.",
             "Risk managers work in banks, investment firms, insurance companies, and fintech startups.",
-            "They combine rigorous mathematical analysis with strategic thinking and regulatory compliance.",
-          ],
+            "They combine rigorous mathematical analysis with strategic thinking and regulatory compliance."
+          ]
         },
         {
           id: "2",
@@ -2293,8 +2250,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "11:00 AM – The Stress Test: Priya spends her morning running 'Simulations' on her computer. She asks the computer: 'What happens to our bank's ₹1,000 Crore loan portfolio if the interest rate suddenly rises by 1%?' This is called a Stress Test. She watches as her software runs thousands of scenarios in seconds.",
             "1:30 PM – The Strategy Lunch: After a quick lunch, Priya meets with the 'Trading Desk.' The traders want to make a big, risky bet on gold prices. Priya's job is to be the 'Voice of Reason.' She shows them her data: 'If you make this bet, and the market drops even by 0.5%, the bank loses more than we are allowed to. You need to reduce the size of this trade.'",
             "4:00 PM – The Tech-Check: Priya works with the IT team to update their AI-based Fraud Detection system. She's teaching the AI how to spot new types of digital credit card theft. In the 21st century, risk management is as much about coding as it is about finance.",
-            "7:00 PM – The Reporting Wrap: Before heading home, Priya prepares a 'Risk Dashboard' for her boss. It's a simple chart with Green, Yellow, and Red lights. Today, everything is Green. She leaves the office knowing that because of her math and her 'Shield,' thousands of people's bank deposits are safe.",
-          ],
+            "7:00 PM – The Reporting Wrap: Before heading home, Priya prepares a 'Risk Dashboard' for her boss. It's a simple chart with Green, Yellow, and Red lights. Today, everything is Green. She leaves the office knowing that because of her math and her 'Shield,' thousands of people's bank deposits are safe."
+          ]
         },
         {
           id: "3",
@@ -2309,8 +2266,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Calm Under Pressure: When everyone else is panicking because the market is falling, you need to stay cool and look at the data.",
             "Tech-Curious: You enjoy using apps and software to visualize data.",
             "Detail-Oriented: You notice small anomalies that others miss.",
-            "Continuous Learner: Financial regulations and market dynamics change constantly.",
-          ],
+            "Continuous Learner: Financial regulations and market dynamics change constantly."
+          ]
         },
         {
           id: "4",
@@ -2325,8 +2282,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "3. Risk Mitigation: Creating the shield (e.g., buying insurance or using 'Hedging' to lock in current prices).",
             "4. Monitoring: Watching the market 24/7 to see if the threat is becoming real.",
             "5. Reporting: Communicating risk levels to senior management and regulators.",
-            "6. Compliance: Ensuring adherence to RBI, SEBI, and international risk standards.",
-          ],
+            "6. Compliance: Ensuring adherence to RBI, SEBI, and international risk standards."
+          ]
         },
         {
           id: "5",
@@ -2340,8 +2297,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "During Graduation: Start the FRM Level I (GARP) exam. Recognized in 190+ countries.",
             "After Graduation: Pursue MBA (Finance) or M.Sc. Financial Engineering. Clear CAT/XAT or GATE.",
             "Lateral Entry: Engineers or CAs switching to Risk. Requires FRM/PRM certifications.",
-            "Specializations: Credit Risk, Market Risk, Operational Risk, or Cyber Risk.",
-          ],
+            "Specializations: Credit Risk, Market Risk, Operational Risk, or Cyber Risk."
+          ]
         },
         {
           id: "6",
@@ -2357,8 +2314,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "  • Leadership (Chief Risk Officer - CRO): ₹1.5 Crore – ₹3 Crores+",
             "Growth: It typically takes 8–10 years to move from a Junior Analyst to a Senior Director level.",
             "Metro vs. Tier-2: 80% of jobs are in Metros (Mumbai, NCR), but Tier-2 cities like Jaipur and Pune are emerging as 'Risk Hubs' for backend operations.",
-            "Industry Growth: Demand for risk professionals in India is growing at 12–15% annually.",
-          ],
+            "Industry Growth: Demand for risk professionals in India is growing at 12–15% annually."
+          ]
         },
         {
           id: "7",
@@ -2373,8 +2330,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "International: High demand in Singapore, London, and New York for Indian FRM-certified professionals.",
             "Corporate Finance: Treasury and risk management roles in large corporations.",
             "Consulting: Risk advisory firms and management consulting companies.",
-            "Regulatory Bodies: RBI, SEBI, and IRDAI hiring risk specialists.",
-          ],
+            "Regulatory Bodies: RBI, SEBI, and IRDAI hiring risk specialists."
+          ]
         },
         {
           id: "9",
@@ -2389,8 +2346,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "State-Level: Various state governments offer scholarships for commerce students.",
             "Merit-Based: Top performers in entrance exams receive full or partial scholarships.",
             "Employer Sponsorship: Many firms sponsor employees pursuing FRM.",
-            "Need-Based: Many institutions offer financial aid based on family income.",
-          ],
+            "Need-Based: Many institutions offer financial aid based on family income."
+          ]
         },
         {
           id: "10",
@@ -2405,8 +2362,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "RBI/SEBI: Regulatory oversight and compliance requirements.",
             "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually.",
             "International Recognition: FRM is recognized in 190+ countries.",
-            "Code of Ethics: Must adhere to strict professional conduct standards.",
-          ],
+            "Code of Ethics: Must adhere to strict professional conduct standards."
+          ]
         },
         {
           id: "11",
@@ -2421,8 +2378,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Specializations: Credit Risk, Market Risk, Operational Risk, Liquidity Risk, or Cyber Risk.",
             "Corporate: Treasury and risk management roles in large corporations.",
             "Regulatory: Risk specialist at RBI, SEBI, or IRDAI.",
-            "International: Global risk management roles in multinational banks and firms.",
-          ],
+            "International: Global risk management roles in multinational banks and firms."
+          ]
         },
         {
           id: "12",
@@ -2437,8 +2394,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Managing millions of rupees in risk decisions creates intense daily pressure.",
             "One wrong assessment can cause massive financial losses for the entire company.",
             "Constantly evolving RBI and SEBI guidelines demand non-stop learning and compliance.",
-            "Global events like pandemics or wars can instantly make risk models outdated.",
-          ],
+            "Global events like pandemics or wars can instantly make risk models outdated."
+          ]
         },
         {
           id: "13",
@@ -2453,8 +2410,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Regulatory Evolution: New regulations on ESG and climate risk will create specialized roles.",
             "Automation: Routine risk calculations will be automated; strategic risk thinking will be premium.",
             "Global Opportunities: Indian risk managers increasingly sought in international markets.",
-            "Salary Growth: Expected 10–12% annual salary growth in the next decade.",
-          ],
+            "Salary Growth: Expected 10–12% annual salary growth in the next decade."
+          ]
         },
         {
           id: "14",
@@ -2469,8 +2426,8 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Strategy Games: Play games like Chess or 'Settlers of Catan' to learn how to manage resources and risks.",
             "Learn Python: Basic coding skills will give you a competitive edge.",
             "Case Studies: Analyze real financial crises and how they were managed.",
-            "Networking: Join investment clubs and attend finance seminars.",
-          ],
+            "Networking: Join investment clubs and attend finance seminars."
+          ]
         },
         {
           id: "15",
@@ -2483,10 +2440,10 @@ export const careerPageData: Record<string, CareerPageData> = {
             "Anshula Kant: MD and CFO of the World Bank; an expert in managing global financial risks.",
             "N.S. Vishwanathan: Former Deputy Governor of RBI; a pioneer in strengthening banking risk rules (Basel III) in India.",
             "Raghuram Rajan: Though an economist, his biggest fame came from predicting the 'Risk' of the 2008 global financial crisis before it happened.",
-            "Viral Acharya: Former Deputy Governor of RBI; known for his work on financial stability and risk management.",
-          ],
-        },
-      ],
+            "Viral Acharya: Former Deputy Governor of RBI; known for his work on financial stability and risk management."
+          ]
+        }
+      ]
     },
 
   // ─── ARCHITECTURE ───────────────────────────────────────────────
@@ -2499,16 +2456,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🎨", title: "Creative Impact", description: "Design spaces that shape how people live and work", borderColor: "#F59E0B" },
       { icon: "🧪", title: "Art & Science", description: "Perfect blend of creative art and structural science", borderColor: "#1E40AF" },
       { icon: "🏙️", title: "Urban Growth", description: "Drive India's growth through sustainable urban planning", borderColor: "#6366F1" },
-      { icon: "🌿", title: "Green Building", description: "FRONT-LINE warriors against climate change", borderColor: "#10B981" },
+      { icon: "🌿", title: "Green Building", description: "FRONT-LINE warriors against climate change", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "B.Arch (5 Years)", detail: "Mandatory professional degree to practice", color: "bg-amber-100 text-amber-700" },
       { label: "NATA / JEE Main 2", detail: "Compulsory entrance exams in India", color: "bg-blue-100 text-blue-700" },
-      { label: "Council of Architecture", detail: "Regulated by the COA under 1972 Act", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Council of Architecture", detail: "Regulated by the COA under 1972 Act", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "50,000+", label: "Registered Architects", gradient: "from-amber-500 to-amber-600" },
-      { value: "5 Years", label: "Duration to Qualify", gradient: "from-blue-600 to-indigo-600" },
+      { value: "5 Years", label: "Duration to Qualify", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -2521,8 +2478,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Architecture blends art and science to design safe, functional, and aesthetic spaces for schools, malls, and homes",
           "Professionals optimize environmental factors like sunlight and airflow to ensure user comfort",
           "Architects drive India's growth through 'Smart Cities,' transport hubs, and vertical urban planning",
-          "They act as frontline warriors against climate change by creating eco-friendly, resource-efficient 'green buildings'",
-        ],
+          "They act as frontline warriors against climate change by creating eco-friendly, resource-efficient 'green buildings'"
+        ]
       },
       {
         id: "2",
@@ -2535,8 +2492,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Creative Problem Solving: Balancing client needs with budget constraints",
           "Mathematical Aptitude: Applying geometry and physics for structural safety",
           "Precision & Patience: Maintaining detail-oriented accuracy over long timelines",
-          "Environmental Sensitivity: Prioritizing sustainability and nature in 21st-century designs",
-        ],
+          "Environmental Sensitivity: Prioritizing sustainability and nature in 21st-century designs"
+        ]
       },
       {
         id: "3",
@@ -2550,8 +2507,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Schematic Design: Drafting initial sketches and 3D models",
           "Design Development: Integrating technical, structural, and utility systems",
           "Documentation: Finalizing blueprints for legal approval and construction",
-          "Supervision: Overseeing on-site progress to ensure design accuracy",
-        ],
+          "Supervision: Overseeing on-site progress to ensure design accuracy"
+        ]
       },
       {
         id: "4",
@@ -2563,8 +2520,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Government Institutions (SPA, NIT, IIT): ₹2.5–6 lakh for five years",
           "Private Fees: ₹12–25 lakh for five-year programs",
           "Living Expenses: ₹15,000–₹25,000 monthly in metro cities",
-          "Equipment: ₹80,000+ for laptop and ₹10,000 for drafting tools",
-        ],
+          "Equipment: ₹80,000+ for laptop and ₹10,000 for drafting tools"
+        ]
       },
       {
         id: "5",
@@ -2575,8 +2532,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Central Government: AICTE Pragati and Merit-cum-Means through NSP help girls and minority students",
           "State Scholarships: Maharashtra, UP, and others offer Post-Matric aid",
-          "Private Support: Mohan T. Advani offers up to ₹1 lakh; Aditya Birla offers top-tier scholarships",
-        ],
+          "Private Support: Mohan T. Advani offers up to ₹1 lakh; Aditya Birla offers top-tier scholarships"
+        ]
       },
       {
         id: "6",
@@ -2587,8 +2544,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Long Hours: Demanding schedules during college juries and tight office deadlines",
           "Initial Pay: Entry-level compensation is typically lower than in IT or Finance sectors",
-          "Coordination Stress: High pressure from managing diverse stakeholders like contractors and government officials",
-        ],
+          "Coordination Stress: High pressure from managing diverse stakeholders like contractors and government officials"
+        ]
       },
       {
         id: "7",
@@ -2600,10 +2557,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Freehand Sketching: Maintain a 'Visual Journal' by sketching surrounding structures",
           "Software Skills: Explore beginner tools like SketchUp or Tinkercad",
           "Competitions: Engage in NASA (National Association of Students of Architecture) workshops or school art contests",
-          "Observation: Study historical monuments to understand passive cooling and structural design",
-        ],
-      },
-    ],
+          "Observation: Study historical monuments to understand passive cooling and structural design"
+        ]
+      }
+    ]
   },
 
   // ─── CONSTRUCTION ───────────────────────────────────────────────
@@ -2616,16 +2573,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🏙️", title: "National Builders", description: "Turn drawings into real buildings and bridges", borderColor: "#F59E0B" },
       { icon: "📈", title: "Growth Engine", description: "Supports India's economy through mega projects like Gati Shakti", borderColor: "#1E40AF" },
       { icon: "🤖", title: "Tech Transition", description: "Modern work uses machines, BIM software, and smart tools", borderColor: "#6366F1" },
-      { icon: "🏗️", title: "Visible Results", description: "Transform empty land into skyscrapers or railways", borderColor: "#10B981" },
+      { icon: "🏗️", title: "Visible Results", description: "Transform empty land into skyscrapers or railways", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "4-Year Degree", detail: "B.Tech in Civil, Construction or Infrastructure", color: "bg-amber-100 text-amber-700" },
       { label: "Mega Scale", detail: "Involved in projects like Atal Setu or High Speed Rail", color: "bg-blue-100 text-blue-700" },
-      { label: "BIM & Digital", detail: "Rising focus on Digital Construction technology", color: "bg-indigo-100 text-indigo-700" },
+      { label: "BIM & Digital", detail: "Rising focus on Digital Construction technology", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "2nd Largest", label: "Employer in India", gradient: "from-amber-500 to-amber-600" },
-      { value: "15%", label: "Annual Sector Growth", gradient: "from-blue-600 to-indigo-600" },
+      { value: "15%", label: "Annual Sector Growth", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -2639,8 +2596,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Growth: This industry supports India's economy through big projects like Atal Setu and Gati Shakti",
           "Technology: Modern construction uses machines, software, and smart tools — not just bricks and cement",
           "Results: You can quickly see your work, like empty land becoming a skyscraper or railway",
-          "Future: Construction is shaping how India will look and grow by 2030",
-        ],
+          "Future: Construction is shaping how India will look and grow by 2030"
+        ]
       },
       {
         id: "2",
@@ -2653,8 +2610,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Leadership: Ability to manage diverse teams with firmness and empathy",
           "Spatial Visualization: Mentally 'walking through' 3D structures from 2D blueprints",
           "Safety-First Mindset: Constant vigilance in high-risk environments",
-          "Problem-Solving: Quick, 'on-your-feet' thinking for logistical and technical hurdles",
-        ],
+          "Problem-Solving: Quick, 'on-your-feet' thinking for logistical and technical hurdles"
+        ]
       },
       {
         id: "3",
@@ -2668,8 +2625,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Site Mobilization: Setting up heavy machinery and safety infrastructure",
           "Execution: Physical building from foundation to final finishing",
           "Quality Control: Rigorous material testing for long-term durability",
-          "Handover: Final inspection and owner delivery",
-        ],
+          "Handover: Final inspection and owner delivery"
+        ]
       },
       {
         id: "4",
@@ -2681,8 +2638,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Tuition (Govt. Colleges): ₹2 Lakhs – ₹5 Lakhs for a full 4-year degree",
           "Tuition (Private Universities): ₹8 Lakhs – ₹20 Lakhs for 4 years",
           "Living Expenses: Budget ₹1.5 Lakhs – ₹2.5 Lakhs annually",
-          "Tech Requirements: ₹70k+ for high-performance laptop for AutoCAD, Revit, and BIM",
-        ],
+          "Tech Requirements: ₹70k+ for high-performance laptop for AutoCAD, Revit, and BIM"
+        ]
       },
       {
         id: "5",
@@ -2693,8 +2650,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "PM-USP: Merit-based scholarships for top Class 12 students across India",
           "Fee Waivers: IITs and NITs offer significant fee reductions for low-income backgrounds",
-          "L&T Build India: Full M.Tech fees, monthly stipend, and assured job placement",
-        ],
+          "L&T Build India: Full M.Tech fees, monthly stipend, and assured job placement"
+        ]
       },
       {
         id: "6",
@@ -2705,8 +2662,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Mobility: High; growth requires relocating to move with active project sites",
           "Workload: Strict deadlines often involve 10-12 hour workdays in high-pressure environments",
-          "Safety: Critical: sites carry inherent risks, demanding rigorous discipline",
-        ],
+          "Safety: Critical: sites carry inherent risks, demanding rigorous discipline"
+        ]
       },
       {
         id: "7",
@@ -2718,10 +2675,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Academics: Master Physics and Math, specifically mechanics and geometry",
           "Strategic Play: Use SimCity or Minecraft to develop planning skills",
           "Field Research: Observe local sites; learn processes like concrete curing firsthand",
-          "Soft Skills: Lead school event committees to build team management experience",
-        ],
-      },
-    ],
+          "Soft Skills: Lead school event committees to build team management experience"
+        ]
+      }
+    ]
   },
 
   // ─── MAINTENANCE AND OPERATION ──────────────────────────────────
@@ -2734,16 +2691,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🏥", title: "Life Support", description: "Keep buildings and critical systems working smoothly", borderColor: "#F59E0B" },
       { icon: "⚙️", title: "Operations Peak", description: "Manage vital hubs like airports, metros, and factories", borderColor: "#1E40AF" },
       { icon: "💰", title: "Cost Savers", description: "Use data to find problems early and stop crore-loss breakdowns", borderColor: "#6366F1" },
-      { icon: "🛡️", title: "Asset Guardians", description: "Protect modern machines to keep India productive", borderColor: "#10B981" },
+      { icon: "🛡️", title: "Asset Guardians", description: "Protect modern machines to keep India productive", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "2-4 Year Path", detail: "Diploma/Polytechnic or B.Tech entry", color: "bg-amber-100 text-amber-700" },
       { label: "IoT & AI", detail: "Using real-time sensors for machine oversight", color: "bg-blue-100 text-blue-700" },
-      { label: "Compliance", detail: "Ensuring safety and environmental standards", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Compliance", detail: "Ensuring safety and environmental standards", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "Industry 4.0", label: "Smart Manufacturing", gradient: "from-amber-500 to-amber-600" },
-      { value: "24/7", label: "Operational Focus", gradient: "from-blue-600 to-indigo-600" },
+      { value: "24/7", label: "Operational Focus", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -2756,8 +2713,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Life Support: They keep buildings and systems working smoothly",
           "Operations: They manage daily work of airports, metros, and factories",
           "Savings: By using data to find problems early, they stop breakdowns that cost crores",
-          "Guardians: They protect modern machines and systems, keeping India productive",
-        ],
+          "Guardians: They protect modern machines and systems, keeping India productive"
+        ]
       },
       {
         id: "2",
@@ -2770,8 +2727,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Problem-Solver: You stay calm and fix things efficiently when they break",
           "Safety-First: You possess a natural respect for protocols and rules",
           "Communication: You translate complex technical issues for non-technical leadership",
-          "Tech-Savvy: You easily use software to track physical assets",
-        ],
+          "Tech-Savvy: You easily use software to track physical assets"
+        ]
       },
       {
         id: "3",
@@ -2784,8 +2741,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Scheduling: Planning regular 'health check-ups' through preventive maintenance",
           "Real-Time Monitoring: Utilizing IoT sensors for 24/7 machine oversight",
           "Resource Management: Ensuring spare parts and tools are always stocked",
-          "Compliance: Verifying adherence to government environmental and safety laws",
-        ],
+          "Compliance: Verifying adherence to government environmental and safety laws"
+        ]
       },
       {
         id: "4",
@@ -2797,8 +2754,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Diploma/Polytechnic: ₹20,000 – ₹1.5 Lakhs total",
           "B.Tech. (Govt): ₹3 Lakhs – ₹10 Lakhs total investment",
           "MBA (Specialized): ₹15 Lakhs – ₹25 Lakhs for top management",
-          "Living Costs: Budget ₹10,000 – ₹20,000 monthly in cities like Pune or Bengaluru",
-        ],
+          "Living Costs: Budget ₹10,000 – ₹20,000 monthly in cities like Pune or Bengaluru"
+        ]
       },
       {
         id: "5",
@@ -2809,8 +2766,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "AICTE Pragati: Up to ₹50,000 annually for female technical students",
           "Post-Matric: Category-based aid via National Scholarship Portal",
-          "Aditya Birla Group: Prestigious funding for top merit students at premier IITs/IIMs",
-        ],
+          "Aditya Birla Group: Prestigious funding for top merit students at premier IITs/IIMs"
+        ]
       },
       {
         id: "6",
@@ -2821,8 +2778,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "24/7 Responsibility: Critical failures may require emergency calls at any hour",
           "High Pressure: Breakdowns cause immediate financial losses to companies",
-          "Continuous Learning: Rapid technological shifts demand constant updates on AI and robotics",
-        ],
+          "Continuous Learning: Rapid technological shifts demand constant updates on AI and robotics"
+        ]
       },
       {
         id: "7",
@@ -2834,10 +2791,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Excel/Spreadsheets: Master data organization; an Operations manager's essential tool",
           "Coding Basics: Learn Python logic to interface with factory software",
           "Stay Informed: Follow 'Industry 4.0' trends on LinkedIn",
-          "Hands-on Practice: Engage in DIY home repairs to understand hardware",
-        ],
-      },
-    ],
+          "Hands-on Practice: Engage in DIY home repairs to understand hardware"
+        ]
+      }
+    ]
   },
 
   // ─── URBAN PLANNING AND MANAGEMENT ─────────────────────────────
@@ -2850,16 +2807,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🔭", title: "The Visionaries", description: "Design entire neighbourhoods and cities, not just buildings", borderColor: "#F59E0B" },
       { icon: "🏙️", title: "City Surgeons", description: "Diagnose and fix issues like traffic congestion and pollution", borderColor: "#1E40AF" },
       { icon: "🏃", title: "Migration Managers", description: "Manage India's urban migration to prevent city collapse", borderColor: "#6366F1" },
-      { icon: "♻️", title: "Sustainable Growth", description: "Ensure efficient transport, waste, and green spaces", borderColor: "#10B981" },
+      { icon: "♻️", title: "Sustainable Growth", description: "Ensure efficient transport, waste, and green spaces", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "B.Plan / B.Arch Path", detail: "Specialized planning or architectural foundation", color: "bg-amber-100 text-amber-700" },
       { label: "GIS & Mapping", detail: "Using spatial data to plan city expansion", color: "bg-blue-100 text-blue-700" },
-      { label: "Public Interface", detail: "Balancing citizen feedback with urban strategy", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Public Interface", detail: "Balancing citizen feedback with urban strategy", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "500+", label: "Smart City Projects", gradient: "from-amber-500 to-amber-600" },
-      { value: "B.Plan", label: "Primary Entry Degree", gradient: "from-blue-600 to-indigo-600" },
+      { value: "B.Plan", label: "Primary Entry Degree", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -2872,8 +2829,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Vision: While architects design buildings, urban planners design neighbourhoods",
           "City Surgeons: They fix critical issues like traffic, pollution, and housing shortages",
           "Strategic Migration: Manage India's migration, preventing city collapse",
-          "Sustainable Growth: Ensure development includes transport and green spaces",
-        ],
+          "Sustainable Growth: Ensure development includes transport and green spaces"
+        ]
       },
       {
         id: "2",
@@ -2886,8 +2843,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Justice Mindset: You care about fairness, accessibility, and climate issues",
           "Patience: Ready for long projects that may take 10 years to finish",
           "Data-Driven: Use population and land-use numbers to plan needs",
-          "Diplomacy: Solve issues between citizens and government departments",
-        ],
+          "Diplomacy: Solve issues between citizens and government departments"
+        ]
       },
       {
         id: "3",
@@ -2899,8 +2856,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Data & Analysis: Collect and study population, housing, and land-use info",
           "Planning: Prepare detailed master and zonal plans for city growth",
           "Consultation: Present plans to citizens and improve using feedback",
-          "Monitoring: Supervise construction and update plans for success",
-        ],
+          "Monitoring: Supervise construction and update plans for success"
+        ]
       },
       {
         id: "4",
@@ -2912,8 +2869,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Diploma/Polytechnic: ₹20,000 – ₹1.5 Lakhs total",
           "B.Tech/B.Plan (Govt): ₹3 Lakhs – ₹10 Lakhs total",
           "MBA (Management): ₹15 Lakhs – ₹25 Lakhs for специализирован management",
-          "Living Costs: Budget ₹10,000 – ₹20,000 monthly for hostels",
-        ],
+          "Living Costs: Budget ₹10,000 – ₹20,000 monthly for hostels"
+        ]
       },
       {
         id: "5",
@@ -2924,8 +2881,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "AICTE Pragati: Up to ₹50,000 annually for female students",
           "Post-Matric Scholarships: Category aid via National Scholarship Portal",
-          "Aditya Birla Group: Prestigious funding for top merit students",
-        ],
+          "Aditya Birla Group: Prestigious funding for top merit students"
+        ]
       },
       {
         id: "6",
@@ -2936,8 +2893,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Political Pressure: Balancing city needs against popular political agendas",
           "Slow Progress: Projects can take a decade from design to completion",
-          "Bureaucracy: Navigating extensive government paperwork results in slow timelines",
-        ],
+          "Bureaucracy: Navigating extensive government paperwork results in slow timelines"
+        ]
       },
       {
         id: "7",
@@ -2949,10 +2906,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Geography & Math: Build a foundation in maps and statistics",
           "Photography/Sketching: Document city problems and sketch design solutions",
           "Learn Google Earth Pro: Use this free tool to practice mapping",
-          "Volunteer: Join local cleanliness clubs to understand community dynamics",
-        ],
-      },
-    ],
+          "Volunteer: Join local cleanliness clubs to understand community dynamics"
+        ]
+      }
+    ]
   },
 
   // ─── AGRI-BUSINESS MANAGEMENT ─────────────────────────────────────
@@ -2965,16 +2922,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🚀", title: "High-Tech Evolution", description: "Global supply chains and boardroom strategy", borderColor: "#F59E0B" },
       { icon: "⚙️", title: "Modern Integration", description: "Business principles applied to agriculture", borderColor: "#1E40AF" },
       { icon: "🌐", title: "Diverse Roles", description: "Manage food brands or lead Agritech startups", borderColor: "#6366F1" },
-      { icon: "🌍", title: "Critical Impact", description: "Reducing waste and ensuring food security", borderColor: "#10B981" },
+      { icon: "🌍", title: "Critical Impact", description: "Reducing waste and ensuring food security", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Business Focus", detail: "Finance, marketing, and logistics in AGRI", color: "bg-amber-100 text-amber-700" },
       { label: "Agritech Leader", detail: "Lead startups using AI and technology", color: "bg-blue-100 text-blue-700" },
-      { label: "Waste Reduction", detail: "Solving India's 40% produce waste issue", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Waste Reduction", detail: "Solving India's 40% produce waste issue", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "40%", label: "Produce Waste Reduction", gradient: "from-amber-500 to-amber-600" },
-      { value: "Global", label: "Supply Chain Scope", gradient: "from-blue-600 to-indigo-600" },
+      { value: "Global", label: "Supply Chain Scope", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -2987,8 +2944,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Agriculture is shifting from traditional tilling to advanced business boardrooms and global supply chains",
           "ABM applies business principles like finance, marketing, and logistics to the agricultural sector",
           "Professionals manage food brands, optimize organic exports, or lead Agritech startups using AI",
-          "By reducing India’s 40% produce waste, ABM experts ensure global food security and transform farming into a profitable venture",
-        ],
+          "By reducing India’s 40% produce waste, ABM experts ensure global food security and transform farming into a profitable venture"
+        ]
       },
       {
         id: "2",
@@ -3001,8 +2958,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Expertise in negotiation and crisis management during crop failures",
           "Deep passion for sustainability and cross-cultural communication",
           "Mastery of financial literacy and satellite-driven data analytics",
-          "Solid foundation in agricultural economics",
-        ],
+          "Solid foundation in agricultural economics"
+        ]
       },
       {
         id: "3",
@@ -3013,8 +2970,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Input & Production: Sourcing quality seeds and technology while guiding farmers based on market demand",
           "Value Addition: Processing raw goods into branded products, like turning milk into cheese",
-          "Logistics & Sales: Managing refrigerated 'cold chains' and branding products for global supermarkets",
-        ],
+          "Logistics & Sales: Managing refrigerated 'cold chains' and branding products for global supermarkets"
+        ]
       },
       {
         id: "4",
@@ -3027,8 +2984,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Tuition (Private): ₹7 Lakh – ₹18 Lakh",
           "Laptop: ~₹60,000 for high-performance machine",
           "Living Costs: ₹15,000 – ₹25,000 per month in major cities",
-          "Internship: Budget for rural field training travel",
-        ],
+          "Internship: Budget for rural field training travel"
+        ]
       },
       {
         id: "5",
@@ -3040,8 +2997,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "NSP (National Scholarship Portal) for minority, SC, and ST students",
           "Pragati Scholarship: ₹50,000 yearly for girls in technical courses",
           "L&T: Full M.Tech fees at IITs/NITs with stipend and job offer",
-          "Mahindra: ₹10,000 yearly for diploma students from low-income families",
-        ],
+          "Mahindra: ₹10,000 yearly for diploma students from low-income families"
+        ]
       },
       {
         id: "6",
@@ -3052,8 +3009,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Managing the shift between high-tech office analysis and intensive field visits",
           "Bad monsoons can disrupt entire supply chains, causing high-stress seasons",
-          "Overcoming 'rural stigma' as corporate roles redefine industry glamour",
-        ],
+          "Overcoming 'rural stigma' as corporate roles redefine industry glamour"
+        ]
       },
       {
         id: "7",
@@ -3065,10 +3022,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Master Microsoft Excel — it's the fundamental tool for agribusiness",
           "Join organic gardening clubs or start composting to understand natural cycles",
           "Follow agricultural business news in Financial Express or Economic Times",
-          "Visit local Mandis to observe real-world trader negotiations",
-        ],
-      },
-    ],
+          "Visit local Mandis to observe real-world trader negotiations"
+        ]
+      }
+    ]
   },
 
   // ─── AGRICULTURAL ENGINEERING ─────────────────────────────────────
@@ -3081,16 +3038,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🛠️", title: "Role Defined", description: "Optimize production and processing systems", borderColor: "#F59E0B" },
       { icon: "🤖", title: "Tech Integration", description: "Drones, automated irrigation, and robots", borderColor: "#1E40AF" },
       { icon: "💧", title: "National Priority", description: "Solve the 'Food-Energy-Water' puzzle", borderColor: "#6366F1" },
-      { icon: "🌿", title: "Sustainable Future", description: "High-tech, profitable 21st-century industry", borderColor: "#10B981" },
+      { icon: "🌿", title: "Sustainable Future", description: "High-tech, profitable 21st-century industry", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "4-Year B.Tech", detail: "Foundational engineering degree", color: "bg-amber-100 text-amber-700" },
       { label: "Tech Mastery", detail: "Drones, Soil mapping, Robotics", color: "bg-blue-100 text-blue-700" },
-      { label: "Massive Impact", detail: "Feeding 1.4 billion people sustainably", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Massive Impact", detail: "Feeding 1.4 billion people sustainably", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "1.4 Billion", label: "People to Feed", gradient: "from-amber-500 to-amber-600" },
-      { value: "4 Years", label: "Duration to Qualify", gradient: "from-blue-600 to-indigo-600" },
+      { value: "4 Years", label: "Duration to Qualify", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3103,8 +3060,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "It applies engineering principles to optimize agricultural production and processing systems",
           "Focuses on using drones for soil mapping, automated irrigation, and precision robotic harvesters",
           "In India, these professionals solve the 'Food-Energy-Water' puzzle to feed 1.4 billion people",
-          "They transform traditional farming into a high-tech, profitable, and resource-efficient 21st-century industry",
-        ],
+          "They transform traditional farming into a high-tech, profitable, and resource-efficient 21st-century industry"
+        ]
       },
       {
         id: "2",
@@ -3116,8 +3073,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Natural interest in mechanics, engines, and building complex systems",
           "Strong foundation in Math and Physics for data-driven problem-solving",
           "Comfortable in both high-tech labs and rugged, dusty farm environments",
-          "Deep commitment to climate change and sustainable innovation",
-        ],
+          "Deep commitment to climate change and sustainable innovation"
+        ]
       },
       {
         id: "3",
@@ -3128,8 +3085,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Analysis & Design: Analyzing farm issues like water loss and designing solutions using AutoCAD or SolidWorks",
           "Prototyping: Building lab models and conducting rigorous field tests under real-world weather",
-          "Execution: Overseeing quality control and providing technical training and maintenance support",
-        ],
+          "Execution: Overseeing quality control and providing technical training and maintenance support"
+        ]
       },
       {
         id: "4",
@@ -3141,8 +3098,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Govt Fees: ₹50,000 – ₹2.5 Lakh for 4 years",
           "Private Fees: ₹4 Lakh – ₹12 Lakh for 4 years",
           "Living Costs: ₹8,000 – ₹15,000 monthly",
-          "Extras: ~₹60,000 for laptop and exam fees",
-        ],
+          "Extras: ~₹60,000 for laptop and exam fees"
+        ]
       },
       {
         id: "5",
@@ -3154,8 +3111,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "NSP for minority, SC, and ST students",
           "Pragati Scholarship: ₹50,000 yearly for girls",
           "ICAR: Supports agriculture students studying in another state",
-          "State/Private Aid: Odisha and other groups provide ₹25,000 – ₹50,000",
-        ],
+          "State/Private Aid: Odisha and other groups provide ₹25,000 – ₹50,000"
+        ]
       },
       {
         id: "6",
@@ -3166,8 +3123,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Working frequently in hot, dusty, and muddy outdoor conditions",
           "Workloads can triple during intense harvest periods",
-          "Adapting high-tech lab designs for practical use on small Indian farm plots",
-        ],
+          "Adapting high-tech lab designs for practical use on small Indian farm plots"
+        ]
       },
       {
         id: "7",
@@ -3179,10 +3136,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Master Physics (Mechanics) and Geometry — they are foundation pillars",
           "Learn Python — the essential language for agricultural AI and drone analysis",
           "Visit 'Kisan Melas' to study farm machinery and equipment failures",
-          "Build simple solar lamps or automated balcony irrigation systems",
-        ],
-      },
-    ],
+          "Build simple solar lamps or automated balcony irrigation systems"
+        ]
+      }
+    ]
   },
 
   // ─── AGRICULTURE RESEARCH ─────────────────────────────────────────
@@ -3195,16 +3152,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🧬", title: "Scientific Core", description: "Decode plant DNA and 'blueprints'", borderColor: "#F59E0B" },
       { icon: "🌡️", title: "Climate Resilience", description: "Develop crops thriving in extreme conditions", borderColor: "#1E40AF" },
       { icon: "🛡️", title: "National Security", description: "Ensure food security for 1.4 billion people", borderColor: "#6366F1" },
-      { icon: "🌱", title: "Green Doctors", description: "Maximize yields on shrinking arable land", borderColor: "#10B981" },
+      { icon: "🌱", title: "Green Doctors", description: "Maximize yields on shrinking arable land", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Long Term Goal", detail: "4yr B.Sc, 2yr M.Sc, 3-5yr Ph.D", color: "bg-amber-100 text-amber-700" },
       { label: "Research Stipend", detail: "Earn ₹31,000–35,000 during Ph.D", color: "bg-blue-100 text-blue-700" },
-      { label: "Major Impact", detail: "Develop crops with 50% less water need", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Major Impact", detail: "Develop crops with 50% less water need", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "7-12 Years", label: "To Develop New Variety", gradient: "from-amber-500 to-amber-600" },
-      { value: "₹35,000", label: "Monthly Ph.D Stipend", gradient: "from-blue-600 to-indigo-600" },
+      { value: "₹35,000", label: "Monthly Ph.D Stipend", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3216,8 +3173,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "This is a high-tech pursuit involving Plant Scientists decoding plant 'blueprints'",
           "Developing crops that thrive with 50% less water and resist extreme heatwaves",
-          "In a nation of 1.4 billion, researchers ensure food security on shrinking land",
-        ],
+          "In a nation of 1.4 billion, researchers ensure food security on shrinking land"
+        ]
       },
       {
         id: "2",
@@ -3230,8 +3187,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Extreme persistence to stay patient when experiments fail",
           "Sharp accuracy in following rules and recording data",
           "Strong analytical skills using statistics and software",
-          "High ethics and care for environmental and public health",
-        ],
+          "High ethics and care for environmental and public health"
+        ]
       },
       {
         id: "3",
@@ -3242,8 +3199,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Hypothesis & Lab: Identifying threats and decoding pathogens in labs",
           "Tiered Testing: Scaling from greenhouses to multi-climatic field trials",
-          "Approval & Extension: Securing government certification and educating farmers",
-        ],
+          "Approval & Extension: Securing government certification and educating farmers"
+        ]
       },
       {
         id: "4",
@@ -3256,8 +3213,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Private Tuition: ₹5 Lakh – ₹12 Lakh total",
           "Duration: 4yr B.Sc + 2yr M.Sc + 3-5yr Ph.D",
           "Stipend: Ph.D students earn ₹31,000 – ₹35,000 per month",
-          "Living Costs: ₹10,000 – ₹20,000 monthly",
-        ],
+          "Living Costs: ₹10,000 – ₹20,000 monthly"
+        ]
       },
       {
         id: "5",
@@ -3269,8 +3226,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "ICAR National Talent Scholarship (NTS) for inter-state study",
           "JRF via CSIR-UGC NET for monthly Ph.D funding",
           "Corteva Scholarship: ₹50,000 yearly for girls in postgraduation",
-          "Global: Fulbright and Commonwealth for study in USA and UK",
-        ],
+          "Global: Fulbright and Commonwealth for study in USA and UK"
+        ]
       },
       {
         id: "6",
@@ -3281,8 +3238,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Developing a single variety is a marathon (7 to 12 years)",
           "Navigating strict approvals and clearances for GM crops",
-          "High stamina needed for field trials under intense heat",
-        ],
+          "High stamina needed for field trials under intense heat"
+        ]
       },
       {
         id: "7",
@@ -3294,10 +3251,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Join school science fairs and biology projects",
           "Follow journals like Nature Plants or PIB Science & Tech sections",
           "Learn R or Python — modern research relies heavily on data",
-          "Start your own vegetable patch to understand life cycles firsthand",
-        ],
-      },
-    ],
+          "Start your own vegetable patch to understand life cycles firsthand"
+        ]
+      }
+    ]
   },
 
   // ─── ANIMAL / VETERINARY SCIENCE ──────────────────────────────────
@@ -3310,16 +3267,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🏥", title: "Beyond Clinical", description: "Scientific study of biology and welfare", borderColor: "#F59E0B" },
       { icon: "🛡️", title: "National Pillar", description: "Prevent zoonotic diseases and lead conservation", borderColor: "#1E40AF" },
       { icon: "🥛", title: "Economic Backbone", description: "Lead dairy and exports industry sustainably", borderColor: "#6366F1" },
-      { icon: "🌍", title: "Public Safety", description: "Monitoring diseases to prevent health crises", borderColor: "#10B981" },
+      { icon: "🌍", title: "Public Safety", description: "Monitoring diseases to prevent health crises", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "B.V.Sc & AH", detail: "Mandatory degree for veterinary practice", color: "bg-amber-100 text-amber-700" },
       { label: "NEET Compulsory", detail: "Entrance based on national medical exam", color: "bg-blue-100 text-blue-700" },
-      { label: "Global Leader", detail: "India leads in dairy and livestock experts", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Global Leader", detail: "India leads in dairy and livestock experts", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "5.5 Years", label: "Duration to Qualify", gradient: "from-amber-500 to-amber-600" },
-      { value: "Zoonotic", label: "Disease Monitoring", gradient: "from-blue-600 to-indigo-600" },
+      { value: "Zoonotic", label: "Disease Monitoring", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3331,8 +3288,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "It is the scientific study of animal biology, management, and welfare",
           "Professionals safeguard India’s food supply and prevent zoonotic diseases like Rabies",
-          "India is a global leader in dairy and relies on experts for ethical exports",
-        ],
+          "India is a global leader in dairy and relies on experts for ethical exports"
+        ]
       },
       {
         id: "2",
@@ -3344,8 +3301,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Deep compassion for non-verbal creatures and keen observation",
           "High stamina and physical strength for handling large livestock",
           "Calm, decisive action during emergencies",
-          "Ability to simplify complex medical data for owners",
-        ],
+          "Ability to simplify complex medical data for owners"
+        ]
       },
       {
         id: "3",
@@ -3356,8 +3313,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Clinical Care: Diagnosing ailments and executing medicinal treatment plans",
           "Preventive Health: Managing vaccinations, deworming, and tailored nutrition",
-          "Public Safety: Monitoring diseases to prevent jumping from animals to humans",
-        ],
+          "Public Safety: Monitoring diseases to prevent jumping from animals to humans"
+        ]
       },
       {
         id: "4",
@@ -3370,8 +3327,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Private Tuition: ₹10 Lakh – ₹25 Lakh",
           "Living Costs: ₹10,000 – ₹18,000 monthly",
           "NEET Coaching: ₹50,000 – ₹1 Lakh",
-          "Equipment: Budget for medical tools like stethoscopes",
-        ],
+          "Equipment: Budget for medical tools like stethoscopes"
+        ]
       },
       {
         id: "5",
@@ -3383,8 +3340,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "ICAR NTS: ₹3,000 per month for inter-state study",
           "ICAR JRF/SRF: Up to ₹35,000 monthly for research",
           "VCI Scholarship for top All-India Quota students",
-          "NSP for SC, ST, and OBC category students",
-        ],
+          "NSP for SC, ST, and OBC category students"
+        ]
       },
       {
         id: "6",
@@ -3395,8 +3352,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Occupational hazards like being bitten or kicked by stressed animals",
           "Managing terminal illnesses and facilitating 'end-of-life' decisions",
-          "Unpredictable schedule with emergencies that extend beyond 9-to-5",
-        ],
+          "Unpredictable schedule with emergencies that extend beyond 9-to-5"
+        ]
       },
       {
         id: "7",
@@ -3408,10 +3365,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Volunteer at local shelters or gaushalas for hands-on experience",
           "Focus intensely on Biology and Physiology",
           "Join debate clubs to refine communication skills for owners",
-          "Learn digital tools used in modern veterinary diagnostics",
-        ],
-      },
-    ],
+          "Learn digital tools used in modern veterinary diagnostics"
+        ]
+      }
+    ]
   },
 
   // ─── APICULTURE ───────────────────────────────────────────────────
@@ -3424,16 +3381,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🍯", title: "Honey Production", description: "Collect honey safely and manage bee colonies", borderColor: "#F59E0B" },
       { icon: "🌸", title: "Pollination Hero", description: "Bees help grow one-third of the food we eat", borderColor: "#1E40AF" },
       { icon: "🇮🇳", title: "Indian Growth", description: "India is the 7th largest honey producer globally", borderColor: "#6366F1" },
-      { icon: "🚀", title: "Modern Career", description: "Mix of biology, farming, business, and sustainability", borderColor: "#10B981" },
+      { icon: "🚀", title: "Modern Career", description: "Mix of biology, farming, business, and sustainability", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Fast Training", detail: "Short courses by KVIC are often free", color: "bg-amber-100 text-amber-700" },
       { label: "Startup Low Cost", detail: "Starting tools cost ₹25,000–₹60,000", color: "bg-blue-100 text-blue-700" },
-      { label: "Massive Role", detail: "Critical impact on crop yields globally", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Massive Role", detail: "Critical impact on crop yields globally", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "1/3", label: "Food Depends on Bees", gradient: "from-amber-500 to-amber-600" },
-      { value: "7th", label: "India Global Rank", gradient: "from-blue-600 to-indigo-600" },
+      { value: "7th", label: "India Global Rank", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3446,8 +3403,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Apiculture means keeping bees to produce honey and other products",
           "Beekeepers manage colonies and collect honey safely",
           "Bees help grow one-third of the food we eat through pollination",
-          "India is the 7th largest honey producer with many opportunities",
-        ],
+          "India is the 7th largest honey producer with many opportunities"
+        ]
       },
       {
         id: "2",
@@ -3459,8 +3416,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Deep love for nature, biology, and outdoor work",
           "Patient, calm, and ready to start your own business",
           "Good at observation and problem-solving",
-          "Okay with hands-on work and occasional bee stings",
-        ],
+          "Okay with hands-on work and occasional bee stings"
+        ]
       },
       {
         id: "3",
@@ -3472,8 +3429,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Inspection: Checking hive health weekly",
           "Harvest: Collecting honey 2–4 times yearly",
           "Pollination: Providing seasonal pollination for farms",
-          "Sales: Bottling and selling honey often",
-        ],
+          "Sales: Bottling and selling honey often"
+        ]
       },
       {
         id: "4",
@@ -3486,8 +3443,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Degree (B.Sc): ₹15,000 – ₹1.5 Lakh yearly",
           "Starting Tools: ₹25,000 – ₹60,000 (Bee boxes, etc.)",
           "License (FSSAI): ₹2,000 – ₹5,000",
-          "Hostel Living: ₹5,000 – ₹8,000 monthly",
-        ],
+          "Hostel Living: ₹5,000 – ₹8,000 monthly"
+        ]
       },
       {
         id: "5",
@@ -3500,8 +3457,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "ICAR JRF/SRF for PG and Ph.D research students",
           "NABARD Fellowship for rural farming graduates",
           "KVIC Subsidies for SC/ST, women, and rural youth",
-          "Mudra Loans for starting your own bee business",
-        ],
+          "Mudra Loans for starting your own bee business"
+        ]
       },
       {
         id: "6",
@@ -3512,8 +3469,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Income depends heavily on flowers and weather conditions",
           "Risk of bee stings and potential allergies",
-          "Adulteration issues in the market can harm consumer trust",
-        ],
+          "Adulteration issues in the market can harm consumer trust"
+        ]
       },
       {
         id: "7",
@@ -3525,10 +3482,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Study Biology, Chemistry, and pollination topics deeply",
           "Visit local KVK (Krishi Vigyan Kendra) or bee farms",
           "Watch ICAR videos and take free digital courses",
-          "Learn basic profit and loss for business operations",
-        ],
-      },
-    ],
+          "Learn basic profit and loss for business operations"
+        ]
+      }
+    ]
   },
 
   // ─── AQUACULTURE ──────────────────────────────────────────────────
@@ -3541,16 +3498,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🍤", title: "Fish Farming", description: "Manage full lifecycle of aquatic organisms", borderColor: "#F59E0B" },
       { icon: "🇮🇳", title: "Global Leader", description: "India is world's 3rd-largest fish producer", borderColor: "#1E40AF" },
       { icon: "💼", title: "Job Target", description: "PMMSY targets 55 lakh new jobs by 2025", borderColor: "#6366F1" },
-      { icon: "📈", title: "Huge Market", description: "Projected to double by 2033", borderColor: "#10B981" },
+      { icon: "📈", title: "Huge Market", description: "Projected to double by 2033", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "B.F.Sc Degree", detail: "Bachelor of Fisheries Science path", color: "bg-amber-100 text-amber-700" },
       { label: "3rd Largest", detail: "India's global rank in fish production", color: "bg-blue-100 text-blue-700" },
-      { label: "High Export", detail: "India is the 4th largest seafood exporter", color: "bg-indigo-100 text-indigo-700" },
+      { label: "High Export", detail: "India is the 4th largest seafood exporter", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "55 Lakh", label: "New Jobs Target", gradient: "from-amber-500 to-amber-600" },
-      { value: "2x", label: "Market Growth by 2033", gradient: "from-blue-600 to-indigo-600" },
+      { value: "2x", label: "Market Growth by 2033", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3562,8 +3519,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Farming organisms like fish, shrimp, and oysters under controlled conditions",
           "India is the world's 3rd largest fish producer and 4th largest exporter",
-          "Government schemes target 55 lakh new jobs in this sector by 2025",
-        ],
+          "Government schemes target 55 lakh new jobs in this sector by 2025"
+        ]
       },
       {
         id: "2",
@@ -3575,8 +3532,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Observant, patient, and physically fit for outdoor work",
           "Strong attention to detail and problem-solving skills",
           "Competency in water quality and fish nutrition",
-          "Comfortable with hatchery operations and aquaculture technology",
-        ],
+          "Comfortable with hatchery operations and aquaculture technology"
+        ]
       },
       {
         id: "3",
@@ -3587,8 +3544,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Pre-Stocking: Preparing ponds and testing water quality",
           "Growing: Monitoring feeding and observing health daily",
-          "Harvest: Sorting, packaging, and coordinating with buyers",
-        ],
+          "Harvest: Sorting, packaging, and coordinating with buyers"
+        ]
       },
       {
         id: "4",
@@ -3601,8 +3558,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Bachelor (B.F.Sc): ₹20,000 – ₹1.5 Lakh yearly",
           "Master: ₹30,000 – ₹2 Lakh yearly",
           "Living Costs: ₹4,000 – ₹12,000 per month",
-          "Ph.D: Stipends available for research students",
-        ],
+          "Ph.D: Stipends available for research students"
+        ]
       },
       {
         id: "5",
@@ -3614,8 +3571,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "ICAR JRF/SRF and NSP for minority and category students",
           "CIFE and ICAR universities offer merit scholarships",
           "State Scholarships (Andhra, Kerala, Tamil Nadu)",
-          "Corporate Fellowships from companies like Avanti and Waterbase",
-        ],
+          "Corporate Fellowships from companies like Avanti and Waterbase"
+        ]
       },
       {
         id: "6",
@@ -3626,8 +3583,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Floods, cyclones, and diseases can destroy whole farms",
           "Fish rates fluctuate based on global market demand",
-          "Export work requires extensive safety documentation",
-        ],
+          "Export work requires extensive safety documentation"
+        ]
       },
       {
         id: "7",
@@ -3639,10 +3596,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Master Biology, Chemistry, and ecology in school",
           "Visit fish farms and join science fair competitions",
           "Take free courses on NPTEL and ICAR websites",
-          "Read CMFRI and fish industry reports regularly",
-        ],
-      },
-    ],
+          "Read CMFRI and fish industry reports regularly"
+        ]
+      }
+    ]
   },
 
   // ─── DAIRY TECHNOLOGY ───────────────────────────────────────────
@@ -3655,16 +3612,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🧪", title: "More Than Farming", description: "Food science focused on tech processing", borderColor: "#F59E0B" },
       { icon: "🛡️", title: "Guardian Role", description: "Ensuring milk is safe and nutrient-dense", borderColor: "#1E40AF" },
       { icon: "🇮🇳", title: "National Mission", description: "Backbone of the world's largest milk producer", borderColor: "#6366F1" },
-      { icon: "🧀", title: "Value Addition", description: "Transform raw milk into global-standard goods", borderColor: "#10B981" },
+      { icon: "🧀", title: "Value Addition", description: "Transform raw milk into global-standard goods", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "B.Tech Path", detail: "4-year professional engineering degree", color: "bg-amber-100 text-amber-700" },
       { label: "High Demand", detail: "Backbone of India's massive dairy industry", color: "bg-blue-100 text-blue-700" },
-      { label: "Safe Nutrition", detail: "Focus on spoilage-free, healthy products", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Safe Nutrition", detail: "Focus on spoilage-free, healthy products", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "No. 1", label: "Global Milk Producer", gradient: "from-amber-500 to-amber-600" },
-      { value: "24/7", label: "Operations Focus", gradient: "from-blue-600 to-indigo-600" },
+      { value: "24/7", label: "Operations Focus", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3676,8 +3633,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Focused on processing, packaging, and distribution of milk and products like cheese and yogurt",
           "Technologists act as scientists ensuring milk is safe, nutrient-dense, and spoilage-free",
-          "Professionals serve as the industry's backbone, as India is the world's largest producer",
-        ],
+          "Professionals serve as the industry's backbone, as India is the world's largest producer"
+        ]
       },
       {
         id: "2",
@@ -3689,8 +3646,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Sharp attention to detail for chemical testing and consumer health",
           "Strong foundation in Biology and Chemistry with physical endurance",
           "Ability to work in cold storage or factory environments",
-          "Expert problem-solving skills to troubleshoot production issues",
-        ],
+          "Expert problem-solving skills to troubleshoot production issues"
+        ]
       },
       {
         id: "3",
@@ -3702,8 +3659,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Procurement: Collecting and immediate cooling of raw milk",
           "Processing: Pasteurization, homogenization, and fortification",
           "Value Addition: Transforming milk into premium cheese, paneer, and ghee",
-          "Quality & Logistics: Lab testing and managing the 'cold chain' for delivery",
-        ],
+          "Quality & Logistics: Lab testing and managing the 'cold chain' for delivery"
+        ]
       },
       {
         id: "4",
@@ -3715,8 +3672,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Govt Tuition: ₹20,000 – ₹1.5 Lakh for 4 years",
           "Private Tuition: ₹5 Lakh – ₹12 Lakh total",
           "Living Costs: ₹10,000 – ₹20,000 monthly",
-          "Coaching: Exam prep costs ₹50,000 – ₹1 Lakh",
-        ],
+          "Coaching: Exam prep costs ₹50,000 – ₹1 Lakh"
+        ]
       },
       {
         id: "5",
@@ -3727,8 +3684,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "ICAR NTS: ₹3,000 monthly for inter-state study",
           "NDRI: Fellowship for Master's students with research support",
-          "NSP for fee waivers and allowances based on category",
-        ],
+          "NSP for fee waivers and allowances based on category"
+        ]
       },
       {
         id: "6",
@@ -3739,8 +3696,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Processing runs 24/7 due to high perishability, requiring shift work",
           "Environment fluctuates between industrial heat and sub-zero storage",
-          "High stakes where minor errors can cause massive safety crises",
-        ],
+          "High stakes where minor errors can cause massive safety crises"
+        ]
       },
       {
         id: "7",
@@ -3751,10 +3708,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Master Organic Chemistry and Biomolecules — the core of milk science",
           "Develop strong English communication for technical reporting",
-          "Experiment at home with fermentation and temperature at safe levels",
-        ],
-      },
-    ],
+          "Experiment at home with fermentation and temperature at safe levels"
+        ]
+      }
+    ]
   },
 
   // ─── FLORIST ─────────────────────────────────────────────────────
@@ -3767,16 +3724,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "💐", title: "Creative Art", description: "Select and arrange flowers for weddings and events", borderColor: "#F59E0B" },
       { icon: "📈", title: "Booming Market", description: "India's market expected to reach ₹744 billion", borderColor: "#1E40AF" },
       { icon: "🏨", title: "Growth Drivers", description: "Driven by hotels, cafés, and online gifting", borderColor: "#6366F1" },
-      { icon: "🌍", title: "Global Scale", description: "Industry valued at over USD 57 billion globally", borderColor: "#10B981" },
+      { icon: "🌍", title: "Global Scale", description: "Industry valued at over USD 57 billion globally", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Creative Career", detail: "Best for nature-loving and entrepreneurial minds", color: "bg-amber-100 text-amber-700" },
       { label: "Rising Market", detail: "Massive growth expected in India by 2033", color: "bg-blue-100 text-blue-700" },
-      { label: "Digital Sales", detail: "Strong focus on social media and online gifting", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Digital Sales", detail: "Strong focus on social media and online gifting", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹744B", label: "Projected Market (2033)", gradient: "from-amber-500 to-amber-600" },
-      { value: "USD 57B", label: "Global Industry Size", gradient: "from-blue-600 to-indigo-600" },
+      { value: "USD 57B", label: "Global Industry Size", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3788,8 +3745,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Selecting and arranging flowers for weddings, events, hotels, and gifting",
           "Combines creativity with colour theory, biology, and digital marketing",
-          "Growth is driven by weddings and rising incomes in India",
-        ],
+          "Growth is driven by weddings and rising incomes in India"
+        ]
       },
       {
         id: "2",
@@ -3801,8 +3758,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Creative, nature-loving, and entrepreneurial individuals",
           "Good at customer service and teamwork",
           "Knowledge of arrangements, colours, and basic accounts",
-          "Unsuitable for those avoiding early mornings or physical work",
-        ],
+          "Unsuitable for those avoiding early mornings or physical work"
+        ]
       },
       {
         id: "3",
@@ -3814,8 +3771,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Buying: Purchasing fresh flowers from farms or markets",
           "Design: Arranging flowers as per customer needs and events",
           "Delivery: Packing and ensuring timely delivery for fresh look",
-          "Business: Handling social media, stock, and staff management",
-        ],
+          "Business: Handling social media, stock, and staff management"
+        ]
       },
       {
         id: "4",
@@ -3827,8 +3784,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Certificate: ₹5,000 – ₹60,000",
           "Degree: ₹20,000 – ₹2 Lakh yearly",
           "Living Costs: ₹5,000 – ₹15,000 monthly",
-          "Tools/Equipment: ₹3,000 – ₹10,000",
-        ],
+          "Tools/Equipment: ₹3,000 – ₹10,000"
+        ]
       },
       {
         id: "5",
@@ -3840,8 +3797,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "NSP and PMKVY for free training and scholarships",
           "State agriculture portal subsidies for flower-growing areas",
           "Institutional fee waivers at IARI and specific universities",
-          "Corporate sponsorships for future talent",
-        ],
+          "Corporate sponsorships for future talent"
+        ]
       },
       {
         id: "6",
@@ -3852,8 +3809,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Unsold flowers cause direct financial loss due to spoilage",
           "Work requires early mornings and long standing during events",
-          "Earnings fluctuate heavily based on wedding seasons",
-        ],
+          "Earnings fluctuate heavily based on wedding seasons"
+        ]
       },
       {
         id: "7",
@@ -3865,10 +3822,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Study botany, colour theory, and art in school",
           "Arrange flowers at home and build a photo portfolio",
           "Start an Instagram page for your designs early",
-          "Join art fairs and workshops to understand market trends",
-        ],
-      },
-    ],
+          "Join art fairs and workshops to understand market trends"
+        ]
+      }
+    ]
   },
 
   // ─── FOOD SCIENCE ────────────────────────────────────────────────
@@ -3881,16 +3838,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🛡️", title: "Safety First", description: "Ensure food is safe and nutritional", borderColor: "#F59E0B" },
       { icon: "🔬", title: "Science Edge", description: "Study biological and chemical makeup of food", borderColor: "#1E40AF" },
       { icon: "🧊", title: "Preservation", description: "Apply technology to distribution and storage", borderColor: "#6366F1" },
-      { icon: "🍩", title: "Healthy Snacks", description: "Innovative snacks and crop fortification", borderColor: "#10B981" },
+      { icon: "🍩", title: "Healthy Snacks", description: "Innovative snacks and crop fortification", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Spoilage Solver", detail: "Critical role in reducing India's 30% spoilage", color: "bg-amber-100 text-amber-700" },
       { label: "4-Year B.Tech", detail: "Engineering path for food technology", color: "bg-blue-100 text-blue-700" },
-      { label: "High Impact", detail: "Vital bridge between farms and consumers", color: "bg-indigo-100 text-indigo-700" },
+      { label: "High Impact", detail: "Vital bridge between farms and consumers", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "30%", label: "India Spoilage Rate", gradient: "from-amber-500 to-amber-600" },
-      { value: "100%", label: "Fee Waiver (NIFTEM)", gradient: "from-blue-600 to-indigo-600" },
+      { value: "100%", label: "Fee Waiver (NIFTEM)", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3902,8 +3859,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Critical field for reducing India's 30% food spoilage rate",
           "Studies biological makeup and applies research to preserve food",
-          "Creates healthier snacks and manages global food security",
-        ],
+          "Creates healthier snacks and manages global food security"
+        ]
       },
       {
         id: "2",
@@ -3915,8 +3872,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Scientific curiosity for Biology, Chemistry, and data",
           "Keen palette and sharp observational skills",
           "Meticulous measurements and unwavering ethics",
-          "Creativity to innovate plant-based alternatives",
-        ],
+          "Creativity to innovate plant-based alternatives"
+        ]
       },
       {
         id: "3",
@@ -3928,8 +3885,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Development: Innovating and testing new recipes in labs",
           "Processing: Using thermal or drying techniques for preservation",
           "Quality Assurance: Hourly testing for safety compliance",
-          "Packaging: Designing attractive, secure containers",
-        ],
+          "Packaging: Designing attractive, secure containers"
+        ]
       },
       {
         id: "4",
@@ -3940,8 +3897,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "NIFTEM: 100% fee waiver plus monthly stipend",
           "Corteva scholarship for girls' education costs",
-          "Aditya Birla and Foundation for Excellence aid",
-        ],
+          "Aditya Birla and Foundation for Excellence aid"
+        ]
       },
       {
         id: "5",
@@ -3952,8 +3909,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Production facilities often operate 24/7 with shift work",
           "Safety standards leave no room for error; mistakes can cause recalls",
-          "Long hours standing in extreme factory environments",
-        ],
+          "Long hours standing in extreme factory environments"
+        ]
       },
       {
         id: "6",
@@ -3964,10 +3921,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Master titration and pH testing for daily lab analysis",
           "Practice making preserves at home to study preservation",
-          "Maintain a 'Label Diary' to compare commercial brand ingredients",
-        ],
-      },
-    ],
+          "Maintain a 'Label Diary' to compare commercial brand ingredients"
+        ]
+      }
+    ]
   },
   horticulture: {
     slug: "horticulture",
@@ -3978,16 +3935,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🌳", title: "High-Value Crops", description: "Focus on fruits, vegetables, flowers, and medicinal herbs", borderColor: "#F59E0B" },
       { icon: "🍏", title: "Nutritional Security", description: "Ensuring high-yield orchards and veggie farms", borderColor: "#1E40AF" },
       { icon: "🔬", title: "Modern Science", description: "Tissue culture, biotechnology, and post-harvest tech", borderColor: "#6366F1" },
-      { icon: "💰", title: "Booming Market", description: "Organic exports and high-end landscaping are growing", borderColor: "#10B981" },
+      { icon: "💰", title: "Booming Market", description: "Organic exports and high-end landscaping are growing", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "High Growth", detail: "Market for organic and high-end plants is rising", color: "bg-amber-100 text-amber-700" },
       { label: "B.Sc/B.Tech", detail: "4-year degree in Horticulture Science", color: "bg-blue-100 text-blue-700" },
-      { label: "Export Focus", detail: "Strong focus on global standards and shipping", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Export Focus", detail: "Strong focus on global standards and shipping", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹15+ LPA", label: "Senior Salary", gradient: "from-amber-500 to-amber-600" },
-      { value: "₹744B", label: "Projected Industry", gradient: "from-blue-600 to-indigo-600" },
+      { value: "₹744B", label: "Projected Industry", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -3999,8 +3956,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Focused on growing fruits, vegetables, flowers, and medicinal plants",
           "Combines artistic landscape design with biological engineering",
-          "Essential for high-yield farming in small areas",
-        ],
+          "Essential for high-yield farming in small areas"
+        ]
       },
       {
         id: "2",
@@ -4012,8 +3969,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Strong interest in plant biology and environmental science",
           "Patience to observe growth cycles over months and years",
           "Creative eye for landscape and floral arrangement",
-          "Business acumen for nursery and export management",
-        ],
+          "Business acumen for nursery and export management"
+        ]
       },
       {
         id: "3",
@@ -4025,8 +3982,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Cultivation: Managing soil health and precise irrigation",
           "Breeding: Developing pest-resistant and high-yield varieties",
           "Design: Planning gardens, parks, and urban green spaces",
-          "Logistics: Managing the supply chain for perishable goods",
-        ],
+          "Logistics: Managing the supply chain for perishable goods"
+        ]
       },
       {
         id: "4",
@@ -4038,8 +3995,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Govt Tuition: ₹20,000 – ₹1.5 Lakh total for 4 years",
           "Private Tuition: ₹5 Lakh – ₹12 Lakh total",
           "Living Costs: ₹10,000 – ₹25,000 monthly",
-          "Nursery Tools: ₹5,000 – ₹15,000 for personal kits",
-        ],
+          "Nursery Tools: ₹5,000 – ₹15,000 for personal kits"
+        ]
       },
       {
         id: "5",
@@ -4050,8 +4007,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "ICAR Academic scholarships for top performers",
           "State-level Horticulture Department grants",
-          "National Fellowship for SC/ST and OBC students",
-        ],
+          "National Fellowship for SC/ST and OBC students"
+        ]
       },
       {
         id: "6",
@@ -4062,8 +4019,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "High sensitivity to pesticide levels and export rules",
           "Rapid perishability of flowers and soft fruits",
-          "Physical work in variable outdoor climates",
-        ],
+          "Physical work in variable outdoor climates"
+        ]
       },
       {
         id: "7",
@@ -4074,10 +4031,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Master plant anatomy and soil chemistry in school",
           "Start a kitchen garden or maintain a nursery at home",
-          "Visit local botanical gardens and high-tech farms",
-        ],
-      },
-    ],
+          "Visit local botanical gardens and high-tech farms"
+        ]
+      }
+    ]
   },
   poultry: {
     slug: "poultry",
@@ -4088,16 +4045,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🍗", title: "Protein Source", description: "Vital role in affordable nutrition for millions", borderColor: "#F59E0B" },
       { icon: "🤖", title: "Automation", description: "Automated feeding and climate control systems", borderColor: "#1E40AF" },
       { icon: "📈", title: "Fast Returns", description: "Quick growth cycles and rapid ROI", borderColor: "#6366F1" },
-      { icon: "🛡️", title: "Bio-Security", description: "High-tech health management and safety", borderColor: "#10B981" },
+      { icon: "🛡️", title: "Bio-Security", description: "High-tech health management and safety", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Protein Backbone", detail: "Essential for India's food security", color: "bg-amber-100 text-amber-700" },
       { label: "Tech-Driven", detail: "Modern farms use AI and IoT for monitoring", color: "bg-blue-100 text-blue-700" },
-      { label: "Massive Industry", detail: "One of the fastest-growing agri-sectors", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Massive Industry", detail: "One of the fastest-growing agri-sectors", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "No. 3", label: "Global Egg Producer", gradient: "from-amber-500 to-amber-600" },
-      { value: "₹1.2L Cr", label: "Industry Valuation", gradient: "from-blue-600 to-indigo-600" },
+      { value: "₹1.2L Cr", label: "Industry Valuation", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -4109,8 +4066,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Focuses on breeding, hatching, and raising domestic birds",
           "Ensures meat and egg production meets health standards",
-          "Utilizes advanced genetics and nutritional planning",
-        ],
+          "Utilizes advanced genetics and nutritional planning"
+        ]
       },
       {
         id: "2",
@@ -4122,8 +4079,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Resilience to work in farm environments and odd hours",
           "Analytical mind to track feed-to-meat conversion rates",
           "Strong focus on hygiene and disease prevention",
-          "Entrepreneurial spirit for farm ownership",
-        ],
+          "Entrepreneurial spirit for farm ownership"
+        ]
       },
       {
         id: "3",
@@ -4135,8 +4092,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Nutrition: Formulating precise feed balances",
           "Health Control: Implementing vaccines and biosecurity",
           "Operations: Managing automated farm environments",
-          "Marketing: Connecting with meat and egg supply chains",
-        ],
+          "Marketing: Connecting with meat and egg supply chains"
+        ]
       },
       {
         id: "4",
@@ -4147,8 +4104,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Diploma/Cert: ₹10,000 – ₹50,000",
           "Degree Path: ₹3 Lakh – ₹8 Lakh total",
-          "Training: Specialized workshops cost ₹5k-15k",
-        ],
+          "Training: Specialized workshops cost ₹5k-15k"
+        ]
       },
       {
         id: "5",
@@ -4159,8 +4116,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "ICAR merit scholarships for undergraduate study",
           "Poultry Federation of India research grants",
-          "NABARD subsidies for farm entrepreneurship",
-        ],
+          "NABARD subsidies for farm entrepreneurship"
+        ]
       },
       {
         id: "6",
@@ -4171,8 +4128,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Outbreaks like Bird Flu can devastate entire farms",
           "Fluctuating costs of feed like maize and soy",
-          "Strict government sanitation and safety audits",
-        ],
+          "Strict government sanitation and safety audits"
+        ]
       },
       {
         id: "7",
@@ -4183,10 +4140,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Study avian biology and genetics in school",
           "Visit poultry research labs or modern farms",
-          "Learn basic farm accounting and stock management",
-        ],
-      },
-    ],
+          "Learn basic farm accounting and stock management"
+        ]
+      }
+    ]
   },
   sericulture: {
     slug: "sericulture",
@@ -4197,16 +4154,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🐛", title: "Silk Artistry", description: "Creating raw silk from silkworm cocoons", borderColor: "#F59E0B" },
       { icon: "🌾", title: "Rural Growth", description: "Empowering millions of rural households", borderColor: "#1E40AF" },
       { icon: "👗", title: "Eco-Luxury", description: "Sustainable alternative to synthetic fabrics", borderColor: "#6366F1" },
-      { icon: "🌍", title: "Export Power", description: "India is a major global silk exporter", borderColor: "#10B981" },
+      { icon: "🌍", title: "Export Power", description: "India is a major global silk exporter", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Silk Hub", detail: "India is the 2nd largest producer globally", color: "bg-amber-100 text-amber-700" },
       { label: "High Employment", detail: "80 lakh+ people employed in silk industry", color: "bg-blue-100 text-blue-700" },
-      { label: "Rural Impact", detail: "Vital for rural and tribal livelihoods", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Rural Impact", detail: "Vital for rural and tribal livelihoods", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "No. 2", label: "Global Producer", gradient: "from-amber-500 to-amber-600" },
-      { value: "8M+", label: "People Employed", gradient: "from-blue-600 to-indigo-600" },
+      { value: "8M+", label: "People Employed", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -4218,8 +4175,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Focuses on rearing silkworms and mulberry cultivation",
           "Integral to India's textile and luxury heritage",
-          "Combines agriculture with high-end fabric technology",
-        ],
+          "Combines agriculture with high-end fabric technology"
+        ]
       },
       {
         id: "2",
@@ -4231,8 +4188,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Interest in entomology (study of insects) and biology",
           "Patience for intensive indoor rearing processes",
           "Deep empathy for rural development and craft",
-          "Eye for detail in silk quality and grading",
-        ],
+          "Eye for detail in silk quality and grading"
+        ]
       },
       {
         id: "3",
@@ -4244,8 +4201,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Farming: Cultivating mulberry leaves for worm feed",
           "Rearing: Managing temperature for silkworm growth",
           "Harvest: Collecting cocoons for silk extraction",
-          "Reeling: Unwinding silk threads using machines",
-        ],
+          "Reeling: Unwinding silk threads using machines"
+        ]
       },
       {
         id: "4",
@@ -4256,8 +4213,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Certificate/Short Course: ₹5,000 – ₹20,000",
           "B.Sc Sericulture: ₹2 Lakh – ₹5 Lakh total",
-          "Govt training is often free or highly subsidized",
-        ],
+          "Govt training is often free or highly subsidized"
+        ]
       },
       {
         id: "5",
@@ -4268,8 +4225,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Central Silk Board (CSB) student scholarships",
           "Merit aid for agriculture and textile degrees",
-          "SC/ST post-matric fellowships via NSP",
-        ],
+          "SC/ST post-matric fellowships via NSP"
+        ]
       },
       {
         id: "6",
@@ -4280,8 +4237,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Silkworms are highly sensitive to pests and disease",
           "Market prices of raw silk can fluctuate widely",
-          "Requires intensive manual labor in the rearing stage",
-        ],
+          "Requires intensive manual labor in the rearing stage"
+        ]
       },
       {
         id: "7",
@@ -4292,10 +4249,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Learn about insect biology and textile fibers in school",
           "Visit silk cooperatives or Government Grainage centers",
-          "Study the history of silk trade and global fashion trends",
-        ],
-      },
-    ],
+          "Study the history of silk trade and global fashion trends"
+        ]
+      }
+    ]
   },
   vertical_farming: {
     slug: "vertical_farming",
@@ -4306,16 +4263,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🏙️", title: "Urban Future", description: "Grow food in cities with zero soil requirement", borderColor: "#F59E0B" },
       { icon: "💧", title: "90% Water Savings", description: "Massive eco-efficiency and water conservation", borderColor: "#1E40AF" },
       { icon: "🧪", title: "Tech-Savvy", description: "Control nutrients, light, and climate precisely", borderColor: "#6366F1" },
-      { icon: "🔋", title: "Year-Round", description: "Harvest fresh food regardless of outside weather", borderColor: "#10B981" },
+      { icon: "🔋", title: "Year-Round", description: "Harvest fresh food regardless of outside weather", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Soilless Farming", detail: "Grow plants in air or nutrient-rich water", color: "bg-amber-100 text-amber-700" },
       { label: "Urban Impact", detail: "Solving fresh food access in crowded cities", color: "bg-blue-100 text-blue-700" },
-      { label: "High-Tech", detail: "Requires knowledge of IoT and climate control", color: "bg-indigo-100 text-indigo-700" },
+      { label: "High-Tech", detail: "Requires knowledge of IoT and climate control", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "90%", label: "Water Saved", gradient: "from-amber-500 to-amber-600" },
-      { value: "₹40+ LPA", label: "Top Designer Salary", gradient: "from-blue-600 to-indigo-600" },
+      { value: "₹40+ LPA", label: "Top Designer Salary", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -4327,8 +4284,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Growing crops in vertically stacked layers without soil",
           "Uses Hydroponics (water) or Aeroponics (mist) for nutrients",
-          "Essential for future food security in dense urban areas",
-        ],
+          "Essential for future food security in dense urban areas"
+        ]
       },
       {
         id: "2",
@@ -4340,8 +4297,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Interest in both agriculture and digital technology",
           "Precision-oriented mind for nutrient management",
           "Passion for sustainability and resource conservation",
-          "Comfortable with IoT, sensors, and LED lighting tech",
-        ],
+          "Comfortable with IoT, sensors, and LED lighting tech"
+        ]
       },
       {
         id: "3",
@@ -4353,8 +4310,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "System Design: Placing layers and installing lights/pipes",
           "Monitoring: Tracking pH, water temp, and light via tablets",
           "Nutrients: Mixing precise mineral cocktails for plants",
-          "Maintenance: Maintaining complex pumps and electronics",
-        ],
+          "Maintenance: Maintaining complex pumps and electronics"
+        ]
       },
       {
         id: "4",
@@ -4365,8 +4322,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Certifications: ₹50,000 – ₹1.5 Lakh for specialist courses",
           "Degree Path: ₹4 Lakh – ₹10 Lakh (B.Tech Agri/Electronics)",
-          "Small Scale Kits: ₹5k-20k for home experimentation",
-        ],
+          "Small Scale Kits: ₹5k-20k for home experimentation"
+        ]
       },
       {
         id: "5",
@@ -4377,8 +4334,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Agritech startup grants from Ministry of Agriculture",
           "University merit scholarships for technical courses",
-          "Sustainable innovation fellowships from private funds",
-        ],
+          "Sustainable innovation fellowships from private funds"
+        ]
       },
       {
         id: "6",
@@ -4389,8 +4346,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Initial setup cost is much higher than traditional soil farming",
           "Dependent on 24/7 electricity for lights and pumps",
-          "Tech failures can lead to rapid crop death in hours",
-        ],
+          "Tech failures can lead to rapid crop death in hours"
+        ]
       },
       {
         id: "7",
@@ -4401,10 +4358,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Assemble a small DIY hydroponic kit at home",
           "Learn basics of IoT sensors and Arduino programming",
-          "Study plant physiology and nutrient absorption in science",
-        ],
-      },
-    ],
+          "Study plant physiology and nutrient absorption in science"
+        ]
+      }
+    ]
   },
 
   // ─── FORENSIC SCIENTIST ──────────────────────────────────────────
@@ -4418,16 +4375,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🔬", title: "Justice Seeker", description: "Protect the innocent and ensure the guilty face justice", borderColor: "#F59E0B" },
       { icon: "🧬", title: "Science-Driven", description: "Use cutting-edge DNA, ballistics, and digital forensics", borderColor: "#1E40AF" },
       { icon: "📈", title: "Growing Demand", description: "12–15% annual growth driven by government initiatives", borderColor: "#6366F1" },
-      { icon: "🌐", title: "Global Recognition", description: "Skills recognized internationally in 190+ countries", borderColor: "#10B981" },
+      { icon: "🌐", title: "Global Recognition", description: "Skills recognized internationally in 190+ countries", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Salary Range", detail: "₹4L–₹50L+ annually", color: "bg-amber-100 text-amber-700" },
       { label: "Market Growth", detail: "12–15% annual job growth", color: "bg-blue-100 text-blue-700" },
-      { label: "Duration", detail: "3–5 years (B.Sc + M.Sc)", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Duration", detail: "3–5 years (B.Sc + M.Sc)", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹4L–₹50L+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-      { value: "12–15% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" },
+      { value: "12–15% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -4441,8 +4398,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "A Forensic Scientist applies scientific principles to legal problems. You are the voice of the silent victims. You use chemistry, biology, physics, and computer science to analyze evidence found at crime scenes—whether it's a drop of blood, a deleted email, a shattered bullet, or a fake signature.",
           "In today's India, the justice system relies heavily on 'evidence-based conviction' rather than just witness statements. With the new Bharatiya Nyaya Sanhita (BNS) laws emphasizing forensic evidence in serious crimes, this career has moved from the sidelines to the center stage of the Indian justice system.",
           "You don't just work in a lab; you protect the innocent and ensure the guilty face justice.",
-          "Forensic scientists work in government labs, police departments, private firms, and international organizations.",
-        ],
+          "Forensic scientists work in government labs, police departments, private firms, and international organizations."
+        ]
       },
       {
         id: "2",
@@ -4456,8 +4413,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "01:00 PM: Lunch. He eats quickly with colleagues from the Ballistics division. They discuss a new case involving a country-made pistol.",
           "02:30 PM: Court Summons. Arjun has to testify in the High Court today regarding a case he analyzed two years ago. He stands in the witness box, facing a barrage of questions from the defense lawyer. 'Dr. Arjun, are you 100% sure the sample wasn't contaminated?' He calmly explains his scientific process.",
           "05:00 PM: Back to the Lab. A rush request comes in from the Cyber Cell. They need help lifting latent fingerprints from a seized hard drive before they analyze the data. Arjun dusts the drive using magnetic powder, photographs the prints, and uploads them to the database.",
-          "06:30 PM: Paperwork. He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice.",
-        ],
+          "06:30 PM: Paperwork. He spends an hour writing a detailed report. In forensics, if you didn't document it, you didn't do it. He logs off, mentally tired but knowing his work today moved three cases closer to justice."
+        ]
       },
       {
         id: "3",
@@ -4472,8 +4429,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Patient Monk: Real lab work is repetitive. You might test 50 samples to get 1 match.",
           "Integrity: You must be unbribable and objective.",
           "Communication: Ability to explain complex science to a judge.",
-          "Tech-Savvy: Comfortable with lab equipment, databases, and increasingly, coding.",
-        ],
+          "Tech-Savvy: Comfortable with lab equipment, databases, and increasingly, coding."
+        ]
       },
       {
         id: "4",
@@ -4488,8 +4445,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "3. Interpretation: Connecting the dots. 'The soil on the shoe matches the soil from the garden, placing the suspect at the scene.'",
           "4. Reporting: Writing a legally admissible report.",
           "5. Testimony: Defending your findings in a court of law.",
-          "6. Documentation: Maintaining chain of custody and detailed records.",
-        ],
+          "6. Documentation: Maintaining chain of custody and detailed records."
+        ]
       },
       {
         id: "5",
@@ -4508,8 +4465,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Postgraduate: M.Sc. in Forensic Science",
           "Pathway C: The Cyber/Digital Route (Fastest Growth):",
           "  • Undergraduate: B.Tech in CS/BCA/B.Sc. IT",
-          "  • Postgraduate: M.Sc. in Digital Forensics or CHFI certification",
-        ],
+          "  • Postgraduate: M.Sc. in Digital Forensics or CHFI certification"
+        ]
       },
       {
         id: "6",
@@ -4524,8 +4481,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Entry-Level (0–2 years): ₹4L–₹6L (Govt), ₹3L–₹5L (Private)",
           "  • Mid-Level (3–7 years): ₹8L–₹12L (Govt), ₹7L–₹15L (Private)",
           "  • Senior-Level (8–12 years): ₹14L–₹20L (Govt), ₹18L–₹30L (Private)",
-          "  • Leadership: ₹25L+ (Govt), ₹50L+ (Consulting)",
-        ],
+          "  • Leadership: ₹25L+ (Govt), ₹50L+ (Consulting)"
+        ]
       },
       {
         id: "7",
@@ -4543,8 +4500,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Banks & Insurance: Investigating fraud and forged documents",
           "  • Cyber Security Firms: Investigating data breaches (KPMG, Deloitte, PwC)",
           "  • Private Detective Agencies",
-          "Geography: Hubs in Delhi, Gandhinagar (Gujarat), Hyderabad, Mumbai, Bangalore.",
-        ],
+          "Geography: Hubs in Delhi, Gandhinagar (Gujarat), Hyderabad, Mumbai, Bangalore."
+        ]
       },
       {
         id: "8",
@@ -4559,8 +4516,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Additional Costs: ₹10,000 for lab coats, records, field visits",
           "Living Costs: ₹15,000–₹25,000 per month in major cities",
           "Study Materials: ₹50,000–₹1L for specialized courses",
-          "Scholarships: Can significantly reduce out-of-pocket expenses",
-        ],
+          "Scholarships: Can significantly reduce out-of-pocket expenses"
+        ]
       },
       {
         id: "10",
@@ -4575,8 +4532,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Police Welfare Scholarships: Some states offer scholarships to wards of police personnel",
           "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
           "Institutional: Need-based financial assistance at various universities",
-          "Merit-Based: Top performers in entrance exams receive full or partial scholarships",
-        ],
+          "Merit-Based: Top performers in entrance exams receive full or partial scholarships"
+        ]
       },
       {
         id: "11",
@@ -4592,8 +4549,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Professional Bodies:",
           "  • Indian Academy of Forensic Medicine (IAFM)",
           "  • International Society of Forensic Genetics (ISFG)",
-          "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually",
-        ],
+          "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually"
+        ]
       },
       {
         id: "12",
@@ -4612,8 +4569,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Forensic Psychologist: Profiling criminals' minds",
           "Freelancing:",
           "  • Questioned Document Examiner: Checking fake wills/cheques",
-          "  • Legal Consultant: Advising lawyers on scientific validity of evidence",
-        ],
+          "  • Legal Consultant: Advising lawyers on scientific validity of evidence"
+        ]
       },
       {
         id: "13",
@@ -4628,8 +4585,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Smell: Labs often smell of chemicals (Formalin) and biological decay.",
           "Emotional Toll: Exposure to disturbing crime scenes can affect mental health.",
           "Long Hours: During high-profile cases, you might work extended hours.",
-          "Accuracy Pressure: One mistake could send an innocent person to jail.",
-        ],
+          "Accuracy Pressure: One mistake could send an innocent person to jail."
+        ]
       },
       {
         id: "14",
@@ -4644,8 +4601,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Regulatory Evolution: New regulations on cybercrime and digital evidence will create specialized roles.",
           "Automation: Routine analysis will be automated; strategic interpretation will be premium.",
           "Global Opportunities: Indian forensic scientists increasingly sought in international markets.",
-          "Salary Growth: Expected 10–12% annual salary growth in the next decade.",
-        ],
+          "Salary Growth: Expected 10–12% annual salary growth in the next decade."
+        ]
       },
       {
         id: "15",
@@ -4660,8 +4617,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Logic Puzzles: Solve 'Lateral Thinking' puzzles to train your brain to look for non-obvious answers.",
           "Learn Python: Basic coding skills will give you a competitive edge.",
           "Case Studies: Analyze real forensic cases and understand the methodology.",
-          "Networking: Join science clubs and attend forensic seminars.",
-        ],
+          "Networking: Join science clubs and attend forensic seminars."
+        ]
       },
       {
         id: "16",
@@ -4674,10 +4631,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Dr. T.D. Dogra: A legendary expert from AIIMS who handled high-profile cases like the assassination of Indira Gandhi and the Batla House encounter.",
           "Dr. Rukmani Krishnamurthy: Former Director of Directorate of Forensic Science Labs, Maharashtra, and a pioneer in forensic psychology and crisis management.",
           "Dr. Rajesh Verma: Leading digital forensics expert who has trained hundreds of police officers in cyber forensics.",
-          "Dr. Anil Sharma: Renowned ballistics expert who has solved numerous high-profile cases through innovative forensic techniques.",
-        ],
-      },
-    ],
+          "Dr. Anil Sharma: Renowned ballistics expert who has solved numerous high-profile cases through innovative forensic techniques."
+        ]
+      }
+    ]
   },
 
   // ─── LAWYER / LEGAL PROFESSIONAL ─────────────────────────────────
@@ -4691,16 +4648,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "⚖️", title: "Justice Seeker", description: "Protect rights and ensure justice is delivered", borderColor: "#F59E0B" },
       { icon: "🧠", title: "Problem Solver", description: "Strategy, negotiation, and critical thinking daily", borderColor: "#1E40AF" },
       { icon: "📈", title: "High Earning", description: "₹12L–₹1Cr+ for experienced professionals", borderColor: "#6366F1" },
-      { icon: "🌐", title: "Global Opportunities", description: "Indian lawyers in demand worldwide", borderColor: "#10B981" },
+      { icon: "🌐", title: "Global Opportunities", description: "Indian lawyers in demand worldwide", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Salary Range", detail: "₹2.5L–₹1Cr+ annually", color: "bg-amber-100 text-amber-700" },
       { label: "Market Growth", detail: "10–12% annual growth in corporate law", color: "bg-blue-100 text-blue-700" },
-      { label: "Duration", detail: "5-year integrated or 3-year LLB", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Duration", detail: "5-year integrated or 3-year LLB", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹2.5L–₹1Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-      { value: "10–12% CAGR", label: "Corporate Law Growth", gradient: "from-blue-600 to-indigo-600" },
+      { value: "10–12% CAGR", label: "Corporate Law Growth", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -4713,8 +4670,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "When you hear the word 'Lawyer,' you might picture a person in a black coat shouting 'Objection!' in a courtroom. While that happens, it is only 10% of the job.",
           "A career in law is primarily about problem-solving and strategy. Lawyers are the experts who understand the rules (laws) that govern our society and help individuals, companies, and governments navigate them.",
           "Whether it is helping a startup register its logo (Intellectual Property), defending an innocent person in court (Criminal Law), or helping two companies merge into one (Corporate Law), a lawyer is the architect of the deal and the protector of rights.",
-          "In today's India, with a booming economy and a complex constitution, lawyers are the 'social engineers.' They don't just fight cases; they draft the contracts that build our highways, protect our data privacy, and ensure justice is delivered.",
-        ],
+          "In today's India, with a booming economy and a complex constitution, lawyers are the 'social engineers.' They don't just fight cases; they draft the contracts that build our highways, protect our data privacy, and ensure justice is delivered."
+        ]
       },
       {
         id: "2",
@@ -4729,8 +4686,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "03:00 PM: Client Meeting. The CEO of a tech startup walks in. He wants to know if his new app violates any privacy laws. She explains complex legal rules in simple English. She isn't just a lawyer here; she is a business advisor.",
           "05:00 PM: Court Clerk visit. She rushes to the Delhi High Court registry to physically file a petition before the counter closes. The digital world hasn't fully replaced the physical paperwork yet!",
           "07:30 PM: Back at the desk. She reviews a contract for a senior partner. She spots a tiny error in Clause 4 that could have cost the client lakhs. She fixes it. Precision is her superpower.",
-          "08:30 PM: Logs off. It was a long day, but she feels the thrill of knowing her arguments might win the case next week.",
-        ],
+          "08:30 PM: Logs off. It was a long day, but she feels the thrill of knowing her arguments might win the case next week."
+        ]
       },
       {
         id: "3",
@@ -4745,8 +4702,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Resilient: Can you handle losing? You will lose cases. Can you bounce back?",
           "Oral Advocacy: Strong speaking and persuasion skills.",
           "Empathy: Especially for family/criminal law, understanding client needs.",
-          "High Stress Tolerance: Legal work can be intense and demanding.",
-        ],
+          "High Stress Tolerance: Legal work can be intense and demanding."
+        ]
       },
       {
         id: "4",
@@ -4761,8 +4718,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "3. Dispute Resolution: Negotiating with the other side to settle without going to court.",
           "4. Representation: If settlement fails, arguing the case before a Judge or Tribunal.",
           "5. Documentation: Maintaining detailed records and legal files.",
-          "6. Continuous Learning: Staying updated on new laws and precedents.",
-        ],
+          "6. Continuous Learning: Staying updated on new laws and precedents."
+        ]
       },
       {
         id: "5",
@@ -4782,8 +4739,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Degree: LL.B",
           "  • Duration: 3 Years",
           "Pathway C: The Company Secretary (CS) Route (Corporate Focus):",
-          "  • Many students pursue CS along with their Law degree for corporate expertise",
-        ],
+          "  • Many students pursue CS along with their Law degree for corporate expertise"
+        ]
       },
       {
         id: "6",
@@ -4798,8 +4755,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Entry-Level (0–2 years): ₹12L–₹18L (Corporate), ₹2.5L–₹4.5L (Litigation)",
           "  • Mid-Level (3–6 years): ₹25L–₹45L (Corporate), ₹6L–₹15L (Litigation)",
           "  • Senior (7–10 years): ₹50L–₹80L (Corporate), ₹15L–₹40L+ (Litigation)",
-          "  • Leadership: ₹1Cr+ (Partner/Senior Counsel)",
-        ],
+          "  • Leadership: ₹1Cr+ (Partner/Senior Counsel)"
+        ]
       },
       {
         id: "7",
@@ -4814,8 +4771,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • LPOs (Legal Process Outsourcing): Pangea3, QuisLex",
           "  • Judiciary: Judges in Lower Courts (via PCS-J exam)",
           "Top Cities: Mumbai (Corporate/Finance Law), Delhi (Litigation), Bangalore (Tech Law)",
-          "International: Indian lawyers with dual qualification in high demand in London and Dubai",
-        ],
+          "International: Indian lawyers with dual qualification in high demand in London and Dubai"
+        ]
       },
       {
         id: "8",
@@ -4830,8 +4787,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Living Costs: ₹2L per year for hostel/mess in metro cities",
           "Study Materials: ₹50,000–₹1L for books and online resources",
           "Entrance Exam Fees: ₹5,000–₹10,000 per exam",
-          "Scholarships: Can significantly reduce out-of-pocket expenses",
-        ],
+          "Scholarships: Can significantly reduce out-of-pocket expenses"
+        ]
       },
       {
         id: "10",
@@ -4846,8 +4803,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "State Schemes: E.g., Post-Metric Scholarship for SC/ST students",
           "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
           "Institutional: Need-based financial assistance at various universities",
-          "Merit-Based: Top performers in entrance exams receive full or partial scholarships",
-        ],
+          "Merit-Based: Top performers in entrance exams receive full or partial scholarships"
+        ]
       },
       {
         id: "11",
@@ -4861,8 +4818,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "State Bar Councils: You enroll in your specific state (e.g., Bar Council of Delhi).",
           "Continuing Education: Mandatory CPD (Continuing Professional Development) hours annually.",
           "Professional Associations: Indian Bar Association, various state bar associations.",
-          "International Recognition: Indian lawyers can pursue dual qualifications (e.g., Solicitor exam in UK).",
-        ],
+          "International Recognition: Indian lawyers can pursue dual qualifications (e.g., Solicitor exam in UK)."
+        ]
       },
       {
         id: "12",
@@ -4881,8 +4838,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Space Law: Dealing with satellite regulations",
           "Freelancing:",
           "  • Legal Journalism: Writing for LiveLaw or Bar & Bench",
-          "  • Contract Drafting: Freelancing for startups via Upwork",
-        ],
+          "  • Contract Drafting: Freelancing for startups via Upwork"
+        ]
       },
       {
         id: "13",
@@ -4896,8 +4853,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Mental Health: Long hours (12–14 hours/day in firms) can lead to burnout.",
           "Toxic Culture: Courtrooms can be aggressive environments.",
           "Competitive Market: High competition for top positions and cases.",
-          "Continuous Learning: Laws change frequently; staying updated is mandatory.",
-        ],
+          "Continuous Learning: Laws change frequently; staying updated is mandatory."
+        ]
       },
       {
         id: "14",
@@ -4911,8 +4868,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "ODR (Online Dispute Resolution): Small disputes (e-commerce refunds, challans) will increasingly be settled online without entering a courtroom.",
           "Specialization: Demand for specialists in Data Privacy, ESG, and Blockchain law will surge.",
           "Global Opportunities: Indian lawyers increasingly sought in international markets.",
-          "Salary Growth: Expected 10–12% annual salary growth in the next decade.",
-        ],
+          "Salary Growth: Expected 10–12% annual salary growth in the next decade."
+        ]
       },
       {
         id: "15",
@@ -4927,8 +4884,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Visit a Court: If possible, go sit in a local District Court for 2 hours. It's an eye-opener.",
           "Logic Puzzles: Solve lateral thinking puzzles to train your brain.",
           "Case Studies: Read about famous Indian court cases.",
-          "Networking: Join debate clubs and attend legal seminars.",
-        ],
+          "Networking: Join debate clubs and attend legal seminars."
+        ]
       },
       {
         id: "16",
@@ -4941,10 +4898,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Harish Salve: One of India's most expensive and brilliant corporate lawyers. Represented India at the International Court of Justice (ICJ).",
           "Menaka Guruswamy: A senior advocate famous for leading the fight against Section 377 (decriminalizing homosexuality).",
           "Zia Mody: Founder of AZB & Partners. A corporate law giant who dominates the Merger & Acquisition space.",
-          "Ram Jethmalani (Late): The 'maverick' of criminal law. Known for defending the toughest cases with unmatched logic.",
-        ],
-      },
-    ],
+          "Ram Jethmalani (Late): The 'maverick' of criminal law. Known for defending the toughest cases with unmatched logic."
+        ]
+      }
+    ]
   },
 
   // ─── JUDGE ──────────────────────────────────────────────────────
@@ -4958,16 +4915,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "⚖️", title: "Guardian of Justice", description: "Deliver fair decisions that shape society and protect fundamental rights", borderColor: "#F59E0B" },
       { icon: "🏛️", title: "Prestige & Authority", description: "Hold one of the most respected positions in Indian society", borderColor: "#1E40AF" },
       { icon: "📚", title: "Intellectual Challenge", description: "Engage with complex legal cases and constitutional interpretations daily", borderColor: "#6366F1" },
-      { icon: "🌐", title: "Lifetime Security", description: "Excellent salary, pension, and job security until retirement", borderColor: "#10B981" },
+      { icon: "🌐", title: "Lifetime Security", description: "Excellent salary, pension, and job security until retirement", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Salary Range", detail: "₹1.5L–₹1.5Cr annually", color: "bg-amber-100 text-amber-700" },
       { label: "Career Span", detail: "Typically until age 62–65", color: "bg-blue-100 text-blue-700" },
-      { label: "Duration to Judge", detail: "LLB (5/3 years) + 5–15 years practice + PCS-J exam", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Duration to Judge", detail: "LLB (5/3 years) + 5–15 years practice + PCS-J exam", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹1.5L–₹1.5Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-      { value: "30–40% CAGR", label: "Salary Growth as Rank Increases", gradient: "from-blue-600 to-indigo-600" },
+      { value: "30–40% CAGR", label: "Salary Growth as Rank Increases", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -4982,8 +4939,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Job Security & Prestige: Judicial service offers a high level of job security, a respected social standing, and a structured career path with clear promotion tracks. Judges are shielded from political pressure to ensure impartial decisions.",
           "Intellectual Rigor: You are constantly engaging with complex legal theories and diverse cases. The judiciary's independence is a cornerstone of democracy.",
           "In today's India, with an overburdened judiciary (over 60 million pending cases), judges are more critical than ever. They are not just courtroom administrators—they are constitutional guardians who ensure the rule of law prevails in a democracy.",
-          "Becoming a judge requires not just legal expertise, but wisdom, impartiality, and an unwavering commitment to justice. It is a career for those who genuinely want to serve society and protect the Constitution.",
-        ],
+          "Becoming a judge requires not just legal expertise, but wisdom, impartiality, and an unwavering commitment to justice. It is a career for those who genuinely want to serve society and protect the Constitution."
+        ]
       },
       {
         id: "2",
@@ -4999,8 +4956,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "03:00 PM: Administrative work. He reviews case schedules, meets with the High Court registrar about court resource allocation, and handles judicial matters.",
           "04:30 PM: Judgment Delivery. He announces a written judgment in a civil dispute case. It took him 3 days to write because every sentence has legal weight.",
           "05:30 PM: Chambers time. He dictates notes for upcoming judgments to his secretary. Judges often work late into the evening.",
-          "06:30 PM: Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape.",
-        ],
+          "06:30 PM: Goes home knowing that his decisions today will impact families, businesses, and the country's legal landscape."
+        ]
       },
       {
         id: "3",
@@ -5019,8 +4976,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Patient: Can you sit through long, sometimes tedious arguments and remain sharp?",
           "The Decisive: Can you make tough calls knowing they will affect people's lives?",
           "The Ethical: Do you have unquestionable integrity and moral character?",
-          "The Learner: Will you continue studying law and judicial precedents throughout your career?",
-        ],
+          "The Learner: Will you continue studying law and judicial precedents throughout your career?"
+        ]
       },
       {
         id: "4",
@@ -5042,8 +4999,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "4. Analysis: Weigh evidence, apply law, and determine the truth.",
           "5. Judgment Writing: Draft a detailed written judgment explaining the reasoning and decision.",
           "6. Pronouncement: Publicly announce the judgment in court.",
-          "7. Implementation: Ensure that the judgment is properly executed.",
-        ],
+          "7. Implementation: Ensure that the judgment is properly executed."
+        ]
       },
       {
         id: "5",
@@ -5060,8 +5017,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Step 5: Clear PCS-J (prelims, mains, interviews, medical test)",
           "  • Step 6: Appointed as Civil Judge (District Judge level entry point)",
           "  • Step 7: Progress through ranks: Addl. District Judge → Sessions Judge → High Court Judge → Appellate judge",
-          "Target Timeline: On average, 15–20 years from law school to becoming a High Court Judge",
-        ],
+          "Target Timeline: On average, 15–20 years from law school to becoming a High Court Judge"
+        ]
       },
       {
         id: "6",
@@ -5078,8 +5035,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Sessions Judge: ₹10L–₹15L",
           "  • High Court Judge: ₹30L–₹50L+",
           "  • Chief Justice (apex position): ₹1.5Cr",
-          "Pension: One of the best pension schemes in India (50% of last drawn salary after retirement)",
-        ],
+          "Pension: One of the best pension schemes in India (50% of last drawn salary after retirement)"
+        ]
       },
       {
         id: "7",
@@ -5094,8 +5051,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Supreme Court: Apex court (Constitutional matters and landmark cases)",
           "Selection Process: Competitive PCS-J exam through State PSC or UPSC",
           "Geographic Variation: Different states have different demand levels",
-          "Alternative Paths: Tribunal memberships, Arbitration, and Alternative Dispute Resolution (ADR) as stepping stones",
-        ],
+          "Alternative Paths: Tribunal memberships, Arbitration, and Alternative Dispute Resolution (ADR) as stepping stones"
+        ]
       },
       {
         id: "8",
@@ -5110,8 +5067,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Study Materials: Printed notes, specialized textbooks, and 'Diglot' Bare Acts cost between ₹5,000 and ₹20,000.",
           "Digital Access: Subscriptions to legal research databases like SCC Online or LexisNexis.",
           "Practice Period: Self-employed advocate work depends on practice growth (₹0 structured, but need to sustain living costs). Law firm associate roles offer better salary but take longer to gain independent practice experience.",
-          "ROI: Excellent — Though investment upfront is required, the lifetime job security and pension make it highly rewarding.",
-        ],
+          "ROI: Excellent — Though investment upfront is required, the lifetime job security and pension make it highly rewarding."
+        ]
       },
       {
         id: "10",
@@ -5131,8 +5088,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "IDIA and PreLaw Programs: Support for underprivileged aspirants preparing for law school.",
           "State-Based: Various states offer scholarships for law students pursuing judicial careers.",
           "Merit-Cum-Means: Universities offer assistance to deserving students.",
-          "Foundation Support: Organizations like Vidhi Centre for Legal Policy offer internships and grants.",
-        ],
+          "Foundation Support: Organizations like Vidhi Centre for Legal Policy offer internships and grants."
+        ]
       },
       {
         id: "11",
@@ -5146,8 +5103,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "High Courts: Appoint judges and oversee judicial administration",
           "Judicial Accountability: Judges are bound by the Code of Conduct for Indian Judiciary",
           "Impeachment Process: Judges can only be removed by Parliament through impeachment",
-          "Separation of Powers: Judiciary remains independent from executive and legislative branches",
-        ],
+          "Separation of Powers: Judiciary remains independent from executive and legislative branches"
+        ]
       },
       {
         id: "12",
@@ -5165,8 +5122,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Alternative Paths:",
           "  • Arbitrator: Private judicial services for dispute resolution",
           "  • Tribunal Member: Labor, IP, Environmental tribunals, etc.",
-          "  • Legal Researcher: Supreme Court research divisions",
-        ],
+          "  • Legal Researcher: Supreme Court research divisions"
+        ]
       },
       {
         id: "13",
@@ -5182,8 +5139,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Bureaucratic Hurdles: Subordination to high courts, potential for vexatious complaints, and complex administrative procedures.",
           "Judicial Fatigue: Long working hours (often 12+ hours/day) can lead to exhaustion and health issues.",
           "Safety Concerns: Judges handling criminal cases sometimes face security threats from convicted criminals or their associates.",
-          "Work-Life Balance: Judicial duty often extends beyond 9–5, affecting personal and family life.",
-        ],
+          "Work-Life Balance: Judicial duty often extends beyond 9–5, affecting personal and family life."
+        ]
       },
       {
         id: "14",
@@ -5198,8 +5155,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Judicial Reforms: Active Chief Justice-led reforms to reduce pendency and improve efficiency.",
           "Diversity Drive: Initiatives to increase representation of women and minorities in the judiciary.",
           "International Collaboration: Indian judges increasingly participate in cross-border dispute resolution.",
-          "Expected Growth: 40–50% increase in judicial vacancies expected to be filled by 2030.",
-        ],
+          "Expected Growth: 40–50% increase in judicial vacancies expected to be filled by 2030."
+        ]
       },
       {
         id: "15",
@@ -5217,8 +5174,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Philosophy and Ethics: Study ethical frameworks. Judicial judgment requires moral reasoning.",
           "Socio-Political Awareness: Stay updated on social issues and their legal implications.",
           "Enhance Analytical Skills: Solve logic puzzles and case studies daily.",
-          "Develop Equanimity: Practice patience and impartiality in decision-making.",
-        ],
+          "Develop Equanimity: Practice patience and impartiality in decision-making."
+        ]
       },
       {
         id: "16",
@@ -5232,10 +5189,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "V.R. Krishna Iyer: Pioneered social justice and human rights for the underprivileged, expanding the scope of judicial activism in India.",
           "Leila Seth: First female High Court Chief Justice; advocated for gender property equality and women's rights in family law.",
           "Y.V. Chandrachud: India's longest-serving Chief Justice, known for progressive judgments and judicial reforms.",
-          "D.Y. Chandrachud: Led the judiciary's modern digital transition and championed privacy rights and gender equality in landmark judgments.",
-        ],
-      },
-    ],
+          "D.Y. Chandrachud: Led the judiciary's modern digital transition and championed privacy rights and gender equality in landmark judgments."
+        ]
+      }
+    ]
   },
 
   // ─── STAFF SELECTION COMMISSION ────────────────────────────────
@@ -5249,16 +5206,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "ShieldCheck", title: "Government Backbone", description: "Power the ministries, audits, investigations, and revenue systems that keep India running.", borderColor: "#F59E0B" },
       { icon: "Layers3", title: "Multiple Entry Points", description: "Start after Class 10, Class 12, or graduation depending on your ambition and timeline.", borderColor: "#1E40AF" },
       { icon: "Laptop", title: "Digital-First Role", description: "Modern SSC work is increasingly tied to e-Office, analytics, and paperless administration.", borderColor: "#6366F1" },
-      { icon: "Banknote", title: "Stable Career", description: "Central government pay, allowances, pension benefits, and long-term security.", borderColor: "#10B981" },
+      { icon: "Banknote", title: "Stable Career", description: "Central government pay, allowances, pension benefits, and long-term security.", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Entry Routes", detail: "MTS, CHSL, CGL, JE, CPO, and more", color: "bg-amber-100 text-amber-700" },
       { label: "Salary Range", detail: "₹38,000–₹1,50,000 gross monthly", color: "bg-blue-100 text-blue-700" },
-      { label: "Eligibility", detail: "Class 10, 12, diploma, or any degree", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Eligibility", detail: "Class 10, 12, diploma, or any degree", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "1 Lakh+", label: "Projected vacancies by 2030", gradient: "from-amber-500 to-amber-600" },
-      { value: "4 Stages", label: "Common SSC selection process", gradient: "from-blue-600 to-indigo-600" },
+      { value: "4 Stages", label: "Common SSC selection process", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -5270,8 +5227,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "The Staff Selection Commission is an attached office of the Department of Personnel and Training (DoPT). Its core responsibility is to recruit personnel for Group B (Non-Gazetted) and Group C (Non-Technical) posts across Central Government ministries and departments.",
           "Think of SSC professionals as the hands and feet of governance. They process documents, manage records, support audits, handle revenue work, and keep ministries functioning smoothly.",
-          "Depending on the post, SSC recruits can work in finance, administration, investigations, customs, income tax, engineering, or clerical support roles. The common thread is public service and operational discipline.",
-        ],
+          "Depending on the post, SSC recruits can work in finance, administration, investigations, customs, income tax, engineering, or clerical support roles. The common thread is public service and operational discipline."
+        ]
       },
       {
         id: "dayinlife",
@@ -5284,8 +5241,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "11:00 AM: Draft a brief for a senior diplomat or officer by coordinating inputs from multiple departments.",
           "1:30 PM: Discuss policy, finance, and administration over lunch with colleagues from different ministries.",
           "3:30 PM: Work on e-Office, tagging digital files and ensuring sensitive records are searchable and properly indexed.",
-          "6:30 PM: Review an RTI query before leaving, knowing that accuracy and transparency are part of the job.",
-        ],
+          "6:30 PM: Review an RTI query before leaving, knowing that accuracy and transparency are part of the job."
+        ]
       },
       {
         id: "who",
@@ -5300,8 +5257,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Drafting Ability: Clear, polite, and legally sound writing is essential.",
           "Adaptability: You may be posted across departments and locations.",
           "Numerical Ability: Important for audit, tax, and accounts-related work.",
-          "Digital Literacy: Office software, portals, and dashboards are now part of the job.",
-        ],
+          "Digital Literacy: Office software, portals, and dashboards are now part of the job."
+        ]
       },
       {
         id: "responsibilities",
@@ -5315,8 +5272,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Drafting: Prepare the official reply, order, or note sheet.",
           "Field Investigation: For inspector-level roles, conduct raids, audits, or site inspections.",
           "Document Management: Organize and verify records so they can be traced quickly.",
-          "Public Service Delivery: Help offices answer queries, move files, and execute policy.",
-        ],
+          "Public Service Delivery: Help offices answer queries, move files, and execute policy."
+        ]
       },
       {
         id: "pathways",
@@ -5331,8 +5288,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Technical Route: SSC JE recruits candidates with a diploma or degree in engineering.",
           "Stage 1: Tier-I computer-based exam covering reasoning, maths, English, and general knowledge.",
           "Stage 2: Tier-II for advanced subjects and typing/data entry tests where applicable.",
-          "Stage 3: Document verification and medical examination before final appointment.",
-        ],
+          "Stage 3: Document verification and medical examination before final appointment."
+        ]
       },
       {
         id: "market",
@@ -5345,23 +5302,9 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Level 7 roles such as Inspectors or ASOs are around ₹75,000 to ₹85,000.",
           "Senior roles such as Section Officer can reach ₹1,10,000 to ₹1,50,000 per month.",
           "Growth Trajectory: The first major promotion often arrives within 6 to 8 years, depending on the post and department.",
-          "Hiring Trend: Recruitment has been accelerated to fill large vacancies and support digital governance programs.",
-        ],
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Departments and offices that hire through SSC.",
-        color: RED,
-        content: [
-          "Top Sectors: Central Secretariat, CAG audit offices, CBDT income tax offices, CBIC customs, CBI, and Intelligence Bureau.",
-          "Geography: Pan-India postings are common, from metropolitan cities to border and remote districts.",
-          "International: Some MEA-linked SSC posts can involve embassy work abroad for fixed terms.",
-          "Work Style: Office-based, policy-heavy, and highly process-driven with limited ambiguity.",
-        ],
-      },
-      {
+          "Hiring Trend: Recruitment has been accelerated to fill large vacancies and support digital governance programs."
+        ]
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -5371,8 +5314,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Exam Fees: Around ₹100 for many SSC exams, with exemptions for eligible categories.",
           "Online Coaching: Roughly ₹1,500 to ₹6,000 through popular digital platforms.",
           "Offline Coaching: Roughly ₹15,000 to ₹45,000 in major coaching hubs.",
-          "Living Costs: In places like Mukherjee Nagar or Jaipur, expect ₹8,000 to ₹12,000 per month for rent and food.",
-        ],
+          "Living Costs: In places like Mukherjee Nagar or Jaipur, expect ₹8,000 to ₹12,000 per month for rent and food."
+        ]
       },
       {
         id: "institutions",
@@ -5385,8 +5328,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "North India: Jaipur and Prayagraj are strong prep markets.",
           "South India: Chennai, Hyderabad, and Bengaluru have active coaching ecosystems.",
           "East and West: Patna, Kolkata, and Pune are also popular for aspirants.",
-          "Online Platforms: Unacademy, Careerwill, Khan Global Studies, Adda247, Testbook, and Physics Wallah are widely used.",
-        ],
+          "Online Platforms: Unacademy, Careerwill, Khan Global Studies, Adda247, Testbook, and Physics Wallah are widely used."
+        ]
       },
       {
         id: "scholarships",
@@ -5398,8 +5341,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Central Sector Scheme: Supports meritorious students with family income below prescribed limits.",
           "State Schemes: Bihar and Uttar Pradesh often support coaching or stipend-based preparation for competitive exams.",
           "Institutional Support: Coaching platforms sometimes run scholarship tests for full or partial fee waivers.",
-          "Self-Study Support: Affordable test series and online practice can keep preparation costs low.",
-        ],
+          "Self-Study Support: Affordable test series and online practice can keep preparation costs low."
+        ]
       },
       {
         id: "certifications",
@@ -5411,8 +5354,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "No external license is needed in the way a legal or medical career requires one; the SSC selection list is the gateway.",
           "CCC (Course on Computer Concepts): Strongly recommended for Group C office-based roles.",
           "Typing and Data Entry Skills: Often essential for CHSL and related clerical roles.",
-          "Office Tools: Proficiency in spreadsheets, document processing, and government portals matters a lot in modern offices.",
-        ],
+          "Office Tools: Proficiency in spreadsheets, document processing, and government portals matters a lot in modern offices."
+        ]
       },
       {
         id: "opportunities",
@@ -5423,8 +5366,8 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Conventional: Auditor, Income Tax Inspector, Stenographer, Junior Engineer, Assistant Section Officer, and Tax Assistant.",
           "New-Age: Data Security Officer, GST Analytics Specialist, and E-Governance Coordinator.",
-          "After-Service Paths: Policy consultant, exam mentor, or administrative trainer after a long government career.",
-        ],
+          "After-Service Paths: Policy consultant, exam mentor, or administrative trainer after a long government career."
+        ]
       },
       {
         id: "challenges",
@@ -5436,8 +5379,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Intense Competition: Millions apply for limited seats, so preparation must be consistent and long-term.",
           "Transfer Policy: Frequent transfers can be difficult for family life and stability.",
           "Repetitive Work: Some office roles can feel monotonous at first.",
-          "Rule-Driven Environment: You need patience for process-heavy, procedural work.",
-        ],
+          "Rule-Driven Environment: You need patience for process-heavy, procedural work."
+        ]
       },
       {
         id: "future",
@@ -5449,8 +5392,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "AI-Assisted Governance: Routine data entry and document sorting will increasingly be automated.",
           "Digital Public Infrastructure: More work will revolve around Aadhaar, UPI, DigiLocker, and India Stack systems.",
           "Data Auditing: Roles will shift toward verification, analytics, and decision support.",
-          "Paperless Administration: The e-Office model will keep expanding across ministries.",
-        ],
+          "Paperless Administration: The e-Office model will keep expanding across ministries."
+        ]
       },
       {
         id: "startnow",
@@ -5462,8 +5405,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Speed Maths: Practice mental arithmetic daily to improve accuracy and speed.",
           "Read Editorials: Build English comprehension and awareness of policy issues.",
           "Typing Practice: Work toward at least 35 words per minute.",
-          "Current Affairs: Follow one reliable news source every day.",
-        ],
+          "Current Affairs: Follow one reliable news source every day."
+        ]
       },
       {
         id: "famous",
@@ -5474,10 +5417,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "M.S. Dhoni: Served as a Ticket Examiner in the Railways before becoming a national sports icon.",
           "Kiran Bedi: An inspiration for public service aspirants and uniformed-service candidates.",
-          "Many Senior Bureaucrats: Several officers began as SSC recruits and rose into policy-making roles.",
-        ],
-      },
-    ],
+          "Many Senior Bureaucrats: Several officers began as SSC recruits and rose into policy-making roles."
+        ]
+      }
+    ]
   },
 
   // ─── INDUSTRIAL DESIGNER ─────────────────────────────────────────
@@ -5491,16 +5434,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "🎨", title: "Creative Impact", description: "Design products used by millions daily", borderColor: "#F59E0B" },
       { icon: "🔧", title: "Problem Solver", description: "Blend aesthetics with functionality and ergonomics", borderColor: "#1E40AF" },
       { icon: "📈", title: "Growing Market", description: "10–12% annual growth in design industry", borderColor: "#6366F1" },
-      { icon: "🌍", title: "Global Opportunities", description: "Indian designers in demand worldwide", borderColor: "#10B981" },
+      { icon: "🌍", title: "Global Opportunities", description: "Indian designers in demand worldwide", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Salary Range", detail: "₹5L–₹1.5Cr+ annually", color: "bg-amber-100 text-amber-700" },
       { label: "Market Growth", detail: "10–12% annual job growth", color: "bg-blue-100 text-blue-700" },
-      { label: "Duration", detail: "4-year B.Des or 2-year M.Des", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Duration", detail: "4-year B.Des or 2-year M.Des", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹5L–₹1.5Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-      { value: "10–12% CAGR", label: "Design Industry Growth", gradient: "from-blue-600 to-indigo-600" },
+      { value: "10–12% CAGR", label: "Design Industry Growth", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -5514,8 +5457,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "An Industrial Designer (ID) blends Art, Engineering, and Business. They decide how a product looks (Aesthetics), how it works (Functionality), and how easy it is to use (Ergonomics).",
           "While an engineer makes sure the toaster heats up, and a marketer sells the toaster, the Industrial Designer ensures the toaster looks beautiful on your kitchen counter and doesn't burn your fingers when you touch it.",
           "In today's India, we are moving from 'Made in India' to 'Designed in India.' Companies like Titan, Godrej, and Boat don't just want to assemble products; they want to invent them.",
-          "From designing eco-friendly bamboo furniture to creating futuristic electric scooters, Industrial Designers are the ones shaping the physical world around us. They solve real human problems using mass-produced solutions.",
-        ],
+          "From designing eco-friendly bamboo furniture to creating futuristic electric scooters, Industrial Designers are the ones shaping the physical world around us. They solve real human problems using mass-produced solutions."
+        ]
       },
       {
         id: "2",
@@ -5530,8 +5473,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "02:00 PM: Lunch. She eats with the UX (User Experience) designers. They discuss how the digital screen on her device will interact with the physical button she designed.",
           "03:30 PM: User Testing. A group of elderly users has been invited to test a foam model of the device. Riya watches silently. She notices one user struggling to find the 'Panic Button' because it's too small. She notes this down: 'Make the button red and tactile.'",
           "05:00 PM: Rendering. Back at her desk, she uses software like KeyShot to create a photorealistic image of the final design. She adds textures—gold finish, matte black silicon. It looks so real you could touch it.",
-          "07:00 PM: She logs off. On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old.",
-        ],
+          "07:00 PM: She logs off. On her way home, she sees someone wearing headphones she designed two years ago. That thrill—seeing a stranger use your creation—never gets old."
+        ]
       },
       {
         id: "3",
@@ -5546,8 +5489,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Storyteller: A product tells a story. Why is this chair expensive? Because it looks and feels premium. You create that feeling.",
           "Critical Thinking: Solving complex design problems.",
           "Communication: Selling your design to bosses and stakeholders.",
-          "Observation: Noticing how people interact with products.",
-        ],
+          "Observation: Noticing how people interact with products."
+        ]
       },
       {
         id: "4",
@@ -5562,8 +5505,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "3. Develop: Ideation. Sketching hundreds of concepts.",
           "4. Deliver: Prototyping, testing, and finalizing the product for mass production.",
           "5. Iteration: Refining based on feedback and manufacturing constraints.",
-          "6. Documentation: Creating technical drawings for manufacturing.",
-        ],
+          "6. Documentation: Creating technical drawings for manufacturing."
+        ]
       },
       {
         id: "5",
@@ -5582,8 +5525,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Undergraduate: B.Tech in Mechanical or Production Engineering",
           "  • Postgraduate: M.Des in Industrial Design (via CEED exam)",
           "Pathway C: The Architecture Switch:",
-          "  • Many B.Arch graduates switch to Industrial Design via M.Des",
-        ],
+          "  • Many B.Arch graduates switch to Industrial Design via M.Des"
+        ]
       },
       {
         id: "6",
@@ -5598,8 +5541,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Entry-Level (0–2 years): ₹5L–₹8L (Consultancy), ₹6L–₹10L (Product Company)",
           "  • Mid-Level (3–7 years): ₹10L–₹18L (Consultancy), ₹15L–₹25L (Product Company)",
           "  • Senior (8–12 years): ₹20L–₹35L (Consultancy), ₹30L–₹50L (Product Company)",
-          "  • Leadership: ₹50L–₹1Cr+ (Consultancy), ₹80L–₹1.5Cr (Product Company)",
-        ],
+          "  • Leadership: ₹50L–₹1Cr+ (Consultancy), ₹80L–₹1.5Cr (Product Company)"
+        ]
       },
       {
         id: "7",
@@ -5615,8 +5558,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Furniture & Lifestyle: Pepperfry, Urban Ladder, Ikea India",
           "  • Medical Devices: Startups designing affordable incubators or prosthetics",
           "Top Cities: Bangalore (tech hardware), Pune (automotive), Delhi-NCR (consumer electronics)",
-          "Remote Work: Medium. You can sketch from home, but often need to be in studio for prototyping.",
-        ],
+          "Remote Work: Medium. You can sketch from home, but often need to be in studio for prototyping."
+        ]
       },
       {
         id: "8",
@@ -5631,8 +5574,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Tools & Equipment: ₹2L - High-end Laptop, iPad/Tablet, Markers",
           "Living Costs: ₹15,000–₹25,000 per month in metro cities",
           "Study Materials: ₹50,000–₹1L for software licenses and resources",
-          "Scholarships: Can significantly reduce out-of-pocket expenses",
-        ],
+          "Scholarships: Can significantly reduce out-of-pocket expenses"
+        ]
       },
       {
         id: "10",
@@ -5647,8 +5590,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "NID Means-cum-Merit: Financial aid for students with family income below certain slab",
           "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
           "State-Level: Various state governments offer scholarships for design students",
-          "Employer Sponsorship: Many companies sponsor employees pursuing design degrees",
-        ],
+          "Employer Sponsorship: Many companies sponsor employees pursuing design degrees"
+        ]
       },
       {
         id: "11",
@@ -5664,8 +5607,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Professional Bodies:",
           "  • ADI (Association of Designers of India): Great network for mentors and internships",
           "  • WDO (World Design Organization): Global body",
-          "Continuing Education: Staying updated on design trends and software is important.",
-        ],
+          "Continuing Education: Staying updated on design trends and software is important."
+        ]
       },
       {
         id: "12",
@@ -5684,8 +5627,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Packaging Designer: Designing unboxing experiences (like Apple's boxes)",
           "Freelancing:",
           "  • CAD Modeler: Creating 3D models for inventors",
-          "  • Design Consultant: Helping startups launch their first product",
-        ],
+          "  • Design Consultant: Helping startups launch their first product"
+        ]
       },
       {
         id: "13",
@@ -5699,8 +5642,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Expensive Education: Design education in private colleges is costly compared to standard degrees.",
           "Niche Market: Unlike software jobs, there aren't millions of openings. It is a specialized, competitive field.",
           "Iteration Pressure: Designs often go through many rounds of feedback and revision.",
-          "Deadline Stress: Product launches have fixed timelines; missing them can be costly.",
-        ],
+          "Deadline Stress: Product launches have fixed timelines; missing them can be costly."
+        ]
       },
       {
         id: "14",
@@ -5715,8 +5658,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Sustainable Materials: Designers will focus on eco-friendly materials and zero-waste manufacturing.",
           "Personalization: Mass customization will allow each product to be slightly different based on user preferences.",
           "Global Opportunities: Indian designers increasingly sought in international markets.",
-          "Salary Growth: Expected 10–12% annual salary growth in the next decade.",
-        ],
+          "Salary Growth: Expected 10–12% annual salary growth in the next decade."
+        ]
       },
       {
         id: "15",
@@ -5731,8 +5674,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Observe Materials: Touch things. Is it plastic? Metal? Wood? Why did the designer choose that material?",
           "Learn CAD: Start with free tools like Fusion 360 or Tinkercad.",
           "Photography: Learn to photograph products beautifully.",
-          "Networking: Join design clubs and attend design seminars.",
-        ],
+          "Networking: Join design clubs and attend design seminars."
+        ]
       },
       {
         id: "16",
@@ -5745,10 +5688,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Abhimanyu Kulkarni: Design Director at Philips (Asia). He leads design for products used by millions.",
           "Ashwini Deshpande: Co-founder of Elephant Design. One of India's leading design consultancies.",
           "Udayan Bose: Founder of NetBramha Studios. A leader in blending design thinking with business impact.",
-          "Deepa Nair: Design Director at Godrej. Known for creating iconic Indian product designs.",
-        ],
-      },
-    ],
+          "Deepa Nair: Design Director at Godrej. Known for creating iconic Indian product designs."
+        ]
+      }
+    ]
   },
 
   // ─── INDUSTRIAL ENGINEERING MANAGEMENT ─────────────────────────────────────────
@@ -5762,16 +5705,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "⚙️", title: "Process Optimizer", description: "Design systems that work faster and cheaper", borderColor: "#F59E0B" },
       { icon: "📊", title: "Data-Driven", description: "Use analytics and statistics to solve problems", borderColor: "#1E40AF" },
       { icon: "📈", title: "High Demand", description: "10–12% annual growth in manufacturing & logistics", borderColor: "#6366F1" },
-      { icon: "🌐", title: "Diverse Industries", description: "Manufacturing, e-commerce, healthcare, consulting", borderColor: "#10B981" },
+      { icon: "🌐", title: "Diverse Industries", description: "Manufacturing, e-commerce, healthcare, consulting", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Salary Range", detail: "₹5L–₹2.5Cr+ annually", color: "bg-amber-100 text-amber-700" },
       { label: "Market Growth", detail: "10–12% annual job growth", color: "bg-blue-100 text-blue-700" },
-      { label: "Duration", detail: "4-year B.Tech + optional M.Tech", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Duration", detail: "4-year B.Tech + optional M.Tech", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹5L–₹2.5Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-      { value: "10–12% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" },
+      { value: "10–12% CAGR", label: "Job Market Growth", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -5785,8 +5728,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Industrial Engineering (IE) is often called the 'Engineering of Better.' While a Mechanical Engineer designs the car and a Civil Engineer designs the factory building, the Industrial Engineer designs the process to make the car inside that building.",
           "They figure out how to do things faster, cheaper, and safer without sacrificing quality.",
           "In today's India, where companies like Flipkart deliver in 10 minutes and factories like Tata Motors churn out hundreds of cars daily, Industrial Engineers are the masterminds behind the speed.",
-          "They bridge the gap between Engineering (Technology) and Management (Business). They are the ones who ask: 'How can we produce 10% more with the same number of people?' or 'How can we reduce the waiting time for patients in this hospital?'",
-        ],
+          "They bridge the gap between Engineering (Technology) and Management (Business). They are the ones who ask: 'How can we produce 10% more with the same number of people?' or 'How can we reduce the waiting time for patients in this hospital?'"
+        ]
       },
       {
         id: "2",
@@ -5801,8 +5744,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "01:00 PM: Lunch. He eats quickly with the Operations Manager. They discuss 'Kaizen' (continuous improvement). Rohan suggests a new layout for the loading dock to reduce truck waiting time.",
           "03:00 PM: Data Crunching. Back at his desk, he analyzes data on Excel/PowerBI. He spots a trend: 15% of returns are happening because of 'damaged packaging.' He schedules a meeting with the cardboard supplier to upgrade the material quality.",
           "05:00 PM: Safety Walk. He walks the floor to ensure no one is lifting heavy boxes incorrectly. Safety is efficient; accidents stop work.",
-          "06:30 PM: Rohan logs off. Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time.",
-        ],
+          "06:30 PM: Rohan logs off. Today, his small changes helped ship 5,000 extra parcels. He didn't invent the product, but he made sure it reached the customer on time."
+        ]
       },
       {
         id: "3",
@@ -5817,8 +5760,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Observer: You notice details others miss—like a fan left on in an empty room (waste of energy!).",
           "Data Analysis: Comfortable with Excel, Python, and statistics.",
           "Communication: Talking to CEOs and factory workers alike.",
-          "Leadership: Ability to influence and manage teams.",
-        ],
+          "Leadership: Ability to influence and manage teams."
+        ]
       },
       {
         id: "4",
@@ -5833,8 +5776,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "3. Analyze: Find the root cause (e.g., 'The machine breaks down every 2 hours').",
           "4. Improve: Fix it (e.g., 'Schedule maintenance during lunch breaks').",
           "5. Control: Ensure the fix stays permanent.",
-          "6. Monitor: Continuously track performance metrics.",
-        ],
+          "6. Monitor: Continuously track performance metrics."
+        ]
       },
       {
         id: "5",
@@ -5852,8 +5795,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Undergraduate: B.Tech in Mechanical Engineering",
           "  • Specialization: Take electives in Supply Chain/Operations",
           "  • Postgraduate: M.Tech in IE or MBA in Operations",
-          "  • Certification: Six Sigma Green Belt",
-        ],
+          "  • Certification: Six Sigma Green Belt"
+        ]
       },
       {
         id: "6",
@@ -5868,8 +5811,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Entry-Level (0–2 years): ₹5L–₹8L (Manufacturing), ₹8L–₹14L (E-Commerce/Tech)",
           "  • Mid-Level (3–7 years): ₹10L–₹18L (Manufacturing), ₹18L–₹30L (E-Commerce/Tech)",
           "  • Senior (8–12 years): ₹25L–₹45L (Manufacturing), ₹40L–₹70L (E-Commerce/Tech)",
-          "  • Leadership: ₹80L–₹1.5Cr+ (Manufacturing), ₹1.2Cr–₹2.5Cr+ (E-Commerce/Tech)",
-        ],
+          "  • Leadership: ₹80L–₹1.5Cr+ (Manufacturing), ₹1.2Cr–₹2.5Cr+ (E-Commerce/Tech)"
+        ]
       },
       {
         id: "7",
@@ -5884,8 +5827,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Healthcare: Large hospitals (Apollo, Max) hire IEs to reduce patient waiting times",
           "  • Consulting: Big 4 firms (Deloitte, PwC) hire IEs to advise clients on efficiency",
           "Top Cities: Manufacturing Hubs (Pune, Chennai, Gurgaon, Sanand), Tech/Logistics Hubs (Bangalore, Hyderabad, Delhi-NCR)",
-          "Remote Work: Medium. Some roles can be remote, but factory floor work requires on-site presence.",
-        ],
+          "Remote Work: Medium. Some roles can be remote, but factory floor work requires on-site presence."
+        ]
       },
       {
         id: "8",
@@ -5900,8 +5843,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Private Universities: ₹12L–₹18L (4 years) - Good infrastructure",
           "Living Costs: ₹15,000–₹25,000 per month in metro cities",
           "Study Materials: ₹50,000–₹1L for books and resources",
-          "Scholarships: Can significantly reduce out-of-pocket expenses",
-        ],
+          "Scholarships: Can significantly reduce out-of-pocket expenses"
+        ]
       },
       {
         id: "10",
@@ -5916,8 +5859,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Ratan Tata Scholarship: For engineering students (varies by college)",
           "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
           "State-Level: Various state governments offer scholarships for engineering students",
-          "Employer Sponsorship: Many companies sponsor employees pursuing engineering degrees",
-        ],
+          "Employer Sponsorship: Many companies sponsor employees pursuing engineering degrees"
+        ]
       },
       {
         id: "11",
@@ -5932,8 +5875,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Six Sigma Green Belt: (Cost: ₹15k–₹25k). Proves you know statistical quality control. Highly Recommended",
           "  • PMP (Project Management Professional): For mid-level career growth",
           "  • APICS (CPIM/CSCP): Gold standard for Supply Chain roles",
-          "Continuing Education: Staying updated on industry trends and certifications is important.",
-        ],
+          "Continuing Education: Staying updated on industry trends and certifications is important."
+        ]
       },
       {
         id: "12",
@@ -5952,8 +5895,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • User Experience (UX) Researcher: Using IE principles to optimize how people use apps/websites",
           "Freelancing:",
           "  • Lean Consultant: Helping small factories reduce waste",
-          "  • Operations Advisor: Consulting for startups and SMEs",
-        ],
+          "  • Operations Advisor: Consulting for startups and SMEs"
+        ]
       },
       {
         id: "13",
@@ -5967,8 +5910,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Resistance to Change: Your job is to change how people work. People hate change. You will face resistance from workers and unions.",
           "Deadline Pressure: Production targets are fixed; missing them can be costly.",
           "Continuous Learning: Technology and processes change rapidly; staying updated is mandatory.",
-          "Work-Life Balance: During peak production seasons, long hours are common.",
-        ],
+          "Work-Life Balance: During peak production seasons, long hours are common."
+        ]
       },
       {
         id: "14",
@@ -5983,8 +5926,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "AI-Driven Optimization: Machine learning will predict bottlenecks before they happen.",
           "Sustainability Focus: Designing circular economy processes where waste becomes input.",
           "Global Opportunities: Indian IEs increasingly sought in international markets.",
-          "Salary Growth: Expected 10–12% annual salary growth in the next decade.",
-        ],
+          "Salary Growth: Expected 10–12% annual salary growth in the next decade."
+        ]
       },
       {
         id: "15",
@@ -5999,8 +5942,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Statistics: Pay attention in Math class. Probability and Statistics are the foundation of this career.",
           "Learn Python: Basic coding skills will give you a competitive edge.",
           "Case Studies: Analyze real manufacturing processes and identify inefficiencies.",
-          "Networking: Join engineering clubs and attend industry seminars.",
-        ],
+          "Networking: Join engineering clubs and attend industry seminars."
+        ]
       },
       {
         id: "16",
@@ -6013,10 +5956,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Venu Srinivasan: Chairman of TVS Motor Company. He is famous for bringing 'Total Quality Management' (an IE concept) to India, winning the global Deming Prize.",
           "Ravi Kant: Former MD of Maruti Suzuki. Known for implementing lean manufacturing principles in Indian automotive industry.",
           "Keshab Panda: Former MD of Bharat Petroleum. Pioneer in process optimization in the energy sector.",
-          "Rajesh Masrani: VP Operations at Amazon India. Leading logistics optimization for rapid delivery.",
-        ],
-      },
-    ],
+          "Rajesh Masrani: VP Operations at Amazon India. Leading logistics optimization for rapid delivery."
+        ]
+      }
+    ]
   },
 
   // ─── MECHANICAL ENGINEER ─────────────────────────────────────────
@@ -6030,16 +5973,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "⚙️", title: "Universal Demand", description: "Every industry needs mechanical engineers", borderColor: "#F59E0B" },
       { icon: "🔧", title: "Problem Solver", description: "Design and build systems that work", borderColor: "#1E40AF" },
       { icon: "📈", title: "High Growth", description: "Manufacturing sector reaching $1 Trillion", borderColor: "#6366F1" },
-      { icon: "🌍", title: "Global Opportunities", description: "Indian engineers in demand worldwide", borderColor: "#10B981" },
+      { icon: "🌍", title: "Global Opportunities", description: "Indian engineers in demand worldwide", borderColor: "#10B981" }
     ],
     quickFacts: [
       { label: "Salary Range", detail: "₹4L–₹1.5Cr+ annually", color: "bg-amber-100 text-amber-700" },
       { label: "Market Growth", detail: "Steady growth in core & tech sectors", color: "bg-blue-100 text-blue-700" },
-      { label: "Duration", detail: "4-year B.Tech or 3-year Diploma", color: "bg-indigo-100 text-indigo-700" },
+      { label: "Duration", detail: "4-year B.Tech or 3-year Diploma", color: "bg-indigo-100 text-indigo-700" }
     ],
     statCards: [
       { value: "₹4L–₹1.5Cr+", label: "Annual Salary Range", gradient: "from-amber-500 to-amber-600" },
-      { value: "$1 Trillion", label: "India's Mfg Target 2025-26", gradient: "from-blue-600 to-indigo-600" },
+      { value: "$1 Trillion", label: "India's Mfg Target 2025-26", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -6053,8 +5996,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Mechanical Engineering is often called the 'Mother of All Engineering Branches.' It is the discipline that applies the principles of physics, engineering, and materials science to design, analyze, manufacture, and maintain mechanical systems.",
           "Put simply : if it has moving parts, a mechanical engineer probably built it.",
           "In today's India, this career is the engine of our growth. From the 'Make in India' initiative transforming us into a global manufacturing hub to the push for Electric Vehicles (EVs) and defense self-reliance (Atmanirbhar Bharat), mechanical engineers are the ones turning blueprints into reality.",
-          "They are not just mechanics : they are inventors, designers, and problem-solvers who keep the world moving.",
-        ],
+          "They are not just mechanics : they are inventors, designers, and problem-solvers who keep the world moving."
+        ]
       },
       {
         id: "2",
@@ -6070,8 +6013,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "02:00 PM: The Prototype Lab. This is the fun part. Karthik puts on safety goggles and heads to the lab. A 3D-printed version of his cooling part is ready. He fits it onto a test scooter. Does it fit? Yes. Does it vibrate too much? He uses a sensor to check.",
           "04:30 PM: Vendor Call. He calls a supplier in Chennai who makes aluminum parts. They discuss material grades. Karthik needs '6061 Aluminum,' but the supplier suggests '7075' for better strength.",
           "06:00 PM: Documentation. In engineering, if you didn't document it, you didn't do it. Karthik updates the 'Bill of Materials' (BOM)—a list of every single screw and washer needed for his design.",
-          "07:00 PM: He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him.",
-        ],
+          "07:00 PM: He logs off. As he rides his own electric scooter home, he smiles, knowing that the cooling system keeping his battery safe was designed by him."
+        ]
       },
       {
         id: "3",
@@ -6086,8 +6029,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "The Team Player: Huge machines aren't built by one person. You need to work with electrical engineers, coders, and workers.",
           "Strong Physics Foundation: Understanding mechanics and thermodynamics is essential.",
           "Attention to Detail: A 1mm error can cause a disaster.",
-          "Clear Communication: Explaining complex designs to diverse teams.",
-        ],
+          "Clear Communication: Explaining complex designs to diverse teams."
+        ]
       },
       {
         id: "4",
@@ -6103,8 +6046,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "4. Prototyping: Building a real-life model to test.",
           "5. Manufacturing: Setting up the factory line to mass-produce the product.",
           "6. Maintenance: Fixing the machines when they break down.",
-          "7. Continuous Improvement: Optimizing designs based on feedback.",
-        ],
+          "7. Continuous Improvement: Optimizing designs based on feedback."
+        ]
       },
       {
         id: "5",
@@ -6125,8 +6068,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Upgrade: Can join 2nd Year B.Tech directly via Lateral Entry",
           "Pathway C: The Research/Scientist Route:",
           "  • B.Tech → GATE Score → M.Tech/PhD at IITs/IISc",
-          "  • Job: Scientist at ISRO, DRDO, or BARC",
-        ],
+          "  • Job: Scientist at ISRO, DRDO, or BARC"
+        ]
       },
       {
         id: "6",
@@ -6141,8 +6084,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Entry-Level (0–2 years): ₹4L–₹7L (Core Mfg), ₹6L–₹10L (Tech/EV/R&D)",
           "  • Mid-Level (3–7 years): ₹9L–₹15L (Core Mfg), ₹12L–₹20L (Tech/EV/R&D)",
           "  • Senior (8–12 years): ₹20L–₹40L (Core Mfg), ₹30L–₹60L (Tech/EV/R&D)",
-          "  • Leadership: ₹60L–₹1Cr+ (Core Mfg), ₹80L–₹1.5Cr (Tech/EV/R&D)",
-        ],
+          "  • Leadership: ₹60L–₹1Cr+ (Core Mfg), ₹80L–₹1.5Cr (Tech/EV/R&D)"
+        ]
       },
       {
         id: "7",
@@ -6158,8 +6101,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • Defense & Space: ISRO, DRDO, HAL (Hindustan Aeronautics Ltd)",
           "  • Oil & Gas: Reliance Industries, Shell, Cairn",
           "Top Cities: Pune (Auto hub), Chennai (Manufacturing), Bangalore (R&D), Jamshedpur/Bhilai (Steel)",
-          "Remote Work: Low. Most mechanical jobs require on-site presence.",
-        ],
+          "Remote Work: Low. Most mechanical jobs require on-site presence."
+        ]
       },
       {
         id: "8",
@@ -6174,8 +6117,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Diploma (Polytechnic): ₹50,000–₹1.5L (3 years) - Most affordable option",
           "Living Costs: ₹15,000–₹25,000 per month in metro cities",
           "Study Materials: ₹50,000–₹1L for books and resources",
-          "Scholarships: Can significantly reduce out-of-pocket expenses",
-        ],
+          "Scholarships: Can significantly reduce out-of-pocket expenses"
+        ]
       },
       {
         id: "10",
@@ -6190,8 +6133,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Institute Merit Scholarships: IITs and BITS offer tuition waivers for top rankers",
           "Central: NSP (National Scholarship Portal) – Merit-cum-Means for professional degrees",
           "State-Level: Various state governments offer scholarships for engineering students",
-          "Employer Sponsorship: Many companies sponsor employees pursuing engineering degrees",
-        ],
+          "Employer Sponsorship: Many companies sponsor employees pursuing engineering degrees"
+        ]
       },
       {
         id: "11",
@@ -6202,9 +6145,9 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "Certifications (The 'Resume Boosters') :  • CAD Tools: Certification in SolidWorks, AutoCAD, or CATIA (Essential for design jobs) : • Analysis Tools: ANSYS or HyperMesh certification : • Six Sigma Green Belt: For quality and process improvement roles",
  
-          "Professional Bodies: • ASME (American Society of Mechanical Engineers): Student membership for networking : • SAE India (Society of Automotive Engineers): A must-join for car enthusiasts : Continuing Education: Staying updated on industry trends and certifications is important.",
+          "Professional Bodies: • ASME (American Society of Mechanical Engineers): Student membership for networking : • SAE India (Society of Automotive Engineers): A must-join for car enthusiasts : Continuing Education: Staying updated on industry trends and certifications is important."
           
-        ],
+        ]
       },
       {
         id: "12",
@@ -6224,8 +6167,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "  • HVAC Engineer: Designing green air-conditioning systems",
           "Freelancing:",
           "  • CAD Drafter: Freelance design work for global clients on Upwork",
-          "  • Consultant: Advising startups on product design",
-        ],
+          "  • Consultant: Advising startups on product design"
+        ]
       },
       {
         id: "13",
@@ -6239,8 +6182,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Obsolescence: If you only know old-school mechanics, you will become obsolete. You must learn coding (Python) and electronics to stay relevant in the age of EVs and AI.",
           "Deadline Pressure: Production targets are fixed; missing them can be costly.",
           "Continuous Learning: Technology and processes change rapidly; staying updated is mandatory.",
-          "Work-Life Balance: During peak production seasons, long hours are common.",
-        ],
+          "Work-Life Balance: During peak production seasons, long hours are common."
+        ]
       },
       {
         id: "14",
@@ -6255,8 +6198,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Electric Vehicles: Massive growth in EV design and battery systems.",
           "Additive Manufacturing: 3D printing will revolutionize how parts are made.",
           "AI Integration: Machine learning will optimize designs and predict failures.",
-          "Salary Growth: Expected 8–10% annual salary growth in the next decade.",
-        ],
+          "Salary Growth: Expected 8–10% annual salary growth in the next decade."
+        ]
       },
       {
         id: "15",
@@ -6271,8 +6214,8 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Physics is Key: Pay attention to Newton's Laws and Thermodynamics. They are the Bible of this career.",
           "Learn Python: Basic coding skills will give you a competitive edge.",
           "Case Studies: Analyze real mechanical systems and understand how they work.",
-          "Networking: Join engineering clubs and attend industry seminars.",
-        ],
+          "Networking: Join engineering clubs and attend industry seminars."
+        ]
       },
       {
         id: "16",
@@ -6285,10 +6228,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Baba Kalyani: Chairman of Bharat Forge. He turned a small Indian company into the world's largest forging giant.",
           "Anand Mahindra: While a businessman, his company (Mahindra) is a testament to Indian mechanical engineering prowess, from tractors to the Scorpio-N.",
           "Dr. Pawan Goenka: The man behind the Mahindra Scorpio, putting Indian SUVs on the global map.",
-          "Rajesh Masrani: VP Operations at Amazon India. Leading logistics optimization for rapid delivery.",
-        ],
-      },
-    ],
+          "Rajesh Masrani: VP Operations at Amazon India. Leading logistics optimization for rapid delivery."
+        ]
+      }
+    ]
   },
   ...hospitalityUpdateData,
   ...healthScienceUpdateData,
@@ -6304,16 +6247,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Mountain", title: "Planet Explorer", description: "Decode Earth's layers, landscapes, and geological history.", borderColor: "#92400E" },
       { icon: "Pickaxe", title: "Resource Discovery", description: "Support mining, groundwater, petroleum, and infrastructure projects.", borderColor: "#B45309" },
       { icon: "Shield", title: "Disaster Readiness", description: "Help assess earthquake, landslide, and erosion risk for safer cities.", borderColor: "#DC2626" },
-      { icon: "Globe", title: "Climate Insight", description: "Use geological records to understand long-term climate shifts.", borderColor: "#0F766E" },
+      { icon: "Globe", title: "Climate Insight", description: "Use geological records to understand long-term climate shifts.", borderColor: "#0F766E" }
     ],
     quickFacts: [
       { label: "Duration", detail: "3 years (B.Sc) + 2 years (M.Sc)", color: "bg-amber-100 text-amber-700" },
       { label: "Salary Range", detail: "INR 3L to INR 20L+", color: "bg-orange-100 text-orange-700" },
-      { label: "Top Sectors", detail: "Mining, Oil & Gas, GIS, Research", color: "bg-emerald-100 text-emerald-700" },
+      { label: "Top Sectors", detail: "Mining, Oil & Gas, GIS, Research", color: "bg-emerald-100 text-emerald-700" }
     ],
     statCards: [
       { value: "INR 20L+", label: "Senior Specialist Potential", gradient: "from-amber-600 to-orange-600" },
-      { value: "4+", label: "Major Industry Pathways", gradient: "from-emerald-600 to-teal-600" },
+      { value: "4+", label: "Major Industry Pathways", gradient: "from-emerald-600 to-teal-600" }
     ],
     guideSections: [
       {
@@ -6326,7 +6269,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Geology is the science of Earth - rocks, minerals, soils, fossils, and the processes that shape mountains, rivers, and oceans.",
           "Geologists investigate how Earth changes over time and use that knowledge for practical decisions in engineering, environment, and energy.",
           "In India, geology is critical for groundwater mapping, mineral exploration, infrastructure planning, and disaster mitigation."
-        ],
+        ]
       },
       {
         id: "pathway",
@@ -6339,7 +6282,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Bachelor's: B.Sc in Geology, Earth Science, or Geophysics.",
           "Master's: M.Sc in Applied Geology, Structural Geology, Hydrogeology, or Petroleum Geology for stronger job outcomes.",
           "Advanced routes: GATE for geoscience tracks, research programs, and PSU opportunities."
-        ],
+        ]
       },
       {
         id: "roles",
@@ -6352,7 +6295,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Hydrogeologist: Study groundwater systems and water quality.",
           "Engineering Geologist: Support tunnels, dams, highways, and large construction.",
           "Environmental Geologist: Assess land contamination, erosion, and reclamation projects."
-        ],
+        ]
       },
       {
         id: "skills",
@@ -6365,9 +6308,9 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Learn map reading, remote sensing, and basic GIS tools.",
           "Practice field observation and documentation through local surveys or science projects.",
           "Build digital analysis skills with Excel and introductory data tools."
-        ],
+        ]
       }
-    ],
+    ]
   },
   oceanographer: {
     slug: "oceanographer",
@@ -6378,16 +6321,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "Waves", title: "Ocean Discovery", description: "Explore currents, ecosystems, and the chemistry of oceans.", borderColor: "#0369A1" },
       { icon: "Thermometer", title: "Climate Relevance", description: "Oceans drive weather and climate patterns that affect all life.", borderColor: "#0284C7" },
       { icon: "Fish", title: "Marine Conservation", description: "Support biodiversity and sustainable marine resource management.", borderColor: "#0E7490" },
-      { icon: "Building2", title: "Coastal Planning", description: "Help governments and industries protect coastlines and ports.", borderColor: "#1D4ED8" },
+      { icon: "Building2", title: "Coastal Planning", description: "Help governments and industries protect coastlines and ports.", borderColor: "#1D4ED8" }
     ],
     quickFacts: [
       { label: "Duration", detail: "3 years (B.Sc) + 2 years (M.Sc)", color: "bg-sky-100 text-sky-700" },
       { label: "Salary Range", detail: "INR 3.5L to INR 22L+", color: "bg-cyan-100 text-cyan-700" },
-      { label: "Domains", detail: "Physical, Chemical, Biological, Geological", color: "bg-blue-100 text-blue-700" },
+      { label: "Domains", detail: "Physical, Chemical, Biological, Geological", color: "bg-blue-100 text-blue-700" }
     ],
     statCards: [
       { value: "4", label: "Core Oceanography Streams", gradient: "from-sky-600 to-cyan-600" },
-      { value: "INR 22L+", label: "Senior Scientist Potential", gradient: "from-blue-600 to-indigo-600" },
+      { value: "INR 22L+", label: "Senior Scientist Potential", gradient: "from-blue-600 to-indigo-600" }
     ],
     guideSections: [
       {
@@ -6400,7 +6343,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Oceanography studies the physical movement, chemistry, biology, and geology of oceans.",
           "Oceanographers analyze waves, currents, temperature, marine life, and seabed structures.",
           "The field supports weather prediction, fisheries management, blue economy planning, and climate resilience."
-        ],
+        ]
       },
       {
         id: "pathway",
@@ -6413,7 +6356,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Bachelor's: Marine Science, Oceanography, Environmental Science, Geology, or Physics-based programs.",
           "Master's: Oceanography, Coastal Management, Marine Biology, or Remote Sensing specializations.",
           "Research track: Aim for institute internships, field surveys, and thesis-driven projects."
-        ],
+        ]
       },
       {
         id: "roles",
@@ -6426,7 +6369,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Marine Biologist: Study marine organisms and ecosystems.",
           "Coastal Scientist: Assess shoreline change, erosion, and sea-level impacts.",
           "Marine Data Analyst: Use satellite and sensor data for ocean forecasting."
-        ],
+        ]
       },
       {
         id: "skills",
@@ -6439,9 +6382,9 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Learn spreadsheet analysis, plotting, and entry-level coding for data interpretation.",
           "Follow marine and climate reports to build domain awareness.",
           "Participate in nature clubs, coastal clean-up drives, and citizen-science activities."
-        ],
+        ]
       }
-    ],
+    ]
   },
   wildlife_biologist: {
     slug: "wildlife_biologist",
@@ -6452,16 +6395,16 @@ export const careerPageData: Record<string, CareerPageData> = {
       { icon: "PawPrint", title: "Conservation Impact", description: "Protect threatened species and fragile habitats.", borderColor: "#166534" },
       { icon: "TreePine", title: "Field Research", description: "Work in forests, wetlands, grasslands, and protected reserves.", borderColor: "#15803D" },
       { icon: "Microscope", title: "Data-Driven Ecology", description: "Use tracking, genetics, and statistical tools for wildlife research.", borderColor: "#0F766E" },
-      { icon: "Shield", title: "Policy Support", description: "Inform conservation strategy and human-wildlife conflict mitigation.", borderColor: "#B45309" },
+      { icon: "Shield", title: "Policy Support", description: "Inform conservation strategy and human-wildlife conflict mitigation.", borderColor: "#B45309" }
     ],
     quickFacts: [
       { label: "Duration", detail: "3 years (B.Sc) + 2 years (M.Sc)", color: "bg-green-100 text-green-700" },
       { label: "Salary Range", detail: "INR 3L to INR 18L+", color: "bg-emerald-100 text-emerald-700" },
-      { label: "Work Type", detail: "Field Surveys + Lab/Data Analysis", color: "bg-lime-100 text-lime-700" },
+      { label: "Work Type", detail: "Field Surveys + Lab/Data Analysis", color: "bg-lime-100 text-lime-700" }
     ],
     statCards: [
       { value: "50%+", label: "Role Involves Field Work", gradient: "from-green-600 to-emerald-600" },
-      { value: "INR 18L+", label: "Senior Conservation Roles", gradient: "from-teal-600 to-green-700" },
+      { value: "INR 18L+", label: "Senior Conservation Roles", gradient: "from-teal-600 to-green-700" }
     ],
     guideSections: [
       {
@@ -6474,7 +6417,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Wildlife biologists study animals in their natural habitats and examine how ecosystems function.",
           "They monitor species populations, migration, breeding patterns, and habitat quality.",
           "Their work guides conservation action, anti-poaching policy, and restoration planning."
-        ],
+        ]
       },
       {
         id: "pathway",
@@ -6487,7 +6430,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Bachelor's: Zoology, Life Sciences, Forestry, Environmental Science, or Wildlife Science.",
           "Master's: Wildlife Biology, Ecology, Conservation Biology, or allied fields.",
           "Experience: Prioritize internships with NGOs, forest departments, and biodiversity projects."
-        ],
+        ]
       },
       {
         id: "roles",
@@ -6500,7 +6443,7 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Conservation Officer: Support reserve planning and biodiversity protection programs.",
           "Ecological Consultant: Conduct impact assessments for development projects.",
           "Wildlife Educator: Build public awareness and community conservation engagement."
-        ],
+        ]
       },
       {
         id: "skills",
@@ -6513,10 +6456,10 @@ export const careerPageData: Record<string, CareerPageData> = {
           "Learn data recording, photography, GIS basics, and report writing.",
           "Develop patience, safety awareness, and ethical field behavior.",
           "Volunteer in biodiversity and conservation initiatives to gain real exposure."
-        ],
+        ]
       }
-    ],
-  },
+    ]
+  }
 };
 
 export function getCareerPageData(slug: string): CareerPageData | null {
@@ -6532,7 +6475,7 @@ export function getCareerPageData(slug: string): CareerPageData | null {
     indian_economic_services: "indian_economic_service",
     business_operation_manager: "business_operations_manager",
     information_technology_management: "it_management",
-    indian_armed_forces: "indian_army",
+    indian_armed_forces: "indian_army"
   };
 
   const normalizedSlug = slugAliases[slug.toLowerCase()] || slug.toLowerCase().replace(/[-\s]+/g, "_");

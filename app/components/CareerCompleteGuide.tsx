@@ -207,7 +207,6 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
             const hasSemicolonItems = /;/.test(description);
             const hasArrowItems = /→/.test(description);
             const hasColonHeadings = /[A-Z][^:]*:\s*[^.!?]*[.!?]/.test(description);
-            const isJobsSection = section.id === "jobs";
 
             return (
               <div
@@ -222,78 +221,8 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
                   {mainTitle}
                 </h3>
 
-                {/* Content for jobs section - handle array of items */}
-                {isJobsSection ? (
-                  <div className="space-y-4">
-                    {section.content.map((item, itemIdx) => {
-                      const colonIndex = item.indexOf(":");
-                      const label = colonIndex > -1 ? item.substring(0, colonIndex).trim() : item;
-                      const contentText = colonIndex > -1 ? item.substring(colonIndex + 1).trim() : "";
-                      
-                      // Remove trailing period if exists
-                      const cleanContent = contentText.replace(/\.$/, "");
-                      
-                      // Smart comma splitter that respects parentheses
-                      const splitByCommaRespectingBrackets = (text: string) => {
-                        const items: string[] = [];
-                        let current = "";
-                        let bracketDepth = 0;
-                        
-                        for (let i = 0; i < text.length; i++) {
-                          const char = text[i];
-                          
-                          if (char === "(") bracketDepth++;
-                          else if (char === ")") bracketDepth--;
-                          else if (char === "," && bracketDepth === 0) {
-                            if (current.trim()) items.push(current.trim());
-                            current = "";
-                            continue;
-                          }
-                          
-                          current += char;
-                        }
-                        
-                        if (current.trim()) items.push(current.trim());
-                        return items;
-                      };
-                      
-                      const contentItems = cleanContent ? splitByCommaRespectingBrackets(cleanContent) : [];
-                      
-                      return (
-                        <div key={itemIdx}>
-                          <div className="flex items-start gap-3 mb-3">
-                            <div
-                              className="w-2.5 h-2.5 rounded-full mt-1.5 flex-shrink-0"
-                              style={{ background: color }}
-                            />
-                            <div className="flex-1">
-                              <p className="text-base font-bold text-slate-900">
-                                {label}
-                              </p>
-                            </div>
-                          </div>
-                          
-                          {/* Sub-items for each comma-separated value */}
-                          {contentItems.length > 0 && (
-                            <div className="ml-8 space-y-2">
-                              {contentItems.map((subItem, subIdx) => (
-                                <div key={subIdx} className="flex items-start gap-3">
-                                  <div
-                                    className="w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"
-                                    style={{ background: color, opacity: 0.7 }}
-                                  />
-                                  <p className="text-base text-slate-600 leading-relaxed">
-                                    {subItem}
-                                  </p>
-                                </div>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                ) : hasSemicolonItems ? (
+                {/* Content rendering */}
+                {hasSemicolonItems ? (
                   <div className="space-y-3">
                     {description.split(";").map((item, idx) => {
                       const trimmed = item.trim();
@@ -421,10 +350,10 @@ function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSe
             <table className="w-full bg-white">
               <thead>
                 <tr className="bg-slate-100 border-b-2 border-slate-300">
-                  <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg border-r border-slate-300">
+                  <th className="px-6 py-4 text-left font-semibold text-slate-900 text-base md:text-lg border-r border-slate-300">
                     Level
                   </th>
-                  <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg">
+                  <th className="px-6 py-4 text-left font-semibold text-slate-900 text-base md:text-lg">
                     Annual Salary Range (INR)
                   </th>
                 </tr>
@@ -435,10 +364,10 @@ function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSe
                     key={idx}
                     className={`border-b border-slate-300 ${idx % 2 === 0 ? "bg-white" : "bg-slate-50"}`}
                   >
-                    <td className="px-6 py-4 font-semibold text-slate-900 text-base border-r border-slate-300">
+                    <td className="px-6 py-4 font-normal text-slate-900 text-base border-r border-slate-300">
                       {row.level}
                     </td>
-                    <td className="px-6 py-4 font-bold text-slate-900 text-base">
+                    <td className="px-6 py-4 font-normal text-slate-900 text-base">
                       {row.salary}
                     </td>
                   </tr>
@@ -706,14 +635,21 @@ function SectionStartNow({ section, careerName }: { section: CareerGuideSection;
 
                 {/* text content */}
                 <div className="flex-1 pt-1">
-                  <p className="text-lg leading-relaxed font-medium text-slate-800">
-                    {highlight && (
-                      <>
-                        <span className="font-black text-slate-900">{highlight}:</span> {rest}
-                      </>
-                    )}
-                    {!highlight && point}
-                  </p>
+                  {highlight && (
+                    <div>
+                      <p className="text-sm font-bold text-slate-900 mb-1">
+                        {highlight}
+                      </p>
+                      <p className="text-base leading-relaxed text-slate-700">
+                        {rest}
+                      </p>
+                    </div>
+                  )}
+                  {!highlight && (
+                    <p className="text-base leading-relaxed font-medium text-slate-800">
+                      {point}
+                    </p>
+                  )}
                 </div>
               </div>
             );

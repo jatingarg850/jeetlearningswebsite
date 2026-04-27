@@ -106,21 +106,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Market Size: Indian agriculture market valued at $471 Billion in 2026, expected to reach $578 Billion by 2031.",
           "Growth Rate: 4.21% CAGR (2026–2031) with 25% CAGR in organic product demand."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Industries: Agrochemicals (UPL, PI Industries), Food Processing (Nestlé, ITC, Amul), Banking (NABARD, HDFC Rural), and Agritech (DeHaat, Ninjacart).",
-          "Top Cities: Pune, Bengaluru, Hyderabad, and Delhi-NCR.",
-          "Remote Work: High potential in Agri-Data Analytics and Digital Marketing.",
-          "International: Huge opportunities in the Middle East and Africa for 'Food Security' consultants."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -347,22 +333,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Market Growth: Industry growing at CAGR of over 5.2%. Fastest-growing segments are Precision Farming and Automated Machinery.",
           "Market Size: Indian Agricultural Equipment market expected to reach $13.79 Billion by 2030."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: Farm Machinery (Tractors/Harvesters), Irrigation Systems, Food Processing, Agri-Tech Startups, Renewable Energy (Biofuels).",
-          "Top Companies: Mahindra & Mahindra, John Deere, TAFE, Jain Irrigation, ITC, Nestlé, Amul.",
-          "Government Sector: ICAR (Scientist), FCI (Technical Officer), State Water Resources Departments, NABARD.",
-          "Remote Work: High for Design Engineers, Data Analysts, and Remote Sensing specialists.",
-          "International: Huge demand in the USA, Germany, and Israel for Indian engineers with expertise in tropical agriculture."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -588,21 +559,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Tier-2/3 (Pantnagar, Ludhiana): Competitive pay in Government University setups with lower living costs.",
           "Bio-economy: Indian Bio-economy reached $165.7 Billion in 2024, on track for $300 Billion by 2030."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: Seed Companies (Mahyco, Bayer), Agrochemicals (UPL), Biotech firms (Biocon), and Government Research (ICAR).",
-          "Top Cities: Delhi, Hyderabad (Genome Valley), Bengaluru, and Coimbatore.",
-          "Remote Potential: Low for lab/field work; high for Bioinformatics and Agri-Data Analysis.",
-          "International: Post-doctoral fellowships in the USA, Germany, and Israel are very accessible from India."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -829,21 +786,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Freshers in cities like Bengaluru or Mumbai can earn 20% more in premium pet clinics, while government roles offer stable pay and housing across all tiers.",
           "Market Growth: Indian animal healthcare and pharmaceuticals market growing at 7.5% CAGR."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: Government Animal Husbandry Departments, Pharmaceutical Companies (Zoetis, Virbac), Dairy Cooperatives (Amul, Mother Dairy), and Wildlife Sanctuaries.",
-          "Top Cities: Bengaluru, Pune, Hyderabad, and Chennai.",
-          "Remote Potential: Moderate for tele-consultations and research; high for data analysis roles.",
-          "International: High demand in USA, Australia, and New Zealand. Indian veterinary degrees are globally respected, though you may need to clear local licensing exams (like NAVLE)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1072,22 +1015,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Growth Rate: Growing at massive 11.7% annually (Source: IMARC Group).",
           "Demand: India accounts for 24% of global milk production. Thousands of new technologists needed."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Cooperatives: Amul (GCMMF), Mother Dairy, Nandini (KMF), Verka, Milma.",
-          "Private Giants: Nestlé, Britannia, Danone, Heritage Foods, Kwality Wall's.",
-          "Government Sector: National Dairy Development Board (NDDB), FSSAI (Food Safety Officer), BIS.",
-          "Dairy Hubs: Real 'action' and career growth are in Anand (Gujarat), Karnal (Haryana), and Bengaluru.",
-          "International: High demand in New Zealand, Australia, and the Middle East."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1315,21 +1243,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Market Size: Indian food processing industry expected to reach $700 Billion by 2030.",
           "Growth Rate: Sector growing at CAGR of 14% (2024–2030). As middle class grows, demand for 'Ready-to-Eat' and healthy packaged snacks is exploding."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: RED,
-        content: [
-          "Top Industries: FMCG (Fast Moving Consumer Goods), Dairy, Beverages, Bakery & Confectionery, Packaging.",
-          "Top Companies: Nestlé, Amul, Britannia, PepsiCo, ITC, Parle Agro, Dabur.",
-          "Government Sector: FSSAI (Food Safety Officer), Bureau of Indian Standards (BIS), FCI, and ICAR research labs.",
-          "Remote/Gig: High demand for 'Regulatory Consultants' and 'Nutritional Content Writers' who can work globally from home."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2234,23 +2148,7 @@ export const agricultureUpdateData: Record<string, CareerPageData> = {
           "Market Size: India Environmental Testing market expected to reach $1.6B by 2030, growing at 8% annually.",
           "Growth Trajectory: Entry to Senior Specialist takes 8-12 years with consistent experience and specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: RED,
-        content: [
-          "Public Sector: Central and State Pollution Control Boards (CPCB/SPCB), Ministry of Environment (MoEFCC), National Environmental Engineering Research Institute (NEERI).",
-          "Private Sector: Environmental Consultancies (EY, PwC, Tata Projects), Energy companies (NTPC, Reliance), Green Tech startups.",
-          "International: World Bank, UN Environment Programme (UNEP), global climate change NGOs, international development organizations.",
-          "Emerging Opportunities: Carbon Accounting Specialist, Climate Modeler (using AI), Sustainability Manager, ESG Consultant, Waste-to-Wealth Entrepreneur.",
-          "Freelancing: High demand for environmental audits and compliance consulting. Remote opportunities in data analysis.",
-          "Entrepreneurship: Starting waste-to-wealth startup, green-audit agency, or environmental consulting firm."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",

@@ -115,25 +115,7 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
           "Demand Drivers: Increasing focus on health and wellness, school nutrition programs, women empowerment initiatives, and sustainable living practices.",
           "Growth Sectors: Healthcare, education, food industry, NGOs, government programs, and wellness consulting."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Employment Sectors & Job Opportunities",
-        icon: "MapPin",
-        description: "Industries and institutions hiring home science professionals.",
-        color: GREEN,
-        content: [
-          "Education Sector: Schools, colleges, and universities as Home Science teachers, curriculum developers, and student counselors.",
-          "Healthcare: Hospitals, clinics, and wellness centers as nutrition counselors, dietitians, and health educators.",
-          "Government Programs: Ministry of Women and Child Development, ICDS (Integrated Child Development Services), and public health departments.",
-          "NGOs and Social Organizations: Community development, women empowerment, child welfare, and livelihood programs.",
-          "Food Industry: Food companies, catering services, restaurants, and food safety organizations.",
-          "Textile and Fashion: Textile companies, fashion brands, and sustainable clothing initiatives.",
-          "Media and Publishing: Content creation, nutrition writing, and educational material development.",
-          "Self-Employment: Catering services, nutrition consulting, boutique management, daycare centers, and home-based businesses."
-        ]
-      },
-      {
+      },{
         id: "institutions",
         title: "Top Institutions & Learning Centers",
         icon: "Building2",
@@ -278,6 +260,6 @@ export const homeScienceUpdateData: Record<string, CareerPageData> = {
           "Osmania University, Hyderabad: Well-established Home Science program with good placement opportunities."
         ]
       }
-    ],
-  },
+    ]
+  }
 };

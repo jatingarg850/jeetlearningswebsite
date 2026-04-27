@@ -110,21 +110,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Agniveer Salaries: Year 1 - ₹30,000/month. Year 4 - ₹40,000/month + Seva Nidhi (~₹11.7L) upon exit.",
           "Unique Allowances: Sea Going Pay (very high), Submarine Pay (extremely high), Foreign Service Allowance, Ration Money."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Naval bases and career opportunities.",
-        color: BLUE,
-        content: [
-          "Naval Bases in India: Western Command - Mumbai (HQ), Karwar (Asia's largest naval base). Eastern Command - Visakhapatnam. Southern Command - Kochi (Training Command). Islands - Port Blair (Andaman) & Lakshadweep.",
-          "Conventional Careers: Gunnery Officer (in charge of firing missiles), Anti-Submarine Warfare Officer (hunting enemy subs), Marine Engineer (maintaining ship engines), Naval Pilot (flying helicopters/jets), Submariner (operating submarines).",
-          "New-Age Careers: Drone Operator (flying surveillance drones like SeaGuardian), Cyber Security Officer (protecting naval networks), Space Command Officer (satellite surveillance of Indian Ocean).",
-          "Post-Retirement Opportunities: Merchant Navy (huge demand for ex-Navy officers), Port Management (Adani Ports, DP World), Defense Tech (BrahMos Aerospace, Mazagon Dock Shipbuilders), Maritime Security Consultant, Scuba Diving Instructor."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -383,22 +369,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "IPS Officer (SP) Salary: Basic ₹78,800, Gross ₹1.1L–₹1.4L/month.",
           "DGP Salary: Basic ₹2,25,000, Gross ₹3.0L+/month."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Police sectors and opportunities.",
-        color: BLUE,
-        content: [
-          "Geography: Every inch of India. From a remote Thana (station) in Bastar to the Cyber Cell in Bangalore.",
-          "Top Sectors: Civil Police (maintaining law and order in cities/villages), Traffic Police (managing roads), GRP (Government Railway Police - safety on trains), Special Forces (Greyhounds for Anti-Naxal operations, ATS for Anti-Terrorism), Intelligence (IB or RAW).",
-          "Specialized Roles: Cyber Cop (tracking hackers and online fraudsters), Forensic Analyst (using science to solve crimes), Drone Pilot (using drones for crowd control), Commando (NSG or Greyhounds).",
-          "International: IPS officers often serve in United Nations Peacekeeping Missions (UNPOL) or in Indian Embassies abroad.",
-          "Post-Retirement: Private Detective (opening a detective agency), Security Consultant (advising corporates on security)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -640,23 +611,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Compensation framework includes 7th Pay Commission structures with Special Security Allowance and foreign assignment benefits.",
           "Budget trend shows sustained growth, with stronger demand in SIGINT, big data intelligence, and linguistic specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Operational locations from headquarters to frontier and global postings.",
-        color: BLUE,
-        content: [
-          "Strategic Headquarters: National coordination roles centered in New Delhi policy and operations hubs.",
-          "Regional Subsidiary Centers: State-level intelligence bureaus manage domestic monitoring and counter-insurgency support.",
-          "Border and Frontier Stations: High-intensity assignments in sensitive zones and maritime corridors.",
-          "International Postings: Research and intelligence assignments under diplomatic cover in embassies and high commissions.",
-          "Technical Hubs: Roles in satellite monitoring, cryptanalysis, and cyber threat tracking ecosystems.",
-          "Emerging Digital Frontiers: Expanded opportunities in integrated cyber coordination and virtual threat disruption."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -880,23 +835,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Senior-Level (8-15 years): State Project Officer/Director - NGO/Govt ₹15L–₹25L, International ₹30L–₹60L.",
           "Leadership (15+ years): Country Head/Senior Consultant - NGO/Govt ₹30L–₹50L, International ₹80L–₹1.5Cr."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, sectors, and opportunities.",
-        color: BLUE,
-        content: [
-          "Government: NDMA (National Disaster Management Authority), SDMAs (State Authorities), Municipal Corporations, Fire Services.",
-          "International Agencies: United Nations (UNDP, UNICEF), Red Cross, World Bank, WHO.",
-          "NGOs: SEEDS India, Goonj, Oxfam India, Doctors Without Borders, Médecins Sans Frontières.",
-          "Corporate: Risk Management departments of Tata, Reliance, Adani (Industrial Safety), Insurance companies.",
-          "Top Cities: New Delhi (Policy Hub), Coastal Cities (Bhubaneswar, Chennai, Mumbai - cyclones/floods), Himalayan Region (Dehradun, Shimla - landslides/earthquakes).",
-          "Specialized Roles: Drone Operator for DM, Climate Risk Consultant, Business Continuity Planner, GIS Specialist, Safety Auditor."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1142,22 +1081,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Agniveer Salary: Year 1 - ₹30,000/month (₹21,000 in-hand + Corpus).",
           "Note: Allowances vary heavily based on location. A Lieutenant in Siachen gets a 'Siachen Allowance' of approx ₹42,500/month extra."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Deployment locations and opportunities.",
-        color: BLUE,
-        content: [
-          "Geography: 'All India Service Liability.' You go where the flag goes. Field Areas: J&K, Ladakh, North East (Assam, Arunachal), Desert borders (Rajasthan). Peace Stations: Pune, Bangalore, Delhi, Chandigarh, Secunderabad.",
-          "Top Sectors: Combat (Infantry, Armoured), Support (Corps of Signals, EME), Medical (Army Medical Corps).",
-          "Specialized Roles: Cyber Warrior (Army Cyber Group), Drone Pilot (UAV operations), Military Psychologist (SSB selection centers), Engineer (building infrastructure), Doctor (Army Medical Corps).",
-          "International Opportunities: UN Peacekeeping (India is one of the largest contributors - Congo, Lebanon, Sudan), Military Diplomacy (Defense Attache in Indian Embassies abroad).",
-          "Post-Retirement: Corporate Security Head, Leadership/HR roles in MNCs, Disaster Management Consultant, Commercial Pilot (for Army Aviation pilots)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1405,22 +1329,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Agniveer Vayu Salary: Year 1 - ₹30,000/month, Year 4 - ₹40,000/month + Seva Nidhi (~₹11.7L).",
           "Market Demand: The government is pushing for 'Aatmanirbhar Bharat' in defense. The IAF is expanding its technical wings to handle indigenous jets like Tejas and Prachand helicopters."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Deployment locations and opportunities.",
-        color: BLUE,
-        content: [
-          "Geography: IAF bases are everywhere—from the deserts of Jaisalmer and Bhuj to the snowy peaks of Leh, and the coastal humid bases of Sulur and Tambaram. You go where the service sends you.",
-          "Top Sectors: Combat Operations (Frontline bases), Training Commands (Bengaluru, Hyderabad), Maintenance Command (Nagpur - the engineering hub).",
-          "Specialized Roles: Fighter/Transport Pilot, Aeronautical Engineer, Air Traffic Controller (ATC), UAV/Drone Pilot, Cyber Warfare Officer, Space Command Officer.",
-          "International Opportunities: UN Peacekeeping Missions (Congo, Sudan), International exercises (Exercise Red Flag in USA, Garuda in France), Defense Attache postings.",
-          "Post-Retirement: Commercial Airline Pilot (IndiGo, Air India), Corporate Leadership/Admin Heads, Defense Consultants, Entrepreneurs in Defense Tech."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1667,21 +1576,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Agniveer Sailor Salary: Year 1 - ₹30,000/month, Year 4 - ₹40,000/month + Seva Nidhi (~₹11.7L).",
           "Unique Allowances: Sea Going Pay (very high), Submarine Pay (extremely high), Foreign Service Allowance, Ration Money."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Naval bases and career opportunities.",
-        color: BLUE,
-        content: [
-          "Naval Bases in India: Western Command - Mumbai (HQ), Karwar (Asia's largest naval base). Eastern Command - Visakhapatnam. Southern Command - Kochi (Training Command). Islands - Port Blair (Andaman) & Lakshadweep.",
-          "Conventional Careers: Gunnery Officer (in charge of firing missiles), Anti-Submarine Warfare Officer (hunting enemy subs), Marine Engineer (maintaining ship engines), Naval Pilot (flying helicopters/jets), Submariner (operating submarines).",
-          "New-Age Careers: Drone Operator (flying surveillance drones like SeaGuardian), Cyber Security Officer (protecting naval networks), Space Command Officer (satellite surveillance of Indian Ocean).",
-          "Post-Retirement Opportunities: Merchant Navy (huge demand for ex-Navy officers), Port Management (Adani Ports, DP World), Defense Tech (BrahMos Aerospace, Mazagon Dock Shipbuilders), Maritime Security Consultant, Scuba Diving Instructor."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1928,23 +1823,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Inspector General Salary: Basic ₹2,25,000, Gross ₹3.0L+/month.",
           "Unique Allowances: Border Allowance (₹5,000–₹15,000/month), High-Altitude Allowance (₹10,000–₹20,000/month), Counter-Insurgency Allowance, Operational Allowance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Deployment locations and career opportunities.",
-        color: BLUE,
-        content: [
-          "CRPF Deployment: Chhattisgarh (Naxal-affected areas), Jharkhand, Odisha, J&K (Kashmir Valley), North East (Assam, Manipur, Nagaland), Major cities (Delhi, Mumbai, Bangalore).",
-          "BSF Deployment: India-Pakistan border (Punjab, Rajasthan, Gujarat), India-Bangladesh border (West Bengal, Assam, Meghalaya, Tripura), India-Myanmar border (Manipur, Mizoram, Nagaland).",
-          "CISF Deployment: Major airports (Delhi, Mumbai, Bangalore, Hyderabad), Ports (Mumbai, Cochin, Chennai), Power plants, Railway stations, Metro systems.",
-          "ITBP Deployment: Ladakh (Siachen, Pangong), Himachal Pradesh, Uttarakhand, Arunachal Pradesh.",
-          "SSB Deployment: West Bengal, Assam, Meghalaya, Tripura, Mizoram, Manipur.",
-          "Specialized Roles: Cyber Security Officer (protecting CRF networks), Drone Operator (surveillance and reconnaissance), Commando (specialized counter-terrorism units), Dog Handler (for detection and patrol), Medic (providing emergency medical care)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2111,6 +1990,6 @@ publicSafetyAndSecurityUpdateData.indian_paramilitary_forces = {
     ...section,
     title: section.title.replace(/\bCRF\b/g, "Indian Paramilitary Forces"),
     description: section.description.replace(/\bCRF\b/g, "Indian Paramilitary Forces"),
-    content: section.content.map((item) => item.replace(/\bCRF\b/g, "Indian Paramilitary Forces")),
-  })),
+    content: section.content.map((item) => item.replace(/\bCRF\b/g, "Indian Paramilitary Forces"))
+  }))
 };

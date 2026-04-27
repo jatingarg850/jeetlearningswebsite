@@ -115,25 +115,7 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
           "Note: This career has high variance. Freelancers can earn zero or crores depending on their personal brand and client base.",
           "Metro vs. Non-Metro: Metro cities (Mumbai, Delhi, Bengaluru) currently hold 70% of the jobs, but online coaching is rapidly democratizing income for those in Tier-2 cities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Employment Sectors & Job Opportunities",
-        icon: "MapPin",
-        description: "Industries and institutions hiring mentors and coaches.",
-        color: PURPLE,
-        content: [
-          "Corporate Sector: Companies like Infosys, Google, and Tata hire internal 'Agile Coaches' and 'Leadership Development Managers.'",
-          "EdTech: Platforms like UpGrad, Unacademy, and Coursera hire thousands of 'Student Mentors' to guide learners.",
-          "Coaching Aggregators: Platforms like BetterUp and YourDOST connect coaches to clients remotely.",
-          "Freelancing: 60% of coaches are self-employed entrepreneurs running their own practice.",
-          "International Potential: If you are ICF certified, you can coach clients in the USA/UK from your home in Indore or Jaipur, earning in dollars.",
-          "Schools and Colleges: Career counselors, student mentors, and academic coaches.",
-          "Healthcare: Wellness coaches, health coaches, and lifestyle mentors.",
-          "NGOs and Social Organizations: Community mentors and social impact coaches."
-        ]
-      },
-      {
+      },{
         id: "institutions",
         title: "Top Institutions & Learning Centers",
         icon: "Building2",
@@ -274,6 +256,6 @@ export const mentorAndCoachUpdateData: Record<string, CareerPageData> = {
           "International Programs: Many universities offer online ICF-accredited programs accessible from India."
         ]
       }
-    ],
-  },
+    ]
+  }
 };

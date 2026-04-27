@@ -113,22 +113,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Salaries are standardized by airlines, but those based in metros (Delhi, Mumbai, Bangalore) often get higher 'Base Allowances' to cover living costs.",
           "Growth Trajectory: Trainee → Cabin Crew → Senior Cabin Crew → Flight Purser → In-flight Manager within 8–10 years."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Commercial Airlines (Full-service carriers like Air India, Vistara; Budget carriers like IndiGo, SpiceJet), Private Charter Companies, Corporate Aviation, International Carriers (Emirates, Qatar Airways, Singapore Airlines).",
-          "Top Cities: Delhi (IGI Airport—largest hub), Mumbai (CSIA), Bangalore, Hyderabad, Kolkata, Chennai, Pune.",
-          "International Opportunities: Middle-Eastern carriers frequently recruit from India. Gulf countries offer tax-free salaries and better benefits.",
-          "Emerging Opportunities: Regional connectivity under the 'UDAN' scheme is opening jobs in smaller cities like Darbhanga, Jharsuguda, and Nashik.",
-          "Job Growth: Industry expected to grow at 11.25% CAGR through 2030, creating thousands of cabin crew positions."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -379,22 +364,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
           "Industry Growth: Indian food service market projected to reach $125 Billion by 2030, growing at 10-12% CAGR.",
           "Metro vs. Tier-2: Metro cities (Mumbai, Delhi, Bangalore) offer 20-30% higher salaries and more opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: 5-Star Hotels (Taj, ITC, Oberoi), Cruise Liners, Airlines, Corporate Catering, Cloud Kitchens (Swiggy, Zomato), Fine Dining Restaurants, Michelin-star establishments.",
-          "Top Cities: Mumbai (largest hospitality hub), Delhi-NCR, Bangalore, Goa (huge for tourism), Hyderabad, Pune, Jaipur.",
-          "Gig Economy: High potential for Private Chefs (cooking for wealthy families), Food Content Creators (YouTube/Instagram), Culinary Consultants for new restaurants.",
-          "International Opportunities: Chefs working in Middle East, Singapore, London, New York, and Dubai. Higher salaries and global exposure.",
-          "Emerging Opportunities: Cloud kitchens, meal prep services, food delivery platforms, culinary tourism, cooking shows."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -644,22 +614,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
           "Market Growth: Industry growing at 18-20% CAGR. Massive expansion expected.",
           "Metro vs. Tier-2: Mumbai, Delhi-NCR offer highest salaries. Destination wedding hubs (Goa, Jaipur) have high project values."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Media Houses, Wedding Planning Agencies, Corporate Marketing Departments, Luxury Hotels, Sports Management, Entertainment Companies.",
-          "Top Cities: Mumbai (Entertainment Capital), Delhi-NCR (Political/Corporate Events), Goa & Jaipur (Destination Wedding Hubs), Bangalore (Tech Events), Hyderabad, Pune.",
-          "International: High demand for Indian wedding planners in UAE (Dubai), Turkey, Thailand, and other countries.",
-          "Emerging Opportunities: Metaverse events, hybrid events, sustainable events, experiential marketing, brand activations.",
-          "Gig Economy: High potential for freelance event coordinators, destination managers, and event consultants."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -910,22 +865,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
           "Market Size: Indian hospitality industry expected to reach $410 Billion by 2028.",
           "International: Middle East (Dubai/Qatar) offers 30-50% higher salaries. Singapore and Maldives also high-paying."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Luxury Hotels (Taj, ITC, Oberoi), Cruise Lines (huge for international travel), Club Management, Luxury Retail (Louis Vuitton, Hermès hire HM grads), Private Hospitals, Tech Campuses.",
-          "Top Cities: Mumbai (hospitality hub), Delhi-NCR (business hotels), Goa (tourism), Bangalore (tech hotels), Udaipur (luxury resorts), Jaipur, Hyderabad.",
-          "International: High demand in Middle East (Dubai/Qatar), Singapore, Maldives, Thailand, and international hotel chains.",
-          "Emerging Opportunities: Wellness resorts, eco-tourism, boutique hotels, heritage hotels, adventure tourism.",
-          "Gig Economy: Airbnb Super-host Consultant, Hospitality Training Freelancer, Event Coordinator."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1176,22 +1116,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
           "Market Growth: Industry expected to grow at 12% CAGR through 2030.",
           "Metro vs. Tier-2: Metros 20% higher salaries, but Tier-2 cities (Jaipur, Varanasi) seeing fastest job growth due to heritage tourism."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Online Travel Agencies (OTAs) like MakeMyTrip, Cleartrip, Airlines, Cruise Lines, State Tourism Boards, Event Management firms, Hotels.",
-          "Top Cities: Delhi-NCR (Corporate Hub), Mumbai (Outbound Hub), Bangalore (Tech-Tourism), Kerala (Eco-Tourism), Goa, Jaipur, Varanasi.",
-          "Gig Economy: Huge potential for Travel Influencers, Independent Trip Leads, Home-based Travel Agents, Travel Vloggers.",
-          "International: High demand for Indian destination experts in Dubai, Singapore, Thailand, and international markets.",
-          "Emerging Opportunities: Sustainable tourism, medical tourism, adventure tourism, spiritual tourism, educational tourism."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1442,22 +1367,7 @@ export const hospitalityUpdateData: Record<string, CareerPageData> = {
           "Regional Trends: Goa, Jaipur, Udaipur highest-paying for destination specialists. Delhi and Mumbai dominate high-volume luxury market.",
           "Industry Growth: Growing at 14.5% CAGR. Massive expansion expected."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Luxury Event Agencies (Wizcraft, WDC), Hospitality Groups (Taj, Marriott, ITC), Boutique Planning Firms, Wedding Decor Companies.",
-          "Top Cities: Delhi-NCR (high-volume luxury), Mumbai (entertainment hub), Goa (destination weddings), Jaipur (heritage weddings), Udaipur (palace weddings), Bangalore, Pune.",
-          "International: High demand for Indian planners in Dubai, Turkey, Thailand, Italy for NRI weddings. Global expansion potential.",
-          "Freelancing: Very high potential. Many planners start as freelancers after 2 years of experience. Build personal brand.",
-          "Emerging Opportunities: Eco-weddings, micro-weddings, virtual weddings, metaverse weddings, sustainable celebrations."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",

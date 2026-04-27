@@ -114,24 +114,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
           "City Trends: Metros (Bangalore, Pune, Gurgaon) pay 20% higher. Tier-2 cities (Kochi, Chandigarh) booming for Technical Trainers.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT/ITeS, BFSI (Banking & Finance), Pharmaceuticals, E-commerce, Manufacturing.",
-          "Top Cities: Bangalore, Mumbai, Gurgaon, Pune, Hyderabad.",
-          "Top Companies: TCS, Infosys, Wipro, ICICI Bank, HDFC, Flipkart, Amazon, Pharma giants.",
-          "Emerging Opportunities: AI-Learning Strategist, Virtual Facilitator, Instructional Designer, Executive Coach.",
-          "The Gig Economy: Nearly 30% of trainers freelancers, charging anywhere from ₹15,000 to ₹1,50,000 per day.",
-          "Remote Work: High potential for online training delivery and virtual facilitation.",
-          "Entrepreneurship: Starting own training academy or consultancy."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -384,24 +367,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
           "City Comparison: Metros (Delhi, Mumbai, Bangalore) command 25-40% higher fees due to high corporate and celebrity demand.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent specialization."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Corporate Training, Fashion & Retail, Public Relations, Entertainment, Hospitality, Executive Coaching.",
-          "Top Cities: Mumbai (Celebrity/Fashion), Delhi-NCR (Corporate/Politics), Bangalore (Tech/Executive Presence).",
-          "Top Companies: Luxury brands, PR agencies, corporate training firms, entertainment companies, executive coaching firms.",
-          "Emerging Opportunities: AI Style Assistant Curator, Executive Presence Coach, Digital Persona Consultant, Virtual Styling Expert.",
-          "The Gig Economy: Most image consultants are Solopreneurs, charging ₹5,000 to ₹50,000 per hour for specialized consultations.",
-          "Remote Work: High potential for virtual consultations using AI-powered body scanners and virtual wardrobes.",
-          "Entrepreneurship: Starting boutique agency, online school, personal branding app, or styling consultancy."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -655,24 +621,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
           "International: High demand in Europe and Middle East (requires local certifications).",
           "Growth Trajectory: Entry to Senior typically takes 10–15 years with consistent experience."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Schools, Universities, Corporate Law Firms, Media Houses (Archives), Research Labs (CSIR/ISRO), Public Libraries.",
-          "New-Age Roles: Data Librarians, Metadata Specialists, UX Librarians (designing library websites), Knowledge Managers.",
-          "Top Cities: Delhi, Mumbai, Bangalore, Hyderabad, Pune, Kolkata.",
-          "Emerging Opportunities: Digital Archivist, Information Architect, Learning Experience Designer, Knowledge Manager for tech companies.",
-          "International: High demand in Europe and Middle East for Indian professionals.",
-          "Remote Work: Growing opportunities for digital library services and online information management.",
-          "Entrepreneurship: Setting up private libraries, conducting information literacy workshops, consulting for NGOs."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -927,24 +876,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer higher allowances (HRA). Tier-2 cities catching up in base pay.",
           "Growth Trajectory: India needs 1.5 million new teachers annually. Massive expansion opportunity."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Sectors: Government Universities (Central/State), Private Universities, IITs/IIMs, International branch campuses in India.",
-          "Top Cities: Delhi-NCR, Bangalore, Hyderabad, Pune, Ahmedabad, Mumbai, Chennai.",
-          "Emerging Opportunities: EdTech platforms as visiting faculty, Online course creators, AI-Curriculum Specialists, Research Scientists.",
-          "Remote Work: High potential in Online/EdTech platforms as visiting faculty or course creators.",
-          "International: Indian professors highly respected in USA, UK, Singapore. Global opportunities abundant.",
-          "Entrepreneurship: Starting niche training institute or knowledge-based startup.",
-          "Consulting: Industry consulting, government advisory roles, research consultancy."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1203,24 +1135,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
           "Hiring Trends: Over 1 million vacancies exist across India. 12.5% CAGR growth in private school sector through 2030.",
           "Growth Trajectory: Entry to Principal typically takes 15–20 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Sectors: K-12 Schools (Govt/Private), International Schools (IB/IGCSE), Coaching Institutes, EdTech (BYJU'S, Physics Wallah).",
-          "Top Cities: Delhi-NCR, Mumbai, Bangalore, Hyderabad, Pune, Chennai, Kolkata.",
-          "New-Age Roles: Instructional Designers, Curriculum Developers, Online Subject Matter Experts, EdTech Content Creators.",
-          "International: High demand for Science/Math teachers in UAE, UK, Southeast Asia. Expat packages lucrative.",
-          "Emerging Opportunities: AI-Learning Strategist, Virtual Classroom Facilitator, Special Education Specialist.",
-          "Remote Work: Growing opportunities with EdTech platforms and online tutoring.",
-          "Entrepreneurship: Starting home-schooling hub, special education center, or YouTube education channel."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1476,24 +1391,7 @@ export const educationUpdateData: Record<string, CareerPageData> = {
           "City Trends: Bengaluru and Hyderabad pay 25% higher than national average.",
           "Growth Trajectory: 13.5% CAGR in technical/vocational segment through 2030."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT Services (TCS, Infosys), Product Companies (Google, Microsoft), EdTech (Simplilearn, Scaler), Manufacturing (Tata Motors).",
-          "Top Cities: Bengaluru, Hyderabad, Pune, Mumbai, Chennai, Gurgaon.",
-          "Gig Potential: Freelance Technical Trainers charge ₹15,000 to ₹1,00,000 per day for specialized bootcamps.",
-          "International: High demand in Germany, USA, Japan for trainers bridging 'Indian talent' to 'Global standards.'",
-          "Emerging Opportunities: AI-Model Trainer, VR-Training Designer, Developer Relations (DevRel) Advocate.",
-          "Remote Work: High potential for online bootcamps and virtual training delivery.",
-          "Entrepreneurship: Starting coding bootcamp or YouTube education empire."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",

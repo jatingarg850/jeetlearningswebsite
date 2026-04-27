@@ -105,21 +105,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Metros like Mumbai and Bangalore pay ~20% more, but Tier-2 cities like Jaipur (Jewelry) and Agra/Kanpur (Leather) are global manufacturing hubs.",
           "Industry Growth: Personal accessories market projected to reach $3.01B by 2030, growing at 7.6% annually."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and emerging opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Jewelry (Titan, Tanishq), Footwear (Nike, Bata, Liberty), E-commerce (Myntra, Ajio), Luxury Brands (Sabyasachi, Hidesign).",
-          "Top Cities: Bangalore (Tech/Lifestyle), Mumbai (Luxury/Bollywood), Jaipur (Gems), Kanpur (Leather).",
-          "New-Age Potential: Huge demand for Wearable Tech Designers (Smartwatches/VR headsets) and Sustainable Material Researchers.",
-          "Career Opportunities: Jewelry Designer, Footwear Designer, Visual Merchandiser, AI Design Strategist, Virtual Fashion (NFT/Metaverse) Designer, Bio-Material Innovator, Freelancing (D2C brands, consulting)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -316,21 +302,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Market Growth: Indian animation and VFX sector expected to reach ₹190 billion by 2027, growing at CAGR of ~22%.",
           "Projections: AI and Real-time engines (Unreal) expected to create 30,000+ new jobs annually by 2030."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Film (CGI/VFX), Gaming (AAA and Mobile), Advertising, Ed-Tech (Animated learning), E-commerce.",
-          "Top Cities: Mumbai (Bollywood/VFX), Bangalore (Gaming), Hyderabad (Animation hubs), Pune.",
-          "Remote/Freelance: High! Freelance animators charge ₹1,500–₹5,000 per hour depending on skill.",
-          "International: Indian animators highly sought after by studios in Canada, USA, and New Zealand."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -546,20 +518,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Growth: The industry is growing at 10.6% CAGR. By 2030, India will be the 4th largest beauty market globally.",
           "Metro vs. Tier-2: While Mumbai/Delhi offer the highest starting pay, cities like Lucknow and Indore are seeing a 40% rise in luxury salon openings."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Medical Aesthetics Clinics, Luxury Hotels & Spas, Film & TV, Cosmetic Manufacturing, and Ed-Tech (Beauty Education).",
-          "Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, and Pune.",
-          "Freelance Potential: Exceptionally high. 40% of top-earning makeup artists and hairstylists are self-employed."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -775,20 +734,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Market Growth: The Indian Media & Entertainment sector is growing at 10.5% annually and is expected to reach ₹3.08 Trillion by 2026.",
           "Demand: Hiring for Narrative Designers (Gaming) and Podcast Scriptwriters has grown by 40% since 2023."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: OTT Platforms (Netflix/Hotstar), Gaming Studios (Ubisoft Pune/Nazara), Advertising Agencies (Ogilvy/MullenLowe), Publishing Houses (Penguin/HarperCollins), and Corporate Brands.",
-          "Top Cities: Mumbai (Screenwriting), Bangalore (Tech/Gaming writing), Delhi (Publishing/News).",
-          "International: Indian writers are increasingly hired by global gaming companies and international animation studios for 'cultural consulting.'"
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1003,20 +949,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Industry Growth: The Indian apparel market is expected to reach $105 Billion by 2030, growing at ~10% annually.",
           "Growth Trajectory: It typically takes 3–5 years to move from an assistant to a lead designer role."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Export Houses, Retail Brands (Zudio, Westside, Zara), Luxury Couture Houses, E-commerce (Myntra, Ajio), and Film/TV Styling.",
-          "Top Cities: Delhi-NCR (Manufacturing/Couture), Mumbai (Styling/Bollywood), Bangalore (Tech-Fashion/Retail), and Tirupur/Ludhiana (Knitwear Hubs).",
-          "Gig Economy: High potential for Freelance Fashion Illustrators and Personal Stylists."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1230,20 +1163,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Salary Ranges (Annual INR): Entry-level (Junior Illustrator/Teacher): ₹3.0L–₹6.5L | Mid-level (Senior Artist/Art Director): ₹12L–₹22L | Senior/Leadership (Creative Director/Renowned Artist): ₹35L–₹75L+ | Note: Successful independent artists can earn much more per individual sale.",
           "Hiring Trends: Massive demand in the Gaming and Animation sectors (projected to hit ₹480 Billion by 2027)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Gaming & Film (Concept Art), Advertising (Art Direction), Education (Teaching), Wellness (Art Therapy), and Museums/Galleries (Curating).",
-          "Top Cities: Mumbai (Commercial Art), Delhi (Galleries/Govt), Bangalore (Tech/Gaming), and Baroda/Santiniketan (Academic hubs).",
-          "Freelance Potential: Extremely High. Artists can sell globally via platforms like SaatchiArt or ArtRight.in."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1459,20 +1379,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Job Growth: E-commerce and EdTech hiring for visual designers is growing at 22% annually.",
           "Projections: By 2030, the demand for AI-integrated designers will double."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Advertising Agencies (Ogilvy, DDB Mudra), IT Companies (TCS, Google), E-commerce (Amazon, Myntra), and Startups.",
-          "Top Cities: Bangalore (The Design Tech Hub), Mumbai (The Creative Capital), Delhi-NCR, Hyderabad.",
-          "Remote/Gig Potential: Extremely High. 40% of Indian graphic designers now work as freelancers for global clients on platforms like Upwork or Behance."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1687,20 +1594,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Growth Trajectory: It typically takes 4–6 years to move from an assistant to a Senior Project Lead.",
           "Projections: The industry is growing at ~11.7% CAGR, with a massive demand for 'Wellness-focused' and 'Smart' home designers."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Architectural Firms, Real Estate Developers (Lodha, DLF), Tech Startups (Livspace, HomeLane), Retail/Visual Merchandising (IKEA, Westside), and Film/Set Design.",
-          "Top Cities: Bangalore (Tech-Home capital), Mumbai (Luxury/Film), Gurgaon (Commercial/Office), and Kochi (Sustainable/Heritage).",
-          "International: High demand in Dubai and Singapore for Indian designers who understand South-Asian aesthetics."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1913,20 +1807,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Growth Trajectory: It takes about 3–5 years to become a 'specialized' interpreter (Legal/Medical) who can charge premium rates.",
           "Metro vs. Tier-2: Most top-paying jobs are in Delhi-NCR, Mumbai, and Bangalore. However, the Remote Work boom has made it possible to earn 'Metro salaries' while living in small towns."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Tech (Localization), Media (Subtitling/Dubbing), Embassies, UN Agencies, Hospitals (Medical Interpreting), and Law Firms.",
-          "Top Cities: Delhi (Embassies/Govt), Mumbai (Entertainment), Bangalore (Tech), Chennai (Manufacturing/Japanese focus).",
-          "Gig Economy: Roughly 40% of translators in India work as freelancers, taking projects from global platforms like ProZ or Upwork."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2139,20 +2020,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Regional Hubs: Bangalore, Mumbai, and Gurgaon offer the highest corporate salaries. Delhi remains the center for Policy and Think Tank roles.",
           "Placement Trends: At top colleges like Ashoka, recruiters like Google, McKinsey, and HUL are now specifically hiring Liberal Arts majors."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Management Consulting (McKinsey, BCG), Tech Giants (Google, Amazon), Public Policy & Think Tanks, NGOs & Social Impact, Media & Journalism.",
-          "New-Age Roles: Chief of Staff, Founder's Office, UX Researcher, ESG (Environmental, Social, Governance) Analyst.",
-          "International: Extremely high. A Liberal Arts degree is the standard for global careers in Diplomacy and International Business."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2365,21 +2233,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Growth Trajectory: The AVGC-XR sector and live events are growing at ~15% CAGR.",
           "Hiring Trends: Huge demand for 'Hybrid Artists'—actors who can sing, or dancers who can act in 'Motion Capture' for video games."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Film & TV (Bollywood, Tollywood, etc.), OTT Platforms, Theatre Companies, Theme Parks, Cruise Ships, and Wedding Entertainment.",
-          "Top Cities: Mumbai (Acting/Music), Chennai (Classical/Film), Delhi (Theatre), Bangalore (Contemporary Dance/Indie Music).",
-          "Freelance Potential: Very high. Most performing artists work as 'contractors' for different projects.",
-          "International: High demand for Indian classical artists in the UK, USA, and Singapore."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2593,20 +2447,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Hiring Trends: Massive growth in E-commerce photography (hiring up 25% annually) and Product photography for D2C brands.",
           "Industry Growth: Projected to grow at a steady 4-6% CAGR through 2030 as visual content remains the king of the internet."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Advertising Agencies, E-commerce (Amazon, Ajio), News Media (Photojournalism), Real Estate (Architectural Photography), and Event Management.",
-          "Top Cities: Mumbai (Fashion/Film), Delhi-NCR (Corporate/News), Bangalore (Tech/Product), Ooty (High-end education hub).",
-          "Remote Work: Highly flexible. Freelancing is the dominant mode, allowing you to work for global clients from a small-town home studio."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2822,21 +2663,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Job Growth: Hiring for specialized designers (AI-integrated and Sustainable) is growing at ~11% annually.",
           "Industry Growth: The Indian Robotics and Smart-Home market is expected to grow at a CAGR of ~15% through 2030, creating thousands of 'Hardware + Software' design roles."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Consumer Electronics (Boat, Noise), Automotive (Tata Motors, Mahindra), E-commerce (Flipkart, Amazon), Startups (Ather, Ola Electric), and Furniture (IKEA, Godrej).",
-          "Top Cities: Bangalore, Pune, Hyderabad, Gurgaon, and Ahmedabad.",
-          "Remote/Gig: While physical products require 'lab time,' UI/UX Product Design (digital products) is 90% remote-friendly.",
-          "International: Indian designers are highly valued in Europe and Singapore for their ability to design for 'diverse and frugal' markets."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -3050,20 +2877,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Job Growth: The demand for UI/UX and Web Designers is growing at ~18% CAGR.",
           "Industry Projection: By 2030, the 'Interaction Design' market in India will be worth over $2 Billion."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT Services (TCS, Infosys), Product Companies (Zomato, Flipkart), Ad Agencies, and EdTech (BYJU'S, Unacademy).",
-          "Top Cities: Bangalore, Gurgaon, Pune, Hyderabad, and Chennai.",
-          "Remote/Freelance: Extremely High. Website design is one of the top 5 freelance careers globally. You can earn in Dollars while living in India."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -6456,22 +6270,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Hiring Trends: Demand for 'Quant' (Quantitative) professionals in Fintech and AI companies is growing at 20% year-on-year.",
           "Metro vs. Tier-2: Bengaluru (Data Science), Mumbai (Finance), Kolkata (Research), Chennai (Theoretical Math)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Fintech (Banks/Trading), IT & AI, Insurance (Actuarial), Space Research (ISRO), Defense (DRDO), Pharmaceuticals (Clinical Trials).",
-          "Top Cities: Bengaluru (Data Science Hub), Mumbai (Finance & Trading), Kolkata (Research Institutes), Chennai (Theoretical Math), Hyderabad (Tech & Pharma).",
-          "Remote Work: Very high potential for Data Analysts and Freelance Statistical Consultants.",
-          "International: High demand for Indian mathematicians in Wall Street (USA), Tech Hubs in Europe, and Singapore.",
-          "Emerging Sectors: Quantum Computing, AI Ethics, Blockchain, Climate Modeling."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -6715,22 +6514,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Demand Shift: Hiring is shifting from pure academic research to Industrial R&D in semiconductors, EV batteries, and pharmaceuticals.",
           "International Salaries: USA and Europe offer 2-3x higher salaries for nanotechnologists."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Pharmaceuticals (Drug delivery), Electronics (Semiconductors), Energy (Solar/Batteries), Textiles (Smart fabrics), Defense (Aerospace coatings).",
-          "Top Cities: Bengaluru (Electronics hub), Hyderabad (Pharma hub), Pune (Automotive/Materials), Chennai (Research institutes).",
-          "Research Institutions: IISc, IITs, CSIR labs, DST-funded research centers.",
-          "International: High demand in USA, South Korea, Japan, and Germany for chip design and bio-nanotech.",
-          "Emerging Sectors: Quantum Computing, Graphene Electronics, Nano-medicine, Water Purification."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -6974,22 +6758,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Industry Growth: Industrial Robotics market growing at 13.1% CAGR. Consumer Robotics (vacuum bots, drones) exploding at 30.3% CAGR.",
           "Demand Surge: Automation is accelerating post-pandemic, creating unprecedented job opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Automotive (Tata Motors, Hyundai), E-commerce (Amazon Robotics), Healthcare (Surgical bots), Defense (DRDO/Drones), Agriculture, Manufacturing.",
-          "Top Cities: Bengaluru (The Robotics Capital), Pune (Automotive Hub), Hyderabad (Tech & Pharma), Gurgaon (Startups).",
-          "Emerging Sectors: Drones for agriculture, surgical robotics, autonomous vehicles, warehouse automation, space exploration.",
-          "International: High demand in Germany (Manufacturing), Japan (Humanoids), USA (Service robots), Singapore (Tech hubs).",
-          "Startup Ecosystem: India's robotics startup scene is booming with companies like GreyOrange, Addverb, and Rapyuta Robotics."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -7234,22 +7003,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Demand: Indian Data Analytics market growing at 35.8% CAGR (2025–2030).",
           "Job Growth: India expected to generate 7 million data-related jobs by end of 2026."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Banking & Finance (BFSI), E-commerce, Pharma (Clinical Trials), Tech Giants, Government Departments.",
-          "Top Cities: Bengaluru (The Data Capital), Hyderabad, Pune, Mumbai, Gurgaon.",
-          "Gig Economy: High potential for 'Freelance Statistical Consultants' and 'Remote Data Modelers' for global startups.",
-          "International: Huge demand for Indian statisticians in USA, UK, and Singapore for 'Quant' roles in stock markets.",
-          "Emerging Sectors: Climate Analytics, Healthcare Analytics, Sports Analytics, Agricultural Data Science."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -7491,22 +7245,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (8-15 Yrs): Creative Director/VP Marketing: ₹25L–₹50L (Agency) or ₹35L–₹60L (Corporate).",
           "Leadership: NCD/CMO: ₹80L–₹2Cr+ (Agency) or ₹1Cr–₹3Cr+ (Corporate)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Advertising Agencies (Ogilvy, MullenLowe Lintas, Dentsu, GroupM), Digital Agencies (Schbang, Dentsu Webchutney, Kinnect), Corporate Marketing Teams (FMCG, Tech, Startups), Media Houses (Times Group, Star Network).",
-          "Top Cities: Mumbai (Undisputed capital of Indian advertising), Gurgaon/Delhi-NCR (Hub for corporate headquarters), Bangalore (Tech-advertising and Digital Startups).",
-          "Freelancing: Extremely high potential. Freelance copywriters and designers earn ₹50k–₹2L/month working from home for global clients.",
-          "Emerging Opportunities: Influencer Marketing, Programmatic Advertising, UX Writing, Brand Consulting, Content Creation.",
-          "International: High demand in USA, UK, and Singapore for Indian advertising professionals."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -7751,22 +7490,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: CMO (Chief Marketing Officer): ₹50L–₹1.5Cr+ (Agency) or ₹80L–₹3Cr+ (Brand).",
           "Freelancing: ₹20k–₹1L per client/month. Extremely high earning potential."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: E-Commerce (Amazon, Flipkart, Myntra, Nykaa), EdTech (PhysicsWallah, UpGrad, Unacademy), FMCG (HUL, Nestle, Amul), Agencies (Ogilvy, Dentsu, Schbang, Kinnect).",
-          "Top Cities: Bangalore (Startup capital; hub for Performance Marketing), Mumbai (Creative hub; best for Social Media & Content), Gurgaon (Corporate HQ hub; best for Brand Manager roles).",
-          "Freelancing: Extremely High. Sit in a village in Himachal and run ads for a client in New York.",
-          "Emerging Opportunities: Influencer Management, AI-Driven Marketing, Meme Marketing, Voice Search Optimization, Metaverse Marketing.",
-          "International: High demand in USA, UK, Singapore, and Australia for Indian digital marketers."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -8011,22 +7735,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: CEO/CXO/Founder: Equity + ₹50L–₹2Cr (Startups) or ₹3Cr–₹10Cr+ (Top MNCs).",
           "Note: For entrepreneurs, 'Salary' is often zero in first 2 years. Payoff comes later through Equity (Ownership)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Consulting (McKinsey, BCG, Bain, Deloitte—highest payers), FMCG (HUL, P&G, Nestle—best schools for management), Fintech & Banking (Paytm, PhonePe, HDFC Bank, ICICI), E-Commerce (Amazon, Flipkart, Myntra).",
-          "Top Cities (Startup Hubs): Bangalore (Silicon Valley of India—Tech & Startups), Gurgaon/Delhi-NCR (Corporate HQs and Consulting hub), Mumbai (Finance and Advertising capital), Hyderabad & Pune (Emerging tech and manufacturing hubs).",
-          "Remote Work: Management roles increasingly hybrid. Entrepreneurship is 24/7, anywhere.",
-          "Emerging Opportunities: Product Management, Chief of Staff roles, Growth Hacking, Social Entrepreneurship, D2C Founders.",
-          "International: High demand for Indian managers and entrepreneurs in USA, UK, Singapore, and Australia."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -8269,22 +7978,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (8-15 Yrs): Marketing Director/VP: ₹50L–₹1Cr (FMCG/Tech Giants) or ₹25L–₹45L (Mid-Sized/Agencies).",
           "Leadership: CMO (Chief Marketing Officer): ₹1.5Cr–₹5Cr+ (FMCG/Tech Giants) or ₹60L–₹1.2Cr (Mid-Sized/Agencies)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: FMCG (HUL, P&G, Nestle, ITC, Amul—best training ground), Tech & E-Commerce (Google, Amazon, Flipkart, Zomato, Swiggy), Automotive (Tata Motors, Mahindra, Maruti Suzuki), BFSI (HDFC, ICICI, Fintech startups).",
-          "Top Cities: Mumbai (Marketing Capital—home to HQs of HUL, P&G, Tata, Reliance), Gurgaon/Delhi-NCR (Corporate hub for Nestle, PepsiCo, Samsung), Bangalore (Hub for Tech marketing and Startups).",
-          "Remote Work: Medium. Strategy roles can be hybrid, but Sales/Market Research often requires being on the ground.",
-          "Emerging Opportunities: Growth Hacking, Product Marketing Manager (PMM), Influencer Marketing Manager, Rural Marketing Specialist.",
-          "International: High demand for Indian marketers in USA, UK, Singapore, and Australia."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -8532,22 +8226,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: CSO (Chief Sales Officer): ₹1Cr–₹3Cr+ (Tech/SaaS) or ₹80L–₹2Cr (FMCG/Retail).",
           "Note: Sales is unique—Fixed Salary + Variables (Incentives). Good salespeople often earn 50% more than fixed salary in bonuses."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: SaaS & Tech (Zoho, Freshworks, Salesforce, Microsoft—selling software to businesses), BFSI (HDFC, ICICI, LIC, PolicyBazaar—selling loans, insurance, credit cards), EdTech (UpGrad, PhysicsWallah, Unacademy—selling courses), Real Estate (Lodha, DLF, Godrej Properties—high ticket, high commission), Pharma (Sun Pharma, Cipla—medical reps selling to doctors).",
-          "Top Cities: Bangalore/Gurgaon (Hubs for Tech and B2B Sales), Mumbai (Hub for Finance and Media Sales), Every District HQ (FMCG sales jobs exist in every single town in India, from Meerut to Madurai).",
-          "Remote Work: High. 'Inside Sales' roles allow you to sell to US/UK clients while sitting in Jaipur or Indore.",
-          "Emerging Opportunities: Social Selling, Customer Success Management, Solution Architecture, High-Ticket Closing.",
-          "International: High demand for Indian salespeople in USA, UK, Singapore, and Australia."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -8793,22 +8472,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Creative Director: ₹50L+ (Mass Brands) or ₹80L–₹1.2Cr (Luxury/International).",
           "City Comparison: VM in Mumbai/Delhi earns 30-40% more than VM in Jaipur or Lucknow due to flagship stores and Head Offices."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Fashion Retail (Zara, H&M, Trent/Westside/Zudio, Reliance Retail/Azorte/Trends), Luxury (The Collective, Armani, Rolex, Tanishq—Jewelry VM is huge in India), Home Decor (IKEA, Home Centre, Pepperfry), FMCG/Supermarkets (Nature's Basket, Foodhall—Food styling and shelf displays).",
-          "Top Cities: Mumbai (Fashion Capital & Home to Reliance/Tata Retail HQs), Bangalore (Hub for Lifestyle brands like Titan, Madura Fashion, and E-commerce), Delhi-NCR (Hub for Luxury Malls like Emporio and Export Houses).",
-          "Freelancing: High potential in Window Display Design for festive seasons (Diwali/Durga Puja) where malls pay lakhs for single installation.",
-          "Emerging Opportunities: E-Visual Merchandising, Experience Designer (Instagrammable spots), Event Stylist, Exhibition Designer.",
-          "International: High demand for Indian VMs in USA, UK, Singapore, and Australia."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -9054,22 +8718,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Program Director/CTO: ₹60L–₹1Cr+ (Commercial) or As per Govt Grade Pay.",
           "Growth Trajectory: Fastest growth in drone/UAV sector and green aviation."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Cities (The 'Aero-Triangle'): Bangalore (Undisputed Aerospace Capital—home to ISRO, HAL, NAL, Boeing/Airbus tech centers), Hyderabad (Major hub for precision manufacturing and drone startups), Pune (Growing hub for defense manufacturing).",
-          "Top Industries: Govt/Defense (ISRO, DRDO, HAL, NAL), Private Manufacturing (Tata Advanced Systems, Mahindra Aerospace, Godrej Aerospace), MNC Tech Centers (Boeing India, Airbus India, GE Aviation, Rolls-Royce), Airlines Maintenance (IndiGo, Air India, Akasa Air—mostly for AME roles).",
-          "Emerging Opportunities: Drone/UAV Engineering, Avionics Engineering, Composites Engineering, Green Aviation, Urban Air Mobility (Flying Taxis).",
-          "International: High demand for Indian aeronautical engineers in USA, UK, Singapore, and Australia.",
-          "Freelancing: Limited but growing in drone design and consulting."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -9316,22 +8965,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Joint GM/General Manager: ₹40L–₹50L+ annually.",
           "Note: Allowances (HRA, Medical, Stress Allowance) make up huge chunk of pay. Stress Allowance reflects the high-pressure nature of the job."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Strictly Aviation. AAI controls almost all Indian airspace (Civil & some Defense enclaves). Private Airports (HAL/Jindal) very rare; usually hire retired AAI or Air Force personnel. Indian Air Force has own ATC officers (Entry via AFCAT), but that is military career.",
-          "Top Cities: Metros (Delhi, Mumbai, Bangalore, Hyderabad, Chennai, Kolkata—Busiest & Highest Stress). Tier-2 (Amritsar, Guwahati, Nagpur, Trivandrum). Remote (Could be posted to small island in Lakshadweep or high-altitude airport in Leh!).",
-          "Remote Work: None. Must be physically present in tower/radar room.",
-          "Global Opportunities: Experienced Indian ATCs in high demand in Middle East (Dubai, Qatar, Saudi) with tax-free salaries 3x higher than India.",
-          "Emerging Opportunities: Remote Towers (controlling airports from distant locations), Flow Management (national-level traffic management), Instructor roles."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -9577,21 +9211,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (8-12 Yrs): Design Manager/Lead: ₹30L–₹50L (OEMs) or ₹22L–₹40L (Service Firms).",
           "Leadership: Head of Design/Design Director: ₹80L–₹2Cr+ (OEMs) or ₹60L+ (Service Firms)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: OEMs (Tata Motors, Mahindra & Mahindra, Maruti Suzuki, Hero MotoCorp, Royal Enfield, Ola Electric), Global R&D Centers (Renault-Nissan Chennai, Mercedes-Benz Bangalore/Pune, Hyundai Hyderabad), Design Consultancies (Tata Elxsi, Hinduja Tech).",
-          "Top Cities: Pune ('Detroit of India'—Tata, Mercedes, Bajaj, Force), Chennai ('Other Detroit'—Hyundai, Royal Enfield, Renault), Gurgaon/Manesar (Maruti Suzuki hub), Bangalore (EV & Tech hub—Ola, Ather, Mercedes R&D).",
-          "International: Indian designers highly respected globally. Many move to Italy (Pininfarina), Germany, or UK after gaining experience.",
-          "Emerging Opportunities: EV Design, Autonomous Vehicle Design, HMI (Human Machine Interface) Design, Sustainable Materials Design."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -9833,21 +9453,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: VP Operations/CXO: ₹60L–₹1.5Cr (Airline) or ₹80L–₹2Cr (Airport).",
           "Note: Salaries in Metro cities (Delhi/Mumbai) are typically 30-40% higher than in Tier-2 cities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Airlines (Indigo, Air India, Vistara, Akasa Air, SpiceJet), Airport Operators (GMR Delhi/Hyderabad, Adani Airports Mumbai/Ahmedabad/Lucknow, BIAL Bangalore), Ground Handling Agencies (Celebi, Bird Group, AI SATS), Logistics/Cargo (Blue Dart Aviation, DHL).",
-          "Top Cities: Hubs (Delhi IGIA and Mumbai CSMIA are the biggest employers), Emerging (Noida Jewar Airport - upcoming massive hub, Navi Mumbai, Goa Mopa).",
-          "International: The Middle East (Dubai, Qatar, Doha) loves hiring Indian aviation managers due to their English skills and hard work.",
-          "Emerging Opportunities: DigiYatra management, Green Airport operations, Tier-2/3 airport expansion."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -10088,21 +9694,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Check Pilot/Instructor: ₹1.5Cr+.",
           "Note: Pilot salaries are among the highest in India. International opportunities offer even higher compensation."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Scheduled Airlines (IndiGo, Air India, Akasa Air, SpiceJet, Vistara), Regional Connectivity UDAN (Star Air, Fly91 flying smaller planes to smaller towns), Charter Services (flying private jets for billionaires - high luxury, erratic schedule), Cargo (Blue Dart Aviation, Amazon Air flying goods at night).",
-          "Top Cities: Delhi, Mumbai, Bangalore, Hyderabad (Major hubs). You live where your 'Base' is.",
-          "International: Indian CPL holders can convert their license to work in the Middle East or Southeast Asia after gaining experience.",
-          "Emerging Opportunities: Drone pilot operations, Air ambulance services, Ferry pilot services (flying empty planes from factory to buyer)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -10345,21 +9937,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Top Command (Captain/Chief Engineer): ₹8L–₹15L+ (Tax-Free).",
           "Note: Salaries on Tankers/Gas Carriers are 30-40% higher than on Container ships."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Companies: Maersk Line (Denmark), Anglo-Eastern Ship Management (Top employer in India), Synergy Marine Group (Founded by an Indian Captain), Fleet Management Limited, MSC (Mediterranean Shipping Company), Shipping Corporation of India (SCI) (Govt of India).",
-          "Geography: The whole world! You might join a ship in Dubai, sail to Brazil, and sign off in Japan.",
-          "Shore Jobs: After sailing for 10-15 years, you can work on land as a Port Manager, Marine Superintendent, or Surveyor in cities like Mumbai, Chennai, or Singapore.",
-          "Emerging Opportunities: Cruise ship operations, Dynamic Positioning (DP) operations for oil rigs, Marine surveying, Ship brokerage."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -10599,21 +10177,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (8-15 Yrs): Head of Supply Chain: ₹30L–₹60L (Startup/E-commerce) or ₹25L–₹50L (Traditional Mfg).",
           "Leadership: VP/Chief Supply Chain Officer: ₹80L–₹1.5Cr (Startup/E-commerce) or ₹70L–₹1.2Cr (Traditional Mfg)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: E-Commerce & Retail (Amazon, Flipkart, Myntra, Reliance Retail), FMCG (HUL, Nestle, ITC, Amul), Manufacturing (Tata Motors, Samsung, Apple Foxconn), Logistics Firms 3PL (Delhivery, Blue Dart, DHL, Maersk).",
-          "Top Cities: Mumbai/Bhiwandi (The logistics capital - Ports + Warehouses), Delhi-NCR Gurgaon/Noida (Massive warehousing hub for North India), Bangalore (Hub for Tech-enabled supply chain jobs), Chennai/Pune (Manufacturing & Auto supply chain hubs).",
-          "Remote Work: Planning and Analyst roles offer hybrid work. Operations roles (Warehouse/Port) require being on-site.",
-          "Emerging Opportunities: Quick Commerce, Cold Chain Management, Drone Delivery, Blockchain Supply Chain."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -10855,21 +10419,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Chief AI Officer (CAIO), Head of Data: ₹80L–₹1.5Cr+.",
           "Metro vs. Tier-2: Bengaluru/Gurugram pays the highest (tech hub premium). However, remote jobs for US startups are becoming common, offering dollar-pegged salaries in Tier-2 cities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT & SaaS (Google, Microsoft, Infosys, TCS building AI tools), Fintech (Paytm, PhonePe fraud detection), E-commerce (Flipkart, Amazon recommendation engines), Healthcare (1mg, Qure.ai diagnostic AI), Automotive (Tata Motors, Ola Electric autonomous driving).",
-          "Top Cities: Bengaluru (The AI Capital), Hyderabad, Pune, Gurugram.",
-          "Remote Work: Very High. You can work for a Silicon Valley startup from Jaipur.",
-          "Emerging Opportunities: Generative AI, Edge AI, AI for Climate Change, Robotics, Autonomous Systems."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -11111,21 +10661,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Elite/Global: Core Developer (Remote for US/EU firms): ₹1Cr+.",
           "Remote Factor: This is one of the most 'remote-friendly' careers. A developer in Indore can easily earn a San Francisco salary."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Fintech & DeFi (CoinDCX, Zerodha exploring tech, Juspay), Tech Consulting (TCS, Infosys, Wipro have huge blockchain units), Supply Chain (Maersk, Walmart tracking goods), Web3 Startups (Polygon Matic, Push Protocol, Shardeum).",
-          "Top Cities: Bengaluru (Crypto Capital of India), Gurugram, Hyderabad, Pune.",
-          "Global Opportunities: Dubai and Singapore are hiring Indian blockchain talent aggressively.",
-          "Emerging Opportunities: CBDCs, DeFi protocols, NFT platforms, Metaverse development."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -11363,21 +10899,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Head of Data, Chief Data Officer (CDO): ₹80L–₹1.5Cr+.",
           "Note: Salaries in Product Companies (Google, Flipkart, Uber) are significantly higher than Service Companies (TCS, Wipro), sometimes starting at ₹15-20L for freshers from IITs."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: E-Commerce & Retail (Amazon, Flipkart, Myntra - Personalized recommendations), BFSI (Banking & Finance) (HDFC, Paytm, PhonePe - Fraud detection, Credit scoring), Healthcare (1mg, Apollo - Predicting diseases), Travel & Logistics (Uber, Ola, Zomato - Route optimization).",
-          "Top Cities: Bengaluru (The Silicon Valley of India), Gurugram, Hyderabad, Pune, Mumbai.",
-          "Remote Work: High potential. Many US/European startups hire Indian data scientists remotely.",
-          "Emerging Opportunities: AI Ethics, Sports Analytics, Climate Data Science, Healthcare Analytics."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "DollarSign",
@@ -11616,21 +11138,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership: Director of Engineering, CTO: ₹1Cr+ annually.",
           "Note: Product companies (Intel/Nvidia) pay significantly more than Service companies (TCS/Wipro)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Semiconductors (VLSI) - Intel, Qualcomm, NVIDIA, AMD, Texas Instruments. Consumer Electronics - Samsung, Apple, boAt, Dyson. Telecommunications - Jio, Airtel, Ericsson, Nokia (5G/6G Research). Automotive (EVs) - Tata Motors, Tesla, Ola Electric (BMS - Battery Management Systems). Public Sector (PSUs) - ISRO (Space), DRDO (Defense), BEL (Bharat Electronics), BHEL.",
-          "Top Cities: Bengaluru (Chip Design Capital), Hyderabad, Noida (Manufacturing Hub), Pune (Automotive Electronics).",
-          "International: High demand in Taiwan (TSMC), South Korea (Samsung), Germany, and USA.",
-          "Remote Opportunities: Growing trend for senior-level design roles and consulting positions."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -11864,21 +11372,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (Director of Geospatial Strategy, CTO): ₹40L–₹80L+ annually.",
           "Growth Trajectory: You can start as a 'Digitizer' (drawing maps) but quickly move to 'Developer' (coding map apps) where salaries double."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Urban Planning - Smart Cities Mission (planning metros, sewers). Agri-Tech - Cropin, DeHaat (monitoring crop health from space). Logistics - Swiggy, Zomato, Uber, Delhivery (Route optimization). Disaster Management - State Disaster Management Authorities (SDMAs). Utilities - Reliance Jio (planning fiber cables), Adani Gas (pipeline mapping).",
-          "Top Cities: Hyderabad (The GIS Capital - home to NRSC), Bengaluru (Tech GIS), Noida/Delhi (Govt Projects), Dehradun (Survey of India HQ).",
-          "Remote Work: Very High. You can process satellite data for a US client from your home in Indore.",
-          "Emerging Opportunities: Climate change analysis, renewable energy site selection, urban heat island mapping."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -12114,21 +11608,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (CISO - Chief Information Security Officer): ₹80L–₹2Cr+ annually.",
           "Bug Bounties: Talented freelance hackers in India earn lakhs per month just by finding bugs in companies like Google, Facebook, and Zomato."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: BFSI (Banking) - HDFC, SBI, Paytm (Highest hirers). IT Services - TCS, Wipro, Infosys (have huge security teams). Consulting - Big 4 (Deloitte, EY, KPMG, PwC) audit other companies' security. Government/Defense - CERT-In (Indian Computer Emergency Response Team), DRDO, Police Cyber Cells.",
-          "Top Cities: Bengaluru (Tech Hub), Gurugram/Noida (Corporate HQs), Pune, Hyderabad.",
-          "Remote Work: Extremely high potential. You can hack a server in London while sitting in your bedroom in Lucknow.",
-          "Emerging Opportunities: Cloud Security, IoT Security, AI Security, Blockchain Security."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -12362,21 +11842,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (Director of Product, CIO): ₹45L–₹80L+ annually.",
           "Metro Factor: Bengaluru and Pune pay the highest due to the product-company culture."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT Services - TCS, Accenture, Capgemini (working for foreign clients). BFSI (Banking) - HDFC, Axis, Wells Fargo (building banking apps). E-Commerce - Flipkart, Amazon (improving supply chain logic). Consulting - Deloitte, McKinsey, EY (advising companies on digital transformation).",
-          "Top Cities: Bengaluru (Tech Hub), Pune (Banking Tech), Gurugram (Consulting Hub), Hyderabad.",
-          "Remote Work: High potential. BAs spend 70% of their time on Zoom/Teams calls, making it ideal for remote work.",
-          "Emerging Opportunities: Product Management, Digital Transformation, Data Analytics, AI/ML Product roles."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -12610,21 +12076,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (CTO, Head of Connected Products): ₹80L–₹1.5Cr+ annually.",
           "Note: IoT professionals are paid a premium because they know both hardware and software."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Automotive (EVs) - Ola Electric, Ather, Tata Motors (Connected Cars). Smart Home/Consumer - Wipro Lighting, Havells, Godrej (Smart Locks). Agri-Tech - Cropin, Fasal (Smart Farming). Industrial - L&T, Siemens, Bosch (Smart Factories). IT Services - TCS, Infosys, HCL (Building IoT platforms for global clients).",
-          "Top Cities: Bengaluru (The IoT Capital), Pune (Automotive/Industrial Hub), Hyderabad, Chennai, Delhi-NCR.",
-          "Remote Work: Moderate. Unlike pure software, IoT often requires you to be in the lab to test the physical devices.",
-          "Emerging Opportunities: 5G IoT, Edge Computing, IoT Security, Wearable Tech."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -12858,21 +12310,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (VP of Engineering / CTO): ₹60L–₹1.2Cr+ annually.",
           "Metro vs. Non-Metro: Bengaluru and Gurugram pay the highest. However, remote work means you can earn a 'Bengaluru Salary' while living in Jaipur or Indore."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Fintech - Paytm, PhonePe, CRED (Highest paying). E-Commerce & Delivery - Flipkart, Zomato, Swiggy, Zepto. OTT & Media - Hotstar, JioCinema, Spotify. EdTech - PhysicsWallah, Unacademy. IT Services - TCS, Infosys (Building apps for foreign clients).",
-          "Top Cities: Bengaluru (The Startup Capital), Gurugram, Pune, Hyderabad, Noida.",
-          "Freelancing: HUGE potential. You can build apps for small businesses or international clients on Upwork and earn in Dollars ($).",
-          "Emerging Opportunities: AR/VR apps, Wearable apps, Super Apps, AI-powered apps."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -13108,21 +12546,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (Program Director / VP of Delivery): ₹60L–₹1Cr+ annually.",
           "Note: Getting a PMP Certification instantly increases salary potential by ~20%."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT Services - TCS, Infosys, Wipro, Accenture (managing projects for global clients). Global Capability Centers (GCCs) - JPMorgan, Walmart, Mercedes-Benz (hiring PMs for their India tech hubs). Product Startups - Swiggy, Zomato, Cred (need 'Agile' managers who move fast). Consulting - Deloitte, KPMG (advising clients on big tech changes).",
-          "Top Cities: Bengaluru (Tech Capital), Pune, Hyderabad, Gurugram, Chennai.",
-          "Remote Work: Very High. PMs mostly coordinate via Zoom/Teams, making it perfect for remote work.",
-          "Emerging Opportunities: Agile Coaching, Program Management, Digital Transformation, Scrum Master roles."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -13354,21 +12778,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (Tech Lead / Architect, 8-12 Yrs): ₹40L–₹70L (Tier-1 cities), ₹25L–₹45L (Tier-2/3 cities).",
           "Leadership (VP Engineering / CTO): ₹1Cr+ (Tier-1 cities), ₹60L+ (Tier-2/3 cities)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT Services (TCS, Infosys), Product (Google, Microsoft), FinTech (Paytm, Zerodha), E-commerce (Flipkart, Amazon), and increasingly Non-Tech sectors like Automobiles (EVs) and Banking.",
-          "Top Cities: The Big 3: Bangalore (Silicon Valley of India), Hyderabad, Pune. North Hubs: Gurgaon, Noida. South Hubs: Chennai. Emerging: Indore, Kochi, Ahmedabad, Bhubaneswar.",
-          "Remote Work: Very high potential. Many Indian engineers work for US/European companies from their homes in India.",
-          "Emerging Opportunities: AI/ML, Cloud Computing, DevOps, Blockchain, Green Tech."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -13600,21 +13010,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (Test Lead / SDET II, 7-12 Yrs): ₹16L–₹25L (Service-based), ₹30L–₹50L+ (Product-based).",
           "Leadership (QA Manager / Director): ₹30L+ (Service-based), ₹80L–₹1.5Cr (Product-based)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: BFSI (Banking & Finance) - Banks need zero-error software (HDFC, ICICI tech divisions). E-Commerce - Amazon, Flipkart, Myntra (User experience is king here). Healthcare Tech - Testing medical devices and apps. Gaming - Testing games for bugs (Yes, you can get paid to play games!).",
-          "Top Cities: Pune - Known as the 'QA Hub of India' with massive testing centers. Bangalore - For high-end SDET and Product roles. Chennai & Hyderabad - Major hubs for service-based testing.",
-          "Remote/Freelance: Very high potential. Platforms like uTest and Bugcrowd allow Indians to hunt bugs for global companies and get paid per bug (Bounty Hunting).",
-          "Emerging Opportunities: Security Testing, Performance Testing, AI Testing, IoT Testing."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -13845,21 +13241,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Senior-Level (Lead Designer / Creative Director, 7-10 Yrs): ₹20L–₹35L (Tier-1), ₹15L–₹25L (Tier-2).",
           "Leadership (Game Director / Producer): ₹40L–₹80L+ (Tier-1), ₹30L+ (Tier-2)."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Mobile Gaming - the biggest sector in India (Ludo King, Teen Patti, casual games). Ed-Tech - companies like Byju's use 'Gamification' designers to make learning fun. Casino/Real Money Gaming (RMG) - a massive, high-paying sector (Dream11, Junglee Games). Indie Studios - small teams making creative PC/Console games.",
-          "Top Cities: Bangalore - the gaming capital of India. Pune - hosting major studios like Ubisoft and SuperGaming. Hyderabad - a major hub for game development and VFX.",
-          "Remote Work: High potential. Many designers work for US/European studios from India.",
-          "Emerging Opportunities: Metaverse design, VR/AR games, Esports game design."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -14092,22 +13474,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Leadership (15+ years): ₹16-25 LPA. Positions: Department Head, Institute Director.",
           "Corporate Anthropologist/UX Researcher: ₹6-20 LPA (higher than academia). Growing sector in tech companies."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Conventional Careers: University professor/researcher, Anthropological Survey of India officer, Museum curator, NGO professional (tribal welfare, development), Government tribal welfare departments, Forensic anthropologist (police, labs).",
-          "New-Age Careers: UX Researcher in tech companies (₹6-20 LPA), Corporate anthropologist/organizational culture consultant, Digital ethnographer studying online communities, Design researcher for product companies, Medical/public health anthropologist, AI ethics researcher, Data analyst with anthropology background.",
-          "Freelancing: Independent researcher/consultant, Cultural sensitivity trainer for corporates, Content creator (blogs, YouTube, podcasts), Documentary filmmaker, Cultural tour operator.",
-          "Top Cities: Delhi NCR (major hub), Kolkata (rich academic tradition), Pune (Deccan College), Mumbai, Bangalore (corporate roles).",
-          "Sectors: Universities, research institutes, NGOs, corporate (growing), forensic labs, tribal research institutes."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -14357,22 +13724,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Government (ASI): Assistant Archaeologist starts at ₹35,000-40,000/month (Level 6 pay scale, excluding allowances).",
           "Metro vs. Tier-2/3: Metro cities (Delhi, Mumbai, Pune) offer 10-20% higher salaries. Tier-2/3 cities have lower salaries but greater fieldwork opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Conventional Careers: Government Archaeological Departments (ASI, State Archaeology), Museums (National Museum, Indian Museum Kolkata, Government Museum Chennai), Academia (Universities, research institutes), UNESCO and International Organizations.",
-          "New-Age Careers: Digital Archaeologist (AI, GIS, 3D modeling), Drone/LiDAR Specialist, Archaeological Data Analyst, Heritage Tourism Consultant, Cultural Resource Management (CRM) Consultant, Virtual Archaeology Specialist (VR/AR), Archaeological Content Creator, Forensic Archaeologist.",
-          "Freelancing: Heritage Walk Guide, Archaeological Consultant, Heritage Startup, Archaeological Writer/Author, Online Course Creator, Archaeological Photographer.",
-          "Top Cities: Delhi (ASI headquarters, Institute of Archaeology), Pune (Deccan College), Varanasi (BHU), Mumbai, Kolkata, Chennai, Vadodara, Bhopal, Lucknow, Hyderabad, Bangalore.",
-          "Sectors: Government departments, museums, cultural resource management firms, tourism companies, academia, UNESCO, international NGOs, corporate CSR."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -14633,23 +13985,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Growth Trajectory: Industry growing at CAGR of 12.87%, with E-commerce roles growing even faster at 27%.",
           "Market Size: India's fashion retail market expected to cross $124 billion by 2030."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Retail Brands (Zara, Reliance Trends), E-commerce (Myntra, Ajio), Export Houses, Luxury Labels (Sabyasachi, Hidesign).",
-          "Top Cities: Mumbai, Delhi-NCR, Bangalore, Jaipur, Surat, Ludhiana.",
-          "Top Companies: Zara, H&M, Reliance Trends, Myntra, Ajio, Nykaa Fashion, Sabyasachi, Hidesign.",
-          "Emerging Opportunities: AI-Trend Forecaster, E-commerce Manager, Sustainability Consultant, Virtual Fashion Designer.",
-          "International: High demand in Italy, France, UAE for managers who understand global supply chain.",
-          "Entrepreneurship: Starting niche 'D2C' (Direct-to-Consumer) brand or fashion consultancy."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -14895,23 +14231,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Government (UPSC): Urban Planner starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
           "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Conventional Careers: Urban Planner (Government/Private), GIS Analyst, Environmental Consultant, Geographer (Academia), Tourism Planner, Regional Planner.",
-          "New-Age Careers: Climate Change Analyst, Remote Sensing Specialist, Spatial Data Scientist, Smart City Consultant, Disaster Risk Reduction Specialist, Sustainability Consultant.",
-          "Emerging Roles: Climate Migration Specialist, Urban Resilience Planner, Geospatial AI Specialist.",
-          "Freelancing: GIS Consultant, Mapping Specialist, Environmental Impact Assessment, Urban Design Consultant.",
-          "Top Cities: Delhi (Planning), Mumbai (Urban Development), Bangalore (Tech/GIS), Pune, Hyderabad, Ahmedabad.",
-          "Sectors: Government departments, urban development authorities, NGOs, tech companies (Google, Esri), consulting firms, academia, UNESCO, World Bank."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -15163,23 +14483,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Government (UPSC): IAS starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
           "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Conventional Careers: Political Scientist (Academia), Policy Analyst, Government Advisor, Researcher (Think Tank), International Relations Specialist.",
-          "New-Age Careers: Election Data Analyst, Political Risk Analyst, Governance Consultant, Digital Democracy Specialist, Misinformation Analyst.",
-          "Emerging Roles: AI Policy Specialist, Climate Policy Analyst, Cybersecurity Policy Expert.",
-          "Freelancing: Policy Consultant, Political Analyst, Research Consultant, Media Commentator.",
-          "Top Cities: Delhi (Government/Think Tanks), Mumbai (Media/International Organizations), Bangalore (Tech Policy), Hyderabad.",
-          "Sectors: Government departments, think tanks (Observer Research Foundation, Brookings India), NGOs, international organizations (UN, World Bank), media, academia, tech companies (policy teams)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -15430,23 +14734,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Government (UPSC): Historian starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
           "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Kolkata) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities in heritage tourism."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Conventional Careers: University Professor, Museum Curator, Archivist, Heritage Manager, Historian (Government), Researcher.",
-          "New-Age Careers: Digital Historian, Public Historian, Heritage Tourism Consultant, Cultural Resource Manager, Digital Humanities Specialist, Oral History Specialist.",
-          "Emerging Roles: Metaverse Historian, Blockchain Provenance Specialist, AI-Assisted Historical Analysis Specialist.",
-          "Freelancing: Heritage Tour Guide (₹30,000-1,00,000/month), Historical Consultant, Heritage Writer/Author, Documentary Researcher.",
-          "Top Cities: Delhi (Archives, Universities), Kolkata (Museums, Archives), Mumbai (Heritage Sites), Pune, Varanasi, Lucknow.",
-          "Sectors: Government departments, universities, museums, archives, UNESCO, NGOs, publishing houses, media, tourism companies."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -15701,23 +14989,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Government (UPSC): Social Welfare Officer starts at ₹56,100/month (Level 10 pay scale, excluding allowances).",
           "Metro vs. Tier-2: Metro cities (Delhi, Mumbai, Bangalore) offer 15-25% higher salaries. Tier-2 cities have lower salaries but growing opportunities."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Conventional Careers: Sociologist (Academia), Social Researcher, Social Program Manager, Government Advisor, NGO Professional.",
-          "New-Age Careers: Social Impact Analyst, Community Development Specialist, Social Media Analyst, Corporate Social Responsibility (CSR) Manager, User Research Specialist.",
-          "Emerging Roles: AI Ethics Specialist, Digital Divide Researcher, Social Equity Consultant.",
-          "Freelancing: Social Research Consultant (₹30,000-1,00,000/month), Program Evaluator, Social Impact Assessor.",
-          "Top Cities: Delhi (Government/Think Tanks), Mumbai (NGOs/Media), Bangalore (Tech/Social Impact), Pune, Hyderabad.",
-          "Sectors: Government departments, NGOs, research institutes, tech companies (social impact teams), consulting firms, academia, international organizations (UN, World Bank)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",

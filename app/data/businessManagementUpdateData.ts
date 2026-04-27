@@ -114,24 +114,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "City Trends: Bangalore, Delhi-NCR, Mumbai/Pune pay highest. Tier-2 cities (Jaipur, Indore, Coimbatore) booming with lower costs.",
           "Growth Trajectory: You can move from Associate to Team Lead in just 2–3 years if high-performing."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: BFSI (Banking & Finance), Healthcare, E-commerce, Travel & Hospitality, Tech Support.",
-          "Top Cities: Bangalore, Delhi-NCR (Gurgaon/Noida), Mumbai/Pune, Hyderabad, Chennai.",
-          "Emerging Hubs (Tier-2): Jaipur, Indore, Coimbatore, Visakhapatnam booming due to lower costs and fresh talent.",
-          "Top Companies: Genpact, Wipro, Concentrix, WNS, TCS, Infosys, Amazon, Apple, Google.",
-          "Emerging Opportunities: AI Prompt Engineer (for chatbots), Social Media Content Moderator, Data Privacy Officer.",
-          "Remote Work: Hybrid and Work-from-Home models now permanent for 30-40% of workforce.",
-          "Entrepreneurship: Starting niche 'Boutique BPO' or recruitment consultancy for ITES sector."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -389,24 +372,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Hiring Trends: 40% shortage of skilled analysts in India in 2026. Job-seeker's market.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: FinTech (Paytm, Zerodha), E-commerce (Flipkart, Amazon), EdTech (Physics Wallah), Healthcare, Consulting (Deloitte, KPMG).",
-          "Top Cities: Bangalore (The Hub), Gurgaon, Hyderabad, Mumbai, Pune.",
-          "Top Companies: Google, Microsoft, Amazon, Flipkart, Paytm, Swiggy, Zomato, PhonePe, Gojek.",
-          "Emerging Opportunities: AI Strategy Consultant, Customer Success Analyst, ESG (Sustainability) Data Analyst.",
-          "Remote/Gig: High potential for 'Freelance Data Consultants' working for US/Europe startups from home.",
-          "International: High demand in USA, UK, Singapore for Indian analysts.",
-          "Entrepreneurship: Starting 'Niche Analytics Agency' for small Kirana stores or D2C brands."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -663,24 +629,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "City Trends: Mumbai (Financial Capital) offers highest salaries. GIFT City (Gujarat) emerging as massive hub for international finance.",
           "Growth Trajectory: Entry to CFO typically takes 15–20 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Banking (HDFC, ICICI), Consulting (Deloitte, EY), Tech Giants (Google, Amazon India), Fast-Growing Startups (Paytm, Zomato).",
-          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Hyderabad, GIFT City (Gandhinagar).",
-          "Top Companies: HDFC Bank, ICICI Bank, Goldman Sachs, Morgan Stanley, Deloitte, EY, Google, Amazon, Flipkart.",
-          "Emerging Opportunities: Fintech Product Manager, Sustainable Finance Expert (ESG), Crypto-Asset Analyst, Virtual CFO.",
-          "Remote/Gig: High demand for 'Virtual CFOs' managing multiple small businesses from home.",
-          "International: High demand in London, Dubai, Singapore for Indian CA/CFA professionals.",
-          "Entrepreneurship: Starting 'Wealth Management' firm or Finance-Education YouTube channel."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -938,24 +887,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "City Trends: Mumbai (Financial Ops), Bengaluru (Tech Ops), Gurgaon (Corporate Ops), Pune (Manufacturing Ops).",
           "International: High demand in Singapore, Dubai, Germany for Indian managers skilled in lean manufacturing."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: E-commerce (Flipkart, Amazon), Supply Chain (Delhivery), Manufacturing (Tata Motors), Tech (Google, Microsoft).",
-          "Top Cities: Mumbai, Bengaluru, Gurgaon, Pune, Hyderabad, Chennai.",
-          "Emerging Hubs: Tier-2 cities like Jaipur, Indore, Coimbatore seeing growth in operations roles.",
-          "Top Companies: Amazon, Flipkart, Delhivery, Tata Motors, Google, Microsoft, Infosys, TCS.",
-          "Emerging Opportunities: Sustainability Operations Manager, AI-Process Automator, Customer Experience (CX) Operations.",
-          "Remote/Gig: Hybrid models becoming standard. Some roles fully remote for senior professionals.",
-          "Entrepreneurship: Starting Operations Consultancy for small D2C brands or manufacturing units."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1218,24 +1150,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Metro vs. Tier-2: Bangalore and Mumbai pay most. Tier-2 cities like Visakhapatnam and Indore seeing 20% jump in HR hiring.",
           "Industry Trends: Tech companies and startups hiring aggressively. Remote HR roles increasing."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: IT/ITeS, BFSI (Banking), Healthcare, Manufacturing, EdTech, Startups.",
-          "Top Cities: Bangalore (Tech HR), Mumbai (Corporate/Finance HR), Gurgaon (Consulting HR), Pune (Auto/Manufacturing HR).",
-          "Top Companies: Google, Microsoft, Amazon, TCS, Infosys, Accenture, Deloitte, Goldman Sachs.",
-          "Emerging Opportunities: AI HR Technologist, DEI (Diversity, Equity & Inclusion) Lead, Happiness Officer, Remote HR Manager.",
-          "Remote/Gig: High potential for 'Freelance Recruiters' and 'Virtual HR Consultants' for startups.",
-          "International: High demand in USA, UK, Singapore for Indian HR professionals with global experience.",
-          "Entrepreneurship: Starting 'Headhunting' agency or HR Tech startup."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1489,24 +1404,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Industry Growth: Growing at CAGR of ~12% in services and manufacturing sectors.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT Services (TCS, Infosys), Manufacturing (Tata Motors, Reliance), E-commerce (Amazon, Flipkart), Logistics (Maersk, DHL), Consulting (Deloitte, PwC).",
-          "Top Cities: Mumbai (Trade Hub), Delhi-NCR (Policy/Corporate), Bangalore (Tech Exports), Chennai (Manufacturing Exports).",
-          "Top Companies: TCS, Infosys, Amazon, Flipkart, Maersk, DHL, Deloitte, PwC, Google, Microsoft.",
-          "Emerging Opportunities: Global Sustainability Manager, International AI Compliance Officer, Digital Nomad Recruiter.",
-          "Remote/Gig: High potential for 'International Business Development' and 'Market Research' roles.",
-          "International: Opportunities in USA, UK, Singapore, UAE for senior roles and management positions.",
-          "Entrepreneurship: Foreign Market Entry Consultant for small startups; Global Sourcing Agent."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -1758,24 +1656,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Industry Growth: Growing at 13% CAGR (2025-2030). Massive demand for Cybersecurity and Cloud roles.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Tech Giants (TCS, Google), BFSI (HDFC, ICICI), E-commerce (Amazon, Flipkart), Healthcare.",
-          "Top Cities: Bangalore, Hyderabad, Pune, Gurgaon, Chennai.",
-          "Top Companies: TCS, Infosys, Google, Microsoft, Amazon, Flipkart, HDFC, ICICI, Accenture.",
-          "Emerging Opportunities: AI Ethics Manager, Cloud Architect, Chief Digital Officer (CDO), Quantum Computing Manager.",
-          "Remote/Gig: High! Many IT Managers lead 'Distributed Teams' globally from their homes.",
-          "International: Opportunities in USA, UK, Singapore for senior roles and management positions.",
-          "Entrepreneurship: Becoming 'Fractional CTO' (Part-time tech leader for 3-4 startups)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2028,24 +1909,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "Hiring Trends: Massive demand across IT, Construction, Healthcare, and Manufacturing sectors.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: IT & Software (TCS, Infosys), Construction & Infrastructure (L&T), Healthcare, Manufacturing.",
-          "Top Cities: Bangalore, Hyderabad, Pune, Gurgaon, Mumbai.",
-          "Top Companies: TCS, Infosys, L&T, Google, Microsoft, Amazon, Flipkart, Accenture, Deloitte.",
-          "Emerging Opportunities: AI Project Manager, Sustainability/Green PM, Digital Transformation Lead.",
-          "Gig Economy: High demand for 'Freelance PMs' managing short-term startup launches or events.",
-          "International: Opportunities in USA, UK, Singapore for senior roles and management positions.",
-          "Entrepreneurship: Starting 'Project Management Consultancy' (PMC) for SMEs."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -2302,24 +2166,7 @@ export const businessManagementUpdateData: Record<string, CareerPageData> = {
           "City Comparison: Metro cities pay roughly 25% more. Tier-2 and Tier-3 cities account for 60% of e-commerce.",
           "Growth Trajectory: Entry to Senior typically takes 8–12 years with consistent performance."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "MapPin",
-        description: "Industries, companies, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Fashion, Electronics, Food & Grocery (Reliance, Big Bazaar), Luxury Brands, E-commerce (Amazon, Myntra).",
-          "Top Cities: Mumbai, Bangalore, Delhi-NCR, Hyderabad, Pune.",
-          "Top Companies: Reliance Retail, Tata (Trent), Future Group, Nykaa, Amazon, Flipkart, Myntra, Lenskart.",
-          "Emerging Opportunities: Omnichannel Strategist, E-commerce Category Manager, Retail AI Analyst, Quick Commerce Manager.",
-          "Remote/Gig: While store management on-site, 'Retail Analytics' and 'Category Management' can be remote.",
-          "International: High demand in UAE, UK, Singapore for Indian retail managers skilled in large-scale operations.",
-          "Entrepreneurship: Starting 'D2C' (Direct-to-Consumer) brand or 'Quick Commerce' dark store."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",

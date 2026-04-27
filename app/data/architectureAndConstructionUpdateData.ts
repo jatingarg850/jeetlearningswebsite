@@ -110,22 +110,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "City-Wise: Metros (Mumbai, Delhi, Bengaluru) offer highest salaries, often 20% higher than national average. Tier-2/3 cities have lower salaries but better cost-of-living advantage.",
           "Market Growth: Indian construction market projected to grow at 8.1% in 2025-26."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Industries: Infrastructure (Highways, Bridges), Metro Rail, Real Estate (Apartments, Malls), Industrial Plants (Refineries, Factories).",
-          "Top Cities: Delhi-NCR, Mumbai, Bengaluru, Hyderabad, and Pune.",
-          "Remote/Gig Economy: 'Quantity Surveying' and 'BIM Modeling' can often be done remotely as a freelancer.",
-          "International: Huge demand for Indian construction professionals in the Middle East (Dubai, Qatar) and Australia.",
-          "Emerging Roles: Sustainability Manager (Green Buildings), BIM Manager, Drone Pilot (for site surveying)."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -358,21 +343,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "Metro vs. Tier-2/3: Metros (Delhi, Mumbai, Bengaluru) offer higher starting salaries but higher cost of living. Tier-2/3 (Indore, Jaipur, Kochi) have 15-20% lower salaries but rising quickly due to Smart City projects.",
           "Growth Trajectory: Typically takes 5–7 years to move from Junior Architect to Senior Architect/Project Manager role."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Industries: Private Architecture Firms, Real Estate Developers (DLF, Godrej), Government Bodies (CPWD, PWD, ISRO, Metro Rail), and Interior Design Firms.",
-          "Top Cities: Mumbai, Delhi-NCR, Bengaluru, Pune, and Ahmedabad.",
-          "Remote Work: While site visits are essential, 'BIM Modeling' and '3D Visualization' roles offer high remote work potential.",
-          "International: Indian B.Arch degrees are respected globally. Many architects work for global firms in Dubai, Singapore, and the UK."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
@@ -604,22 +575,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "Growth: The 'Operations' segment is expected to see 12% hiring growth year-on-year until 2030.",
           "Metro vs. Tier-2: While Metros offer higher base pay, Industrial Hubs like Pune, Nashik, Hosur, and Sanand (Gujarat) are the real 'hotspots' for this career."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Top Sectors: E-commerce (Amazon/Flipkart warehouses), Renewable Energy, Metro Rail, Pharmaceuticals, and Data Centers.",
-          "Top Cities: Bengaluru (Tech Ops), Pune (Manufacturing), Chennai (Automobile), Gurgaon (Logistics), and Hyderabad (Pharma).",
-          "International: High demand in Germany, Singapore, and the Middle East for specialized plant managers.",
-          "Emerging Roles: Sustainability Manager (Carbon footprint reduction), Smart Factory Consultant, Reliability Engineer (Data-driven maintenance)."
-        ]
-      },
-      
-      {
+      },{
         id: "institutions",
         title: "Where to Study?",
         icon: "Building2",
@@ -839,21 +795,7 @@ export const architectureAndConstructionUpdateData: Record<string, CareerPageDat
           "Metro vs. Tier-2: Metros offer 20-25% higher pay, but Tier-2 cities are where the most 'Smart City' hiring is happening currently.",
           "Growth: Expect 10-15% annual salary increase as India aims to build 100+ Smart Cities and renovate 500+ existing ones under AMRUT mission."
         ]
-      },
-      {
-        id: "jobs",
-        title: "Where Are the Jobs?",
-        icon: "Briefcase",
-        description: "Industries, cities, and opportunities.",
-        color: BLUE,
-        content: [
-          "Public Sector: NITI Aayog, Town and Country Planning Organizations (TCPO), Development Authorities (DDA, BDA, MMRDA), Municipal Corporations, and Smart City SPVs.",
-          "Private Sector: Real estate giants (DLF, Tata Housing), Infrastructure firms (L&T), and Global Consultancies (PwC, KPMG, JLL, Knight Frank).",
-          "International: World Bank, UN-Habitat, and ADB frequently hire Indian planners for developing nations.",
-          "Remote Potential: Moderate. Data analysis and GIS mapping can be remote, but community meetings and site visits are essential."
-        ]
-      },
-      {
+      },{
         id: "costs",
         title: "What Will It Cost?",
         icon: "CircleDollarSign",
