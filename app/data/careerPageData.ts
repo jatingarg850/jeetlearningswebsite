@@ -6061,11 +6061,11 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Understanding mechanical engineering and its role in building the world",
         color: RED,
         content: [
-          "If you look around you right now, almost everything you see that isn't made by nature was likely touched by a Mechanical Engineer. The fan spinning above you? Mechanical Engineering. The car parked outside? Mechanical Engineering. The robot assembling your smartphone? Mechanical Engineering.",
+          "If you look around you right now :  almost everything you see that isn't made by nature was likely touched by a Mechanical Engineer. The fan spinning above you? Mechanical Engineering. The car parked outside? Mechanical Engineering. The robot assembling your smartphone? Mechanical Engineering.",
           "Mechanical Engineering is often called the 'Mother of All Engineering Branches.' It is the discipline that applies the principles of physics, engineering, and materials science to design, analyze, manufacture, and maintain mechanical systems.",
-          "Put simply, if it has moving parts, a mechanical engineer probably built it.",
+          "Put simply : if it has moving parts, a mechanical engineer probably built it.",
           "In today's India, this career is the engine of our growth. From the 'Make in India' initiative transforming us into a global manufacturing hub to the push for Electric Vehicles (EVs) and defense self-reliance (Atmanirbhar Bharat), mechanical engineers are the ones turning blueprints into reality.",
-          "They are not just mechanics; they are inventors, designers, and problem-solvers who keep the world moving.",
+          "They are not just mechanics : they are inventors, designers, and problem-solvers who keep the world moving.",
         ],
       },
       {
@@ -6163,7 +6163,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Industries and sectors hiring mechanical engineers",
         color: RED2,
         content: [
-          "Top Industries:",
+          
           "  • Automotive (EVs): Tata Motors, Mahindra, Maruti Suzuki, Ola Electric, Ather",
           "  • Heavy Engineering: Larsen & Toubro (L&T), Thermax, Godrej & Boyce",
           "  • Public Sector (PSUs): BHEL, GAIL, ONGC, NTPC, Indian Railways",
@@ -6212,14 +6212,10 @@ export const careerPageData: Record<string, CareerPageData> = {
         description: "Regulatory framework and professional credentials",
         color: RED,
         content: [
-          "Certifications (The 'Resume Boosters'):",
-          "  • CAD Tools: Certification in SolidWorks, AutoCAD, or CATIA (Essential for design jobs)",
-          "  • Analysis Tools: ANSYS or HyperMesh certification",
-          "  • Six Sigma Green Belt: For quality and process improvement roles",
-          "Professional Bodies:",
-          "  • ASME (American Society of Mechanical Engineers): Student membership for networking",
-          "  • SAE India (Society of Automotive Engineers): A must-join for car enthusiasts",
-          "Continuing Education: Staying updated on industry trends and certifications is important.",
+          "Certifications (The 'Resume Boosters') :  • CAD Tools: Certification in SolidWorks, AutoCAD, or CATIA (Essential for design jobs) : • Analysis Tools: ANSYS or HyperMesh certification : • Six Sigma Green Belt: For quality and process improvement roles",
+ 
+          "Professional Bodies: • ASME (American Society of Mechanical Engineers): Student membership for networking : • SAE India (Society of Automotive Engineers): A must-join for car enthusiasts : Continuing Education: Staying updated on industry trends and certifications is important.",
+          
         ],
       },
       {

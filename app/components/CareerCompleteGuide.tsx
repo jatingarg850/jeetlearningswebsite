@@ -391,86 +391,83 @@ function SectionResponsibilities({ section, careerName }: { section: CareerGuide
 
 // ─── 5. MARKET SNAPSHOT TABLE ───────────────────────────────────
 function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
-  // Parse content to extract table data and additional info
-  const tableData = [
-    { level: "Entry-Level (Analyst)", experience: "0–2 years", salary: "₹6 Lakhs – ₹10 Lakhs" },
-    { level: "Mid-Level (Associate)", experience: "3–7 years", salary: "₹15 Lakhs – ₹30 Lakhs" },
-    { level: "Senior (Fellow)", experience: "8–12 years", salary: "₹35 Lakhs – ₹70 Lakhs" },
-    { level: "Leadership/Appointed Actuary", experience: "15+ years", salary: "₹1 Crore – ₹3 Crores+" },
-  ];
+  const parsedRows = section.content
+    .map((item) => {
+      const colonIndex = item.indexOf(":");
+      if (colonIndex <= 0) return null;
 
-  // Extract growth and hiring info from content
-  const growthInfo = section.content.find((item: string) => item.includes("Growth Projections"));
-  const hiringInfo = section.content.find((item: string) => item.includes("Hiring Trends"));
+      const level = item.substring(0, colonIndex).trim();
+      const details = item.substring(colonIndex + 1).trim();
+      if (!details.includes("₹")) return null;
 
-  const growthText = growthInfo ? growthInfo.substring(growthInfo.indexOf(":") + 1).trim() : "";
-  const hiringText = hiringInfo ? hiringInfo.substring(hiringInfo.indexOf(":") + 1).trim() : "";
+      return { level, salary: details };
+    })
+    .filter((row): row is { level: string; salary: string } => !!row);
+
+  const infoBullets = section.content.filter((item) => {
+    const colonIndex = item.indexOf(":");
+    if (colonIndex <= 0) return true;
+    const details = item.substring(colonIndex + 1).trim();
+    return !details.includes("₹");
+  });
 
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <SectionHeader section={section} light={false} />
 
-        {/* Intro Text */}
-        <p className="text-base md:text-lg text-slate-700 leading-relaxed mb-6">
-          The Indian actuarial market is one of the highest-paying professions in the country.
-        </p>
-
-        {/* Table */}
-        <div className="overflow-x-auto rounded-xl border border-slate-300 shadow-sm mb-6">
-          <table className="w-full bg-white">
-            {/* Header */}
-            <thead>
-              <tr className="bg-slate-100 border-b-2 border-slate-300">
-                <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg border-r border-slate-300">
-                  Career Level
-                </th>
-                <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg border-r border-slate-300">
-                  Typical Experience
-                </th>
-                <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg">
-                  Average Annual Salary (INR)
-                </th>
-              </tr>
-            </thead>
-            {/* Body */}
-            <tbody>
-              {tableData.map((row, idx) => (
-                <tr
-                  key={idx}
-                  className={`border-b border-slate-300 ${idx % 2 === 0 ? "bg-white" : "bg-slate-50"}`}
-                >
-                  <td className="px-6 py-4 font-semibold text-slate-900 text-base border-r border-slate-300">
-                    {row.level}
-                  </td>
-                  <td className="px-6 py-4 text-slate-700 text-base border-r border-slate-300">
-                    {row.experience}
-                  </td>
-                  <td className="px-6 py-4 text-slate-700 text-base font-semibold">
-                    {row.salary}
-                  </td>
+        {parsedRows.length > 0 && (
+          <div className="overflow-x-auto rounded-xl border border-slate-300 shadow-sm mb-6">
+            <table className="w-full bg-white">
+              <thead>
+                <tr className="bg-slate-100 border-b-2 border-slate-300">
+                  <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg border-r border-slate-300">
+                    Level
+                  </th>
+                  <th className="px-6 py-4 text-left font-bold text-slate-900 text-base md:text-lg">
+                    Annual Salary Range (INR)
+                  </th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {parsedRows.map((row, idx) => (
+                  <tr
+                    key={idx}
+                    className={`border-b border-slate-300 ${idx % 2 === 0 ? "bg-white" : "bg-slate-50"}`}
+                  >
+                    <td className="px-6 py-4 font-semibold text-slate-900 text-base border-r border-slate-300">
+                      {row.level}
+                    </td>
+                    <td className="px-6 py-4 font-bold text-slate-900 text-base">
+                      {row.salary}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
 
-        {/* Additional Info as Bullet Points */}
         <div className="space-y-3">
-          {growthText && (
+          {infoBullets.map((item, idx) => {
+            const colonIndex = item.indexOf(":");
+            const label = colonIndex > -1 ? item.substring(0, colonIndex).trim() : "Note";
+            const text = colonIndex > -1 ? item.substring(colonIndex + 1).trim() : item.trim();
+
+            return (
+              <div key={idx} className="flex items-start gap-3">
+                <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ background: section.color }} />
+                <p className="text-slate-700 text-base leading-relaxed">
+                  <span className="font-bold">{label}:</span> {text}
+                </p>
+              </div>
+            );
+          })}
+
+          {parsedRows.length === 0 && infoBullets.length === 0 && (
             <div className="flex items-start gap-3">
               <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ background: section.color }} />
-              <p className="text-slate-700 text-base leading-relaxed">
-                <span className="font-bold">Growth Projections:</span> {growthText}
-              </p>
-            </div>
-          )}
-          {hiringText && (
-            <div className="flex items-start gap-3">
-              <div className="w-2 h-2 rounded-full mt-2 flex-shrink-0" style={{ background: section.color }} />
-              <p className="text-slate-700 text-base leading-relaxed">
-                <span className="font-bold">Hiring Trends:</span> {hiringText}
-              </p>
+              <p className="text-slate-700 text-base leading-relaxed">Market details will be updated soon.</p>
             </div>
           )}
         </div>
@@ -479,14 +476,22 @@ function SectionMarketSnapshot({ section, careerName }: { section: CareerGuideSe
   );
 }
 function SectionInstitutions({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
-  const institutionTypes = [
-    { type: "Public/Premier", icon: "Building2", color: "#1E40AF" },
-    { type: "Private", icon: "Sparkles", color: "#7C3AED" },
-    { type: "Online/Distance", icon: "Monitor", color: "#0EA5E9" },
-  ];
+  const institutionTypeMeta: Record<string, { icon: string; color: string }> = {
+    "Public/Premier": { icon: "Building2", color: "#1E40AF" },
+    Private: { icon: "Sparkles", color: "#7C3AED" },
+    "Online/Distance": { icon: "Monitor", color: "#0EA5E9" },
+    North: { icon: "MapPin", color: "#1D4ED8" },
+    South: { icon: "MapPin", color: "#059669" },
+    East: { icon: "MapPin", color: "#7C3AED" },
+    West: { icon: "MapPin", color: "#EA580C" },
+    Government: { icon: "Building2", color: "#1E40AF" },
+  };
+
+  const fallbackColors = ["#1E40AF", "#7C3AED", "#0EA5E9", "#059669", "#EA580C", "#EC4899"];
 
   // Parse content to extract institutions for each type
   const groupedContent: Record<string, string[]> = {};
+  const ungroupedContent: string[] = [];
   
   section.content.forEach((item: string) => {
     const colonIndex = item.indexOf(":");
@@ -498,8 +503,23 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
       const institutions = content.split(";").map(i => i.trim()).filter(i => i);
       
       groupedContent[type] = institutions;
+    } else {
+      ungroupedContent.push(item.trim());
     }
   });
+
+  const dynamicTypes = Object.keys(groupedContent).map((type, idx) => {
+    const meta = institutionTypeMeta[type];
+    return {
+      type,
+      icon: meta?.icon || "Building2",
+      color: meta?.color || fallbackColors[idx % fallbackColors.length],
+    };
+  });
+
+  const typesToRender = dynamicTypes.length > 0
+    ? dynamicTypes
+    : [{ type: "Top Institutions", icon: "Building2", color: "#1E40AF" }];
 
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-slate-50 to-indigo-50 border-b border-slate-200">
@@ -508,10 +528,10 @@ function SectionInstitutions({ section, careerName }: { section: CareerGuideSect
 
         {/* Institution Types Grid - Only Show Categories with Institutions */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {institutionTypes
-            .filter((instType) => (groupedContent[instType.type] || []).length > 0)
-            .map((instType, idx) => {
-              const institutions = groupedContent[instType.type] || [];
+          {typesToRender.map((instType, idx) => {
+              const institutions = dynamicTypes.length > 0
+                ? (groupedContent[instType.type] || [])
+                : ungroupedContent;
 
               return (
                 <div
@@ -580,6 +600,7 @@ function SectionWhereToStudy({ section, careerName }: { section: CareerGuideSect
 // ─── 7. CHALLENGE ALERT CARDS (expandable) ─────────────────────
 function SectionChallenges({ section, careerName }: { section: CareerGuideSection; careerName: string }) {
   const alertColors = ["#EF4444", "#F97316", "#EAB308", "#EF4444", "#F97316", "#EAB308"];
+  const isCertificationsSection = section.id === "certifications";
   
   return (
     <section className="py-8 md:py-10 px-4 sm:px-6 bg-gradient-to-br from-red-50 to-orange-50 overflow-hidden border-b border-red-200 relative">
@@ -608,9 +629,21 @@ function SectionChallenges({ section, careerName }: { section: CareerGuideSectio
                 </h3>
 
                 {/* Description */}
-                <p className="text-slate-600 text-base leading-relaxed">
-                  {description}
-                </p>
+                {isCertificationsSection ? (
+                  <div className="flex items-start gap-2">
+                    <div
+                      className="w-2 h-2 rounded-full mt-2 flex-shrink-0"
+                      style={{ background: color }}
+                    />
+                    <p className="text-slate-600 text-base leading-relaxed">
+                      {description}
+                    </p>
+                  </div>
+                ) : (
+                  <p className="text-slate-600 text-base leading-relaxed">
+                    {description}
+                  </p>
+                )}
               </div>
             );
           })}

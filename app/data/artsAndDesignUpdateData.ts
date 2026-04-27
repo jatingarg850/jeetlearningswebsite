@@ -3304,9 +3304,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE,
         content: [
           "Mass Communication is the 'Umbrella' career of the media world. While Journalism focuses on news and Advertising focuses on selling, Mass Communication covers the entire spectrum of sending messages to the masses.",
-          "It includes Public Relations (PR), Event Management, Radio/Podcasting, Film Production, and Corporate Communications.",
-          "In the 21st century, 'Content is King,' but 'Communication is Queen.' India's Media & Entertainment industry is exploding (expected to reach ₹2.8 Lakh Crore by 2026).",
-          "From managing a crisis for a multinational company to producing a viral web series, Mass Comm professionals shape how society thinks, feels, and acts. They are the architects of public opinion."
+          "It includes Public Relations (PR) : Event Management, Radio/Podcasting, Film Production, and Corporate Communications.",
+          "In the 21st century, 'Content is King,' : but 'Communication is Queen.' India's Media & Entertainment industry is exploding (expected to reach ₹2.8 Lakh Crore by 2026).",
+          "From managing a crisis : for a multinational company to producing a viral web series, Mass Comm professionals shape how society thinks, feels, and acts. They are the architects of public opinion."
         ]
       },
       {
@@ -3533,9 +3533,9 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "The storyteller and protector of brand reputation",
         color: BLUE,
         content: [
-          "While advertising pays for attention ('Buy our phone, it's great!'), Public Relations earns attention ('This phone is great,' says a trusted tech reviewer).",
+          "While advertising pays for attention : ('Buy our phone, it's great!'), Public Relations earns attention ('This phone is great,' says a trusted tech reviewer).",
           "A PR Officer is the Storyteller and Protector of a brand. Their job is to manage the reputation of a company, celebrity, or politician. They act as the bridge between their client and the public/media.",
-          "If a company is a ship, the PR officer is the radar—spotting icebergs (crises) before they hit and finding clear waters (positive news) to sail through.",
+          "If a company is a ship, the PR officer is :  the radar spotting icebergs (crises) before they hit and finding clear waters (positive news) to sail through.",
           "In today's India, where a single tweet can destroy a reputation in minutes, PR is no longer optional; it is survival. From helping startups like Zomato stay cool to managing the image of global giants like Tata, PR professionals shape the narratives that define our economy and culture."
         ]
       },
@@ -4680,15 +4680,16 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "The body mechanic of the athletic world",
         color: BLUE,
         content: [
+          "Imagine an athlete like Neeraj Chopra or PV Sindhu mid-game. Suddenly, there is a sharp twinge in the shoulder or a twist in the ankle. Who is the first person to run onto the field with a medical bag? That is the Sports Physiotherapist.",
           "Sports Physiotherapy is a specialized branch of healthcare focused on the prevention, diagnosis, and treatment of injuries related to sports and exercise.",
           "It's not just about applying an ice pack; it's a high-stakes blend of biology, mechanics, and psychology. In jargon-free terms, a sports physio is the 'body mechanic' of the athletic world.",
-          "Imagine an athlete like Neeraj Chopra or PV Sindhu mid-game. Suddenly, there is a sharp twinge in the shoulder or a twist in the ankle. Who is the first person to run onto the field with a medical bag? That is the Sports Physiotherapist.",
-          "In today's India, sports have exploded beyond just cricket. With professional leagues in Kabaddi, Football, and Badminton, and India's growing Olympic ambitions, athletes are pushing their bodies to the absolute limit. Sports physiotherapists are the reason modern athletes can play longer, recover faster, and perform better."
+          "Why does it matter? In today's India, sports have exploded beyond just cricket. With professional leagues in Kabaddi, Football, and Badminton, and India's growing Olympic ambitions, athletes are pushing their bodies to the absolute limit.",
+          "One wrong move can end a career. Sports physiotherapists are the reason modern athletes can play longer, recover faster, and perform better. They are the invisible force behind every medal India wins."
         ]
       },
       {
         id: "2",
-        title: "A Day in the Life",
+        title: "A Day in the Life: Dr. Ananya, Lead Physio",
         icon: "Clock",
         description: "Meet Dr. Ananya, Lead Physio at a High-Performance Center",
         color: BLUE2,
@@ -4704,7 +4705,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
       },
       {
         id: "3",
-        title: "Is This You? (Personality Traits & Skills)",
+        title: "Is This You? (Traits & Skills)",
         icon: "User",
         description: "Check if you have the 'Physio Quotient'",
         color: BLUE,
@@ -4713,9 +4714,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Empathy & Patience: Injured athletes are often frustrated. You need to be their 'calm' during their most stressful times.",
           "Physical Stamina: You'll be on your feet all day, sometimes bending and lifting to assist movements.",
           "Decision-Making: On the field, you have seconds to decide: 'Can this player continue, or will they risk permanent damage?'",
-          "Communication: You have to explain complex medical issues to coaches and parents in simple, honest terms.",
-          "Hard Skills: Anatomy, Biomechanics, Manual Therapy, and Electrotherapy.",
-          "Soft Skills: Empathy, Problem-Solving, and Team Collaboration."
+          "Communication: You have to explain complex medical issues to coaches and parents in simple, honest terms."
         ]
       },
       {
@@ -4725,11 +4724,11 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "The P-R-E-P model: Prevention, Rescue, Evaluation, Performance",
         color: BLUE2,
         content: [
+          "The professional workflow generally follows the P-R-E-P model.",
           "Prevention: Designing 'Pre-hab' exercises to strengthen weak areas before an injury happens.",
           "Rescue (Acute Care): Providing immediate treatment (like the 'RICE' method—Rest, Ice, Compression, Elevation) on the field.",
           "Evaluation: Using tests to diagnose the exact muscle or ligament involved.",
-          "Performance: Tailoring a rehab plan that doesn't just heal the injury but makes the athlete stronger than before.",
-          "Monitoring: Continuously tracking athlete progress and adjusting treatment plans."
+          "Performance: Tailoring a rehab plan that doesn't just heal the injury but makes the athlete stronger than before."
         ]
       },
       {
@@ -4739,10 +4738,11 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "The BPT and MPT route to sports physiotherapy",
         color: BLUE,
         content: [
-          "After Class 10: Choose the Science stream with Biology, Physics, and Chemistry (PCB).",
-          "After Class 12: Complete a Bachelor of Physiotherapy (BPT) - 4.5 years (4 years study + 6 months internship). Entrance: NEET, IPU CET, KCET, or university-specific tests.",
-          "After Graduation: Specialize with a Master of Physiotherapy (MPT) in Sports - 2 years. Gain Certifications in Kinesio Taping, Manual Therapy, or CSCS.",
-          "Career Start: Entry-level positions in hospitals, clinics, or sports academies."
+          "After Class 10: The Science Choice: You must choose the Science stream with Biology, Physics, and Chemistry (PCB).",
+          "After Class 12: Step 1: Complete a Bachelor of Physiotherapy (BPT). This is a 4.5-year degree (4 years of study + 6 months of mandatory internship).",
+          "After Class 12: Entrance Exams: NEET (for some govt. colleges), IPU CET, KCET, or university-specific tests like the CMC Vellore Entrance.",
+          "After Graduation: Step 2: Specialize with a Master of Physiotherapy (MPT) in Sports. This is a 2-year program that focuses exclusively on sports medicine.",
+          "After Graduation: Step 3: Gain Certifications. While not mandatory, short courses in Kinesio Taping, Manual Therapy, or CSCS (Certified Strength and Conditioning Specialist) make you highly employable."
         ]
       },
       {
@@ -4752,13 +4752,14 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Salary and career progression in sports physiotherapy",
         color: BLUE2,
         content: [
-          "Entry-Level (Assistant Physio): ₹3.5L-6L annually.",
-          "Mid-Level (State Team/Academy Physio): ₹7L-15L annually.",
-          "Senior-Level (National Team/Lead Physio): ₹18L-35L annually.",
-          "Leadership (Director of Rehab/Clinic Owner): ₹40L-1Cr+ annually.",
+          "Estimates based on data from Payscale, IHS Bhubaneswar, and industry growth reports.",
+          "Entry-Level (Assistant Physio): ₹3.5 Lakh - ₹6 Lakh annually.",
+          "Mid-Level (State Team/Academy Physio): ₹7 Lakh - ₹15 Lakh annually.",
+          "Senior-Level (National Team/Lead Physio): ₹18 Lakh - ₹35 Lakh annually.",
+          "Leadership (Director of Rehab/Clinic Owner): ₹40 Lakh - ₹1 Crore+ annually.",
           "Growth Trajectory: Entry to Senior typically takes 8-10 years.",
           "Metro vs. Tier-2: Metro cities like Mumbai and Bengaluru offer 25% higher salaries, but Tier-2 cities are seeing a surge in 'Private Sports Clinics.'",
-          "Demand: Expected to grow by 35% by 2030."
+          "Demand: The demand for sports physios is expected to grow by 35% by 2030 (SGT University Report)."
         ]
       },
       {
@@ -4782,10 +4783,10 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Fees and duration for sports physiotherapy education",
         color: BLUE2,
         content: [
-          "BPT Course Fees: Government Colleges ₹10,000-1L (Total) | Private Colleges ₹4L-12L (Total).",
+          "BPT Course Fees: Government Colleges: ₹10,000 - ₹1 Lakh (Total).",
+          "BPT Course Fees: Private Colleges: ₹4 Lakh - ₹12 Lakh (Total).",
           "MPT Course Fees: ₹1.5L-6L (2 years).",
-          "Living Costs: ₹1L-2L per year in student hubs like Delhi, Pune, or Mangalore.",
-          "Certifications: Additional ₹50,000-2L for specialized courses."
+          "Living Costs: ₹1 Lakh - ₹2 Lakh per year in student hubs like Delhi, Pune, or Mangalore."
         ]
       },
       {
@@ -5373,6 +5374,20 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
           "Neeraj Chopra: First Indian to win a gold in track and field at the Olympics.",
           "Sunil Chhetri: One of the world's highest active goal-scorers in international football.",
           "Avani Lekhara: First Indian woman to win two Paralympic medals (Shooting)."
+        ]
+      },
+      {
+        id: "17",
+        title: "Sources and Further Reading",
+        icon: "BookOpen",
+        description: "Reference reports and guides",
+        color: BLUE,
+        content: [
+          "Edumilestones: Sportsperson Career Pathways Guide",
+          "6figr: India Sports Salary Data 2026",
+          "Grand View Research: India Sports Market Outlook 2033",
+          "Market Research Future: AI in Sports Market Report 2035",
+          "ScholarshipsX: IndianOil Sports Scholarship Scheme 2026"
         ]
       }
     ]
@@ -6182,8 +6197,8 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE,
         content: [
           "Pathway 1 - After Class 10 (The Technical Route): Enroll in a 3-year Diploma in Engineering (Polytechnic). After the Diploma, start working as a Junior Engineer or enter the 2nd year of a B.Tech degree through Lateral Entry exams.",
-          "Pathway 2 - After Class 12 (The Professional Route): Subjects: Physics, Chemistry, and Mathematics (PCM). Entrance Exams: JEE Main (NITs/IIITs), JEE Advanced (IITs), BITSAT, VITEEE, or State-Level exams. Degree: B.Tech or B.E. (4 years).",
-          "Pathway 3 - After Graduation (The Specialist Route): Higher Studies: Pursue M.Tech (via GATE) to specialize. Management: Take CAT exam for MBA in Product Management. Career Switch: B.Sc. Physics/Maths graduates can do MCA or M.Tech."
+          "Pathway 2 - After Class 12 (The Professional Route): Subjects: Physics, Chemistry, and Mathematics (PCM). Entrance Exams: JEE Main (NITs/IIITs), JEE Advanced (IITs), BITSAT, VITEEE, or State-Level exams. Degree: BTech or BE (4 years).",
+          "Pathway 3 - After Graduation (The Specialist Route): Higher Studies: Pursue MTech (via GATE) to specialize. Management: Take CAT exam for MBA in Product Management. Career Switch: BSc Physics/Maths graduates can do MCA or MTech."
         ]
       },
       {
@@ -6420,8 +6435,8 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE,
         content: [
           "After Class 10: Choose Science with Mathematics as a core subject. Start looking at the Regional Mathematical Olympiad (RMO) and KVPY.",
-          "After Class 12: Pursue B.Sc. (Hons) Mathematics, B.Stat, or B.Math. Top exams: ISI Admission Test (for Indian Statistical Institute), CMI Entrance Exam (Chennai Mathematical Institute), CUET (Central Universities), JEE Advanced (for B.S. programs at IITs).",
-          "After Graduation: Specialize in M.Sc. Mathematics, Statistics, or Computing. Professional switch: If you have a B.Sc., move into Data Science or Actuarial Science through specialized diplomas.",
+          "After Class 12: Pursue B Sc (Hons) Mathematics, B Stat, or B Math. Top exams ISI Admission Test (for Indian Statistical Institute), CMI Entrance Exam (Chennai Mathematical Institute), CUET (Central Universities), JEE Advanced (for B.S. programs at IITs).",
+          "After Graduation: Specialize in M Sc  Mathematics, Statistics, or Computing. Professional switch, If you have a B.Sc., move into Data Science or Actuarial Science through specialized diplomas.",
           "The PhD Route: If you want to be called a 'Mathematician,' a PhD is usually required. Clear CSIR-NET or GATE for fellowship money during research.",
           "Top Institutions: ISI Kolkata/Delhi, CMI Chennai, IISc Bengaluru, TIFR Mumbai, IIT Kanpur/Kharagpur, University of Delhi, University of Hyderabad."
         ]
@@ -6939,8 +6954,8 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE,
         content: [
           "Pathway 1 - After Class 10: Diploma Route: Enroll in a 3-year Diploma in Mechatronics or Mechanical Engineering. Join workforce as a Robotics Technician or take 'Lateral Entry' into 2nd year of B.Tech.",
-          "Pathway 2 - After Class 12 (Science Stream): Entrance Exams: JEE Main, JEE Advanced, BITSAT, VITEEE. Degrees: B.Tech in Robotics & Automation (emerging direct degree), B.Tech in Mechatronics (classic route), or B.Tech in Mechanical/Electronics/CS (specialize in Robotics later).",
-          "Pathway 3 - After Graduation: Specialization: Pursue M.Tech in Robotics or Artificial Intelligence (Entry via GATE). Lateral Entry: If you have a degree in Mechanical or Electronics, switch to Robotics via specialized certifications in ROS and Embedded Systems.",
+          "Pathway 2 - After Class 12 (Science Stream): Entrance Exams: JEE Main, JEE Advanced, BITSAT, VITEEE Degrees BTech in Robotics & Automation (emerging direct degree), BTech in Mechatronics (classic route), or BTech in Mechanical/Electronics/CS (specialize in Robotics later).",
+          "Pathway 3 - After Graduation: Specialization: Pursue MTech in Robotics or Artificial Intelligence (Entry via GATE). Lateral Entry: If you have a degree in Mechanical or Electronics, switch to Robotics via specialized certifications in ROS and Embedded Systems.",
           "Top Institutions: IIT Delhi (Program for Autonomous Systems), IIT Kanpur (Center for Robotics), IISc Bengaluru, Jadavpur University, SRM Institute Chennai, VIT Vellore, MIT World Peace University Pune."
         ]
       },
@@ -7286,7 +7301,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         color: BLUE,
         content: [
           "Bodies: International Indian Statistical Association (IISA), Indian Society for Probability and Statistics (ISPS), American Statistical Association (ASA).",
-          "Certifications: SAS Certified Statistical Business Analyst, Professional Certificate in IBM Data Science, Tableau Desktop Specialist, Microsoft Certified: Data Analyst.",
+          "Certifications: SAS Certified Statistical Business Analyst, Professional Certificate in IBM Data Science, Tableau Desktop Specialist, Microsoft Certified Data Analyst.",
           "Licensing: No mandatory license required, but Actuarial License (from IAI) needed if working in insurance risk.",
           "Continuing Education: Regular workshops and certifications in Machine Learning, AI, and Advanced Analytics."
         ]
@@ -8757,7 +8772,7 @@ export const artsAndDesignUpdateData: Record<string, CareerPageData> = {
         description: "Educational journey from Class 10 onwards.",
         color: BLUE,
         content: [
-          "Pathway A - Design Degree Route (Most Common, Best for Top Fashion Brands): Class 12: Any stream (Arts/Commerce/Science). Entrance Exams: NIFT-GAT/CAT, NID-DAT, UCEED, Pearl Academy Entrance. Undergraduate: B.Des in Fashion Communication (4 Years)—Gold standard for VMs. Alternative: B.Des in Interior Design. Internship: Mandatory 6-month internship with retail brand. Job: Junior Visual Merchandiser.",
+          "Pathway A - Design Degree Route (Most Common, Best for Top Fashion Brands): Class 12: Any stream (Arts/Commerce/Science). Entrance Exams: NIFT-GAT/CAT, NID-DAT, UCEED, Pearl Academy Entrance. Undergraduate: B Des in Fashion Communication (4 Years)—Gold standard for VMs. Alternative: B Des in Interior Design. Internship: Mandatory 6-month internship with retail brand. Job: Junior Visual Merchandiser.",
           "Pathway B - Diploma Route (Quicker Entry): Class 12: Any stream. Course: Diploma in Visual Merchandising (6 months–1 Year). Institutes: JD Institute of Fashion Technology, London School of Trends (India), local fashion academies. Job: Store Stylist / VM Assistant.",
           "Pathway C - Retail/MBA Route (Management Focus): Graduation: Any degree. Post-Grad: MBA in Retail Management or Fashion Management (from NIFT). Job: Retail Merchandiser (focusing more on stock/numbers than display).",
           "Top Institutions: NIFT (18 Campuses), FDDI, NID Ahmedabad/Gandhinagar, Pearl Academy Delhi/Mumbai, JD Institute, Srishti Manipal Institute Bangalore, MIT-ID Pune, IIAD Delhi."

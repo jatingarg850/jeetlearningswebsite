@@ -93,6 +93,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Officer Route - CDS Entry: Graduation (B.Tech/B.Sc) → CDS Exam (UPSC) → INA, Ezhimala.",
           "Officer Route - Direct Entry: BE/B.Tech (Marks based) → Direct SSB Call → INA, Ezhimala.",
           "Officer Route - NCC Entry: Graduate + NCC 'C' Certificate (Naval Wing) → Direct SSB Call → INA, Ezhimala.",
+          "Officer Route - INET (Indian Navy Entrance Test): Graduate (various streams) → Often merged with direct entries; check yearly notifications → INA, Ezhimala.",
           "Sailor Route - Agniveer: Class 10 (Matric Recruit - MR) or Class 12 PCM (Senior Secondary Recruit - SSR) → Computer-based Test → Physical Fitness Test → Medicals → 4 Years Service (Top 25% retained permanently)."
         ]
       },
@@ -166,7 +167,7 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
       },
       {
         id: "certifications",
-        title: "Professional Bodies & Certifications",
+        title: "Professional Bodies, Certifications & Licensing",
         icon: "Award",
         description: "Credentials and professional recognition.",
         color: BLUE2,
@@ -259,6 +260,19 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Admiral Sunil Lanba: Former Chief of Naval Staff who led the Navy's modernization and expansion.",
           "Vice Admiral Pradeep Chauhan: Known for his expertise in naval strategy and maritime security."
         ]
+      },
+      {
+        id: "sources",
+        title: "Sources & Further Reading",
+        icon: "BookOpen",
+        description: "Trusted references and books for deeper exploration.",
+        color: BLUE,
+        content: [
+          "Official Website: joinindiannavy.gov.in (the official source for applications and notifications).",
+          "Salary Data: 7th Pay Commission Matrix and Indian Navy salary benchmarks.",
+          "Market Trends: Indian Navy indigenization and force expansion plans.",
+          "Further Reading: The Sinking of INS Khukri (Ian Cardozo), Operation X (Captain M.N.R. Samant), Blueprint to Blue Water (Indian Navy history)."
+        ]
       }
     ]
   },
@@ -348,9 +362,9 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         description: "Multiple entry routes to join the Indian Police.",
         color: BLUE,
         content: [
-          "Constable Route (Entry Level): Class 12 pass → State Police Constable Recruitment or SSC GD (for CRPF/BSF) → Written Test → Physical Test → Medicals → Growth: Constable → Head Constable → ASI.",
-          "Sub-Inspector Route (Mid-Level): Graduation (any degree) → State SI Exam or SSC CPO (for CAPFs) → Written → Physical Endurance Test → Medicals → Growth: SI → Inspector → DySP/ACP.",
-          "IPS Route (Leadership Level): Graduation (any degree) → UPSC Civil Services Examination (CSE) → High rank required to choose IPS → Growth: ASP → SP (District Chief) → DIG → IG → DGP (State Chief).",
+          "Constable Route (Entry Level): Class 12 pass → State Police Constable Recruitment or SSC GD (for CRPF/BSF) → Written Test → Physical Test → Medicals →  Constable → Head Constable → ASI.",
+          "Sub-Inspector Route (Mid-Level): Graduation (any degree) → State SI Exam or SSC CPO (for CAPFs) → Written → Physical Endurance Test → Medicals →  SI → Inspector → DySP/ACP.",
+          "IPS Route (Leadership Level): Graduation (any degree) → UPSC Civil Services Examination (CSE) → High rank required to choose IPS →  ASP → SP (District Chief) → DIG → IG → DGP (State Chief).",
           "State Officer Route (PPS/TPS): State PSC Exam (e.g., UPPSC, MPSC) → DySP (Deputy Superintendent of Police) → Promoted to IPS after ~15-20 years."
         ]
       },
@@ -518,6 +532,245 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
           "Sanjukta Parashar: Known as the 'Iron Lady of Assam,' she led commando operations against Bodo militants in jungles.",
           "Neeraj Kumar: Former Delhi Police Commissioner known for modernizing the force and fighting corruption.",
           "Rakesh Maria: Legendary Mumbai Police officer known for solving high-profile cases and his integrity."
+        ]
+      }
+    ]
+  },
+  indian_secret_services: {
+    slug: "indian_secret_services",
+    badge: "The Silent Sentinels for Class 10+",
+    heading: "Indian Secret Services",
+    subheading: "In Intelligence Bureau and R&AW pathways, officers protect India through information supremacy, counter-intelligence, and strategic foresight across shadow, digital, and geopolitical domains.",
+    whyCards: [
+      { icon: "Shield", title: "Invisible National Shield", description: "A single verified intelligence lead can prevent large-scale national crises before they unfold.", borderColor: "#10B981" },
+      { icon: "TrendingUp", title: "Strategic Demand", description: "Hiring is increasingly focused on SIGINT, cyber intelligence, data analytics, and language expertise.", borderColor: "#059669" },
+      { icon: "Zap", title: "High-Impact Decisions", description: "Officers convert fragmented data into actionable intelligence for real-time national response.", borderColor: "#3B82F6" },
+      { icon: "Award", title: "Prestige With Purpose", description: "Your success remains largely unseen, but directly contributes to sovereignty and internal stability.", borderColor: "#F59E0B" }
+    ],
+    quickFacts: [
+      { label: "Duration", detail: "Selection + Training + Ongoing Field Learning (Multi-Year)", color: "bg-green-100 text-green-700" },
+      { label: "Entry Routes", detail: "ACIO, UPSC (IPS/IFS), Technical and Lateral Channels", color: "bg-blue-100 text-blue-700" },
+      { label: "Salary Range", detail: "Rs9L-Rs60L+ (With Special Security Allowance)", color: "bg-purple-100 text-purple-700" }
+    ],
+    statCards: [
+      { value: "1.4B", label: "Population Protected Through Intelligence", gradient: "from-green-500 to-green-600" },
+      { value: "20%", label: "Typical Special Security Allowance", gradient: "from-blue-500 to-blue-600" }
+    ],
+    guideSections: [
+      {
+        id: "what",
+        title: "What is This Career All About?",
+        icon: "Target",
+        description: "Information supremacy for national security.",
+        color: BLUE,
+        content: [
+          "Indian Secret Services careers center on intelligence and counter-intelligence to maintain national stability against invisible threats.",
+          "Intelligence officers are silent sentinels who combine human psychology, signals intelligence, and geopolitical analysis to neutralize risk.",
+          "The role is the art and science of information supremacy, balancing secrecy, speed, and ethical judgment under pressure.",
+          "As warfare expands into digital and shadow domains, these professionals become invisible architects behind strategic state decisions."
+        ]
+      },
+      {
+        id: "dayinlife",
+        title: "A Day in the Life: An Intelligence Officer",
+        icon: "Clock",
+        description: "High-trust, high-pressure, high-impact workflow.",
+        color: BLUE2,
+        content: [
+          "07:30 AM - Signal Scrutiny: Review overnight flash reports, decrypted intercepts, and satellite cues for border or chatter anomalies.",
+          "10:00 AM - Asset Coordination: Brief handlers on secure channels and validate HUMINT leads such as possible financial data breach plans.",
+          "01:30 PM - Threat Modeling: Run simulation models to assess how local disruptions could be exploited by hostile networks.",
+          "04:30 PM - Cabinet Briefing: Translate raw streams into actionable intelligence for diplomatic or cyber counter-measures.",
+          "08:00 PM - Deep Encryption Study: Continuous upskilling in domains like quantum cryptography and advanced surveillance defense."
+        ]
+      },
+      {
+        id: "who",
+        title: "Is This You? (Personality Traits and Skills)",
+        icon: "User",
+        description: "Check your Intelligence DNA.",
+        color: BLUE,
+        content: [
+          "Analytical Curiosity: You probe motives and second-order geopolitical effects beyond obvious headlines.",
+          "Stoic Composure: You stay rational while handling classified information and high-stakes ambiguity.",
+          "Adaptive Stealth: You blend into varied social environments without exposing intent or compromise.",
+          "Unwavering Integrity: You are mission-driven even when your achievements cannot be publicly acknowledged.",
+          "Pattern Recognition: You connect financial, behavioral, and encrypted signals to pre-empt crises before manifestation."
+        ]
+      },
+      {
+        id: "responsibilities",
+        title: "Key Responsibilities and Workflow",
+        icon: "Briefcase",
+        description: "Intelligence -> Analysis -> Neutralization loop.",
+        color: BLUE2,
+        content: [
+          "Information Collection: Acquire HUMINT, SIGINT, and OSINT inputs to detect emerging and hidden threats.",
+          "Strategic Analysis: Evaluate chatter quality, connect disparate evidence, and predict hostile maneuvers.",
+          "Asset Management: Recruit and handle deep-cover sources while maintaining operational security.",
+          "Counter-Intelligence: Conduct internal security audits and protect the system against infiltration and honeytraps.",
+          "Liaison and Coordination: Share verified intelligence with law enforcement and national decision bodies for immediate action.",
+          "Shadow Operations: Support discreet disruption of hostile financing, logistics, and propaganda pipelines."
+        ]
+      },
+      {
+        id: "pathways",
+        title: "Career Pathways in India",
+        icon: "Map",
+        description: "Primary entry channels into IB, R&AW, and technical intelligence.",
+        color: BLUE,
+        content: [
+          "Entry via SSC and UPSC: ACIO-II routes and civil services pathways (IPS/IFS) are common feeders for strategic assignments.",
+          "Specialized and Lateral Entry: Cybersecurity, cryptography, and data science experts are recruited for digital warfare domains.",
+          "Armed Forces Lateral Shift: Military intelligence experience often transitions into advanced technical organizations such as NTRO.",
+          "Professional Roadmap: Written selection, deep verification, specialized tradecraft training, then field and desk growth tracks."
+        ]
+      },
+      {
+        id: "market",
+        title: "Market Snapshot - India 2026",
+        icon: "TrendingUp",
+        description: "Salary, growth outlook, and hiring priorities.",
+        color: BLUE2,
+        content: [
+          "Entry-Level (0-2 years): approximately Rs9L-Rs13L gross annual range.",
+          "Mid-Level (7-12 years): approximately Rs16L-Rs26L annual range.",
+          "Senior (15-22 years): approximately Rs30L-Rs42L annual range.",
+          "Leadership (25+ years): approximately Rs45L-Rs60L+ annual range.",
+          "Compensation framework includes 7th Pay Commission structures with Special Security Allowance and foreign assignment benefits.",
+          "Budget trend shows sustained growth, with stronger demand in SIGINT, big data intelligence, and linguistic specialization."
+        ]
+      },
+      {
+        id: "jobs",
+        title: "Where Are the Jobs?",
+        icon: "MapPin",
+        description: "Operational locations from headquarters to frontier and global postings.",
+        color: BLUE,
+        content: [
+          "Strategic Headquarters: National coordination roles centered in New Delhi policy and operations hubs.",
+          "Regional Subsidiary Centers: State-level intelligence bureaus manage domestic monitoring and counter-insurgency support.",
+          "Border and Frontier Stations: High-intensity assignments in sensitive zones and maritime corridors.",
+          "International Postings: Research and intelligence assignments under diplomatic cover in embassies and high commissions.",
+          "Technical Hubs: Roles in satellite monitoring, cryptanalysis, and cyber threat tracking ecosystems.",
+          "Emerging Digital Frontiers: Expanded opportunities in integrated cyber coordination and virtual threat disruption."
+        ]
+      },
+      {
+        id: "costs",
+        title: "What Will It Cost?",
+        icon: "CircleDollarSign",
+        description: "Preparation investment before induction.",
+        color: BLUE2,
+        content: [
+          "Application fees are generally affordable for IB and UPSC channels with category-based exemptions.",
+          "Focused study resources for polity, internal security, and reasoning typically require a moderate budget.",
+          "Optional interview and descriptive preparation coaching can add additional cost.",
+          "Candidates may spend on psychometric and suitability preparation plus baseline medical checks.",
+          "Once selected, government-funded training, travel, and equipment are covered with salaried officer onboarding."
+        ]
+      },
+      {
+        id: "institutions",
+        title: "Where to Study?",
+        icon: "Building2",
+        description: "Academic and training pipelines for intelligence careers.",
+        color: BLUE,
+        content: [
+          "Rashtriya Raksha University offers specialized national security and intelligence-aligned programs.",
+          "Agency training ecosystems provide structured tradecraft, surveillance, analysis, and fieldcraft development.",
+          "National Forensic Sciences pathways strengthen digital forensics and behavioral investigation capability.",
+          "IIT and IIIT technical backgrounds are highly valued for cyber, electronics, and technical intelligence tracks.",
+          "Private universities and policy think-tank exposure can strengthen strategy, cybersecurity, and research orientation."
+        ]
+      },
+      {
+        id: "scholarships",
+        title: "Scholarship and Support Opportunities",
+        icon: "Award",
+        description: "Financial support mechanisms and welfare schemes.",
+        color: BLUE2,
+        content: [
+          "Welfare funds support technical and professional education for children of serving and retired personnel.",
+          "Prime Minister scholarship pathways and related schemes support eligible wards and widows in professional education.",
+          "Merit scholarships at strategic universities can reduce tuition burden in national security programs.",
+          "Special Security Allowance often helps officers finance advanced certifications and ongoing specialization.",
+          "Dedicated grants exist for dependents of martyred officers, including full or near-full education support."
+        ]
+      },
+      {
+        id: "certifications",
+        title: "Professional Bodies and Licensing",
+        icon: "Award",
+        description: "Governance and legal ecosystem for intelligence operations.",
+        color: BLUE,
+        content: [
+          "Cabinet Secretariat and Ministry of Home Affairs provide top-level governance oversight across major intelligence structures.",
+          "National Security Council framework aligns intelligence outcomes with long-term state strategy and foreign policy.",
+          "UPSC remains the key gateway for Group A officers feeding leadership pipelines in intelligence-linked cadres.",
+          "NTRO anchors technical standards for surveillance, cyber systems, and high-end intelligence technologies.",
+          "NATGRID and joint intelligence coordination bodies integrate multi-source datasets into unified threat assessment pipelines.",
+          "Statutory restrictions and rights frameworks impose strict confidentiality and professional conduct obligations."
+        ]
+      },
+      {
+        id: "challenges",
+        title: "Challenges and Realities",
+        icon: "AlertTriangle",
+        description: "The hard truths of a shadow profession.",
+        color: BLUE2,
+        content: [
+          "Selection is exceptionally competitive and opaque, demanding mental resilience and clean background credentials.",
+          "Life in the shadows means maintaining cover stories and living with limited social visibility of your real work.",
+          "Operations are unpredictable with 24x7 readiness, crisis war-room cycles, and sudden movement requirements.",
+          "Sustained exposure to sensitive threats can create psychological load and requires disciplined mental health management.",
+          "Field postings may involve volatile regions and austere conditions without conventional support systems.",
+          "Ethical decisions often carry immediate operational and long-term national consequences."
+        ]
+      },
+      {
+        id: "future",
+        title: "Emerging Trends (2025-2035)",
+        icon: "Sparkles",
+        description: "How intelligence work is transforming.",
+        color: BLUE,
+        content: [
+          "Predictive intelligence with AI and ML will shift operations from reaction to preemption at national scale.",
+          "Cognitive warfare and deepfake ecosystems will elevate demand for influence-defense and narrative-security specialists.",
+          "Quantum cryptography adoption will secure top-secret communication against next-generation computation threats.",
+          "Space intelligence and GEOINT roles will expand with high-revisit satellite analysis and border monitoring.",
+          "OSINT and dark-web intelligence will become core pillars for tracking transnational crime and hybrid conflict networks."
+        ]
+      },
+      {
+        id: "startnow",
+        title: "Skills to Build While Still in School",
+        icon: "Rocket",
+        description: "Early foundations for intelligence careers.",
+        color: BLUE2,
+        content: [
+          "Strengthen analytical reasoning using logic puzzles, pattern recognition exercises, and structured problem-solving.",
+          "Build linguistic depth through foreign or regional language study for field adaptability and source engagement.",
+          "Develop cybersecurity basics including encryption concepts, digital hygiene, and secure communication principles.",
+          "Practice observation and situational awareness drills to improve memory, detail retention, and anomaly detection.",
+          "Follow geopolitical and national security developments consistently to build strategic context.",
+          "Improve concise report writing because intelligence value depends on clarity and actionable communication.",
+          "Train physical and mental resilience through endurance sports, martial arts, and emotional regulation habits."
+        ]
+      },
+      {
+        id: "personalities",
+        title: "Famous Indian Personalities",
+        icon: "User",
+        description: "Inspirational figures in Indian intelligence history.",
+        color: BLUE,
+        content: [
+          "R.N. Kao: Founding architect of R&AW who shaped modern Indian external intelligence capability.",
+          "Ajit Doval: Former intelligence veteran and National Security Advisor known for deep operational and strategic roles.",
+          "B. Raman: Influential counter-terror analyst and foundational voice in strategic threat interpretation.",
+          "K. Sankaran Nair: Key leader in strengthening institutional depth and technical expansion during formative decades.",
+          "Ajit Kumar Syal: Decorated intelligence officer associated with high-value domestic HUMINT and insurgency work.",
+          "Vikram Sood: Former R&AW chief and noted author who advanced public understanding of intelligence tradecraft."
         ]
       }
     ]
@@ -937,10 +1190,10 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
         id: "scholarships",
         title: "Scholarship Opportunities",
         icon: "Award",
-        description: "Financial assistance programs.",
+        description: "Since training is fully funded, traditional scholarships aren't applicable. However:",
         color: BLUE,
         content: [
-          "Since training is fully funded, traditional scholarships aren't applicable. However:",
+          
           "Financial Assistance: Wards of Ex-servicemen or War Widows get priority and funding for education in Army Public Schools/Professional colleges.",
           "Stipend: The training stipend itself acts as financial support (₹56,100/month in final year).",
           "State Govt Awards: Many state governments give cash awards (₹1L to ₹5L) to students from their state who clear NDA/IMA courses.",
@@ -1837,4 +2090,27 @@ export const publicSafetyAndSecurityUpdateData: Record<string, CareerPageData> =
       }
     ]
   }
+};
+
+publicSafetyAndSecurityUpdateData.indian_paramilitary_forces = {
+  ...publicSafetyAndSecurityUpdateData.central_reserve_forces,
+  slug: "indian_paramilitary_forces",
+  badge: "🛡️ India's Internal Security Frontline for Class 10+",
+  heading: "Indian Paramilitary Forces",
+  subheading: "Serve in CRPF, BSF, CISF, ITBP, and SSB to protect borders, internal security, and critical infrastructure across India.",
+  quickFacts: [
+    { label: "Duration", detail: "3-6 Months (Constable) to 2 Years (Officer Training)", color: "bg-green-100 text-green-700" },
+    { label: "Entry Routes", detail: "SSC GD, SSC CPO, UPSC CAPF (AC), State Police, NCC", color: "bg-blue-100 text-blue-700" },
+    { label: "Salary Range", detail: "₹21K–₹2.5L+ (Constable to Senior Officer)", color: "bg-purple-100 text-purple-700" }
+  ],
+  statCards: [
+    { value: "9+ Lakh", label: "Personnel Across Forces", gradient: "from-green-500 to-green-600" },
+    { value: "5", label: "Major Forces (CRPF, BSF, CISF, ITBP, SSB)", gradient: "from-blue-500 to-blue-600" }
+  ],
+  guideSections: publicSafetyAndSecurityUpdateData.central_reserve_forces.guideSections.map((section) => ({
+    ...section,
+    title: section.title.replace(/\bCRF\b/g, "Indian Paramilitary Forces"),
+    description: section.description.replace(/\bCRF\b/g, "Indian Paramilitary Forces"),
+    content: section.content.map((item) => item.replace(/\bCRF\b/g, "Indian Paramilitary Forces")),
+  })),
 };

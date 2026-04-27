@@ -232,8 +232,12 @@ export const careerCategories = {
     careers: [
       "central_reserve_forces",
       "disaster_management",
-      "indian_armed_forces",
+      "indian_army",
+      "indian_paramilitary_forces",
+      "indian_air_force",
+      "indian_navy",
       "indian_police",
+      "indian_secret_services",
       "merchant_navy",
     ],
   },
