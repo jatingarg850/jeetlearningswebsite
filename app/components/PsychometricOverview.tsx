@@ -56,15 +56,17 @@ export function PsychometricOverview() {
                 key={idx}
                 className="p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
               >
-                <div
-                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ background: `${assessment.color}20`, color: assessment.color }}
-                >
-                  <Icon className="w-6 h-6" />
+                <div className="flex items-center gap-3 mb-3">
+                  <div
+                    className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
+                    style={{ background: `${assessment.color}20`, color: assessment.color }}
+                  >
+                    <Icon className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900">
+                    {assessment.title}
+                  </h3>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
-                  {assessment.title}
-                </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
                   {assessment.description}
                 </p>
@@ -76,10 +78,8 @@ export function PsychometricOverview() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
           <article className="rounded-2xl border border-slate-200 p-6 bg-slate-50">
             <h3 className="text-lg font-extrabold text-slate-900 mb-3">Aptitude Tests</h3>
-            <p className="text-slate-600 text-sm mb-3">
-              Evaluate natural capacity to learn and solve new challenges through numerical, verbal, logical, and perceptual tasks.
-            </p>
-            <ul className="text-sm text-slate-700 space-y-1.5">
+            <ul className="text-sm text-slate-700 space-y-2 list-disc list-inside">
+              <li>Evaluate natural capacity to learn and solve new challenges through numerical, verbal, logical, and perceptual tasks</li>
               <li>Career-stream and subject alignment</li>
               <li>Strength and weakness mapping</li>
               <li>Future role-fit prediction</li>
@@ -88,10 +88,8 @@ export function PsychometricOverview() {
 
           <article className="rounded-2xl border border-slate-200 p-6 bg-slate-50">
             <h3 className="text-lg font-extrabold text-slate-900 mb-3">IQ Assessments</h3>
-            <p className="text-slate-600 text-sm mb-3">
-              Measure logical reasoning, processing speed, working memory, and visual-spatial problem-solving for high-demand learning paths.
-            </p>
-            <ul className="text-sm text-slate-700 space-y-1.5">
+            <ul className="text-sm text-slate-700 space-y-2 list-disc list-inside">
+              <li>Measure logical reasoning, processing speed, working memory, and visual-spatial problem-solving for high-demand learning paths</li>
               <li>Cognitive benchmarking by age group</li>
               <li>Academic acceleration planning</li>
               <li>Role suitability in technical domains</li>
@@ -100,10 +98,8 @@ export function PsychometricOverview() {
 
           <article className="rounded-2xl border border-slate-200 p-6 bg-slate-50">
             <h3 className="text-lg font-extrabold text-slate-900 mb-3">Personality Tests</h3>
-            <p className="text-slate-600 text-sm mb-3">
-              Understand communication style, behavioral preferences, and motivation patterns for better team fit and long-term growth.
-            </p>
-            <ul className="text-sm text-slate-700 space-y-1.5">
+            <ul className="text-sm text-slate-700 space-y-2 list-disc list-inside">
+              <li>Understand communication style, behavioral preferences, and motivation patterns for better team fit and long-term growth</li>
               <li>Self-awareness and confidence building</li>
               <li>Leadership and soft-skill development</li>
               <li>Conflict and relationship management</li>
@@ -115,15 +111,15 @@ export function PsychometricOverview() {
           <h3 className="text-2xl font-black text-slate-900 mb-4">Who Benefits</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
             <div className="rounded-xl bg-white border border-orange-100 p-4">
-              <p className="font-bold text-slate-900 mb-1">Junior Primary (7-8)</p>
+              <p className="font-bold text-slate-900 mb-1">Junior Primary (7-8 yrs)</p>
               <p className="text-slate-600">Baseline cognition and early learning-style identification.</p>
             </div>
             <div className="rounded-xl bg-white border border-orange-100 p-4">
-              <p className="font-bold text-slate-900 mb-1">Middle to Secondary (9-16)</p>
+              <p className="font-bold text-slate-900 mb-1">Middle to Secondary (9-16 yrs)</p>
               <p className="text-slate-600">Subject mapping, stream selection, and career cluster discovery.</p>
             </div>
             <div className="rounded-xl bg-white border border-orange-100 p-4">
-              <p className="font-bold text-slate-900 mb-1">Higher Secondary (15+)</p>
+              <p className="font-bold text-slate-900 mb-1">Higher Secondary (15+ yrs)</p>
               <p className="text-slate-600">College-course planning with aptitude-personality alignment.</p>
             </div>
             <div className="rounded-xl bg-white border border-orange-100 p-4">

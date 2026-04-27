@@ -33,23 +33,23 @@ const testFamilies = [
 
 const ageBuckets = [
   {
-    label: "Junior Primary (7-8)",
+    label: "Junior Primary (7-8 yrs)",
     text: "Baseline cognitive profiling and early learning-style discovery for low-stress support.",
   },
   {
-    label: "Senior Primary (9-10)",
+    label: "Senior Primary (9-10 yrs)",
     text: "Refines understanding of grasping speed, foundational strengths, and confidence planning.",
   },
   {
-    label: "Middle School (11-12)",
+    label: "Middle School (11-12 yrs)",
     text: "Supports subject complexity handling and extracurricular alignment without burnout.",
   },
   {
-    label: "Lower Secondary (13-14)",
+    label: "Lower Secondary (13-14 yrs)",
     text: "SWOT-style insight for stream choices, limitations, and early career clusters.",
   },
   {
-    label: "Higher Secondary (15+)",
+    label: "Higher Secondary (15+ yrs)",
     text: "Aligns aptitude and personality with majors, courses, and long-term opportunities.",
   },
   {

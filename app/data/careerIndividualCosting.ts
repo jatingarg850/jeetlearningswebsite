@@ -1953,6 +1953,945 @@ export const urbanPlanningAndManagementCosts: CareerCostData = {
   ],
 };
 
+// ─── ARTS & DESIGN - ANIMATOR - DETAILED COSTS ──────────────────
+
+export const animatorCosts: CareerCostData = {
+  career: "animator",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government Institutions (NID/IIT)",
+      amount: "₹2-16 Lakh",
+      description: "Total course fees (highly subsidized to premium)",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "NID (National Institute of Design): ₹2-4 Lakhs total",
+        "IIT Design Programs: ₹3-6 Lakhs total",
+        "Government Art & Animation Schools: ₹2-8 Lakhs total",
+        "Premium Government Institutes: ₹8-16 Lakhs total",
+      ],
+    },
+    {
+      category: "Private Institutes (Arena/MAAC)",
+      amount: "₹1.5-6 Lakh",
+      description: "Total course fees",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Arena Animation: ₹1.5-3 Lakhs total",
+        "MAAC (Maya Academy of Advanced Cinematics): ₹2-4 Lakhs total",
+        "Other Premium Animation Schools: ₹2-6 Lakhs total",
+        "Annual fees: ₹50,000-2 Lakhs per year",
+      ],
+    },
+    {
+      category: "Powerful PC/Laptop",
+      amount: "₹80,000-1.5 Lakh",
+      description: "High-performance computer for animation software",
+      icon: "💻",
+      color: "#F59E0B",
+      details: [
+        "Gaming/Workstation Laptop: ₹80,000-1,50,000",
+        "Desktop Computer: ₹1,00,000-2,00,000",
+        "Graphics Card (GPU): ₹30,000-80,000",
+        "RAM Upgrade: ₹10,000-30,000",
+      ],
+    },
+    {
+      category: "Animation Software",
+      amount: "₹50,000-1.2 Lakh",
+      description: "Professional animation and design software",
+      icon: "🎬",
+      color: "#EC4899",
+      details: [
+        "Maya/3DS Max License: ₹30,000-60,000/year",
+        "Adobe Creative Suite: ₹15,000-30,000/year",
+        "Blender & Open Source: Free to ₹20,000",
+        "Rendering Software (Arnold, V-Ray): ₹20,000-50,000",
+      ],
+    },
+    {
+      category: "Peripherals & Equipment",
+      amount: "₹30,000-60,000",
+      description: "Drawing tablets, monitors, and accessories",
+      icon: "🖱️",
+      color: "#3B82F6",
+      details: [
+        "Graphics Tablet/Pen Display: ₹15,000-40,000",
+        "High-Resolution Monitor: ₹15,000-30,000",
+        "Keyboard & Mouse: ₹5,000-10,000",
+        "External Storage & Backup: ₹5,000-10,000",
+      ],
+    },
+    {
+      category: "Portfolio & Showreel",
+      amount: "₹10,000-25,000",
+      description: "Creating professional portfolio and demo reel",
+      icon: "🎨",
+      color: "#10B981",
+      details: [
+        "Portfolio Website Hosting: ₹5,000-10,000",
+        "Professional Photography/Videography: ₹5,000-10,000",
+        "Showreel Production: ₹5,000-15,000",
+        "Printing & Materials: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000",
+      description: "Monthly in major cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Internship & Freelance Work",
+      amount: "₹10,000-30,000",
+      description: "Travel and setup for internships",
+      icon: "✈️",
+      color: "#EC4899",
+      details: [
+        "Internship Travel: ₹5,000-15,000",
+        "Studio Setup: ₹3,000-8,000",
+        "Networking Events: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹12,000-25,000",
+      description: "Books, courses, and reference materials",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Animation & Design Textbooks: ₹4,000-8,000",
+        "Online Courses (Udemy, Skillshare): ₹3,000-8,000",
+        "Tutorial Subscriptions: ₹2,000-5,000",
+        "Reference Materials & Assets: ₹3,000-6,000",
+      ],
+    },
+  ],
+};
+
+// ─── ARTS & DESIGN - COSMETOLOGY - DETAILED COSTS ────────────────
+
+export const cosmetologyCosts: CareerCostData = {
+  career: "cosmetology",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government (Nagpur Univ/DSEU)",
+      amount: "₹14,000-40,000",
+      description: "Total course fees",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Nagpur University Cosmetology: ₹14,000-25,000 total",
+        "DSEU (Delhi Skill & Entrepreneurship University): ₹15,000-30,000 total",
+        "Government Beauty Schools: ₹14,000-40,000 total",
+        "Duration: 3 months to 3 years depending on program",
+      ],
+    },
+    {
+      category: "Private (VLCC/Lakme/Orane)",
+      amount: "₹1.5-5 Lakh",
+      description: "Total course fees",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "VLCC Institute: ₹1.5-3 Lakhs total",
+        "Lakme Academy: ₹2-4 Lakhs total",
+        "Orane Institute: ₹1.5-3.5 Lakhs total",
+        "Other Premium Beauty Schools: ₹2-5 Lakhs total",
+      ],
+    },
+    {
+      category: "Beauty Equipment & Tools",
+      amount: "₹30,000-60,000",
+      description: "Professional beauty tools and equipment",
+      icon: "💄",
+      color: "#F59E0B",
+      details: [
+        "Hair Styling Tools (Dryer, Straightener, Curler): ₹10,000-20,000",
+        "Makeup Brushes & Kits: ₹5,000-10,000",
+        "Skincare Equipment (Facial Steamer, etc.): ₹8,000-15,000",
+        "Nail Art & Manicure Tools: ₹5,000-10,000",
+        "Professional Scissors & Shears: ₹3,000-8,000",
+      ],
+    },
+    {
+      category: "Cosmetics & Products",
+      amount: "₹20,000-40,000",
+      description: "Professional beauty and skincare products",
+      icon: "💅",
+      color: "#EC4899",
+      details: [
+        "Professional Makeup Brands: ₹10,000-20,000",
+        "Skincare Products: ₹5,000-10,000",
+        "Hair Care Products: ₹3,000-8,000",
+        "Nail Products & Polish: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Salon/Workspace Setup",
+      amount: "₹50,000-1.5 Lakh",
+      description: "Initial setup for salon or beauty workspace",
+      icon: "💇",
+      color: "#3B82F6",
+      details: [
+        "Salon Furniture (Chairs, Mirrors, Stations): ₹30,000-80,000",
+        "Lighting & Ambiance Setup: ₹10,000-20,000",
+        "Sterilization Equipment: ₹5,000-15,000",
+        "Storage & Organization: ₹5,000-15,000",
+      ],
+    },
+    {
+      category: "Certification & Licensing",
+      amount: "₹5,000-15,000",
+      description: "Professional certifications and licenses",
+      icon: "📜",
+      color: "#10B981",
+      details: [
+        "Professional Certification Exams: ₹3,000-8,000",
+        "Health & Safety Certification: ₹2,000-5,000",
+        "Business License & Registration: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000",
+      description: "Monthly in Tier-1 cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Internship & Apprenticeship",
+      amount: "₹10,000-25,000",
+      description: "Travel and setup for internships",
+      icon: "✈️",
+      color: "#EC4899",
+      details: [
+        "Internship Travel: ₹5,000-10,000",
+        "Salon Apprenticeship Setup: ₹3,000-8,000",
+        "Networking Events: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹8,000-20,000",
+      description: "Books, courses, and reference materials",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Cosmetology Textbooks: ₹3,000-6,000",
+        "Online Courses & Tutorials: ₹2,000-5,000",
+        "Beauty & Skincare Guides: ₹2,000-4,000",
+        "Professional Magazines & Resources: ₹1,000-3,000",
+      ],
+    },
+  ],
+};
+
+// ─── ARTS & DESIGN - GRAPHICAL DESIGNING - DETAILED COSTS ────────
+
+export const graphicalDesigningCosts: CareerCostData = {
+  career: "graphical_designing",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government Institutions (NID/IIT)",
+      amount: "₹1.5-12 Lakh",
+      description: "Total for 4 years",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "NID (National Institute of Design): ₹2-6 Lakhs total",
+        "IIT Design Programs: ₹3-8 Lakhs total",
+        "Government Design Colleges: ₹1.5-5 Lakhs total",
+        "Premium Government Institutes: ₹8-12 Lakhs total",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹15-25 Lakh",
+      description: "Total degree fees",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Pearl Academy: ₹15-20 Lakhs total",
+        "MIT Institute of Design: ₹18-25 Lakhs total",
+        "Other Premium Design Schools: ₹15-25 Lakhs total",
+        "Annual fees: ₹3.75-6.25 Lakhs per year",
+      ],
+    },
+    {
+      category: "Powerful PC/Laptop",
+      amount: "₹70,000-1.2 Lakh",
+      description: "High-performance computer for design work",
+      icon: "💻",
+      color: "#F59E0B",
+      details: [
+        "Gaming/Workstation Laptop: ₹70,000-1,20,000",
+        "Desktop Computer: ₹1,00,000-1,80,000",
+        "Graphics Card (GPU): ₹30,000-80,000",
+        "RAM & Storage Upgrades: ₹15,000-40,000",
+      ],
+    },
+    {
+      category: "Drawing Tablet",
+      amount: "₹5,000-30,000",
+      description: "Graphics tablet for digital design",
+      icon: "🖊️",
+      color: "#EC4899",
+      details: [
+        "Basic Drawing Tablet: ₹5,000-10,000",
+        "Mid-Range Pen Tablet: ₹10,000-20,000",
+        "Premium Pen Display: ₹20,000-30,000",
+        "Stylus & Accessories: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Design Software",
+      amount: "₹40,000-80,000",
+      description: "Professional design and creative software",
+      icon: "🎨",
+      color: "#3B82F6",
+      details: [
+        "Adobe Creative Suite (Photoshop, Illustrator, InDesign): ₹15,000-30,000/year",
+        "Figma & Design Tools: ₹5,000-15,000/year",
+        "3D Design Software (Cinema 4D, Blender): ₹10,000-25,000",
+        "Motion Graphics Software: ₹10,000-20,000",
+      ],
+    },
+    {
+      category: "Peripherals & Accessories",
+      amount: "₹20,000-50,000",
+      description: "Monitor, keyboard, mouse, and other accessories",
+      icon: "🖱️",
+      color: "#10B981",
+      details: [
+        "High-Resolution Monitor (27-32 inch): ₹15,000-35,000",
+        "Mechanical Keyboard: ₹3,000-8,000",
+        "Precision Mouse: ₹2,000-5,000",
+        "External Storage & Backup: ₹5,000-10,000",
+      ],
+    },
+    {
+      category: "Portfolio & Showcase",
+      amount: "₹12,000-30,000",
+      description: "Building professional portfolio and online presence",
+      icon: "📁",
+      color: "#8B5CF6",
+      details: [
+        "Portfolio Website Hosting: ₹3,000-8,000",
+        "Professional Photography: ₹3,000-8,000",
+        "Portfolio Printing & Presentation: ₹3,000-8,000",
+        "Domain & Email Setup: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000",
+      description: "Monthly in major education hubs",
+      icon: "🏠",
+      color: "#EC4899",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Workshops & Training",
+      amount: "₹10,000-25,000",
+      description: "Specialized workshops and professional development",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Design Workshops & Masterclasses: ₹5,000-12,000",
+        "Software Training Courses: ₹3,000-8,000",
+        "UX/UI Design Certification: ₹3,000-8,000",
+        "Professional Memberships: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹12,000-25,000",
+      description: "Books, courses, and reference materials",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Design Theory & History Books: ₹4,000-8,000",
+        "Online Courses (Udemy, Skillshare): ₹3,000-8,000",
+        "Design Magazines & Journals: ₹2,000-5,000",
+        "Reference Materials & Assets: ₹3,000-6,000",
+      ],
+    },
+  ],
+};
+
+// ─── ARTS & DESIGN - FASHION DESIGNING - DETAILED COSTS ────────
+
+export const fashionDesigningCosts: CareerCostData = {
+  career: "fashion_designing",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government Institutions (NIFT/NID)",
+      amount: "₹6-12 Lakh",
+      description: "Total degree fees (highly competitive)",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "NIFT (National Institute of Fashion Technology): ₹6-10 Lakhs total",
+        "NID (National Institute of Design): ₹7-12 Lakhs total",
+        "Government Fashion Design Colleges: ₹6-10 Lakhs total",
+        "Duration: 4 years (B.Des) or 2 years (M.Des)",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹15-25 Lakh",
+      description: "Total degree fees",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Pearl Academy: ₹15-20 Lakhs total",
+        "ISDI (Indian School of Design & Innovation): ₹18-25 Lakhs total",
+        "Other Premium Fashion Schools: ₹15-25 Lakhs total",
+        "Annual fees: ₹3.75-6.25 Lakhs per year",
+      ],
+    },
+    {
+      category: "Fabric & Materials",
+      amount: "₹20,000-50,000",
+      description: "Annual fabric and project materials",
+      icon: "🧵",
+      color: "#F59E0B",
+      details: [
+        "Fabric Samples & Swatches: ₹8,000-15,000/year",
+        "Embellishments & Trims: ₹5,000-10,000/year",
+        "Pattern Making Materials: ₹3,000-8,000/year",
+        "Specialty Fabrics & Textiles: ₹4,000-17,000/year",
+      ],
+    },
+    {
+      category: "Specialized Software",
+      amount: "₹30,000-60,000",
+      description: "Design and CAD software licenses",
+      icon: "💻",
+      color: "#EC4899",
+      details: [
+        "Adobe Creative Suite (Illustrator, Photoshop): ₹15,000-30,000/year",
+        "CLO 3D (Virtual Garment Design): ₹10,000-20,000/year",
+        "CAD Software (Gerber, Lectra): ₹10,000-25,000/year",
+        "Design Plugins & Tools: ₹5,000-10,000",
+      ],
+    },
+    {
+      category: "High-End Sewing Machines",
+      amount: "₹20,000-50,000",
+      description: "Professional sewing equipment",
+      icon: "🪡",
+      color: "#3B82F6",
+      details: [
+        "Industrial Sewing Machine: ₹20,000-40,000",
+        "Serger/Overlock Machine: ₹15,000-30,000",
+        "Embroidery Machine: ₹25,000-50,000",
+        "Maintenance & Repairs: ₹2,000-5,000/year",
+      ],
+    },
+    {
+      category: "Sewing Tools & Equipment",
+      amount: "₹10,000-20,000",
+      description: "Hand tools and accessories",
+      icon: "✂️",
+      color: "#10B981",
+      details: [
+        "Scissors, Shears & Cutting Tools: ₹3,000-6,000",
+        "Measuring Tools & Rulers: ₹2,000-4,000",
+        "Pins, Needles & Thread: ₹2,000-4,000",
+        "Pressing Equipment & Irons: ₹3,000-6,000",
+      ],
+    },
+    {
+      category: "Portfolio & Internship",
+      amount: "₹15,000-35,000",
+      description: "Building portfolio and internship costs",
+      icon: "📁",
+      color: "#8B5CF6",
+      details: [
+        "Portfolio Printing & Presentation: ₹5,000-10,000",
+        "Internship Travel & Accommodation: ₹8,000-20,000",
+        "Fashion Show/Exhibition Costs: ₹3,000-8,000",
+        "Professional Photography: ₹3,000-7,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000",
+      description: "Monthly in Tier-1 cities",
+      icon: "🏠",
+      color: "#EC4899",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Professional Development",
+      amount: "₹10,000-25,000",
+      description: "Workshops, certifications, and courses",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Fashion Design Workshops: ₹5,000-12,000",
+        "Draping & Tailoring Courses: ₹3,000-8,000",
+        "Trend Forecasting Certifications: ₹2,000-5,000",
+        "Professional Memberships: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹12,000-25,000",
+      description: "Books, journals, and reference materials",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Fashion Design Textbooks: ₹4,000-8,000",
+        "Fashion Magazines & Journals: ₹3,000-6,000",
+        "Online Courses & Tutorials: ₹2,000-5,000",
+        "Design References & Mood Boards: ₹3,000-6,000",
+      ],
+    },
+  ],
+};
+
+// ─── ARTS & DESIGN - FINE ARTS - DETAILED COSTS ──────────────────
+
+export const fineArtsCosts: CareerCostData = {
+  career: "fine_arts",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government Institutions",
+      amount: "₹10,000-25,000",
+      description: "Annual tuition fees",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "College of Art, Delhi: ₹10,000-15,000/year",
+        "Government Art Colleges: ₹10,000-20,000/year",
+        "State Art Institutes: ₹12,000-25,000/year",
+        "Duration: 4 years for BFA, 2 years for MFA",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹2.5-6 Lakh",
+      description: "Annual tuition fees",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Srishti Institute of Art, Design & Technology: ₹2.5-4 Lakhs/year",
+        "Manipal Institute of Fine Arts: ₹3-5 Lakhs/year",
+        "Other Premium Art Schools: ₹2.5-6 Lakhs/year",
+        "Total for 4 years: ₹10-24 Lakhs",
+      ],
+    },
+    {
+      category: "Art Supplies (Traditional)",
+      amount: "₹30,000-80,000",
+      description: "High-quality paints, brushes, and materials",
+      icon: "🎨",
+      color: "#F59E0B",
+      details: [
+        "Oil & Acrylic Paints: ₹8,000-15,000",
+        "Brushes & Painting Tools: ₹5,000-10,000",
+        "Canvas & Paper: ₹5,000-10,000",
+        "Sculpting Stone & Clay: ₹8,000-20,000",
+        "Printmaking Materials: ₹4,000-10,000",
+      ],
+    },
+    {
+      category: "Digital Art Equipment",
+      amount: "₹50,000-1.5 Lakh",
+      description: "High-end PC or tablet for digital art",
+      icon: "💻",
+      color: "#EC4899",
+      details: [
+        "Graphics Tablet/Pen Display: ₹30,000-80,000",
+        "High-Performance Laptop: ₹60,000-1,50,000",
+        "Desktop Computer: ₹80,000-2,00,000",
+        "Monitor & Accessories: ₹15,000-30,000",
+      ],
+    },
+    {
+      category: "Digital Art Software",
+      amount: "₹20,000-50,000",
+      description: "Professional design and art software",
+      icon: "🖌️",
+      color: "#3B82F6",
+      details: [
+        "Adobe Creative Suite: ₹15,000-30,000/year",
+        "Procreate/Clip Studio Paint: ₹5,000-10,000",
+        "3D Modeling Software (Blender, Maya): Free to ₹20,000",
+        "Photo Editing Software: ₹5,000-10,000",
+      ],
+    },
+    {
+      category: "Studio Space & Equipment",
+      amount: "₹20,000-50,000",
+      description: "Studio setup and equipment",
+      icon: "🖼️",
+      color: "#10B981",
+      details: [
+        "Easels & Stands: ₹5,000-10,000",
+        "Lighting Equipment: ₹8,000-15,000",
+        "Storage & Organization: ₹5,000-10,000",
+        "Kiln/Furnace (if needed): ₹10,000-30,000",
+      ],
+    },
+    {
+      category: "Portfolio & Exhibition",
+      amount: "₹15,000-35,000",
+      description: "Building portfolio and exhibition costs",
+      icon: "📁",
+      color: "#8B5CF6",
+      details: [
+        "Portfolio Printing & Presentation: ₹5,000-10,000",
+        "Exhibition Display Costs: ₹5,000-12,000",
+        "Professional Photography: ₹3,000-8,000",
+        "Website & Online Portfolio: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹12,000-20,000",
+      description: "Monthly expenses",
+      icon: "🏠",
+      color: "#EC4899",
+      details: [
+        "Hostel/Rent: ₹6,000-12,000 per month",
+        "Food & Meals: ₹3,000-5,000 per month",
+        "Transport: ₹1,500-2,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹500-1,000 per month",
+      ],
+    },
+    {
+      category: "Workshops & Training",
+      amount: "₹10,000-25,000",
+      description: "Specialized workshops and masterclasses",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Art Workshops & Masterclasses: ₹5,000-12,000",
+        "Specialized Technique Training: ₹3,000-8,000",
+        "Artist Residencies: ₹2,000-5,000",
+        "Professional Certifications: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹10,000-20,000",
+      description: "Books, journals, and reference materials",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Art History & Theory Books: ₹4,000-8,000",
+        "Art Magazines & Journals: ₹2,000-4,000",
+        "Online Courses & Tutorials: ₹2,000-5,000",
+        "Reference Materials & Catalogs: ₹2,000-4,000",
+      ],
+    },
+  ],
+};
+
+// ─── ARTS & DESIGN - FASHION TECHNOLOGY - DETAILED COSTS ────────
+
+export const fashionTechnologyCosts: CareerCostData = {
+  career: "fashion_technology",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government (NIFT)",
+      amount: "₹12-16 Lakh",
+      description: "Total degree fees (4 years)",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "NIFT (National Institute of Fashion Technology): ₹12-16 Lakhs total",
+        "NIFT BFTech Programs: ₹12-15 Lakhs total",
+        "Duration: 4 years for BFTech",
+        "Annual fees: ₹3-4 Lakhs per year",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹18-28 Lakh",
+      description: "Total degree fees",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Pearl Academy: ₹18-22 Lakhs total",
+        "Amity University: ₹20-28 Lakhs total",
+        "Other Premium Fashion Tech Schools: ₹18-28 Lakhs total",
+        "Annual fees: ₹4.5-7 Lakhs per year",
+      ],
+    },
+    {
+      category: "Specialized Software & Tools",
+      amount: "₹40,000-80,000",
+      description: "Fashion technology and CAD software",
+      icon: "💻",
+      color: "#F59E0B",
+      details: [
+        "CLO 3D (Virtual Garment Design): ₹15,000-25,000/year",
+        "Adobe Creative Suite: ₹15,000-30,000/year",
+        "CAD Software (Gerber, Lectra, Optitex): ₹15,000-35,000/year",
+        "Textile Testing Software: ₹10,000-20,000",
+      ],
+    },
+    {
+      category: "Lab Equipment & Materials",
+      amount: "₹30,000-60,000",
+      description: "Testing and production equipment",
+      icon: "🔬",
+      color: "#EC4899",
+      details: [
+        "Textile Testing Equipment: ₹15,000-30,000",
+        "Fabric Analysis Tools: ₹8,000-15,000",
+        "Quality Control Instruments: ₹8,000-15,000",
+        "Maintenance & Calibration: ₹3,000-5,000/year",
+      ],
+    },
+    {
+      category: "Sewing & Production Equipment",
+      amount: "₹25,000-50,000",
+      description: "Industrial sewing and production machines",
+      icon: "🪡",
+      color: "#3B82F6",
+      details: [
+        "Industrial Sewing Machine: ₹20,000-40,000",
+        "Serger/Overlock Machine: ₹15,000-30,000",
+        "Pressing Equipment: ₹5,000-10,000",
+        "Maintenance & Repairs: ₹2,000-5,000/year",
+      ],
+    },
+    {
+      category: "Fabric & Materials",
+      amount: "₹20,000-40,000",
+      description: "Annual fabric samples and testing materials",
+      icon: "🧵",
+      color: "#10B981",
+      details: [
+        "Fabric Samples & Swatches: ₹8,000-15,000/year",
+        "Testing Materials & Chemicals: ₹6,000-12,000/year",
+        "Embellishments & Trims: ₹4,000-8,000/year",
+        "Specialty Textiles: ₹2,000-5,000/year",
+      ],
+    },
+    {
+      category: "Internship & Industry Exposure",
+      amount: "₹15,000-35,000",
+      description: "Travel and accommodation for internships",
+      icon: "✈️",
+      color: "#8B5CF6",
+      details: [
+        "Internship Travel: ₹8,000-15,000",
+        "Factory/Mill Visits: ₹5,000-10,000",
+        "Industry Conference Attendance: ₹3,000-8,000",
+        "Professional Networking: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹15,000-25,000",
+      description: "Monthly in major education hubs",
+      icon: "🏠",
+      color: "#EC4899",
+      details: [
+        "Hostel/Rent: ₹8,000-15,000 per month",
+        "Food & Meals: ₹4,000-7,000 per month",
+        "Transport: ₹2,000-3,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹1,000-2,000 per month",
+      ],
+    },
+    {
+      category: "Professional Certifications",
+      amount: "₹15,000-30,000",
+      description: "Industry certifications and training",
+      icon: "🎓",
+      color: "#EC4899",
+      details: [
+        "Textile Technology Certification: ₹8,000-15,000",
+        "Quality Management Certification: ₹5,000-10,000",
+        "CAD Software Certification: ₹3,000-8,000",
+        "Professional Memberships: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹12,000-25,000",
+      description: "Books, journals, and reference materials",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Fashion Technology Textbooks: ₹4,000-8,000",
+        "Textile Science Journals: ₹3,000-6,000",
+        "Online Courses & Tutorials: ₹2,000-5,000",
+        "Technical Standards & Manuals: ₹3,000-6,000",
+      ],
+    },
+  ],
+};
+
+// ─── ARTS & DESIGN - CREATIVE WRITER - DETAILED COSTS ──────────
+
+export const creativeWriterCosts: CareerCostData = {
+  career: "creative_writer",
+  category: "arts_and_design",
+  costs: [
+    {
+      category: "Government (DU/FTII)",
+      amount: "₹15,000-1.5 Lakh",
+      description: "Highly subsidized course fees",
+      icon: "🏫",
+      color: "#1E40AF",
+      details: [
+        "Delhi University (DU) English/Literature: ₹15,000-40,000 total",
+        "FTII (Film and Television Institute of India): ₹50,000-1.5 Lakhs total",
+        "Government Arts Colleges: ₹15,000-60,000 total",
+        "Duration: 3 years (UG), 1-2 years (PG/Diploma)",
+      ],
+    },
+    {
+      category: "Private Institutions",
+      amount: "₹2.5-6 Lakh",
+      description: "Annual fees for premium institutes",
+      icon: "🏢",
+      color: "#6366F1",
+      details: [
+        "Srishti Institute of Art, Design & Technology: ₹2.5-4 Lakhs/year",
+        "Pearl Academy: ₹2.5-5 Lakhs/year",
+        "XIC (Xavier Institute of Communications): ₹3-6 Lakhs/year",
+        "Other Premium Writing Schools: ₹2.5-6 Lakhs/year",
+      ],
+    },
+    {
+      category: "Laptop & Internet Connection",
+      amount: "₹40,000-80,000",
+      description: "Essential for writing and research",
+      icon: "💻",
+      color: "#F59E0B",
+      details: [
+        "Laptop/Computer: ₹40,000-80,000",
+        "High-Speed Internet Connection: ₹1,000-2,000/month",
+        "Writing Software (Microsoft Office, Scrivener): ₹5,000-15,000",
+        "Cloud Storage & Backup: ₹2,000-5,000/year",
+      ],
+    },
+    {
+      category: "Books & Reference Materials",
+      amount: "₹20,000-40,000",
+      description: "Essential reading and reference books",
+      icon: "📚",
+      color: "#EC4899",
+      details: [
+        "Literature & Writing Textbooks: ₹8,000-15,000",
+        "Reference Books & Dictionaries: ₹5,000-10,000",
+        "Online Subscriptions (Scribd, Kindle Unlimited): ₹3,000-8,000/year",
+        "Journals & Literary Magazines: ₹4,000-8,000",
+      ],
+    },
+    {
+      category: "Writing Courses & Workshops",
+      amount: "₹15,000-40,000",
+      description: "Professional development and skill enhancement",
+      icon: "🎓",
+      color: "#3B82F6",
+      details: [
+        "Online Writing Courses (Udemy, Coursera): ₹5,000-15,000",
+        "Creative Writing Workshops: ₹8,000-20,000",
+        "Screenwriting/Playwriting Courses: ₹10,000-25,000",
+        "Professional Certifications: ₹5,000-15,000",
+      ],
+    },
+    {
+      category: "Portfolio & Publishing",
+      amount: "₹10,000-30,000",
+      description: "Building professional portfolio and self-publishing",
+      icon: "📖",
+      color: "#10B981",
+      details: [
+        "Portfolio Website Hosting: ₹3,000-8,000",
+        "Self-Publishing Costs (ISBN, Printing): ₹5,000-15,000",
+        "Professional Editing Services: ₹5,000-20,000",
+        "Marketing & Promotion: ₹3,000-10,000",
+      ],
+    },
+    {
+      category: "Living Costs",
+      amount: "₹12,000-20,000",
+      description: "Monthly expenses in major cities",
+      icon: "🏠",
+      color: "#8B5CF6",
+      details: [
+        "Hostel/Rent: ₹6,000-12,000 per month",
+        "Food & Meals: ₹3,000-5,000 per month",
+        "Transport: ₹1,500-2,000 per month",
+        "Books & Materials: ₹1,000-2,000 per month",
+        "Miscellaneous: ₹500-1,000 per month",
+      ],
+    },
+    {
+      category: "Internship & Freelance Work",
+      amount: "₹8,000-20,000",
+      description: "Travel and setup for internships and freelancing",
+      icon: "✈️",
+      color: "#EC4899",
+      details: [
+        "Internship Travel: ₹4,000-10,000",
+        "Freelance Setup & Tools: ₹2,000-5,000",
+        "Networking Events & Conferences: ₹2,000-5,000",
+      ],
+    },
+    {
+      category: "Study Materials & Resources",
+      amount: "₹10,000-25,000",
+      description: "Additional books, courses, and reference materials",
+      icon: "📝",
+      color: "#EC4899",
+      details: [
+        "Creative Writing Textbooks: ₹4,000-8,000",
+        "Genre-Specific Guides: ₹3,000-6,000",
+        "Online Courses & Tutorials: ₹2,000-5,000",
+        "Writing Journals & Notebooks: ₹1,000-3,000",
+      ],
+    },
+  ],
+};
+
 // Update allIndividualCareerCosts with new careers
 allIndividualCareerCosts.chartered_accountant = charteredAccountantCosts;
 allIndividualCareerCosts.financial_analyst = financialAnalystCosts;
@@ -1971,3 +2910,10 @@ allIndividualCareerCosts.architect = architectCosts;
 allIndividualCareerCosts.construction = constructionCosts;
 allIndividualCareerCosts.maintenance_and_operation_management = maintenanceAndOperationManagementCosts;
 allIndividualCareerCosts.urban_planning_and_management = urbanPlanningAndManagementCosts;
+allIndividualCareerCosts.animator = animatorCosts;
+allIndividualCareerCosts.cosmetology = cosmetologyCosts;
+allIndividualCareerCosts.creative_writer = creativeWriterCosts;
+allIndividualCareerCosts.fashion_designing = fashionDesigningCosts;
+allIndividualCareerCosts.fashion_technology = fashionTechnologyCosts;
+allIndividualCareerCosts.fine_arts = fineArtsCosts;
+allIndividualCareerCosts.graphical_designing = graphicalDesigningCosts;

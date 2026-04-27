@@ -9,21 +9,21 @@ const resources = [
     title: "Career Path",
     description: "Explore study programs and comprehensive guides across career clusters with practical pathways.",
     color: "#3B82F6",
-    link: "/career-library",
+    link: "/career-path",
   },
   {
     icon: FileText,
     title: "Entrance Exams",
     description: "Exam strategy and planning for JEE, NEET, CUET, CAT, and more.",
     color: "#10B981",
-    link: "/entrance-exams",
+    link: "/resources",
   },
   {
     icon: Newspaper,
     title: "Education News",
     description: "Updates on policy, scholarships, admissions, and opportunity alerts.",
     color: "#F59E0B",
-    link: "/education-news",
+    link: "/blog",
   },
   {
     icon: Award,
@@ -61,15 +61,17 @@ export function ResourcesSection() {
                 href={resource.link}
                 className="p-6 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-all hover:scale-105"
               >
-                <div
-                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                  style={{ background: `${resource.color}20`, color: resource.color }}
-                >
-                  <Icon className="w-6 h-6" />
+                <div className="flex items-center gap-3 mb-3">
+                  <div
+                    className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
+                    style={{ background: `${resource.color}20`, color: resource.color }}
+                  >
+                    <Icon className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900">
+                    {resource.title}
+                  </h3>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">
-                  {resource.title}
-                </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">
                   {resource.description}
                 </p>
