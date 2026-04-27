@@ -649,8 +649,7 @@ export const careerPageData: Record<string, CareerPageData> = {
         content: [
           "IIBF (Indian Institute of Banking and Finance): Offers JAIIB and CAIIB—mandatory for promotions in most Indian banks.",
           "NISM (National Institute of Securities Markets): Essential for those going into wealth management.",
-          "Chartered Financial Analyst (CFA): Globally recognized for investment banking.",
-          "These certifications significantly enhance career prospects and earning potential."
+          "Chartered Financial Analyst (CFA): Globally recognized for investment banking."
         ]
       },
       {
