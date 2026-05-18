@@ -1,0 +1,147 @@
+"use client";
+
+import { BarChart, Briefcase, Calculator, Globe, TrendingUp } from "lucide-react";
+
+const PRIMARY_BLUE = "#1E40AF";
+const ACCENT_GOLD = "#F59E0B";
+const LIGHT_BG = "#F0F9FF";
+const TEXT_DARK = "#1F2937";
+const TEXT_GRAY = "#6B7280";
+
+export function ActuarialFuturisticHero() {
+  return (
+    <div className="relative w-full overflow-hidden pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-10 sm:pb-12 md:pb-16 lg:pb-20">
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50" />
+
+      {/* Decorative Elements */}
+      <div className="absolute top-0 right-0 w-40 sm:w-64 md:w-80 lg:w-96 h-40 sm:h-64 md:h-80 lg:h-96 bg-blue-200 rounded-full opacity-10 blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-32 sm:w-48 md:w-64 lg:w-80 h-32 sm:h-48 md:h-64 lg:h-80 bg-amber-200 rounded-full opacity-10 blur-3xl" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center">
+          {/* Left Content */}
+          <div className="space-y-4 sm:space-y-6 md:space-y-8">
+            {/* Badge */}
+            <div className="inline-block">
+              <span className="px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold text-amber-700 bg-amber-100 flex items-center gap-2">
+                <BarChart className="w-4 h-4" /> Career Exploration for Class 10+
+              </span>
+            </div>
+
+            {/* Main Heading */}
+            <div>
+              <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-slate-900 mb-3 sm:mb-4 md:mb-6 leading-tight">
+                Discover Actuarial Science
+              </h1>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-600 leading-relaxed font-medium">
+                Ever wondered how insurance companies decide prices? Or how banks manage risks? Actuaries are the problem-solvers behind these decisions using mathematics, statistics, and logic!
+              </p>
+            </div>
+
+            {/* Why Actuarial Science */}
+            <div className="space-y-2 sm:space-y-3 md:space-y-4">
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-slate-900">Why Choose Actuarial Science?</h3>
+
+              <div className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 md:p-4 rounded-lg bg-white border-l-4 border-amber-500 shadow-sm hover:shadow-md transition">
+                <div className="flex-shrink-0 text-amber-500">
+                  <Briefcase className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
+                </div>
+                <div className="min-w-0">
+                  <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">High Earning Potential</p>
+                  <p className="text-xs text-slate-600">One of the highest-paying careers in India</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 md:p-4 rounded-lg bg-white border-l-4 border-blue-500 shadow-sm hover:shadow-md transition">
+                <div className="flex-shrink-0 text-blue-500">
+                  <Calculator className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
+                </div>
+                <div className="min-w-0">
+                  <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">Solve Real Problems</p>
+                  <p className="text-xs text-slate-600">Use math to make important business decisions</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 md:p-4 rounded-lg bg-white border-l-4 border-indigo-500 shadow-sm hover:shadow-md transition">
+                <div className="flex-shrink-0 text-indigo-500">
+                  <Globe className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
+                </div>
+                <div className="min-w-0">
+                  <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">Global Opportunities</p>
+                  <p className="text-xs text-slate-600">Work anywhere in the world with this skill</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2 sm:gap-3 p-2 sm:p-3 md:p-4 rounded-lg bg-white border-l-4 border-emerald-500 shadow-sm hover:shadow-md transition">
+                <div className="flex-shrink-0 text-emerald-500">
+                  <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
+                </div>
+                <div className="min-w-0">
+                  <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">Growing Demand</p>
+                  <p className="text-xs text-slate-600">India needs 25,000 actuaries by 2030</p>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 pt-2 sm:pt-3 md:pt-4">
+            </div>
+          </div>
+
+          {/* Right Side -  Info Cards */}
+          <div className="space-y-3 sm:space-y-4 md:space-y-6 mt-8 lg:mt-0">
+            {/* Quick Facts Card */}
+            <div className="p-4 sm:p-6 md:p-8 rounded-lg md:rounded-2xl bg-white shadow-lg border-t-4" style={{ borderTopColor: PRIMARY_BLUE }}>
+              <h3 className="text-base sm:text-lg md:text-2xl font-bold text-slate-900 mb-3 sm:mb-4 md:mb-6">Quick Facts</h3>
+
+              <div className="space-y-3 sm:space-y-4 md:space-y-6">
+                <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
+                  <div className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 rounded-full bg-amber-100 flex items-center justify-center text-sm sm:text-lg md:text-xl font-bold text-amber-700 flex-shrink-0">
+                    1
+                  </div>
+                  <div className="min-w-0">
+                    <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">Start in Class 10</p>
+                    <p className="text-xs text-slate-600">Begin preparing now with math & stats</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
+                  <div className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 rounded-full bg-blue-100 flex items-center justify-center text-sm sm:text-lg md:text-xl font-bold text-blue-700 flex-shrink-0">
+                    2
+                  </div>
+                  <div className="min-w-0">
+                    <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">ACET in Class 12</p>
+                    <p className="text-xs text-slate-600">Take the entrance exam (free registration)</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
+                  <div className="w-8 sm:w-10 md:w-12 h-8 sm:h-10 md:h-12 rounded-full bg-indigo-100 flex items-center justify-center text-sm sm:text-lg md:text-xl font-bold text-indigo-700 flex-shrink-0">
+                    3
+                  </div>
+                  <div className="min-w-0">
+                    <p className="font-semibold text-xs sm:text-sm md:text-base text-slate-900">6-10 Years Journey</p>
+                    <p className="text-xs text-slate-600">Become a Fellow Actuary (FSA/FIA)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Stats Card */}
+            <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
+              <div className="p-3 sm:p-4 md:p-6 rounded-lg md:rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 text-white shadow-lg hover:shadow-xl transition">
+                <p className="text-lg sm:text-2xl md:text-3xl font-bold mb-1 md:mb-2">₹50+</p>
+                <p className="text-xs md:text-sm">LPA Senior Salary</p>
+              </div>
+              <div className="p-3 sm:p-4 md:p-6 rounded-lg md:rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white shadow-lg hover:shadow-xl transition">
+                <p className="text-lg sm:text-2xl md:text-3xl font-bold mb-1 md:mb-2">500-700</p>
+                <p className="text-xs md:text-sm">Actuaries in India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

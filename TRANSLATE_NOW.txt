@@ -1,0 +1,79 @@
+================================================================================
+                    TRANSLATE ALL CAREER DATA TO HINDI - FAST
+================================================================================
+
+STEP 1: Start Ollama
+  Terminal 1:
+  $ ollama serve
+
+STEP 2: Pull Model
+  Terminal 2:
+  $ ollama pull translategemma:4b
+
+STEP 3: Run Translation
+  Terminal 3:
+  $ node scripts/fastTranslateAll.mjs
+
+DONE! ✅
+
+================================================================================
+                              WHAT HAPPENS
+================================================================================
+
+The script will:
+  1. Find all *UpdateData.ts files
+  2. Extract all titles, descriptions, content
+  3. Translate to Hindi using Ollama
+  4. Add titleHi, descriptionHi, contentHi fields
+  5. Save everything automatically
+
+Time: ~15-20 minutes for all files
+
+================================================================================
+                            USE IN COMPONENTS
+================================================================================
+
+import { useInlineTranslations } from '@/app/hooks/useInlineTranslations';
+
+export function Section({ section }) {
+  const { getString, getArray } = useInlineTranslations();
+  
+  return (
+    <div>
+      <h2>{getString(section.title, section.titleHi)}</h2>
+      {getArray(section.content, section.contentHi).map((item, idx) => (
+        <p key={idx}>{item}</p>
+      ))}
+    </div>
+  );
+}
+
+================================================================================
+                            VERIFY IT WORKED
+================================================================================
+
+$ node scripts/verifyTranslations.mjs
+
+Should show 100% completion.
+
+================================================================================
+                          TROUBLESHOOTING
+================================================================================
+
+"Ollama not running"
+  → Run: ollama serve
+
+"Model not found"
+  → Run: ollama pull translategemma:4b
+
+"Slow translation"
+  → Close other apps
+  → Check system resources
+
+================================================================================
+                              THAT'S IT!
+================================================================================
+
+3 simple steps and everything is translated to Hindi.
+
+Start now! 🚀

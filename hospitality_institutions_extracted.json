@@ -1,0 +1,122 @@
+{
+  "airhostess": {
+    "Government": [
+      "Indira Gandhi Institute of Aeronautics (IGIA), New Delhi",
+      "Rajiv Gandhi National Aviation Academy, Hyderabad",
+      "National Institute of Aviation Management and Research (NIAMAR), Delhi",
+      "Airports Authority of India Training Centre (AAITC), New Delhi"
+    ],
+    "Private": [
+      "Frankfinn Institute of Air Hostess Training, Pan-India",
+      "Air Hostess Academy (AHA), Bangalore",
+      "Jet Airways Training Academy, Mumbai",
+      "Universal Aviation Academy, Chennai"
+    ],
+    "Online": [
+      "Udemy \u2014 Cabin Crew & Air Hostess Training Course",
+      "Coursera \u2014 Aviation Management & Hospitality Modules",
+      "IATA Training \u2014 Cabin Crew Safety & Service Programme",
+      "Simplilearn \u2014 Airline & Hospitality Service Certification"
+    ]
+  },
+  "culinary_arts": {
+    "Government": [
+      "Institute of Hotel Management (IHM), New Delhi",
+      "Institute of Hotel Management (IHM), Mumbai",
+      "Institute of Hotel Management (IHM), Chennai",
+      "Dr. Ambedkar Institute of Hotel Management, Chandigarh"
+    ],
+    "Private": [
+      "Welcomgroup Graduate School of Hotel Administration, Manipal",
+      "Culinary Academy of India (CAI), Hyderabad",
+      "International Institute of Culinary Arts (IICA), New Delhi",
+      "Lavonne Academy of Baking Science & Pastry Arts, Bangalore"
+    ],
+    "Online": [
+      "Udemy \u2014 Professional Cooking & Culinary Arts Course",
+      "Coursera \u2014 Food & Beverage Management Programme",
+      "NCHM Online \u2014 Basic Food Production Certificate",
+      "Alison \u2014 International Culinary Arts Diploma"
+    ]
+  },
+  "event_planner": {
+    "Government": [
+      "Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
+      "Institute of Hotel Management (IHM), New Delhi",
+      "National Institute of Fashion Technology (NIFT), New Delhi",
+      "Chandigarh University (State Government), Chandigarh"
+    ],
+    "Private": [
+      "National Academy of Event Management & Development (NAEMD), Mumbai",
+      "Whistling Woods International, Mumbai",
+      "Amity Institute of Event Management, New Delhi",
+      "Pearl Academy of Event Management, New Delhi"
+    ],
+    "Online": [
+      "Udemy \u2014 Event Planning & Management Masterclass",
+      "Coursera \u2014 Event Management & Hospitality Programme",
+      "Alison \u2014 Professional Event Planning Diploma",
+      "NIEM Online \u2014 Certified Event Management Course"
+    ]
+  },
+  "hotel_management": {
+    "Government": [
+      "Institute of Hotel Management (IHM), New Delhi",
+      "Institute of Hotel Management (IHM), Mumbai",
+      "Institute of Hotel Management (IHM), Bangalore",
+      "National Council for Hotel Management & Catering Technology (NCHMCT), Noida"
+    ],
+    "Private": [
+      "Welcomgroup Graduate School of Hotel Administration, Manipal",
+      "Oberoi Centre of Learning & Development, New Delhi",
+      "Institute of Hotel Management (IHM), Aurangabad (Taj Group)",
+      "Amity School of Hospitality, Noida"
+    ],
+    "Online": [
+      "Coursera \u2014 Hotel Management & Hospitality Programme",
+      "Udemy \u2014 Hotel Management & Operations Masterclass",
+      "NCHM Online \u2014 Food & Beverage Service Certificate",
+      "Alison \u2014 International Hotel Management Diploma"
+    ]
+  },
+  "travel_and_tourism": {
+    "Government": [
+      "Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
+      "National Institute of Water Sports (NIWS), Goa",
+      "Institute of Hotel Management (IHM), New Delhi",
+      "Food Craft Institute (FCI), Patna (Ministry of Tourism)"
+    ],
+    "Private": [
+      "Amity Institute of Travel & Tourism, Noida",
+      "Institute of Tourism & Future Management Trends (ITFT), Chandigarh",
+      "Frank Finn Institute of Travel & Tourism, Pan-India",
+      "Kuoni Academy of Travel & Tourism, Mumbai"
+    ],
+    "Online": [
+      "Coursera \u2014 Travel & Tourism Management Programme",
+      "Udemy \u2014 Travel Agency & Tourism Business Masterclass",
+      "Alison \u2014 International Tourism & Hospitality Diploma",
+      "IATA Training \u2014 Travel & Tourism Foundation Certificate"
+    ]
+  },
+  "wedding_planner": {
+    "Government": [
+      "Indian Institute of Tourism & Travel Management (IITTM), Gwalior",
+      "Institute of Hotel Management (IHM), New Delhi",
+      "National Institute of Fashion Technology (NIFT), New Delhi",
+      "Jamia Millia Islamia \u2014 Department of Mass Communication & Event Studies, New Delhi"
+    ],
+    "Private": [
+      "National Academy of Event Management & Development (NAEMD), Mumbai",
+      "Wedding Academy of India (WAI), New Delhi",
+      "Amity Institute of Event Management, Noida",
+      "Pearl Academy \u2014 Event & Experiential Design, New Delhi"
+    ],
+    "Online": [
+      "Udemy \u2014 Wedding Planning & Management Masterclass",
+      "Coursera \u2014 Event & Wedding Management Programme",
+      "Alison \u2014 Professional Wedding Planning Diploma",
+      "Shaw Academy \u2014 Certified Wedding Planner Course"
+    ]
+  }
+}

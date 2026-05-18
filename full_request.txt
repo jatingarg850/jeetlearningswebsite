@@ -1,0 +1,38 @@
+<USER_REQUEST>
+Artificial Intelligence (AI)
+
+Career Pathways
+
+Pathway A: B.Tech Route (After Class 12th)
+
+Step 1: Complete Class 12th with PCM and Computer Science.
+
+Step 2: Clear JEE/entrance exam for engineering admission.
+
+Step 3: Pursue B.Tech in AI/Computer Science/Data Science.
+
+Step 4: Learn Python, TensorFlow, and Machine Learning tools.
+
+Step 5: Complete internships in AI/ML at tech companies.
+
+Step 6: Get hired as AI/ML Engineer or Researcher.
+
+Pathway B: Master's & Research Route
+
+Step 1: Complete B.Tech/B.Sc in Computer Science or Mathematics.
+
+Step 2: Pursue M.Tech/M.S. in Artificial Intelligence or ML.
+
+Step 3: Publish research papers in AI/Deep Learning domains.
+
+Step 4: Join AI labs like Google Brain or Microsoft Research.
+
+Step 5: Earn Ph.D. for advanced AI research career opportunities.
+
+Step 6: Work as AI Scientist or University Professor.
+
+Pathway C: Certification & Skill-Based Route
+
+Step 1: Complete Class 12th with Mathematics as a subject.
+
+<truncated 25212 bytes>

@@ -1,0 +1,181 @@
+"use client";
+
+import { useState } from "react";
+import { CareerDetail } from "@/app/data/careerDetails";
+import Footer from "@/app/components/Footer";
+import NavbarWrapper from "@/app/components/NavbarWrapper";
+import { SidebarNav } from "@/app/components/SidebarNav";
+import { CareerHero } from "@/app/components/CareerHero";
+import { CareerCompleteGuide } from "@/app/components/CareerCompleteGuide";
+import { CostBreakdown } from "@/app/components/CostBreakdown";
+import { getCareerPageData } from "@/app/data/careerPageData";
+import { getCareerVideos } from "@/app/data/careerVideos";
+import { allCategoryCosts } from "@/app/data/careerCategoryCosting";
+import { careerImagesMap } from "../../data/careerImagesMap.js";
+
+interface CareerPageClientProps {
+  category: string;
+  career: string;
+  careerName: string;
+  categoryName: string;
+  careerDetail: CareerDetail | null;
+  categoryData: any;
+}
+
+const PRIMARY_BLUE = "#1E40AF";
+const ACCENT_GOLD  = "#F59E0B";
+
+export function CareerPageClient({
+  category,
+  career,
+  careerName,
+  categoryName,
+  careerDetail,
+  categoryData,
+}: CareerPageClientProps) {
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  // data-driven for every career (including actuarial_science)
+  const pageData = getCareerPageData(career);
+  const videos = getCareerVideos(career);
+
+  const nextVideo = () => setCurrentVideoIndex((p) => (p + 1) % videos.length);
+  const prevVideo = () => setCurrentVideoIndex((p) => (p -  1 + videos.length) % videos.length);
+
+  const navItems = [
+    { id: "hero",  label: "Overview",       icon: "Target"       },
+    { id: "guide", label: "Complete Guide",  icon: "BookOpen"     },
+    { id: "cost",  label: "Cost Breakdown",  icon: "CircleDollarSign" },
+    { id: "videos",label: "Videos",          icon: "Monitor"      },
+  ];
+
+  return (
+    <div className="min-h-screen bg-white">
+      <NavbarWrapper />
+      <SidebarNav items={navItems} />
+
+      {/* All content offset on lg screens to clear the sidebar */}
+      <div className="lg:pl-20">
+
+      {/* ── Hero ─────────────────────────────────────────────────── */}
+      <div id="hero">
+        {pageData && (
+          <CareerHero 
+            data={pageData} 
+            // @ts-ignore
+            imageUrl={careerImagesMap[career] || `https://loremflickr.com/600/400/flat,illustration,cartoon,vector,${career}?lock=${career.length}`} 
+          />
+        )}
+        {!pageData && (
+          <section className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 md:p-10 text-center shadow-sm">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">
+                {careerName}
+              </h1>
+              <p className="text-sm sm:text-base md:text-lg text-slate-700 max-w-2xl mx-auto">
+                Full career guide content for this section is being prepared and will be available soon.
+              </p>
+            </div>
+          </section>
+        )}
+      </div>
+
+      {/* Thin Divider */}
+      <div className="border-t border-slate-200" />
+
+      {/* ── Complete Guide (7 unique carousel styles) ────────────── */}
+      <div id="guide">
+        {pageData && (
+          <CareerCompleteGuide
+            careerName={careerName}
+            sections={pageData.guideSections}
+          />
+        )}
+      </div>
+
+      {/* ── Cost Breakdown ────────────────────────────────────────── */}
+      <div id="cost">
+        <CostBreakdown
+          title="What Will It Cost?"
+          subtitle="Complete financial breakdown for your career journey"
+          careerSlug={career}
+          categorySlug={category}
+        />
+      </div>
+
+      {/* ── Video Carousel ────────────────────────────────────────── */}
+      {videos.length > 0 && (
+      <section id="videos" className="py-10 md:py-12 lg:py-16 px-4 sm:px-6 md:px-8 bg-slate-50 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-6 md:mb-8 lg:mb-12">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold mb-2 md:mb-4 text-slate-800">
+              Learn More Through Videos
+            </h2>
+            <p className="text-sm sm:text-base md:text-lg text-slate-600 font-medium px-2">
+              Watch expert insights and student experiences
+            </p>
+          </div>
+
+          <div className="relative rounded-lg md:rounded-xl lg:rounded-2xl overflow-hidden shadow-lg md:shadow-2xl mb-6 md:mb-8 bg-white border border-slate-100">
+            <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src={videos[currentVideoIndex]?.url}
+                title={videos[currentVideoIndex]?.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+
+          <div className="text-center mb-6 md:mb-8">
+            <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-800">
+              {videos[currentVideoIndex]?.title}
+            </h3>
+            <p className="text-xs sm:text-sm mt-2 text-slate-500 font-medium">
+              Video {currentVideoIndex + 1} of {videos.length}
+            </p>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4 lg:gap-6">
+            <button
+              onClick={prevVideo}
+              className="px-4 sm:px-6 md:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto"
+              style={{ background: "white", color: PRIMARY_BLUE, border: `2px solid ${PRIMARY_BLUE}` }}
+            >
+              ← Previous
+            </button>
+
+            <div className="flex gap-2">
+              {videos.map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setCurrentVideoIndex(idx)}
+                  className={`rounded-full transition-all h-3 sm:h-3.5 ${
+                    currentVideoIndex === idx ? "w-8 sm:w-10" : "w-3 sm:w-3.5"
+                  }`}
+                  style={{
+                    background: currentVideoIndex === idx ? PRIMARY_BLUE : `${PRIMARY_BLUE}40`,
+                  }}
+                />
+              ))}
+            </div>
+
+            <button
+              onClick={nextVideo}
+              className="px-4 sm:px-6 md:px-8 py-2 md:py-3 rounded-full transition-all text-xs sm:text-sm md:text-base font-bold select-none hover:-translate-y-1 shadow-md w-full sm:w-auto"
+              style={{ background: PRIMARY_BLUE, color: "white", border: `2px solid ${PRIMARY_BLUE}` }}
+            >
+              Next →
+            </button>
+          </div>
+        </div>
+      </section>
+      )}
+
+      </div>{/* end lg:pl-20 */}
+
+      <Footer />
+    </div>
+  );
+}

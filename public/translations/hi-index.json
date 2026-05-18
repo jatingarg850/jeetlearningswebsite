@@ -1,0 +1,33 @@
+{
+  "language": "hi",
+  "pages": [
+    "home",
+    "navbar",
+    "footer",
+    "category",
+    "career-detail",
+    "dmit",
+    "psychometric",
+    "blog",
+    "contact",
+    "resources",
+    "career-path",
+    "admin"
+  ],
+  "totalKeys": 30185,
+  "createdAt": "2026-05-15T18:44:11.277Z",
+  "pageStats": {
+    "home": 30185,
+    "navbar": 30185,
+    "footer": 30185,
+    "category": 30185,
+    "career-detail": 30185,
+    "dmit": 30185,
+    "psychometric": 30185,
+    "blog": 30185,
+    "contact": 30185,
+    "resources": 30185,
+    "career-path": 30185,
+    "admin": 30185
+  }
+}
